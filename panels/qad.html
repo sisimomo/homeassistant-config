@@ -492,13 +492,13 @@ div.qad-content button.qad-button-disabled:active {
 
 				case 'sensor.recent_episodes':
 					new_html = ''
-					ent.state.split("|").forEach(function(entry) {
-						if(entry.length > 30) {
-							new_html += '<div><marquee>'+entry+'</marquee></div>';
+					for (x = 1; x <= 5; x++) {
+						if(ent.attributes['entry'+x].length > 30) {
+							new_html += '<div><marquee scrollamount=4>'+ent.attributes['entry'+x]+'</marquee></div>';
 						} else {
-							new_html += '<div>'+entry+'</div>';
+							new_html += '<div>'+ent.attributes['entry'+x]+'</div>';
 						}
-					});
+					}
 					break;
 
 				case 'sensor.owm_temperature':
