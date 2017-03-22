@@ -1,0 +1,23 @@
+- name: work
+  latitude: !secret work_lat
+  longitude: !secret work_long
+  radius: 150
+  icon: mdi:worker
+
+- name: sembach
+  latitude: !secret sembach_lat
+  longitude: !secret sembach_long
+  radius: 150
+  icon: mdi:home
+
+- name: home janis
+  latitude: !secret home_lat
+  longitude: !secret home_long
+  radius: 150
+  icon: mdi:home
+
+- name: home lena
+  latitude: !secret home_lat
+  longitude: !secret home_long
+  radius: 150
+  icon: mdi:home
