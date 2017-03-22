@@ -1,0 +1,4 @@
+- platform: kodi
+  host: 192.168.137.32
+  port: 8080
+  name: 'Kodi on FireTV'

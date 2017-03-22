@@ -1,0 +1,6 @@
+name: Light Livingroom
+entities:
+  - light.living_left
+  - light.living_middle
+  - light.living_right
+  - light.living_outer

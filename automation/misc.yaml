@@ -1,0 +1,83 @@
+- alias: Start timer for 2 hours to disabled slow mode on transmission after it is enabled
+  trigger:
+    - platform: state
+      entity_id: switch.transmission_slowmode
+      to: 'on'
+  action:
+    - service: script.turn_off_tsm_2h
+- alias: Stop script to disabled slow mode on transmission
+  trigger:
+    - platform: state
+      entity_id: switch.transmission_slowmode
+      to: 'off'
+  action:
+    - service: script.turn_off
+      data:
+        entity_id: script.turn_off_tsm_2h
+
+- alias: Start flexget buffer for AnimeBytes if input is set
+  trigger:
+    - platform: time
+      minutes: /10
+      seconds: 00
+  condition:
+    condition: state
+    entity_id: input_boolean.aniByBuffer
+    state: 'on'
+  action:
+    - service: script.turn_on
+      data:
+        entity_id: script.flexget_aniByBuffer
+
+- alias: Start flexget buffer for AHD if input is set
+  trigger:
+    - platform: time
+      minutes: /10
+      seconds: 00
+  condition:
+    condition: state
+    entity_id: input_boolean.ahdBuffer
+    state: 'on'
+  action:
+    - service: script.turn_on
+      data:
+        entity_id: script.flexget_ahdBuffer
+
+- alias: Start flexget buffer for GGn if input is set
+  trigger:
+    - platform: time
+      minutes: /10
+      seconds: 00
+  condition:
+    condition: state
+    entity_id: input_boolean.ggnBuffer
+    state: 'on'
+  action:
+    - service: script.turn_on
+      data:
+        entity_id: script.flexget_ggnBuffer
+
+- alias: Turn media devices on / off when switch is pressed
+  trigger:
+    - platform: state
+      entity_id: input_boolean.media_devices
+      to: 'off'
+    - platform: state
+      entity_id: input_boolean.media_devices
+      to: 'on'
+  action:
+    - service: broadlink.send_packet_192_168_137_43
+      data:
+        packet:
+          - !secret ir_av_power
+          - !secret ir_tv_power
+
+- alias: Turn off hidden switch if motion is disabled
+  trigger:
+    platform: state
+    entity_id: input_boolean.disable_motion_light_livingroom
+    to: 'off'
+  action:
+    - service: input_boolean.turn_off
+      data:
+        entity_id: input_boolean.livingroom_motion_timer

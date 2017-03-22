@@ -1,0 +1,5 @@
+view: yes
+entities:
+  - group.desktops
+  - group.laptops
+  - group.msc_devices

@@ -1,0 +1,4 @@
+sequence:
+  - service: shell_command.flexget_task
+    data:
+      flexgettask: "renameMovies"

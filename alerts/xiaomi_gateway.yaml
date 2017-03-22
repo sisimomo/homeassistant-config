@@ -1,0 +1,6 @@
+name: '`[ALERT]` XIAOMI Gateway is offline'
+entity_id: sensor.xiaomi_gateway
+state: 'offline'
+repeat: 5
+notifiers:
+ - janis_handy_telegram

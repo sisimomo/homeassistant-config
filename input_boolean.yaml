@@ -1,0 +1,31 @@
+party_mode:
+  name: Party Hard?
+  icon: mdi:ambulance
+
+dinner_mode:
+  name: Dinner
+  icon: mdi:food-fork-drink
+
+anibybuffer:
+  name: AnimeBytes Buffer
+  icon: mdi:translate
+
+ggnbuffer:
+  name: GazelleGames Buffer
+  initial: off
+  icon: mdi:steam
+
+ahdbuffer:
+  name: Awesome-HD Buffer
+  icon: mdi:play-circle
+
+media_devices:
+  name: TV & Receiver
+  icon: mdi:television
+
+disable_motion_light_livingroom:
+  name: Disable Motion in Livingroom
+  initial: off
+
+# HIDDEN ELEMENTS #
+livingroom_motion_timer:

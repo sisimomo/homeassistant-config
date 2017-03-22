@@ -1,0 +1,102 @@
+>
+  {# Set watched persons#} 
+  {%- set watched_persons = ['Janis', 'Lena'] -%}
+
+  {# Greeting sentence #}
+  {%- macro greeting_sentence(person) -%}
+    {%- set greetings = [
+      "Ahoi " ~ person,
+      "Hey there " ~ person,
+      person ~ "!"
+    ] -%}
+    {{greetings|random}}.
+  {%- endmacro -%}
+
+  {# Closing sentence #}
+  {%- macro closing_sentence(person) -%}
+    {%- set closings = [
+      "Have a great day!",
+      "Enjoy.",
+      "Take it easy.",
+      "Have fun!",
+    ] -%}
+    {{closings|random}}
+  {%- endmacro -%}
+
+  {# Weather sentence #}
+  {%- macro weather_sentence() -%}
+    It is {{states.sensor.owm_temperature.state|int|round}} degrees outside.
+  {%- endmacro -%}
+
+  {# Get person's device #}
+  {%- macro get_device(person) -%}
+    {%- for device in states.device_tracker -%}
+     {%- if device.name == person -%}
+        {{device.entity_id}}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endmacro -%}
+
+  {# Who is the other person #}
+  {%- macro get_other_person(person) -%}
+   {%- for device in states.device_tracker -%}
+     {%- if device.name != person and device.name in watched_persons -%}
+        {{device.name}}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endmacro -%}
+
+  {# On My Way sentence #}
+  {%- macro omw_sentence(person) -%}
+    {%- set device_entity = get_device(person) -%}
+    {%- if states(device_entity) == 'not_home' -%}
+      {{person}} is on the way home, about {{states("proximity.home_" ~ person)|int}} meters away.
+    {%- elif states(device_entity) == 'home' -%}
+      {{person}} is also home. Give hug!
+    {%- elif states(device_entity) != 'home' -%}
+      {{person}} is still at {{states(device_entity)}}.
+    {%- endif -%}
+  {%- endmacro -%}
+
+  {# Battery sentence #}
+  {%- macro battery_sentence(person) -%}
+    {%- set device_entity = get_device(person) -%}
+    {%- set percent = states.device_tracker[device_entity[15:]].attributes.battery -%}
+    {%- if percent|int < 50 -%}
+      Remember to plug in your phone, it is at {{percent}} percent.
+    {%- endif -%}
+  {%- endmacro -%}
+
+  {# Validate requested person #}
+  {%- macro validate_and_brief(person) -%}
+    {%- if person -%}
+      {%- set caps = person|capitalize -%}
+      {%- set device = get_device(caps) -%}
+      {%- if device -%}
+        {{briefing(caps)}}
+      {%- else -%}
+        {{caps}} does not live here.
+      {%- endif %}
+    {%- else -%}
+      Specify a person.
+    {%- endif -%}
+  {%- endmacro -%}
+
+  {# Output the briefing #}
+  {%- macro briefing(person) -%}
+  {%- set other_person = get_other_person(person) -%}
+  {{greeting_sentence(person)}}
+  {{battery_sentence(person)}}
+
+  {{weather_sentence()}}
+
+  {{omw_sentence(other_person)}}
+
+  {{closing_sentence(person)}}
+  {%- endmacro -%}
+
+  {# ... And, run the briefing #}
+  {# set trigger_person = 'Janis' #}
+  {%- if trigger_person in watched_persons -%}
+    {{validate_and_brief(trigger_person)}}
+  {%- endif -%}

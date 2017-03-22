@@ -1,0 +1,9 @@
+sequence:
+  - service: notify.janis_handy_telegram
+    data_template:
+      title: ""
+      message: >-
+        {%- set notify_sensors = 'alarm_control_panel.alarm', 'sensor.balcony_door', 'group.light_livingroom', 'sensor.firetv', 'sensor.milightbridge' -%}
+        {%- for state in states if state.entity_id in notify_sensors -%}
+          {{ state.attributes.friendly_name }} is {{ state.state | replace ("_", "\_") }}
+        {% endfor -%}

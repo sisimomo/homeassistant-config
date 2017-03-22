@@ -1,0 +1,2 @@
+sequence:
+  - service: shell_command.power_pc_off

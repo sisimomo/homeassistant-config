@@ -1,0 +1,18 @@
+platform: limitlessled
+bridges:
+  - host: 192.168.137.24
+    version: 5
+    port: 8899
+    groups:
+    - number: 1
+      type: rgbw
+      name: living_left
+    - number: 2
+      type: rgbw
+      name: living_middle
+    - number: 3
+      type: rgbw
+      name: living_right
+    - number: 4
+      type: rgbw
+      name: living_outer

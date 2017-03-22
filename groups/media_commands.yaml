@@ -1,0 +1,6 @@
+name: Media
+control: hidden
+entities:
+  - script.flexget_import_animes
+  - script.flexget_import_movies
+  - script.flexget_import_shows

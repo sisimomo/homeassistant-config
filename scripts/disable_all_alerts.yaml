@@ -1,0 +1,31 @@
+sequence:
+  - service: alert.turn_off
+    data:
+      entity_id: alert.broadlinkrmpro
+  - service: alert.turn_off
+    data:
+      entity_id: alert.edimax1
+  - service: alert.turn_off
+    data:
+      entity_id: alert.emby
+  - service: alert.turn_off
+    data:
+      entity_id: alert.firetv
+  - service: alert.turn_off
+    data:
+      entity_id: alert.flexget
+  - service: alert.turn_off
+    data:
+      entity_id: alert.influx
+  - service: alert.turn_off
+    data:
+      entity_id: alert.milightbridge
+  - service: alert.turn_off
+    data:
+      entity_id: alert.mosquitto
+  - service: alert.turn_off
+    data:
+      entity_id: alert.ombi
+  - service: alert.turn_off
+    data:
+      entity_id: alert.xiaomi_gateway

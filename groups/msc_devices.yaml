@@ -1,0 +1,12 @@
+name: Misc
+entities:
+  - sensor.firetv
+  - sensor.nas
+  - sensor.emulationstation
+  - sensor.milightbridge
+  - sensor.edimax1
+  - sensor.xiaomi_gateway
+  - sensor.broadlinkrmpro
+  - sensor.nintendo3ds
+  - sensor.janis_fire7
+  - sensor.nexus7livingroom

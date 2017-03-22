@@ -1,0 +1,591 @@
+<!-- START CSS -->
+<style>
+.qad-content {
+	background:
+		radial-gradient(black 15%, transparent 16%) 0 0,
+		radial-gradient(black 15%, transparent 16%) 8px 8px,
+		radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+		radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+	background-color:#282828;
+	background-size:16px 16px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #c8c8c8;
+	margin: 0 auto;
+}
+
+.qad-fullscreen {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	overflow: auto;
+}
+
+.qad-entity-group {
+	horizontal-align: center;
+	float: left;
+}
+
+div.qad-content button {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 0 5px 5px #313131, 0 9px 0 #393939, 0 9px 10px rgba(0, 0, 0, 0.4), 0 2px 9px rgba(255, 255, 255, 0.2) inset, 0 -2px 9px rgba(0, 0, 0, 0.2) inset;
+	color: #FFFFFF;
+	display: inline-block;
+	font-size: 65px;
+	font-weight: bold;
+	margin: 20px 10px;
+	margin-bottom: 20px;
+	padding: 12px 20px;
+	position: relative;
+	text-decoration: none;
+	height: 210px;
+	width: 145px;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+}
+
+div.qad-content div#button_page1 button {
+	height: 135px;
+	margin-bottom: 10px;
+}
+
+div.qad-content button.thin {
+	height: 460px;
+	width: 50px;
+	font-size: 19pt;
+	padding: 12px 5px;
+	margin: 20px 0px;
+	margin-right: 10px;
+	background-color: #040375
+}
+
+div.qad-content button:hover {
+	box-shadow: 0 5px 5px #313131, 0 9px 0 #393939, 0 9px 10px rgba(0, 0, 0, 0.4), 0 2px 15px rgba(255, 255, 255, 0.4) inset, 0 -2px 9px rgba(0, 0, 0, 0.2) inset;
+}
+
+div.qad-content button:active {
+	box-shadow: 0 2px 0 #393939, 0 4px 4px rgba(0, 0, 0, 0.4), 0 2px 5px rgba(0, 0, 0, 0.2) inset;
+	top: 7px;
+}
+
+.qad-button-on, .qad-button-armed_away,  .qad-button-armed_away, .qad-button-triggered{
+	background-color: #006600;
+}
+
+.qad-button-off, .qad-button-disarmed {
+	background-color: #660000;
+}
+
+.qad-button-pending {
+	background-color: #555555;
+}
+
+.qad-button-no-switch {
+	background-color: #040375;
+}
+
+div.qad-content button.qad-button-disabled:hover {
+	box-shadow: 0 5px 5px #313131, 0 9px 0 #393939, 0 9px 10px rgba(0, 0, 0, 0.4), 0 2px 9px rgba(255, 255, 255, 0.2) inset, 0 -2px 9px rgba(0, 0, 0, 0.2) inset;
+}
+
+div.qad-content button.qad-button-disabled:active {
+	box-shadow: 0 5px 5px #313131, 0 9px 0 #393939, 0 9px 10px rgba(0, 0, 0, 0.4), 0 2px 9px rgba(255, 255, 255, 0.2) inset, 0 -2px 9px rgba(0, 0, 0, 0.2) inset;
+	top: 0px;
+}
+
+.qad-persons {
+	margin-top: 15px;
+	float: left;
+}
+
+.qad-person {
+	margin: 10px 0px;
+}
+
+.qad-person-picture {
+	height: 65px;
+	width: 65px;
+	overflow: hidden;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	display: inline-block;
+}
+
+.qad-person-distance {
+	display: inline-block;
+	font-size: 40px;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	padding: 2px 15px;
+	width: 150px;
+	height: 61px;
+	vertical-align: text-bottom;
+	text-align: center;
+	line-height: 61px;
+	margin-bottom: 4px;
+	background-color: #555555;
+}
+
+.qad-datetime {
+	display: inline-block;
+	font-size: 50px;
+	border-radius: 10px;
+	padding: 2px 15px;
+	width: 370px;
+	height: 60px;
+	vertical-align: text-bottom;
+	text-align: center;
+	line-height: 60px;
+	background-color: #555555;
+	margin-bottom: 10px;
+}
+
+.qad-recently_added {
+	font-size: 30px;
+	border-radius: 10px;
+	padding: 2px 0px;
+	width: 400px;
+	height: 220px;
+	vertical-align: text-bottom;
+	text-align: center;
+	line-height: 40px;
+	background-color: #555555;
+	margin-bottom: 10px;
+	margin-left: 555px;
+}
+
+#qad-sensor-recent_episodes div{
+	padding: 0px 15px;
+	word-break: break-all;
+	overflow: hidden;
+	max-height: 28px;
+}
+
+#qad-sensor-recent_episodes div:nth-child(odd){
+	background-color: #676767;
+}
+
+#qad-sensor-recent_episodes {
+	margin-top: 15px;
+	text-align: left;
+	font-size: 19px;
+	line-height: 28px;
+}
+
+.qad-weather {
+	display: inline-block;
+	font-size: 40px;
+	border-radius: 10px;
+	padding: 2px 15px;
+	width: 120px;
+	height: 143px;
+	vertical-align: text-bottom;
+	text-align: center;
+	line-height: 65px;
+	margin-top: 25px;
+	margin-left: 5px;
+	margin-bottom: 15px;
+	background-color: #555555;
+}
+
+.qad-weather .fa-stack {
+	font-size: 20px;
+}
+
+#qad-numpad {
+	display: none;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.4);
+	opacity: 0.99
+}
+
+#qad-numpad table{
+	position: absolute;
+	top: 15px;
+	left: 280px;
+}
+
+#qad-numpad button {
+	width: 95px;
+	height: 95px;
+	margin: 10px;
+	background-color: #55555;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 0 5px 5px #313131, 0 9px 0 #393939, 0 9px 10px rgba(0, 0, 0, 0.4), 0 2px 9px rgba(255, 255, 255, 0.2) inset, 0 -2px 9px rgba(0, 0, 0, 0.2) inset;
+	display: inline-block;
+	font-size: 65px;
+	font-weight: bold;
+	position: relative;
+}
+
+#qad-numpad button:hover {
+	box-shadow: 0 5px 5px #313131, 0 9px 0 #393939, 0 9px 10px rgba(0, 0, 0, 0.4), 0 2px 15px rgba(255, 255, 255, 0.4) inset, 0 -2px 9px rgba(0, 0, 0, 0.2) inset;
+}
+
+#qad-numpad button:active {
+	box-shadow: 0 2px 0 #393939, 0 4px 4px rgba(0, 0, 0, 0.4), 0 2px 5px rgba(0, 0, 0, 0.2) inset;
+	top: 7px;
+}
+
+#button_page2 {
+	display: none;
+}
+</style>
+<!-- END CSS -->
+<!-- START TEMPLATE FOR POLYMER -->
+<dom-module id='ha-panel-qad'>
+	<template>
+		<div class="qad-content qad-fullscreen" id="output">
+			<div id="button_page1">
+				<div id="qad-switches1" class="qad-entity-group">
+					<div id="qad-group-light_livingroom"><button class="qad-button-on">?</button></div>
+					<div id="qad-switch-edimax1"><button class="qad-button-on">?</button></div>
+					<div id="qad-input_boolean-media_devices"><button class="qad-button-on">?</button></div>
+				</div>
+				<div id="qad-switches2" class="qad-entity-group">
+					<div id="qad-input_boolean-dinner_mode"><button class="qad-button-on">?</button></div>
+					<div id="qad-input_boolean-disable_motion_light_livingroom"><button class="qad-button-on">?</button></div>
+					<div id="q2ad-input_boolean-media_devices"><button class="qad-button-on">?</button></div>
+				</div>
+				<div id="qad-switches2" class="qad-entity-group">
+					<div id="qad-input_boolean-party_mode"><button class="qad-button-on">?</button></div>
+					<div id="q2ad-alarm_control_panel-alarm"><button class="qad-button-on">?</button></div>
+					<div id="qad-alarm_control_panel-alarm"><button class="qad-button-on">?</button></div>
+				</div>
+			</div>
+			<div id="button_page2">
+				<div id="qad-switches1" class="qad-entity-group">
+					<div id="qad-mediatime"><button class="qad-button-no-switch" onclick="homeassistant.callService('scene', 'turn_on', { entity_id: 'scene.livingroom_media' });"><i class="fa fa-television" aria-hidden="true"></i><p style="font-size:10px">Media</p></button></div>
+					<div id="qad-bedtime"><button class="qad-button-no-switch" onclick="homeassistant.callService('scene', 'turn_on', { entity_id: 'scene.bedtime' });"><i class="fa fa-bed" aria-hidden="true"></i><p style="font-size:10px">Bedtime</p></button></div>
+				</div>
+				<div id="qad-switches2" class="qad-entity-group">
+					<div id="qad-normal"><button class="qad-button-no-switch" onclick="homeassistant.callService('scene', 'turn_on', { entity_id: 'scene.livingroom_normal' });"><i class="fa fa-lightbulb-o" aria-hidden="true"></i><p style="font-size:10px">Normal</p></button></div>
+					<div id="qad-dim"><button class="qad-button-no-switch" onclick="homeassistant.callService('scene', 'turn_on', { entity_id: 'scene.livingroom_dim' });"><i class="fa fa-lightbulb-o" aria-hidden="true"></i><p style="font-size:10px">Dim</p></button></div>
+				</div>
+				<div id="qad-switches2" class="qad-entity-group">
+					<div id="qad-in2put_boolean-party_mode"><button class="qad-button-on">?</button></div>
+					<div id="qad-alarm_control_panel-alarm2"><button class="qad-button-on">?</button></div>
+				</div>
+			</div>
+			<div id="button-scroller" class="qad-entity-group">
+				<div id="qad-media-start">
+					<button class="qad-button-on thin" onclick="switchGroups();">
+						<i class="fa fa-arrow-right" aria-hidden="true"></i><br /><br />
+						<i class="fa fa-arrow-right" aria-hidden="true"></i><br /><br /><br />
+						<i class="fa fa-arrow-right" aria-hidden="true"></i><br /><br /><br />
+						<i class="fa fa-arrow-right" aria-hidden="true"></i><br /><br />
+						<i class="fa fa-arrow-right" aria-hidden="true"></i><br /><br />
+					</button>
+				</div>
+			</div>
+			<div>
+				<div class="qad-persons">
+					<div id="qad-janis" class="qad-person">
+						<div id="qad-device_tracker-janis_handy" class="qad-person-picture"><img src="../../local/dummy.jpg" width="65" height="65" /></div><div id="qad-proximity-home_janis" class="qad-person-distance">no data</div>
+					</div>
+					<div id="qad-lena" class="qad-person">
+						<div id="qad-device_tracker-lena_handy" class="qad-person-picture"><img src="../../local/dummy.jpg" width="65" height="65" /></div><div id="qad-proximity-home_lena" class="qad-person-distance">no data</div>
+					</div>
+				</div>
+				<div id="qad-sensor-owm_temperature" class="qad-weather"></div>
+			</div>
+			<div id="qad-datetime" class="qad-datetime"></div>
+			<div class="qad-recently_added">
+				<span>Recently added to Emby</span>
+				<div id="qad-sensor-recent_episodes"></div>
+			</div>
+		</div>
+		<div id="qad-numpad">
+			<table>
+				<tr>
+					<td><button onclick="addNumber('1');">1</button></td>
+					<td><button onclick="addNumber('2');">2</button></td>
+					<td><button onclick="addNumber('3');">3</button></td>
+				</tr>
+				<tr>
+					<td><button onclick="addNumber('4');">4</button></td>
+					<td><button onclick="addNumber('5');">5</button></td>
+					<td><button onclick="addNumber('6');">6</button></td>
+				</tr>
+				<tr>
+					<td><button onclick="addNumber('7');">7</button></td>
+					<td><button onclick="addNumber('8');">8</button></td>
+					<td><button onclick="addNumber('9');">9</button></td>
+				</tr>
+				<tr>
+					<td><button onclick="addNumber('#');">#</button></td>
+					<td><button onclick="addNumber('0');">0</button></td>
+					<td><button onclick="document.getElementById('qad-numpad').style.display = 'none';alarmCode = ''">C</button></td>
+				</tr>
+			</table>
+		</div>
+	</template>
+</dom-module>
+<!-- END TEMPLATE FOR POLYMER -->
+<!-- START CODE -->
+<script type="text/javascript">
+	var homeassistant;
+	var mounted = false;
+	var timeOnce = true;
+	var watched_entities = [
+		"group.light_livingroom",
+		"device_tracker.janis_handy",
+		"device_tracker.lena_handy",
+		"proximity.home_janis",
+		"proximity.home_lena",
+		"sensor.owm_temperature",
+		"input_boolean.dinner_mode",
+		"input_boolean.party_mode",
+		"switch.edimax1",
+		"alarm_control_panel.alarm",
+		"input_boolean.disable_motion_light_livingroom",
+		"input_boolean.media_devices",
+		"sensor.recent_episodes"
+	];
+	var alarmCode = "";
+	var alarmAction = "";
+	<!-- ADD FONT AWESOME -->
+	link=document.createElement('link');
+	link.href='../local/font-awesome.min.css';
+	link.rel='stylesheet';
+	document.getElementsByTagName('head')[0].appendChild(link);
+
+	function addNumber(key) {
+		if(alarmCode.length < 4){
+			alarmCode = alarmCode + key;
+		}
+		if(alarmCode.length == 4){
+			homeassistant.callService('alarm_control_panel', alarmAction, { entity_id: 'alarm_control_panel.alarm', code: alarmCode })
+			document.getElementById('qad-numpad').style.display = 'none';
+			alarmCode = "";
+		}
+	}
+
+	function switchGroups() {
+		var group1 = document.getElementById('button_page1').currentStyle ? document.getElementById('button_page1').currentStyle.display : getComputedStyle(document.getElementById('button_page1'), null).display;
+		var group2 = document.getElementById('button_page2').currentStyle ? document.getElementById('button_page2').currentStyle.display : getComputedStyle(document.getElementById('button_page2'), null).display;
+		
+		document.getElementById('button_page2').style.display = group1
+		document.getElementById('button_page1').style.display = group2
+	}
+
+	function startTime() {
+		var today = new Date();
+		var h = today.getHours();
+		var m = today.getMinutes();
+		var s = today.getSeconds();
+		m = checkTime(m);
+		s = checkTime(s);
+		document.getElementById('qad-datetime').innerHTML =
+		h + ":" + m + ":" + s;
+		var t = setTimeout(startTime, 500);
+	}
+	function checkTime(i) {
+		if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+		return i;
+	}
+
+	function updateView(ent){
+		if (mounted) {
+			var output = document.getElementById("qad-"+(ent.entity_id).replace(".","-"));
+			var new_html;
+			var icon ='';
+			var text = '';
+			var alarm = false;
+
+			switch(ent.entity_id) {
+				case 'group.light_livingroom':
+					icon = 'fa fa-lightbulb-o';
+					text = 'Ceiling';
+					break;
+
+				case 'switch.edimax1':
+					icon = 'fa fa-lightbulb-o';
+					text = 'Shelf';
+					break;
+
+				case 'input_boolean.dinner_mode':
+					icon = 'fa fa-cutlery';
+					text = 'Dinner';
+					break;
+
+				case 'input_boolean.disable_motion_light_livingroom':
+					icon = 'fa fa-podcast';
+					text = 'Motion';
+					break;
+
+				case 'input_boolean.party_mode':
+					icon = 'fa fa-glass';
+					text = 'Party';
+					break;
+
+				case 'input_boolean.media_devices':
+					icon = 'fa fa-television';
+					text = 'AV / TV';
+					break;
+
+				case 'alarm_control_panel.alarm':
+				case 'alarm_control_panel.alarm2':
+					if (ent.entity_id === "alarm_control_panel.alarm") {
+						var ent2 = ent;
+						ent2.entity_id = ent.entity_id+"2"
+						updateView(ent2)
+					}
+					new_html = "<button class=\"qad-button-on\">?</button>";
+					switch (ent.state) {
+						case 'disarmed':
+							alarmAction = "alarm_arm_home"
+							alarm = true;
+							icon = 'fa fa-bell-slash';
+							text = 'Disarmed';
+							break;
+
+						case 'armed_home':
+						case 'armed_away':
+							alarmAction = "alarm_disarm"
+							alarm = true;
+							icon = 'fa fa-bell';
+							text = 'Armed';
+							break;
+
+						case 'pending':
+							alarmAction = "alarm_disarm"
+							alarm = true;
+							icon = 'fa fa-ellipsis-h';
+							text = 'Pending';
+							break;
+
+						case 'triggered':
+							alarmAction = "alarm_disarm"
+							icon = 'fa fa-bullhorn';
+							text = 'Triggered';
+							break;
+					}
+					break;
+
+				case 'device_tracker.janis_handy':
+				case 'device_tracker.lena_handy':
+					new_html = "<img src=\""+ent.attributes.entity_picture.replace("/local", "../local")+"\" width=\"65\" height=\"65\" />";
+					break;
+
+				case 'proximity.home_janis':
+				case 'proximity.home_lena':
+					new_html = ent.state + ent.attributes.unit_of_measurement;
+					var janis = homeassistant.states["device_tracker.janis_handy"];
+					var lena = homeassistant.states["device_tracker.lena_handy"];
+					if (ent.entity_id === "proximity.home_janis" && (janis.state.toLowerCase() === "home" || janis.state.toLowerCase() === "work")) {
+						new_html = janis.state;
+					} else if (ent.entity_id === "proximity.home_lena" && (lena.state.toLowerCase() === "home" || lena.state.toLowerCase() === "work")) {
+						new_html = lena.state;
+					}
+					break;
+
+				case 'sensor.recent_episodes':
+					new_html = ''
+					ent.state.split("|").forEach(function(entry) {
+						new_html += '<div>'+entry+'</div>';
+					});
+					break;
+
+				case 'sensor.owm_temperature':
+					new_html = ent.state + ent.attributes.unit_of_measurement;
+					if (homeassistant.states["sensor.owm_cloud_coverage"].state >= 60) {
+						new_html += "<span class=\"fa-stack\"><i class=\"fa fa-cloud fa-stack-1x\"></i><i class=\"fa fa-circle-thin fa-stack-2x text-danger\"></i></span>"
+					}
+					else {
+						new_html += "<span class=\"fa-stack\"><i class=\"fa fa-cloud fa-stack-1x\"></i><i class=\"fa fa-ban fa-stack-2x text-danger\"></i></span>"
+					}
+					if (homeassistant.states["sensor.owm_rain"].state == "not raining") {
+						new_html += "<span class=\"fa-stack\"><i class=\"fa fa-umbrella fa-stack-1x\"></i><i class=\"fa fa-ban fa-stack-2x text-danger\"></i></span>"
+					}
+					else {
+						new_html += "<span class=\"fa-stack\"><i class=\"fa fa-umbrella fa-stack-1x\"></i><i class=\"fa fa-circle-thin fa-stack-2x text-danger\"></i></span>"
+					}
+					if (homeassistant.states["sensor.owm_snow"].state == "not snowing") {
+						new_html += "<span class=\"fa-stack\"><i class=\"fa fa-snowflake-o fa-stack-1x\"></i><i class=\"fa fa-ban fa-stack-2x text-danger\"></i></span>"
+					}
+					else {
+						new_html += "<span class=\"fa-stack\"><i class=\"fa fa-snowflake-o fa-stack-1x\"></i><i class=\"fa fa-circle-thin fa-stack-2x text-danger\"></i></span>"
+					}
+					break;
+			}
+			if (icon != '') {
+				if (alarm) {
+					new_html = "<button class=\"qad-button-"+ent.state+"\" onclick=\"document.getElementById('qad-numpad').style.display = 'block';\"><i class=\""+icon+"\" aria-hidden=\"true\"></i><p style=\"font-size:10px\">"+text+"</p></button>";
+				}
+				else {
+					var action = "turn_off";
+					if(ent.state === "off") {
+						action = "turn_on";
+					}
+					new_html = "<button class=\"qad-button-"+ent.state+"\" onclick=\"homeassistant.callService('"+ent._domain.replace("group","light")+"', '"+action+"', { entity_id: '"+ent.entity_id+"' });\"><i class=\""+icon+"\" aria-hidden=\"true\"></i><p style=\"font-size:10px\">"+text+"</p></button>";
+				}
+			}
+			output.innerHTML = new_html;
+		}
+	}
+	
+	function qadObserve(id){
+		updateView(homeassistant.states[id]);
+	}
+	
+	function render(hass) {
+		mounted = true;
+		// Register for updates
+		homeassistant = hass;
+		watched_entities.forEach(qadObserve);
+		if(timeOnce) {
+			timeOnce = false;
+			startTime();
+		}
+	}
+	// Polymer stuff
+	Polymer({
+		is: 'ha-panel-qad',
+		properties: {
+			// Home Assistant object
+			hass: {
+				type: Object,
+			},
+			// If should render in narrow mode
+			narrow: {
+				type: Boolean,
+				value: false,
+			},
+			// If sidebar is currently shown
+			showMenu: {
+				type: Boolean,
+				value: false,
+			},
+			// Home Assistant panel info
+			// panel.config contains config passed to panel_custom serverside
+			panel: {
+				type: Object,
+			}
+		},
+		// This will make sure we forward changed properties
+		observers: [
+			'propsChanged(hass, narrow, showMenu, panel)',
+		],
+		// Called when properties change
+		propsChanged: function (hass, narrow, showMenu, panel) {
+			this.mount(hass, narrow, showMenu, panel);
+		},
+		// Render React. Debounce in case multiple properties change.
+		mount: function (hass, narrow, showMenu, panel) {
+			this.debounce('mount', function () {
+				render(hass);  
+			}.bind(this));
+		},
+		detached: function () {
+			mounted = false;
+		}
+	});
+</script>
+<!-- END CODE -->

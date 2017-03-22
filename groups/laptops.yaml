@@ -1,0 +1,4 @@
+name: Laptops
+entities:
+  - sensor.taconinja
+  - sensor.lena_laptop

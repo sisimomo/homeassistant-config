@@ -1,0 +1,4 @@
+secrets.yaml
+deps/
+.HA_VERSION
+*.log

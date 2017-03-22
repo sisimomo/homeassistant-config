@@ -1,0 +1,180 @@
+alarm_control_panel:
+  platform: manual
+  name: 'Alarm'
+  code: !secret alarm_code
+  pending_time: 20
+  trigger_time: 10
+
+automation:
+  #== ARMING / DISARMING ==#
+
+  - alias: Disarm away alarm if someone is home
+    trigger:
+      - platform: state
+        entity_id: device_tracker.janis_handy
+        to: 'home'
+      - platform: state
+        entity_id: device_tracker.lena_handy
+        to: 'home'
+    condition:
+      condition: state
+      entity_id: alarm_control_panel.alarm
+      state: 'armed_away'
+    action:
+      service: alarm_control_panel.alarm_disarm
+      data:
+        entity_id: 'alarm_control_panel.alarm'
+        code: !secret alarm_code
+
+  - alias: Arm alarm if nobody is home for 30 minutes
+    trigger:
+      - platform: state
+        entity_id: device_tracker.janis_handy
+        to: 'not_home'
+        for:
+          minutes: 30
+      - platform: state
+        entity_id: device_tracker.lena_handy
+        to: 'not_home'
+        for:
+          minutes: 30
+    condition:
+      condition: and
+      conditions:
+        - condition: state
+          entity_id: device_tracker.janis_handy
+          state: 'not_home'
+        - condition: state
+          entity_id: device_tracker.lena_handy
+          state: 'not_home'
+    action:
+      service: alarm_control_panel.alarm_arm_away
+      data:
+        entity_id: 'alarm_control_panel.alarm'
+        code: !secret alarm_code
+
+  #== TRIGGERS ==#
+  - alias: Trigger alarm if there is motion and alarm is armed_home or armed_away
+    trigger:
+      - platform: event
+        event_type: motion
+        event_data:
+          entity_id: binary_sensor.motion_sensor_158d00010f8100
+    condition:
+      condition: or
+      conditions:
+        - condition: state
+          entity_id: alarm_control_panel.alarm
+          state: armed_away
+        - condition: state
+          entity_id: alarm_control_panel.alarm
+          state: armed_home
+    action:
+      service: alarm_control_panel.alarm_trigger
+      entity_id: alarm_control_panel.alarm
+
+  #== PENDING ==#
+  - alias: Make lights orange if alarm is pending from armed state
+    trigger:
+      - platform: state
+        entity_id: alarm_control_panel.alarm
+        from: 'armed_away'
+        to: 'pending'
+      - platform: state
+        entity_id: alarm_control_panel.alarm
+        from: 'armed_home'
+        to: 'pending'
+    action:
+      service: light.turn_on
+      data:
+        entity_id: group.light_livingroom
+        rgb_color: [255, 128, 0]
+        brightness: 255
+
+  - alias: Turn of orange pending lights, if alarm gets disarmed
+    trigger:
+      - platform: state
+        entity_id: alarm_control_panel.alarm
+        from: 'pending'
+        to: 'disarmed'
+    action:
+      service: light.turn_off
+      data:
+        entity_id: group.light_livingroom
+
+  #== DISARM ==#
+  - alias: Kill Alarm lights and stop recording if alarm gets untriggered
+    trigger:
+      - platform: state
+        entity_id: alarm_control_panel.alarm
+        from: 'triggered'
+        to: 'disarmed'
+    action:
+      - service: script.turn_on
+        entity_id: script.kill_alarm_lights
+      - service: switch.turn_off
+        entity_id: switch.tablet_livingroom_video_recording
+
+  #== ACTION ==#
+  - alias: Enable alarm lights
+    trigger:
+      platform: state
+      entity_id: alarm_control_panel.alarm
+      state: triggered
+    action:
+      - service: script.turn_on
+        entity_id: script.alarm_lights_loop
+
+alert:
+  alarm:
+    name: '`[ALARM]` Your Alarm has been triggered!!!' 
+    entity_id: alarm_control_panel.alarm
+    state: 'triggered'
+    repeat: 1
+    notifiers:
+     - janis_handy_telegram
+
+#== SCRIPTS ==#
+script:
+  alarm_lights_pause:
+    sequence:
+      - delay:
+          seconds: 3
+      - service: script.alarm_lights_loop
+
+  alarm_lights_loop:
+    sequence:
+      - service: light.turn_on
+        data:
+          entity_id: group.light_livingroom
+          rgb_color: [255, 0, 0]
+          brightness: 255
+      - service: light.turn_on
+        data:
+          entity_id: light.gateway_light_286c07889d7e
+          rgb_color: [255, 0, 0]
+          brightness: 255
+      - delay:
+          seconds: 3
+      - service: light.turn_off
+        data:
+          entity_id: group.light_livingroom
+      - service: light.turn_off
+        data:
+          entity_id: light.gateway_light_286c07889d7e
+      - service: script.alarm_lights_pause
+
+  kill_alarm_lights:
+    sequence:
+      - service: script.turn_off
+        data:
+          entity_id: script.alarm_lights_loop
+      - service: script.turn_off
+        data:
+          entity_id: script.alarm_lights_pause
+      - service: light.turn_off
+        data:
+          entity_id: group.light_livingroom
+      - service: light.turn_off
+        data:
+          entity_id: light.gateway_light_286c07889d7e

@@ -1,0 +1,97 @@
+- alias: Make lights bright if dinner mode is enabled or kodi is done playing
+  trigger:
+    - platform: state
+      entity_id: input_boolean.dinner_mode
+      to: 'on'
+    - platform: state
+      entity_id: media_player.kodi_on_firetv
+      to: 'idle'
+      from: 'playing'
+      for:
+        seconds: 10
+  condition:
+    condition: template
+    value_template: '{{ states.group.light_livingroom.state == "on" }}'
+  action:
+    - service: scene.turn_on
+      data:
+        entity_id: scene.livingroom_normal
+
+
+- alias: Dim lights on kodi playback for things that don't come from emby and kill the timer for motion if the light is on and dinner mode is not enabled
+  trigger:
+    - platform: state
+      entity_id: media_player.kodi_on_firetv
+      to: 'playing'
+      for:
+        seconds: 5
+  condition:
+    condition: template
+    value_template: '{{ states.input_boolean.dinner_mode.state == "off" and states.group.light_livingroom.state == "on" }}'
+  action:
+    - service: scene.turn_on
+      data:
+        entity_id: scene.livingroom_dim
+    - service: script.turn_off
+      data:
+        entity_id: script.livingroom_motion_timer
+    - service: input_boolean.turn_off
+      data:
+        entity_id: input_boolean.livingroom_motion_timer
+
+- alias: Dim lights if dinner mode is disabled while media is playing
+  trigger:
+    - platform: state
+      entity_id: input_boolean.dinner_mode
+      to: 'off'
+  condition:
+    condition: state
+    entity_id: media_player.kodi_on_firetv
+    state: 'playing'
+  action:
+    - service: scene.turn_on
+      data:
+        entity_id: scene.livingroom_dim
+    - service: script.turn_off
+      data:
+        entity_id: script.livingroom_motion_timer
+    - service: input_boolean.turn_off
+      data:
+        entity_id: input_boolean.livingroom_motion_timer
+
+- alias: Reset motion timer, on motion if source for light was motion
+  trigger:
+    - platform: event
+      event_type: motion
+      event_data:
+        entity_id: binary_sensor.motion_sensor_158d00010f8100
+  condition:
+    condition: template
+    value_template: '{{ states.input_boolean.livingroom_motion_timer.state == "on" and states.group.light_livingroom.state == "on" }}'
+  action:
+    - service: script.turn_off
+      data:
+        entity_id: script.livingroom_motion_timer
+    - service: script.turn_on
+      data:
+        entity_id: script.livingroom_motion_timer
+
+- alias: Turn light on, on motion
+  trigger:
+    - platform: event
+      event_type: motion
+      event_data:
+        entity_id: binary_sensor.motion_sensor_158d00010f8100
+  condition:
+    condition: template
+    value_template: '{{ states.group.light_livingroom.state == "off" and states.input_boolean.disable_motion_light_livingroom.state == "off" and states.alarm_control_panel.alarm.state == "disarmed" and (states.sun.sun.state == "below_horizon" or now().hour <= 9) }}'
+  action:
+    - service: scene.turn_on
+      data:
+        entity_id: scene.livingroom_normal
+    - service: script.turn_on
+      data:
+        entity_id: script.livingroom_motion_timer
+    - service: input_boolean.turn_on
+      data:
+        entity_id: input_boolean.livingroom_motion_timer

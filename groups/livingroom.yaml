@@ -1,0 +1,14 @@
+name: Livingroom
+control: hidden
+entities:
+  - input_boolean.party_mode
+  - input_boolean.dinner_mode
+  - input_boolean.disable_motion_light_livingroom
+  - light.gateway_light_286c07889d7e
+  - switch.edimax1
+  - input_boolean.media_devices
+  - scene.livingroom_media
+  - scene.livingroom_dim
+  - scene.livingroom_normal
+  - scene.bedtime
+  - media_player.kodi_on_firetv

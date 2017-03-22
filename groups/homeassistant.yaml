@@ -1,0 +1,7 @@
+name: Homeassistant
+control: hidden
+entities:
+  - sensor.ha_version
+  - sensor.newest_ha_version
+  - script.restart_homeassistant
+  - script.update_homeassistant

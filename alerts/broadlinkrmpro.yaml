@@ -1,0 +1,6 @@
+name: '`[ALERT]` Broadlink RM Pro (IR/RF) is offline'
+entity_id: sensor.broadlinkrmpro
+state: 'offline'
+repeat: 5
+notifiers:
+ - janis_handy_telegram

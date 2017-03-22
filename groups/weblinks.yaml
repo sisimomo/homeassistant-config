@@ -1,0 +1,9 @@
+name: Other Services (LAN only)
+entities:
+  - weblink.flexget
+  - weblink.emby
+  - weblink.ombi
+  - weblink.grafana
+  - weblink.mayan_edms
+  - weblink.owncloud
+  - weblink.find

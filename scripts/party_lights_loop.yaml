@@ -1,0 +1,140 @@
+sequence:
+#TURN ONE#
+  - service: light.turn_on
+    data:
+      entity_id: light.living_outer
+      rgb_color: [255, 0, 0]
+      brightness: 255
+  - service: light.turn_on
+    data:
+      entity_id: light.living_left
+      rgb_color: [255, 0, 255]
+      brightness: 255
+  - service: light.turn_on
+    data:
+      entity_id: light.living_right
+      rgb_color: [255, 255, 0]
+      brightness: 255
+  - service: light.turn_on
+    data:
+      entity_id: light.living_middle
+      rgb_color: [0, 255, 255]
+      brightness: 255
+  - delay:
+      seconds: 3
+
+  - service: light.turn_on
+    data:
+      entity_id: light.living_outer
+      rgb_color: [0, 255, 0]
+      brightness: 255
+  - service: light.turn_on
+    data:
+      entity_id: light.living_left
+      rgb_color: [0, 255, 255]
+      brightness: 255
+  - service: light.turn_on
+    data:
+      entity_id: light.living_right
+      rgb_color: [255, 0, 255]
+      brightness: 255
+  - service: light.turn_on
+    data:
+      entity_id: light.living_middle
+      rgb_color: [255, 255, 0]
+      brightness: 255
+  - delay:
+      seconds: 3
+
+  - service: light.turn_on
+    data:
+      entity_id: light.living_outer
+      rgb_color: [0, 0, 255]
+      brightness: 255
+  - service: light.turn_on
+    data:
+      entity_id: light.living_left
+      rgb_color: [255, 255, 0]
+      brightness: 255
+  - service: light.turn_on
+    data:
+      entity_id: light.living_right
+      rgb_color: [0, 255, 255]
+      brightness: 255
+  - service: light.turn_on
+    data:
+      entity_id: light.living_middle
+      rgb_color: [255, 0, 255]
+      brightness: 255
+  - delay:
+      seconds: 3
+#TURN TWO#
+  - service: light.turn_on
+    data:
+      entity_id: light.living_outer
+      rgb_color: [255, 0, 0]
+      brightness: 150
+  - service: light.turn_on
+    data:
+      entity_id: light.living_left
+      rgb_color: [255, 0, 255]
+      brightness: 150
+  - service: light.turn_on
+    data:
+      entity_id: light.living_right
+      rgb_color: [255, 255, 0]
+      brightness: 150
+  - service: light.turn_on
+    data:
+      entity_id: light.living_middle
+      rgb_color: [0, 255, 255]
+      brightness: 150
+  - delay:
+      seconds: 3
+
+  - service: light.turn_on
+    data:
+      entity_id: light.living_outer
+      rgb_color: [0, 255, 0]
+      brightness: 150
+  - service: light.turn_on
+    data:
+      entity_id: light.living_left
+      rgb_color: [0, 255, 255]
+      brightness: 150
+  - service: light.turn_on
+    data:
+      entity_id: light.living_right
+      rgb_color: [255, 0, 255]
+      brightness: 150
+  - service: light.turn_on
+    data:
+      entity_id: light.living_middle
+      rgb_color: [255, 255, 0]
+      brightness: 150
+  - delay:
+      seconds: 3
+
+  - service: light.turn_on
+    data:
+      entity_id: light.living_outer
+      rgb_color: [0, 0, 255]
+      brightness: 150
+  - service: light.turn_on
+    data:
+      entity_id: light.living_left
+      rgb_color: [255, 255, 0]
+      brightness: 150
+  - service: light.turn_on
+    data:
+      entity_id: light.living_right
+      rgb_color: [0, 255, 255]
+      brightness: 150
+  - service: light.turn_on
+    data:
+      entity_id: light.living_middle
+      rgb_color: [255, 0, 255]
+      brightness: 150
+  - delay:
+      seconds: 3
+  - service: script.party_lights_pause

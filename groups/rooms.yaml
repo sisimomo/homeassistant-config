@@ -1,0 +1,6 @@
+view: yes
+entities:
+  - group.livingroom
+#  - group.kitchen
+ # - group.bathroom
+ # - group.liam_lena_room
