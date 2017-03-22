@@ -243,32 +243,32 @@ div.qad-content button.qad-button-disabled:active {
 	<template>
 		<div class="qad-content qad-fullscreen" id="output">
 			<div id="button_page1">
-				<div id="qad-switches1" class="qad-entity-group">
+				<div class="qad-entity-group">
 					<div id="qad-group-light_livingroom"><button class="qad-button-on">?</button></div>
 					<div id="qad-switch-edimax1"><button class="qad-button-on">?</button></div>
 					<div id="qad-input_boolean-media_devices"><button class="qad-button-on">?</button></div>
 				</div>
-				<div id="qad-switches2" class="qad-entity-group">
+				<div class="qad-entity-group">
 					<div id="qad-input_boolean-dinner_mode"><button class="qad-button-on">?</button></div>
 					<div id="qad-input_boolean-disable_motion_light_livingroom"><button class="qad-button-on">?</button></div>
 					<div id="q2ad-input_boolean-media_devices"><button class="qad-button-on">?</button></div>
 				</div>
-				<div id="qad-switches2" class="qad-entity-group">
+				<div class="qad-entity-group">
 					<div id="qad-input_boolean-party_mode"><button class="qad-button-on">?</button></div>
 					<div id="q2ad-alarm_control_panel-alarm"><button class="qad-button-on">?</button></div>
 					<div id="qad-alarm_control_panel-alarm"><button class="qad-button-on">?</button></div>
 				</div>
 			</div>
 			<div id="button_page2">
-				<div id="qad-switches1" class="qad-entity-group">
+				<div class="qad-entity-group">
 					<div id="qad-mediatime"><button class="qad-button-no-switch" onclick="homeassistant.callService('scene', 'turn_on', { entity_id: 'scene.livingroom_media' });"><i class="fa fa-television" aria-hidden="true"></i><p style="font-size:10px">Media</p></button></div>
 					<div id="qad-bedtime"><button class="qad-button-no-switch" onclick="homeassistant.callService('scene', 'turn_on', { entity_id: 'scene.bedtime' });"><i class="fa fa-bed" aria-hidden="true"></i><p style="font-size:10px">Bedtime</p></button></div>
 				</div>
-				<div id="qad-switches2" class="qad-entity-group">
+				<div class="qad-entity-group">
 					<div id="qad-normal"><button class="qad-button-no-switch" onclick="homeassistant.callService('scene', 'turn_on', { entity_id: 'scene.livingroom_normal' });"><i class="fa fa-lightbulb-o" aria-hidden="true"></i><p style="font-size:10px">Normal</p></button></div>
 					<div id="qad-dim"><button class="qad-button-no-switch" onclick="homeassistant.callService('scene', 'turn_on', { entity_id: 'scene.livingroom_dim' });"><i class="fa fa-lightbulb-o" aria-hidden="true"></i><p style="font-size:10px">Dim</p></button></div>
 				</div>
-				<div id="qad-switches2" class="qad-entity-group">
+				<div class="qad-entity-group">
 					<div id="qad-in2put_boolean-party_mode"><button class="qad-button-on">?</button></div>
 					<div id="qad-alarm_control_panel-alarm2"><button class="qad-button-on">?</button></div>
 				</div>
@@ -297,6 +297,7 @@ div.qad-content button.qad-button-disabled:active {
 			</div>
 			<div id="qad-datetime" class="qad-datetime"></div>
 			<div class="qad-recently_added">
+				<div class="qad-recently_added_state"></div>
 				<span>Recently added to Emby</span>
 				<div id="qad-sensor-recent_episodes"></div>
 			</div>
@@ -352,8 +353,20 @@ div.qad-content button.qad-button-disabled:active {
 	var alarmAction = "";
 	<!-- ADD FONT AWESOME -->
 	link=document.createElement('link');
-	link.href='../local/font-awesome.min.css';
+	link.href='../local/jquery-3.2.0.min.js';
 	link.rel='stylesheet';
+	document.getElementsByTagName('head')[0].appendChild(link);
+
+	<!-- ADD jQuery -->
+	link=document.createElement('script');
+	link.src='../local/jquery.marquee.min.js';
+	link.type='text/javascript';
+	document.getElementsByTagName('head')[0].appendChild(link);
+
+	<!-- ADD jQuery marquee -->
+	link=document.createElement('script');
+	link.src='../local/font-awesome.min.css';
+	link.type='text/javascript';
 	document.getElementsByTagName('head')[0].appendChild(link);
 
 	function addNumber(key) {
@@ -393,7 +406,7 @@ div.qad-content button.qad-button-disabled:active {
 
 	function updateView(ent){
 		if (mounted) {
-			var output = document.getElementById("qad-"+(ent.entity_id).replace(".","-"));
+			var output = $("#qad-"+(ent.entity_id).replace(".","-"));
 			var new_html;
 			var icon ='';
 			var text = '';
@@ -527,7 +540,8 @@ div.qad-content button.qad-button-disabled:active {
 					new_html = "<button class=\"qad-button-"+ent.state+"\" onclick=\"homeassistant.callService('"+ent._domain.replace("group","light")+"', '"+action+"', { entity_id: '"+ent.entity_id+"' });\"><i class=\""+icon+"\" aria-hidden=\"true\"></i><p style=\"font-size:10px\">"+text+"</p></button>";
 				}
 			}
-			output.innerHTML = new_html;
+			var outputState = $("#qad-"+(ent.entity_id).replace(".","-")+"_state");
+			output.HTML(new_html);
 		}
 	}
 	
