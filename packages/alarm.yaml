@@ -39,14 +39,8 @@ automation:
         for:
           minutes: 30
     condition:
-      condition: and
-      conditions:
-        - condition: state
-          entity_id: device_tracker.janis_handy
-          state: 'not_home'
-        - condition: state
-          entity_id: device_tracker.lena_handy
-          state: 'not_home'
+      condition: template
+      value_template: '{{ states.device_tracker.janis_handy.state == "not_home" and states.device_tracker.lena_handy.state == "not_home" }}'
     action:
       service: alarm_control_panel.alarm_arm_away
       data:
@@ -61,14 +55,8 @@ automation:
         event_data:
           entity_id: binary_sensor.motion_sensor_158d00010f8100
     condition:
-      condition: or
-      conditions:
-        - condition: state
-          entity_id: alarm_control_panel.alarm
-          state: armed_away
-        - condition: state
-          entity_id: alarm_control_panel.alarm
-          state: armed_home
+      condition: template
+      value_template: '{{ states.alarm_control_panel.alarm.state == "armed_away" or states.alarm_control_panel.alarm.state == "armed_home" }}'
     action:
       service: alarm_control_panel.alarm_trigger
       entity_id: alarm_control_panel.alarm
@@ -91,7 +79,7 @@ automation:
         rgb_color: [255, 128, 0]
         brightness: 255
 
-  - alias: Turn of orange pending lights, if alarm gets disarmed
+  - alias: Turn off orange pending lights, if alarm gets disarmed
     trigger:
       - platform: state
         entity_id: alarm_control_panel.alarm
@@ -112,8 +100,12 @@ automation:
     action:
       - service: script.turn_on
         entity_id: script.kill_alarm_lights
-      - service: switch.turn_off
-        entity_id: switch.tablet_livingroom_video_recording
+      - service: script.turn_on
+        entity_id: script.kill_alarm_lights
+      - service: script.turn_on
+        entity_id: script.kill_alarm_lights
+      - service: script.turn_on
+        entity_id: script.kill_alarm_lights
 
   #== ACTION ==#
   - alias: Enable alarm lights
