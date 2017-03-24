@@ -48,12 +48,22 @@ automation:
         code: !secret alarm_code
 
   #== TRIGGERS ==#
-  - alias: Trigger alarm if there is motion and alarm is armed_home or armed_away
+  - alias: Trigger alarm if there is motion, the entrance door is opned or the balcony door is opened and alarm is armed_home or armed_away
     trigger:
       - platform: event
         event_type: motion
         event_data:
           entity_id: binary_sensor.motion_sensor_158d00010f8100
+      - platform: event
+        event_type: door_window_action
+        event_data:
+          entity_id: binary_sensor.door_window_sensor_158d000154b7c0
+          action_type: open
+      - platform: event
+        event_type: door_window_action
+        event_data:
+          entity_id: binary_sensor.motion_sensor_158d00010f8100
+          action_type: open
     condition:
       condition: template
       value_template: '{{ states.alarm_control_panel.alarm.state == "armed_away" or states.alarm_control_panel.alarm.state == "armed_home" }}'
