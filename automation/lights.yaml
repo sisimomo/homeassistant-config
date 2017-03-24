@@ -100,7 +100,6 @@
   trigger:
     platform: event
     event_type: click
-    entity_id: binary_sensor.switch_158d00011033aa
     event_data:
       entity_id: binary_sensor.switch_158d00011033aa
       click_type: single
@@ -113,7 +112,6 @@
   trigger:
     platform: event
     event_type: click
-    entity_id: binary_sensor.switch_158d00011033aa
     event_data:
       entity_id: binary_sensor.switch_158d00011033aa
       click_type: double
@@ -126,7 +124,6 @@
   trigger:
     platform: event
     event_type: click
-    entity_id: binary_sensor.switch_158d00011033aa
     event_data:
       entity_id: binary_sensor.switch_158d00011033aa
       click_type: hold
