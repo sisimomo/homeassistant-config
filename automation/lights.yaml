@@ -95,3 +95,42 @@
     - service: input_boolean.turn_on
       data:
         entity_id: input_boolean.livingroom_motion_timer
+
+- alias: Toggle dinner mode if xiaomi button is clicked once
+  trigger:
+    platform: event
+    event_type: click
+    entity_id: binary_sensor.switch_158d00011033aa
+    event_data:
+      entity_id: binary_sensor.switch_158d00011033aa
+      click_type: single
+  action:
+    - service: input_boolean.toggle
+      data:
+        entity_id: input_boolean.dinner_mode
+
+- alias: Toggle media devices if xiaomi button is clicked twice
+  trigger:
+    platform: event
+    event_type: click
+    entity_id: binary_sensor.switch_158d00011033aa
+    event_data:
+      entity_id: binary_sensor.switch_158d00011033aa
+      click_type: double
+  action:
+    - service: input_boolean.toggle
+      data:
+        entity_id: input_boolean.media_devices
+
+- alias: Turn light on if xiaomi button is clicked long
+  trigger:
+    platform: event
+    event_type: click
+    entity_id: binary_sensor.switch_158d00011033aa
+    event_data:
+      entity_id: binary_sensor.switch_158d00011033aa
+      click_type: hold
+  action:
+    - service: scene.turn_on
+      data:
+        entity_id: scene.livingroom_normal
