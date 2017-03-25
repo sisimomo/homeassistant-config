@@ -160,8 +160,6 @@
     - platform: state
       entity_id: sensor.find_janis
       from: 'desk'
-      for:
-        seconds: 20
   condition:
     condition: template
     value_template: '{{ states.device_tracker.janis_handy == "home" }}'
