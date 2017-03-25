@@ -1,254 +1,17 @@
-<!-- START CSS -->
-<style>
-.qad-content {
-	background:
-		radial-gradient(black 15%, transparent 16%) 0 0,
-		radial-gradient(black 15%, transparent 16%) 8px 8px,
-		radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
-		radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
-	background-color:#282828;
-	background-size:16px 16px;
-	font-size: 14px;
-	line-height: 1.42857143;
-	color: #c8c8c8;
-	margin: 0 auto;
-}
-
-.qad-fullscreen {
-	position: fixed;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	overflow: auto;
-}
-
-.qad-entity-group {
-	horizontal-align: center;
-	float: left;
-}
-
-div.qad-content button {
-	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-	border-radius: 5px 5px 5px 5px;
-	box-shadow: 0 5px 5px #313131, 0 9px 0 #393939, 0 9px 10px rgba(0, 0, 0, 0.4), 0 2px 9px rgba(255, 255, 255, 0.2) inset, 0 -2px 9px rgba(0, 0, 0, 0.2) inset;
-	color: #FFFFFF;
-	display: inline-block;
-	font-size: 65px;
-	font-weight: bold;
-	margin: 10px 10px 10px 10px;
-	padding: 12px 20px;
-	position: relative;
-	text-decoration: none;
-	height: 240px;
-	width: 145px;
-	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
-}
-
-div.qad-content div#button_page1 button {
-	height: 153px;
-	margin-bottom: 10px;
-}
-
-div.qad-content button.thin {
-	height: 500px;
-	width: 50px;
-	font-size: 19pt;
-	padding: 12px 5px;
-	margin: 10px 0px 0px;
-	background-color: #040375
-}
-
-div#info-scroller {
-	display: inline-block;
-}
-
-div#info-scroller button.flat {
-	height: 35px;
-	width: 405px;
-	font-size: 16pt;
-	padding: 0px 5px;
-	margin: 0px 0px 0px 10px;
-	background-color: #040375
-}
-
-div.qad-content button:hover {
-	box-shadow: 0 5px 5px #313131, 0 9px 0 #393939, 0 9px 10px rgba(0, 0, 0, 0.4), 0 2px 15px rgba(255, 255, 255, 0.4) inset, 0 -2px 9px rgba(0, 0, 0, 0.2) inset;
-}
-
-div.qad-content button:active {
-	box-shadow: 0 2px 0 #393939, 0 4px 4px rgba(0, 0, 0, 0.4), 0 2px 5px rgba(0, 0, 0, 0.2) inset;
-	top: 7px;
-}
-
-.qad-button-on, .qad-button-armed_away,  .qad-button-armed_home, .qad-button-triggered{
-	background-color: #006600;
-}
-
-.qad-button-off, .qad-button-disarmed {
-	background-color: #660000;
-}
-
-.qad-button-pending {
-	background-color: #555555;
-}
-
-.qad-button-no-switch {
-	background-color: #040375;
-}
-
-div.qad-content button.qad-button-disabled:hover {
-	box-shadow: 0 5px 5px #313131, 0 9px 0 #393939, 0 9px 10px rgba(0, 0, 0, 0.4), 0 2px 9px rgba(255, 255, 255, 0.2) inset, 0 -2px 9px rgba(0, 0, 0, 0.2) inset;
-}
-
-div.qad-content button.qad-button-disabled:active {
-	box-shadow: 0 5px 5px #313131, 0 9px 0 #393939, 0 9px 10px rgba(0, 0, 0, 0.4), 0 2px 9px rgba(255, 255, 255, 0.2) inset, 0 -2px 9px rgba(0, 0, 0, 0.2) inset;
-	top: 0px;
-}
-
-.qad-persons {
-	margin: 10px 10px 0px 10px;
-	float: left;
-}
-
-.qad-person {
-	margin: 10px 0px;
-}
-
-.qad-person-picture {
-	height: 65px;
-	width: 65px;
-	overflow: hidden;
-	border-top-left-radius: 15px;
-	border-bottom-left-radius: 15px;
-	display: inline-block;
-}
-
-.qad-person-distance {
-	display: inline-block;
-	font-size: 40px;
-	border-top-right-radius: 15px;
-	border-bottom-right-radius: 15px;
-	padding: 2px 15px;
-	width: 150px;
-	height: 61px;
-	vertical-align: text-bottom;
-	text-align: center;
-	line-height: 61px;
-	margin-bottom: 4px;
-	background-color: #555555;
-}
-
-.qad-datetime {
-	display: inline-block;
-	font-size: 50px;
-	border-radius: 10px;
-	padding: 2px 15px;
-	width: 375px;
-	height: 60px;
-	vertical-align: text-bottom;
-	text-align: center;
-	line-height: 60px;
-	background-color: #555555;
-	margin: 0px 0px 10px 10px;
-}
-
-.qad-recently_added {
-	font-size: 30px;
-	border-radius: 10px;
-	padding: 2px 0px;
-	width: 405px;
-	height: 200px;
-	vertical-align: text-bottom;
-	text-align: center;
-	line-height: 40px;
-	background-color: #555555;
-	margin-bottom: 10px;
-	margin-left: 555px;
-}
-
-#qad-sensor-recent_episodes div{
-	padding: 0px 15px;
-	word-break: break-all;
-	overflow: hidden;
-	white-space: nowrap;
-	max-height: 28px;
-}
-
-#qad-sensor-recent_episodes div:nth-child(odd){
-	background-color: #676767;
-}
-
-#qad-sensor-recent_episodes {
-	text-align: left;
-	font-size: 19px;
-	line-height: 28px;
-}
-
-.qad-weather {
-	display: inline-block;
-	font-size: 40px;
-	border-radius: 10px;
-	padding: 2px 15px;
-	width: 120px;
-	height: 143px;
-	vertical-align: text-bottom;
-	text-align: center;
-	line-height: 65px;
-	margin-top: 20px;
-	margin-bottom: 15px;
-	background-color: #555555;
-}
-
-.qad-weather .fa-stack {
-	font-size: 20px;
-}
-
-#qad-numpad {
-	display: none;
-	width: 100%;
-	height: 100%;
-	background-color: rgb(0,0,0);
-	background-color: rgba(0,0,0,0.4);
-	opacity: 0.99
-}
-
-#qad-numpad table{
-	position: absolute;
-	top: 15px;
-	left: 280px;
-}
-
-#qad-numpad button {
-	width: 95px;
-	height: 95px;
-	margin: 10px;
-	background-color: #55555;
-	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
-	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-	border-radius: 5px 5px 5px 5px;
-	box-shadow: 0 5px 5px #313131, 0 9px 0 #393939, 0 9px 10px rgba(0, 0, 0, 0.4), 0 2px 9px rgba(255, 255, 255, 0.2) inset, 0 -2px 9px rgba(0, 0, 0, 0.2) inset;
-	display: inline-block;
-	font-size: 65px;
-	font-weight: bold;
-	position: relative;
-}
-
-#qad-numpad button:hover {
-	box-shadow: 0 5px 5px #313131, 0 9px 0 #393939, 0 9px 10px rgba(0, 0, 0, 0.4), 0 2px 15px rgba(255, 255, 255, 0.4) inset, 0 -2px 9px rgba(0, 0, 0, 0.2) inset;
-}
-
-#qad-numpad button:active {
-	box-shadow: 0 2px 0 #393939, 0 4px 4px rgba(0, 0, 0, 0.4), 0 2px 5px rgba(0, 0, 0, 0.2) inset;
-	top: 7px;
-}
-
-#button_page2 {
-	display: none;
-}
-</style>
-<!-- END CSS -->
 <script src="../../local/jquery-3.2.0.min.js"></script>
+<script type="text/javascript">
+	<!-- ADD CSS -->
+	link=document.createElement('link');
+	link.href='../local/qad.css';
+	link.rel='stylesheet';
+	document.getElementsByTagName('head')[0].appendChild(link);
+
+	<!-- ADD FONT AWESOME -->
+	link=document.createElement('link');
+	link.href='../local/font-awesome.min.css';
+	link.rel='stylesheet';
+	document.getElementsByTagName('head')[0].appendChild(link);
+</script>
 <!-- START TEMPLATE FOR POLYMER -->
 <dom-module id='ha-panel-qad'>
 	<template>
@@ -349,12 +112,6 @@ div.qad-content button.qad-button-disabled:active {
 <!-- END TEMPLATE FOR POLYMER -->
 <!-- START CODE -->
 <script type="text/javascript">
-
-	<!-- ADD FONT AWESOME -->
-	link=document.createElement('link');
-	link.href='../local/font-awesome.min.css';
-	link.rel='stylesheet';
-	document.getElementsByTagName('head')[0].appendChild(link);
 
 	var homeassistant;
 	var mounted = false;
@@ -510,10 +267,10 @@ div.qad-content button.qad-button-disabled:active {
 				case 'sensor.recent_episodes':
 					new_html = ''
 					for (x = 1; x <= 5; x++) {
-						if(ent.attributes['entry'+x].length > 30) {
-							new_html += '<div><marquee scrollamount=4>'+ent.attributes['entry'+x]+'</marquee></div>';
+						if(ent.attributes['entry'+x].length > 50) {
+							new_html += '<div class="scrollContent"><div class="scrollable">'+ent.attributes['entry'+x]+' | '+ent.attributes['entry'+x]+'</div></div>';
 						} else {
-							new_html += '<div>'+ent.attributes['entry'+x]+'</div>';
+							new_html += '<div class="scrollContent">'+ent.attributes['entry'+x]+'</div>';
 						}
 					}
 					break;
@@ -556,6 +313,38 @@ div.qad-content button.qad-button-disabled:active {
 			if(outputState.length != 0 && outputState.text() != ent.state){
 				outputState.text(ent.state)
 				output.html(new_html);
+				if (ent.entity_id === 'sensor.recent_episodes') {
+					var x = 0;
+					output.children().each(function(){
+						x++;
+						$(this).children().css('animation-duration', $(this)[0].scrollWidth / 100+'s');
+						$(this).children().css('animation-name', 'marquee'+x);
+						var thisStyle = '<style scoped>.scrollable {animation-duration: '+ $(this)[0].scrollWidth / 100 +'s; animation-iteration-count: infinite; animation-timing-function: linear; animation-name: marquee'+x+'; }</style>'
+						$(this).html(thisStyle+$(this).html());
+						var
+						  stylesheet = document.querySelector("link[href='../local/qad.css']").sheet
+						, rules = stylesheet.rules
+						, i = rules.length
+						, keyframes
+						, keyframe
+					;
+					while (i--) {
+						keyframes = rules.item(i);
+						if ( keyframes.type === keyframes.KEYFRAMES_RULE && keyframes.name === "marquee"+x ) {
+							rules = keyframes.cssRules;
+							i = rules.length;
+							while (i--) {
+								keyframe = rules.item(i);
+								if ( keyframe.type === keyframe.KEYFRAME_RULE && keyframe.keyText === "100%") {
+									keyframe.style.transform = "translateX(-" + $(this)[0].scrollWidth / 2 + "px)";
+									break;
+								}
+							}
+							break;
+						}
+					}
+					});
+				}
 			} else if (outputState.length == 0){
 				output.html(new_html);
 			}
