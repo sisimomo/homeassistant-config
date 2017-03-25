@@ -1,8 +1,5 @@
-- alias: Make lights bright if dinner mode is enabled or kodi is done playing
+- alias: Make lights bright if kodi is done playing and the lights are on
   trigger:
-    - platform: state
-      entity_id: input_boolean.dinner_mode
-      to: 'on'
     - platform: state
       entity_id: media_player.kodi_on_firetv
       to: 'idle'
@@ -17,6 +14,15 @@
       data:
         entity_id: scene.livingroom_normal
 
+- alias: Make lights bright if dinner mode is enabled
+  trigger:
+    - platform: state
+      entity_id: input_boolean.dinner_mode
+      to: 'on'
+  action:
+    - service: scene.turn_on
+      data:
+        entity_id: scene.livingroom_normal
 
 - alias: Dim lights on kodi playback for things that don't come from emby and kill the timer for motion if the light is on and dinner mode is not enabled
   trigger:
