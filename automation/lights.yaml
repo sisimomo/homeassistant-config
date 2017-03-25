@@ -137,3 +137,35 @@
     - service: scene.turn_on
       data:
         entity_id: scene.livingroom_normal
+
+- alias: Turn gateway light on if janis sits at his desk
+  trigger:
+    - platform: state
+      entity_id: sensor.find_janis
+      to: 'desk'
+      for:
+        minutes: 5
+  condition:
+    condition: template
+    value_template: '{{ states.device_tracker.janis_handy == "home" and states.sun.sun.state == "below_horizon" }}'
+  action:
+    - service: light.turn_on
+      data:
+        entity_id: light.gateway_light_286c07889d7e
+        rgb_color: [0, 255, 0]
+        brightness: 255
+
+- alias: Turn gateway light off if janis leaves his desk
+  trigger:
+    - platform: state
+      entity_id: sensor.find_janis
+      from: 'desk'
+      for:
+        seconds: 20
+  condition:
+    condition: template
+    value_template: '{{ states.device_tracker.janis_handy == "home" }}'
+  action:
+    - service: light.turn_off
+      data:
+        entity_id: light.gateway_light_286c07889d7e
