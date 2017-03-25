@@ -107,7 +107,7 @@ div#info-scroller {
 }
 
 div#info-scroller button.flat {
-	height: 35px;
+	height: 50px;
 	width: 405px;
 	font-size: 16pt;
 	padding: 0px 5px;
@@ -150,12 +150,12 @@ div.qad-content button.qad-button-disabled:active {
 }
 
 .qad-persons {
-	margin: 10px 10px 0px 10px;
+	margin: 5px 10px 0px 10px;
 	float: left;
 }
 
 .qad-person {
-	margin: 10px 0px;
+	margin: 10px 0px 0px 0px;
 }
 
 .qad-person-picture {
@@ -193,15 +193,15 @@ div.qad-content button.qad-button-disabled:active {
 	text-align: center;
 	line-height: 60px;
 	background-color: #555555;
-	margin: 0px 0px 10px 10px;
+	margin: 0px 0px 5px 10px;
 }
 
-.qad-recently_added {
+.qad-info_box {
 	font-size: 30px;
 	border-radius: 10px;
 	padding: 2px 0px;
 	width: 405px;
-	height: 200px;
+	height: 205px;
 	vertical-align: text-bottom;
 	text-align: center;
 	line-height: 40px;
@@ -212,10 +212,8 @@ div.qad-content button.qad-button-disabled:active {
 
 #qad-sensor-recent_episodes div.scrollContent{
 	padding: 0px 15px;
-	word-break: break-all;
 	overflow: hidden;
 	white-space: nowrap;
-	max-height: 28px;
 }
 
 #qad-sensor-recent_episodes div:nth-child(odd){
@@ -224,8 +222,8 @@ div.qad-content button.qad-button-disabled:active {
 
 #qad-sensor-recent_episodes {
 	text-align: left;
-	font-size: 19px;
-	line-height: 28px;
+	font-size: 20px;
+	line-height: 30px;
 }
 
 .qad-weather {
@@ -238,8 +236,8 @@ div.qad-content button.qad-button-disabled:active {
 	vertical-align: text-bottom;
 	text-align: center;
 	line-height: 65px;
-	margin-top: 20px;
-	margin-bottom: 15px;
+	margin-top: 15px;
+	margin-bottom: 5px;
 	background-color: #555555;
 }
 
