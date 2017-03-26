@@ -1,6 +1,7 @@
-- platform: workday
-  country: !secret workday_country
-  province: !secret workday_province
+# 0.41 to buggy
+#- platform: workday
+#  country: !secret workday_country
+#  province: !secret workday_province
 
 - platform: openweathermap
   forecast:
