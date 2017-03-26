@@ -147,7 +147,7 @@
         minutes: 5
   condition:
     condition: template
-    value_template: '{{ states.device_tracker.janis_handy == "home" and states.sun.sun.state == "below_horizon" }}'
+    value_template: '{{ states.device_tracker.janis_handy.state == "home" and states.sun.sun.state == "below_horizon" }}'
   action:
     - service: light.turn_on
       data:
@@ -162,7 +162,7 @@
       from: 'desk'
   condition:
     condition: template
-    value_template: '{{ states.device_tracker.janis_handy == "home" }}'
+    value_template: '{{ states.device_tracker.janis_handy.state == "home" }}'
   action:
     - service: light.turn_off
       data:
