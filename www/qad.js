@@ -44,8 +44,7 @@
 		var m = today.getMinutes();
 		h = checkTime(h);
 		m = checkTime(m);
-		document.getElementById('qad-datetime').innerHTML =
-		h + ":" + m;
+		$('#qad-datetime').html(h + ":" + m);
 		var t = setTimeout(startTime, 30000);
 	}
 	function checkTime(i) {
