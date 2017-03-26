@@ -1,7 +1,6 @@
-binary_sensor:
-  - platform: workday
-    country: !secret workday_country
-    province: !secret workday_province
+- platform: workday
+  country: !secret workday_country
+  province: !secret workday_province
 
 - platform: openweathermap
   forecast:
