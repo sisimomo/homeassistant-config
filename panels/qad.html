@@ -3,8 +3,8 @@
 <link rel="import" href="../../local/fa.css.html">
 <dom-module id='ha-panel-qad'>
 	<template>
-		<style include="qad-styles"></style>
 		<style include="fa-styles"></style>
+		<style include="qad-styles"></style>
 		<div class="qad-content qad-fullscreen" id="output">
 			<div id="button_page1">
 				<div class="qad-entity-group">
@@ -102,7 +102,7 @@
 				<tr>
 					<td><button onclick="addNumber('#');">#</button></td>
 					<td><button onclick="addNumber('0');">0</button></td>
-					<td><button onclick="document.getElementById('qad-numpad').style.display = 'none';alarmCode = ''">C</button></td>
+					<td><button onclick="$('body /deep/ #qad-numpad').css('display', 'none');alarmCode = ''">C</button></td>
 				</tr>
 			</table>
 		</div>

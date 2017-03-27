@@ -25,17 +25,17 @@
 		}
 		if(alarmCode.length == 4){
 			homeassistant.callService('alarm_control_panel', alarmAction, { entity_id: 'alarm_control_panel.alarm', code: alarmCode })
-			document.getElementById('qad-numpad').style.display = 'none';
+			$('body /deep/ #qad-numpad').css('display', 'none');
 			alarmCode = "";
 		}
 	}
 
 	function switchDIVs(page1, page2) {
-		var group1 = document.getElementById(page1).currentStyle ? document.getElementById(page1).currentStyle.display : getComputedStyle(document.getElementById(page1), null).display;
-		var group2 = document.getElementById(page2).currentStyle ? document.getElementById(page2).currentStyle.display : getComputedStyle(document.getElementById(page2), null).display;
+		var group1 = $('body /deep/ #'+page1).css('display');
+		var group2 = $('body /deep/ #'+page2).css('display');
 
-		document.getElementById(page2).style.display = group1
-		document.getElementById(page1).style.display = group2
+		$('body /deep/ #'+page2).css('display', group1);
+		$('body /deep/ #'+page1).css('display', group2);
 	}
 
 	function startTime() {
@@ -44,7 +44,7 @@
 		var m = today.getMinutes();
 		h = checkTime(h);
 		m = checkTime(m);
-		$('#qad-datetime').html(h + ":" + m);
+		$('body /deep/ #qad-datetime').html(h + ":" + m);
 		var t = setTimeout(startTime, 30000);
 	}
 	function checkTime(i) {
@@ -54,7 +54,7 @@
 
 	function updateView(ent){
 		if (mounted) {
-			var output = $("#qad-"+(ent.entity_id).replace(".","-"));
+			var output = $("body /deep/ #qad-"+(ent.entity_id).replace(".","-"));
 			var new_html;
 			var icon ='';
 			var text = '';
@@ -150,7 +150,7 @@
 				case 'sensor.recent_episodes':
 					new_html = ''
 					for (x = 1; x <= 5; x++) {
-                        new_html += '<div class="scrollContent"><div class="scrollable">'+ent.attributes['entry'+x]+'</div></div>';
+						new_html += '<div class="scrollContent">'+ent.attributes['entry'+x]+'</div>';
 					}
 					break;
 
@@ -178,7 +178,7 @@
 			}
 			if (icon != '') {
 				if (alarm) {
-					new_html = "<button class=\"qad-button-"+ent.state+"\" onclick=\"document.getElementById('qad-numpad').style.display = 'block';\"><i class=\""+icon+"\" aria-hidden=\"true\"></i><p style=\"font-size:10px\">"+text+"</p></button>";
+					new_html = "<button class=\"qad-button-"+ent.state+"\" onclick=\"$('body /deep/ #qad-numpad').css('display', 'block');\"><i class=\""+icon+"\" aria-hidden=\"true\"></i><p style=\"font-size:10px\">"+text+"</p></button>";
 				}
 				else {
 					var action = "turn_off";
@@ -188,40 +188,26 @@
 					new_html = "<button class=\"qad-button-"+ent.state+"\" onclick=\"homeassistant.callService('"+ent._domain.replace("group","light")+"', '"+action+"', { entity_id: '"+ent.entity_id+"' });\"><i class=\""+icon+"\" aria-hidden=\"true\"></i><p style=\"font-size:10px\">"+text+"</p></button>";
 				}
 			}
-			var outputState = $("#qad-"+(ent.entity_id).replace(".","-")+"_state");
+			var outputState = $("body /deep/ #qad-"+(ent.entity_id).replace(".","-")+"_state");
 			if(outputState.length != 0 && outputState.text() != ent.state){
 				outputState.text(ent.state)
 				output.html(new_html);
-				if (ent.entity_id === 'sensor.recent_episodes') {
+ 				if (ent.entity_id === 'sensor.recent_episodes') {
 					var x = 0;
 					output.children().each(function(){
 						x++;
-						$(this).children().css('animation-duration', $(this)[0].scrollWidth / 100+'s');
-						$(this).children().css('animation-name', 'marquee'+x);
-						var thisStyle = '<style scoped>.scrollable {animation-duration: '+ $(this)[0].scrollWidth / 100 +'s; animation-iteration-count: infinite; animation-timing-function: linear; animation-name: marquee'+x+'; }</style>'
-						$(this).html(thisStyle+$(this).html());
-						var
-						  stylesheet = document.querySelector("link[scope='../local/qad.css']").sheet
-						, rules = stylesheet.rules
-						, i = rules.length
-						, keyframes
-						, keyframe
-					;
-					while (i--) {
-						keyframes = rules.item(i);
-						if ( keyframes.type === keyframes.KEYFRAMES_RULE && keyframes.name === "marquee"+x ) {
-							rules = keyframes.cssRules;
-							i = rules.length;
-							while (i--) {
-								keyframe = rules.item(i);
-								if ( keyframe.type === keyframe.KEYFRAME_RULE && keyframe.keyText === "100%") {
-									keyframe.style.transform = "translateX(-" + $(this)[0].scrollWidth / 2 + "px)";
-									break;
-								}
-							}
-							break;
+						if($(this)[0].scrollWidth > $(this)[0].clientWidth) {
+							$(this).html('<div class="scrollable">'+$(this).text()+'</div>');
+							$(this).children().css('animation-duration', $(this)[0].scrollWidth / 100+'s');
+							$(this).children().css('animation-name', 'marquee'+x);
+							var thisStyle = '<style scoped>.scrollable {animation-duration: '+ $(this)[0].scrollWidth / 100 +'s; animation-iteration-count: infinite; animation-timing-function: linear; animation-name: marquee'+x+'; }</style>'
+							$(this).children().text($(this).children().text()+' | '+$(this).children().text());
+							$(this).html(thisStyle+$(this).html());
+							var style = $("body /deep/ style[scope='ha-panel-qad']");
+							var oldCSS = style.text();
+							var re = new RegExp("marquee"+x+" \\{\\s*0% \\{\\s*transform: translateX\\(0px\\)\\;\\s*\}\\s*100% \\{\\s*transform: translateX\\(0px\\);","g");
+							style.text(oldCSS.replace(re, 'marquee'+x+' { 0% { transform: translateX(0px); } 100% { transform: translateX(-'+$(this)[0].scrollWidth / 2+'px);'));
 						}
-					}
 					});
 				}
 			} else if (outputState.length == 0){
