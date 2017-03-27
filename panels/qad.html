@@ -1,20 +1,10 @@
 <script type="text/javascript" src="../../local/jquery-3.2.0.min.js"></script>
-<script type="text/javascript">
-	<!-- ADD CSS -->
-	link=document.createElement('link');
-	link.href='../local/qad.css';
-	link.rel='stylesheet';
-	document.getElementsByTagName('head')[0].appendChild(link);
-
-	<!-- ADD FONT AWESOME -->
-	link=document.createElement('link');
-	link.href='../local/font-awesome.min.css';
-	link.rel='stylesheet';
-	document.getElementsByTagName('head')[0].appendChild(link);
-</script>
-<!-- START TEMPLATE FOR POLYMER -->
+<link rel="import" href="../../local/qad.css.html">
+<link rel="import" href="../../local/fa.css.html">
 <dom-module id='ha-panel-qad'>
 	<template>
+		<style include="qad-styles"></style>
+		<style include="fa-styles"></style>
 		<div class="qad-content qad-fullscreen" id="output">
 			<div id="button_page1">
 				<div class="qad-entity-group">

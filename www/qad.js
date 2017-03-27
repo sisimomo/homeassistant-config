@@ -150,11 +150,7 @@
 				case 'sensor.recent_episodes':
 					new_html = ''
 					for (x = 1; x <= 5; x++) {
-						if(ent.attributes['entry'+x].length > 50) {
-							new_html += '<div class="scrollContent"><div class="scrollable">'+ent.attributes['entry'+x]+' | '+ent.attributes['entry'+x]+'</div></div>';
-						} else {
-							new_html += '<div class="scrollContent">'+ent.attributes['entry'+x]+'</div>';
-						}
+                        new_html += '<div class="scrollContent"><div class="scrollable">'+ent.attributes['entry'+x]+'</div></div>';
 					}
 					break;
 
@@ -205,7 +201,7 @@
 						var thisStyle = '<style scoped>.scrollable {animation-duration: '+ $(this)[0].scrollWidth / 100 +'s; animation-iteration-count: infinite; animation-timing-function: linear; animation-name: marquee'+x+'; }</style>'
 						$(this).html(thisStyle+$(this).html());
 						var
-						  stylesheet = document.querySelector("link[href='../local/qad.css']").sheet
+						  stylesheet = document.querySelector("link[scope='../local/qad.css']").sheet
 						, rules = stylesheet.rules
 						, i = rules.length
 						, keyframes
