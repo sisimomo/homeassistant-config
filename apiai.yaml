@@ -49,13 +49,8 @@ intents:
           data:
             entity_id: 
 
-    Brief:
-      speech: !include templates/briefing.yaml
-      action:
-        - service: input_select.select_option
-          data_template:
-            entity_id: input_select.briefing_target
-            option: "{{ User }}"
+    StatusReport:
+      speech: !include templates/statusreport.yaml
 
     DisableAlert:
       speech: !include templates/alexa_confirm.yaml
