@@ -195,7 +195,6 @@
 
     door_balcony_away:
       entity_id:
-        - states.binary_sensor.door_window_sensor_158d000154b7c0
         - device_tracker.janis_handy
         - device_tracker.lena_handy
       value_template: >-
@@ -207,7 +206,6 @@
 
     door_entrance_away:
       entity_id:
-        - states.binary_sensor.door_window_sensor_158d000154b7c0
         - device_tracker.janis_handy
         - device_tracker.lena_handy
       value_template: >-
