@@ -75,7 +75,7 @@
         {% endif %}
       friendly_name: 'Lena Laptop'
     janis_pc:
-       entity_id: device_tracker.janis_pc
+      entity_id: device_tracker.janis_pc
       value_template: >-
         {% if is_state('device_tracker.janis_pc', 'home') %} 
           online
