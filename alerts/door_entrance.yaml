@@ -1,0 +1,6 @@
+name: '`[ALERT]` You left the entrance door open'
+entity_id: sensor.door_entrance_away
+state: 'open'
+repeat: 1
+notifiers:
+ - janis_handy_telegram

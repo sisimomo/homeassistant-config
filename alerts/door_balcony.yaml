@@ -1,0 +1,7 @@
+name: '`[ALERT]` You left the balcony door open'
+entity_id: sensor.door_balcony_away
+state: 'open'
+repeat: 1
+notifiers:
+ - janis_handy_telegram
+ - lena_handy_telegram
