@@ -1,7 +1,3 @@
-- platform: workday
-  country: !secret workday_country
-  province: !secret workday_province
-
 - platform: openweathermap
   forecast:
   api_key: !secret openweathermap_api
