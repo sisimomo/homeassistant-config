@@ -10,9 +10,6 @@ sequence:
   - service: script.turn_off
     data:
       entity_id: script.emby_pause_webhook_receiver
-  - service: script.turn_off
-    data:
-      entity_id: script.livingroom_motion_timer
   - service: input_boolean.turn_off
     data:
       entity_id: input_boolean.livingroom_motion_timer

@@ -38,9 +38,6 @@
     - service: scene.turn_on
       data:
         entity_id: scene.livingroom_dim
-    - service: script.turn_off
-      data:
-        entity_id: script.livingroom_motion_timer
     - service: input_boolean.turn_off
       data:
         entity_id: input_boolean.livingroom_motion_timer
@@ -58,29 +55,21 @@
     - service: scene.turn_on
       data:
         entity_id: scene.livingroom_dim
-    - service: script.turn_off
-      data:
-        entity_id: script.livingroom_motion_timer
     - service: input_boolean.turn_off
       data:
         entity_id: input_boolean.livingroom_motion_timer
 
-- alias: Reset motion timer, on motion if source for light was motion
+- alias: Turn light and hidden input off if no motion since 5 minutes, light on and hidden input is on
   trigger:
-    - platform: event
-      event_type: motion
-      event_data:
-        entity_id: binary_sensor.motion_sensor_158d00010f8100
-  condition:
-    condition: template
-    value_template: '{{ states.input_boolean.livingroom_motion_timer.state == "on" and states.group.light_livingroom.state == "on" }}'
+    - platform: template
+      value_template: {{ trigger.entity_id == 'binary_sensor.motion_sensor_158d00010f8100' and states.binary_sensor.motion_sensor_158d00010f8100.attributes['No motion since'] >= 300 and states.input_boolean.livingroom_motion_timer.state == 'on'}}
   action:
-    - service: script.turn_off
+    - service: light.turn_off
       data:
-        entity_id: script.livingroom_motion_timer
-    - service: script.turn_on
+        entity_id: group.light_livingroom
+    - service: input_boolean.turn_off
       data:
-        entity_id: script.livingroom_motion_timer
+        entity_id: input_boolean.livingroom_motion_timer
 
 - alias: Turn light on, on motion
   trigger:
@@ -95,9 +84,6 @@
     - service: scene.turn_on
       data:
         entity_id: scene.livingroom_normal
-    - service: script.turn_on
-      data:
-        entity_id: script.livingroom_motion_timer
     - service: input_boolean.turn_on
       data:
         entity_id: input_boolean.livingroom_motion_timer

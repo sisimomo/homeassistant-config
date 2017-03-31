@@ -7,9 +7,6 @@ sequence:
     state: 'on'
   - condition: template
     value_template: '{{ Player.uuid == states("sensor.emby_player_uuid") }}'
-  - service: script.turn_off
-    data:
-      entity_id: script.livingroom_motion_timer
   - service: input_boolean.turn_off
     data:
       entity_id: input_boolean.livingroom_motion_timer

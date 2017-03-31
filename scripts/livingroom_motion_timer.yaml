@@ -1,9 +1,0 @@
-sequence:
-  - delay:
-      minutes: 5
-  - service: light.turn_off
-    data:
-      entity_id: group.light_livingroom
-  - service: input_boolean.turn_off
-    data:
-      entity_id: input_boolean.livingroom_motion_timer
