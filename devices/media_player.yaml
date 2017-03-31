@@ -2,3 +2,7 @@
   host: 192.168.137.32
   port: 8080
   name: 'Kodi on FireTV'
+
+- platform: squeezebox
+  host: 192.168.137.53
+  name: 'Kitchen'
