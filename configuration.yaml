@@ -81,6 +81,9 @@ logger:
 #    TESTS    #
 #########
 
+tts:
+  - platform: google
+
 xiaomi:
  gateways:
    - sid:
