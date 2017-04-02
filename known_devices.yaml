@@ -113,6 +113,22 @@ broadlinkrmpro:
   track: true
   vendor: HangZhou Gubei Electronics Technology Co.,Ltd
 
+kitchen:
+  hide_if_away: false
+  mac: 30:B5:C2:11:FD:E1
+  name: Kitchen
+  picture:
+  track: true
+  vendor: RaspberryPi Foundation
+
+guestroom:
+  hide_if_away: false
+  mac: 00:87:33:06:09:97
+  name: Guest-room
+  picture:
+  track: true
+  vendor: RaspberryPi Foundation
+
 #==============================#
 #    END OF TRACKED DEVICES    #
 #==============================#

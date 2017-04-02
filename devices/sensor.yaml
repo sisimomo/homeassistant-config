@@ -157,6 +157,26 @@
         {% endif %}
       friendly_name: 'Broadlink RM Pro (IR/RF)'
 
+    kitchenm2p:
+      entity_id: device_tracker.kitchen
+      value_template: >-
+        {% if is_state('device_tracker.kitchen', 'home') %}
+          online
+        {% else %}
+          offline
+        {% endif %}
+      friendly_name: 'RaspberryPi (Kitchen)'
+
+    guestroomm2p:
+      entity_id: device_tracker.guestroom
+      value_template: >-
+        {% if is_state('device_tracker.guestroom', 'home') %}
+          online
+        {% else %}
+          offline
+        {% endif %}
+      friendly_name: 'RaspberryPi 2 (Guest room)'
+
     ram:
       entity_id: sensor.ram_use
       friendly_name: "Ram Usage"
