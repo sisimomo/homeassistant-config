@@ -198,9 +198,9 @@
 						x++;
 						if($(this)[0].scrollWidth > $(this)[0].clientWidth) {
 							$(this).html('<div class="scrollable">'+$(this).text()+'</div>');
-							$(this).children().css('animation-duration', $(this)[0].scrollWidth / 100+'s');
+							$(this).children().css('animation-duration', $(this)[0].scrollWidth * 12 +'ms');
 							$(this).children().css('animation-name', 'marquee'+x);
-							var thisStyle = '<style scoped>.scrollable {animation-duration: '+ $(this)[0].scrollWidth / 50 +'s; animation-iteration-count: infinite; animation-timing-function: linear; animation-name: marquee'+x+'; }</style>'
+							var thisStyle = '<style scoped>.scrollable {animation-duration: '+ $(this)[0].scrollWidth * 12 +'ms; animation-iteration-count: infinite; animation-timing-function: linear; animation-name: marquee'+x+'; }</style>'
 							$(this).children().text($(this).children().text()+' | '+$(this).children().text());
 							$(this).html(thisStyle+$(this).html());
 							var style = $("body /deep/ style[scope='ha-panel-qad']");
