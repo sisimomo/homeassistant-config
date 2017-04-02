@@ -183,6 +183,12 @@
       value_template: >-
         {{ (states("sensor.disk_use_mntshare") | float / 1000)  | round(2) }} TB / {{ (((states("sensor.disk_use_mntshare") | float) + (states("sensor.disk_free_mntshare") |float)) / 1000) | round(2) }} TB
 
+    backup_disk:
+      entity_id: sensor.disk_use_mntbackup
+      friendly_name: NAS Usage
+      value_template: >-
+        {{ (states("sensor.disk_use_mntbackup") | float / 1000)  | round(2) }} TB / {{ (((states("sensor.disk_use_mntbackup") | float) + (states("sensor.disk_free_mntdisk_use_mntbackup") |float)) / 1000) | round(2) }} TB
+
     uptime:
       entity_id: sensor.since_last_boot
       friendly_name: Uptime
@@ -219,6 +225,10 @@
       arg: /mnt/share
     - type: disk_free
       arg: /mnt/share
+    - type: disk_use
+      arg: /mnt/backup
+    - type: disk_free
+      arg: /mnt/backup
     - type: swap_use
     - type: swap_free
     - type: memory_use
