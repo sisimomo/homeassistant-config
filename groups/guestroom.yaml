@@ -1,0 +1,4 @@
+name: Kitchen
+control: hidden
+entities:
+  - media_player.guestroom

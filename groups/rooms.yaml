@@ -3,4 +3,4 @@ name: Rooms
 entities:
   - group.livingroom
   - group.kitchen
- # - group.bathroom
+  - group.guestroom
