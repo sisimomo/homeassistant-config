@@ -1,4 +1,4 @@
 name: Kitchen
 control: hidden
 entities:
-  - media_player.guestroom
+  - media_player.guest_room
