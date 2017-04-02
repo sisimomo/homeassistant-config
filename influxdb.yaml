@@ -10,6 +10,8 @@ whitelist:
   - sensor.speedtest_upload
   - sensor.disk_use_mntshare
   - sensor.disk_free_mntshare
+  - sensor.disk_use_mntbackup
+  - sensor.disk_free_mntbackup
   - sensor.received_eth0
   - sensor.sent_eth0
   - sensor.ram_use
