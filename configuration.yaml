@@ -84,10 +84,7 @@ logger:
 tts:
   - platform: google
 
-xiaomi:
- gateways:
-   - sid:
-     key: !secret xiaomi_key
+xiaomi: !include xiaomi.yaml
 
 camera:
   - name: Janis and Lena
