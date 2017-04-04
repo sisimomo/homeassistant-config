@@ -1,0 +1,4 @@
+- name: Janis and Lena
+  platform: generic
+  still_image_url: https://maps.googleapis.com/maps/api/staticmap?center={{ states.device_tracker.lena_handy.attributes.latitude }},{{ states.device_tracker.lena_handy.attributes.longitude }}&zoom=13&size=600x600&maptype=roadmap&markers=color:blue%7Clabel:L%7C{{ states.device_tracker.lena_handy.attributes.latitude }},{{ states.device_tracker.lena_handy.attributes.longitude }}&markers=color:red%7Clabel:J%7C{{ states.device_tracker.janis_handy.attributes.latitude }},{{ states.device_tracker.janis_handy.attributes.longitude }}
+  limit_refetch_to_url_change: true

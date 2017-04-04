@@ -30,6 +30,7 @@ alert: !include_dir_named alerts
 apiai: !include apiai.yaml
 automation: !include_dir_merge_list automation
 binary_sensor: !include devices/binary_sensor.yaml
+camera: !include camera.yaml
 device_tracker: !include devices/device_tracker.yaml
 group: !include_dir_named groups
 influxdb: !include influxdb.yaml
@@ -47,6 +48,7 @@ sensor: !include devices/sensor.yaml
 shell_command: !include shell_command.yaml
 switch: !include devices/switch.yaml
 weblink: !include weblink.yaml
+xiaomi: !include xiaomi.yaml
 zone: !include zone.yaml
 
 #################
@@ -77,17 +79,5 @@ logger:
   logs:
     homeassistant: warning
 
-#########
-#    TESTS    #
-#########
-
 tts:
   - platform: google
-
-xiaomi: !include xiaomi.yaml
-
-camera:
-  - name: Janis and Lena
-    platform: generic
-    still_image_url: https://maps.googleapis.com/maps/api/staticmap?center={{ states.device_tracker.lena_handy.attributes.latitude }},{{ states.device_tracker.lena_handy.attributes.longitude }}&zoom=13&size=600x600&maptype=roadmap&markers=color:blue%7Clabel:L%7C{{ states.device_tracker.lena_handy.attributes.latitude }},{{ states.device_tracker.lena_handy.attributes.longitude }}&markers=color:red%7Clabel:J%7C{{ states.device_tracker.janis_handy.attributes.latitude }},{{ states.device_tracker.janis_handy.attributes.longitude }}
-    limit_refetch_to_url_change: true
