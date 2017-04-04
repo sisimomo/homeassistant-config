@@ -1,28 +1,3 @@
-homeassistant:
-  name: Home
-  latitude: !secret home_lat
-  longitude: !secret home_long
-  elevation: 96
-  unit_system: metric
-  time_zone: Europe/Berlin
-  customize: !include_dir_merge_named customizations
-  packages:  !include_dir_named packages
-
-http:
-  api_password: !secret http_api_pwd
-  server_port: 8001
-  base_url: !secret http_base_url
-  trusted_networks:
-    - 192.168.137.0/24
-
-mqtt:
-  broker: localhost
-  port: 1883
-  client_id: home-assistant-1
-  keepalive: 3600
-  username: hass
-  password: !secret mqtt_pwd
-
 ###################
 #    INCLUDES     #
 ###################
@@ -33,15 +8,19 @@ binary_sensor: !include devices/binary_sensor.yaml
 camera: !include camera.yaml
 device_tracker: !include devices/device_tracker.yaml
 group: !include_dir_named groups
+homeassistant: !include homeassistant.yaml
+http: !include http.yaml
 influxdb: !include influxdb.yaml
 input_select: !include input_select.yaml
 input_boolean: !include input_boolean.yaml
 light: !include devices/light.yaml
 media_player: !include devices/media_player.yaml
+mqtt: !include mqtt.yaml
 notify: !include notify.yaml
 panel_custom: !include panel_custom.yaml
 panel_iframe: !include_dir_named iframe_panels
 proximity: !include proximity.yaml
+recorder: !include recorder.yaml
 scene: !include scene.yaml
 script: !include_dir_named scripts
 sensor: !include devices/sensor.yaml
@@ -56,28 +35,10 @@ zone: !include zone.yaml
 #################
 frontend:
 logbook:
-recorder:
-  db_url: !secret mysql_db_url
-  purge_days: 5
-  include:
-    domains:
-      - sensor
-      - switch
-      - media_player
-      - sun
-  exclude:
-    entities:
-      - sensor.since_last_boot
-      - sensor.date__time
-      - sensor.uptime
-      - sensor.cpu_speed
-      - sensor.emby_player_uuid
-      - sensor.alexa_response
-sun:
 logger:
   default: error
   logs:
     homeassistant: warning
-
+sun:
 tts:
   - platform: google
