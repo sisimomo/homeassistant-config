@@ -1,6 +1,10 @@
 language: python
 python:
   - "3.4"
+notifications:
+  email:
+    on_success: never # default: change
+    on_failure: always # default: always
 before_install:
   - mv secrets_redacted.yaml secrets.yaml
   - git clone https://github.com/lazcad/homeassistant.git
