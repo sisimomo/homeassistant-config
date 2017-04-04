@@ -137,7 +137,12 @@
 
 				case 'proximity.home_janis':
 				case 'proximity.home_lena':
-					new_html = ent.state + ent.attributes.unit_of_measurement;
+				    if (ent.state > 1000) {
+				        new_html = (Math.round((ent.state / 1000) * 100) / 100) + 'k' + ent.attributes.unit_of_measurement;
+				    }
+				    else {
+				        new_html = ent.state + ent.attributes.unit_of_measurement;
+				    }
 					var janis = homeassistant.states["device_tracker.janis_handy"];
 					var lena = homeassistant.states["device_tracker.lena_handy"];
 					if (ent.entity_id === "proximity.home_janis" && (janis.state.toLowerCase() === "home" || janis.state.toLowerCase() === "work")) {
