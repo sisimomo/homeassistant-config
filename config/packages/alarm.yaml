@@ -8,7 +8,8 @@ alarm_control_panel:
 automation:
   #== ARMING / DISARMING ==#
 
-  - alias: Disarm away alarm if someone is home
+  # Disarm away alarm if someone is home
+  - alias: disarm1
     trigger:
       - platform: state
         entity_id: device_tracker.janis_handy
@@ -26,7 +27,8 @@ automation:
         entity_id: 'alarm_control_panel.alarm'
         code: !secret alarm_code
 
-  - alias: Arm alarm if nobody is home for 30 minutes
+  # Arm alarm if nobody is home for 30 minutes
+  - alias: arm1
     trigger:
       - platform: state
         entity_id: device_tracker.janis_handy
@@ -48,7 +50,9 @@ automation:
         code: !secret alarm_code
 
   #== TRIGGERS ==#
-  - alias: Trigger alarm if there is motion, the entrance door is opned or the balcony door is opened and alarm is armed_home or armed_away
+
+  # Trigger alarm if there is motion, the entrance door is opned or the balcony door is opened and alarm is armed_home or armed_away
+  - alias: trigger1
     trigger:
       - platform: event
         event_type: motion
@@ -70,7 +74,9 @@ automation:
       entity_id: alarm_control_panel.alarm
 
   #== PENDING ==#
-  - alias: Make lights orange if alarm is pending from armed state
+
+  # Make lights orange if alarm is pending from armed state
+  - alias: pending1
     trigger:
       - platform: state
         entity_id: alarm_control_panel.alarm
@@ -87,7 +93,8 @@ automation:
         rgb_color: [255, 128, 0]
         brightness: 255
 
-  - alias: Turn off orange pending lights, if alarm gets disarmed
+  # Turn off orange pending lights, if alarm gets disarmed
+  - alias: disarm2
     trigger:
       - platform: state
         entity_id: alarm_control_panel.alarm
@@ -99,7 +106,9 @@ automation:
         entity_id: group.light_livingroom
 
   #== DISARM ==#
-  - alias: Kill Alarm lights and stop recording if alarm gets untriggered
+
+  # Kill Alarm lights and stop recording if alarm gets untriggered
+  - alias: disarm3
     trigger:
       - platform: state
         entity_id: alarm_control_panel.alarm
@@ -116,7 +125,9 @@ automation:
         entity_id: script.kill_alarm_lights
 
   #== ACTION ==#
-  - alias: Enable alarm lights
+
+  # Enable alarm lights
+  - alias: alarm_lights
     trigger:
       platform: state
       entity_id: alarm_control_panel.alarm
