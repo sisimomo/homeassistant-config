@@ -8,7 +8,7 @@
       click_type: single
   action:
     - service_template: >
-        {% if states.media_player.kitchen.state != 'off' %}
+        {% if states.media_player.kitchen.state == 'off' %}
           media_player.turn_on
         {% elif states.media_player.kitchen.state != 'playing' and states.media_player.kitchen.state != 'off' %}
           media_player.media_play
@@ -31,11 +31,15 @@
         {% if states.media_player.kitchen.state == 'playing' %}
           media_player.media_next_track
         {% else %}
-          tts.gogle_say
+          script.turn_on
         {% endif %}
       data_template:
-        entity_id: media_player.kitchen
-        message: !include ../../templates/statusreport.yaml
+        entity_id: >
+          {% if states.media_player.kitchen.state == 'playing' %}
+            media_player.kitchen
+          {% else %}
+            script.play_statusreport_in_kitchen
+          {% endif %}
 
 # TBD
 - alias: xiaomi_kit_hold
