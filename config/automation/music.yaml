@@ -10,7 +10,7 @@
     - service_template: >
         {% if states.media_player.kitchen.state != 'off' %}
           media_player.turn_on
-        {% elif states.media_player.kitchen.state != 'playing' and elif states.media_player.kitchen.state != 'off' %}
+        {% elif states.media_player.kitchen.state != 'playing' and states.media_player.kitchen.state != 'off' %}
           media_player.media_play
         {% else %}
           media_player.media_pause
