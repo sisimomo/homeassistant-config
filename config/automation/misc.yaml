@@ -11,9 +11,11 @@
     - platform: state
       entity_id: input_boolean.media_devices
       to: 'off'
+      from: 'on'
     - platform: state
       entity_id: input_boolean.media_devices
       to: 'on'
+      from: 'off'
   action:
     - service: broadlink.send_packet_192_168_137_43
       data:
