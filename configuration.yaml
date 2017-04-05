@@ -17,7 +17,7 @@ light: !include devices/light.yaml
 media_player: !include devices/media_player.yaml
 mqtt: !include mqtt.yaml
 notify: !include notify.yaml
-panel_custom: !include_dir_named config/panel_custom
+panel_custom: !include_dir_merge_list config/panel_custom
 proximity: !include proximity.yaml
 recorder: !include recorder.yaml
 scene: !include scene.yaml

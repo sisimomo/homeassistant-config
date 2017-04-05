@@ -1,3 +1,3 @@
-name: qad
-sidebar_title: QuickAccess Dashboard
-sidebar_icon: mdi:cat
+- name: qad
+  sidebar_title: QuickAccess Dashboard
+  sidebar_icon: mdi:cat
