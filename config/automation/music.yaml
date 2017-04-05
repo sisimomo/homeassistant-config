@@ -7,11 +7,10 @@
       entity_id: binary_sensor.switch_158d00013f9ad7
       click_type: single
   action:
-    - service: media_player.turn_on
-      data:
-        entity_id: media_player.kitchen
     - service_template: >
-        {% if states.media_player.kitchen.state != 'playing' %}
+        {% if states.media_player.kitchen.state != 'off' %}
+          media_player.turn_on
+        {% elif states.media_player.kitchen.state != 'playing' && elif states.media_player.kitchen.state != 'off' %}
           media_player.media_play
         {% else %}
           media_player.media_pause
