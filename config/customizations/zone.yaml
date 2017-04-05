@@ -1,0 +1,8 @@
+zone.home:
+  friendly_name: Home
+
+zone.work:
+  friendly_name: Work
+
+zone.sembach:
+  friendly_name: Sembach
