@@ -2,8 +2,9 @@ language: python
 python:
   - "3.4"
 notifications:
-  webhooks:
-    secure: "QalcXCF8jNDq4nwEvNCy0bIoBF9LmfhpfGabKrGawkTzp6aYGQkPix5kOpOyb5zsoM8i1H+gdRPiQhq4Kt8x5r+QjkFXeOnJFe/5sQr5w0fW51wkufetLK2/hF82yT8jNcR+21qXStln4ZJf05REba7scHjESFpP2Zn4QmeGp4/XkuV6Bar77Stw3MKM6Kswiw8ZubHnQED6wJiaQEOlsWAqmC+GFK2fwXryHIKQyr8NpsBV2AYtMlokqbOcl3GQJyKiXV22hYDXtY5m7CCyHLK57cBCSg3CCOqnL6HeDKuQUV7e8m4FRP1HDMkH9TzdHwgACxkmOsMcRXsrhbs7QPJsb4eyVYyxcKGH2aOcPRzuO/xCEIIEDzrMzdBtOg+uKLaatnLUjJ92DVUgiiU0O7MdNocKeMj/yKwG1eTSoBynIxm3tK9WNH/sT1KMDPhCsWKLCvQb3UvZ4Je0p6dnmWIFRSVxRW9XTU9+y4EQhrMOTFYiRQ6t/1gibqV7fxUbvFAhZEWTiyuvhDGHcwbl5+zYTd7P9qOhyVH/vA6cLe9QOjy1S0mX90AlLBtRwA27jRjwjkEbLw0eeXjDhaFZuUDVDnEbnybroXCaBGn5xJeac6+aL5AGlyF4EnLT7PrU7qv1NkCgkDLZ/nQGBIm6yL/MZc+4swPtEOozLnfOMeU="
+  email:
+    on_success: never # default: change
+    on_failure: always # default: always
 
 before_install:
   - mv secrets_redacted.yaml secrets.yaml
