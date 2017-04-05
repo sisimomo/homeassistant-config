@@ -1,0 +1,7 @@
+sequence:
+  - condition: template
+    value_template: "{{ 1 == 1 }}"
+  - service: notify.janis_handy_telegram
+    data_template:
+      title: ""
+      message: "Travis build finished with message {{ status_message }}"
