@@ -4,5 +4,7 @@ binary_sensor.door_window_sensor_158d000154b7c0:
   friendly_name: Balcony Door
 binary_sensor.switch_158d00011033aa:
   friendly_name: Livingroom Button
+binary_sensor.switch_158d00013f9ad7:
+  friendly_name: Kitchen Button
 binary_sensor.door_window_sensor_158d00011c8066:
   friendly_name: Entrance Door

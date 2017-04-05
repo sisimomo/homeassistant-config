@@ -1,14 +1,5 @@
-- alias: Stop script to disabled slow mode on transmission
-  trigger:
-    - platform: state
-      entity_id: switch.transmission_slowmode
-      to: 'off'
-  action:
-    - service: script.turn_off
-      data:
-        entity_id: script.turn_off_tsm_2h
-
-- alias: Start flexget buffer for AnimeBytes if input is set
+# Start flexget buffer for AnimeBytes if input is set
+- alias: flexget1
   trigger:
     - platform: time
       minutes: /10
@@ -22,7 +13,8 @@
       data:
         entity_id: script.flexget_aniByBuffer
 
-- alias: Start flexget buffer for AHD if input is set
+# Start flexget buffer for AHD if input is set
+- alias: flexget2
   trigger:
     - platform: time
       minutes: /10
@@ -36,7 +28,8 @@
       data:
         entity_id: script.flexget_ahdBuffer
 
-- alias: Start flexget buffer for GGn if input is set
+# Start flexget buffer for GGn if input is set
+- alias: flexget3
   trigger:
     - platform: time
       minutes: /10

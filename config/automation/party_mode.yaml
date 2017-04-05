@@ -1,4 +1,5 @@
-- alias: Start party mode
+# Start party mode
+- alias: party_on
   trigger:
     platform: state
     entity_id: input_boolean.party_mode
@@ -7,7 +8,8 @@
     - service: script.party_lights_loop
     - service: shell_command.kodi_start_party
 
-- alias: Stop party mode
+# Stop party mode
+- alias: party_off
   trigger:
     platform: state
     entity_id: input_boolean.party_mode

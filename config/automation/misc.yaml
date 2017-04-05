@@ -1,4 +1,16 @@
-- alias: Start timer for 2 hours to disabled slow mode on transmission after it is enabled
+# Stop script to disabled slow mode on transmission
+- alias: transmission1
+  trigger:
+    - platform: state
+      entity_id: switch.transmission_slowmode
+      to: 'off'
+  action:
+    - service: script.turn_off
+      data:
+        entity_id: script.turn_off_tsm_2h
+
+#Start timer for 2 hours to disabled slow mode on transmission after it is enabled
+- alias: transmission2
   trigger:
     - platform: state
       entity_id: switch.transmission_slowmode
@@ -6,7 +18,8 @@
   action:
     - service: script.turn_off_tsm_2h
 
-- alias: Turn media devices on / off when switch is pressed
+# Turn media devices on / off when switch is pressed
+- alias: media_devices
   trigger:
     - platform: state
       entity_id: input_boolean.media_devices
@@ -23,7 +36,8 @@
           - !secret ir_av_power
           - !secret ir_tv_power
 
-- alias: Turn off hidden switch if motion is disabled
+# Turn off hidden switch if motion is disabled
+- alias: disable_motion
   trigger:
     platform: state
     entity_id: input_boolean.disable_motion_light_livingroom

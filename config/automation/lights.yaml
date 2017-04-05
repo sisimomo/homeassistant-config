@@ -1,4 +1,5 @@
-- alias: Make lights bright if kodi is done playing and the lights are on
+# Make lights bright if kodi is done playing and the lights are on
+- alias: kodi_play_bright
   trigger:
     - platform: state
       entity_id: media_player.kodi_on_firetv
@@ -14,7 +15,8 @@
       data:
         entity_id: scene.livingroom_normal
 
-- alias: Make lights bright if dinner mode is enabled
+# Make lights bright if dinner mode is enabled
+- alias: dinner_mode_bright
   trigger:
     - platform: state
       entity_id: input_boolean.dinner_mode
@@ -24,7 +26,8 @@
       data:
         entity_id: scene.livingroom_normal
 
-- alias: Dim lights on kodi playback for things that don't come from emby and kill the timer for motion if the light is on and dinner mode is not enabled
+# Dim lights on kodi playback for things that don't come from emby and kill the timer for motion if the light is on and dinner mode is not enabled
+- alias: dim_without_emby
   trigger:
     - platform: state
       entity_id: media_player.kodi_on_firetv
@@ -42,7 +45,8 @@
       data:
         entity_id: input_boolean.livingroom_motion_timer
 
-- alias: Dim lights if dinner mode is disabled while media is playing
+# Dim lights if dinner mode is disabled while media is playing
+- alias: dim_kodi
   trigger:
     - platform: state
       entity_id: input_boolean.dinner_mode
@@ -59,7 +63,8 @@
       data:
         entity_id: input_boolean.livingroom_motion_timer
 
-- alias: Turn light and hidden input off if no motion since 5 minutes, light on and hidden input is on
+# Turn light and hidden input off if no motion since 5 minutes, light on and hidden input is on
+- alias: no_motion_for_5
   trigger:
     - platform: numeric_state
       entity_id: binary_sensor.motion_sensor_158d00010f8100
@@ -76,7 +81,8 @@
       data:
         entity_id: input_boolean.livingroom_motion_timer
 
-- alias: Turn light on, on motion
+# Turn light on, on motion
+- alias: motion_light
   trigger:
     - platform: event
       event_type: motion
@@ -93,7 +99,8 @@
       data:
         entity_id: input_boolean.livingroom_motion_timer
 
-- alias: Toggle dinner mode if xiaomi button is clicked once
+# Toggle dinner mode if xiaomi button is clicked once
+- alias: xiaomi_liv_click
   trigger:
     platform: event
     event_type: click
@@ -105,7 +112,8 @@
       data:
         entity_id: input_boolean.dinner_mode
 
-- alias: Toggle media devices if xiaomi button is clicked twice
+# Toggle media devices if xiaomi button is clicked twice
+- alias: xiaomi_liv_double_click
   trigger:
     platform: event
     event_type: click
@@ -117,7 +125,8 @@
       data:
         entity_id: input_boolean.media_devices
 
-- alias: Turn light on if xiaomi button is clicked long
+# Turn light on if xiaomi button is clicked long
+- alias: xiaomi_liv_hold
   trigger:
     platform: event
     event_type: click
@@ -129,7 +138,8 @@
       data:
         entity_id: scene.livingroom_normal
 
-- alias: Turn gateway light on if janis sits at his desk
+# Turn gateway light on if janis sits at his desk
+- alias: gateway_desk
   trigger:
     - platform: state
       entity_id: sensor.find_janis
@@ -146,7 +156,8 @@
         rgb_color: [0, 255, 0]
         brightness: 255
 
-- alias: Turn gateway light off if janis leaves his desk
+# Turn gateway light off if janis leaves his desk
+- alias: gateway_desk_off
   trigger:
     - platform: state
       entity_id: sensor.find_janis
