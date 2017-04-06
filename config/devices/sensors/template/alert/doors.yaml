@@ -1,0 +1,23 @@
+- platform: template
+  sensors:
+    door_balcony_away:
+      entity_id:
+        - device_tracker.janis_handy
+        - device_tracker.lena_handy
+      value_template: >
+        {%- if states.binary_sensor.door_window_sensor_158d000154b7c0.state == 'on' and  states.device_tracker.janis_handy.state != 'home' and states.device_tracker.lena_handy.state != 'home' -%}
+          open
+        {%- else -%}
+          closed
+        {%- endif -%}
+
+    door_entrance_away:
+      entity_id:
+        - device_tracker.janis_handy
+        - device_tracker.lena_handy
+      value_template: >
+        {%- if states.binary_sensor.door_window_sensor_158d000154b7c0.state == 'on' and  states.device_tracker.janis_handy.state != 'home' and states.device_tracker.lena_handy.state != 'home' -%}
+          open
+        {%- else -%}
+          closed
+        {%- endif -%}
