@@ -1,8 +1,0 @@
-home_janis:
-  devices:
-    - device_tracker.janis_handy
-  unit_of_measurement: m
-home_lena:
-  devices:
-    - device_tracker.lena_handy
-  unit_of_measurement: m
