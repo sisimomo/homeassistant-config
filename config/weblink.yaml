@@ -1,0 +1,15 @@
+entities:
+  - name: Flexget
+    url: http://192.168.137.49:8003
+  - name: Emby
+    url: !secret weblink_emby
+  - name: Grafana
+    url: !secret weblink_grafana
+  - name: Mayan EDMS
+    url: !secret weblink_mayan
+  - name: Owncloud
+    url: !secret weblink_owncloud
+  - name: Ombi
+    url: !secret weblink_ombi
+  - name: Find
+    url: http://192.168.137.49:8006
