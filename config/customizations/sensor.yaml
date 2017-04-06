@@ -17,6 +17,8 @@ sensor.swap:
   icon: mdi:harddisk
 sensor.nas_disk:
   icon: mdi:harddisk
+sensor.backup_disk:
+  icon: mdi:harddisk
 sensor.uptime:
   icon: mdi:clock
 sensor.network:
