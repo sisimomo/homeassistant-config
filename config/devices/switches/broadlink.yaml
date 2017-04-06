@@ -1,0 +1,3 @@
+- platform: broadlink
+  host: 192.168.137.43
+  mac: '34:EA:34:E7:E2:AB'

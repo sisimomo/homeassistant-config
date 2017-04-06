@@ -1,0 +1,6 @@
+- platform: transmission
+  host: localhost
+  port: 9091
+  username: !secret transmission_user
+  password: !secret transmission_pwd
+  name: transmission_slowmode

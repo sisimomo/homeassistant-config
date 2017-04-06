@@ -6,14 +6,14 @@ apiai: !include config/apiai.yaml
 automation: !include_dir_merge_list config/automation
 binary_sensor: !include config/devices/binary_sensor.yaml
 camera: !include config/devices/camera.yaml
-device_tracker: !include devices/device_tracker.yaml
+device_tracker: !include config/devices/device_tracker.yaml
 group: !include_dir_named config/groups
 homeassistant: !include config/core/homeassistant.yaml
 http: !include config/http.yaml
 influxdb: !include config/influxdb.yaml
 input_select: !include config/inputs/input_select.yaml
 input_boolean: !include config/inputs/input_boolean.yaml
-light: !include devices/light.yaml
+light: !include config/devices/light.yaml
 media_player: !include_dir_merge_list config/devices/media_players
 mqtt: !include config/mqtt.yaml
 notify: !include config/notify.yaml
@@ -24,7 +24,7 @@ scene: !include_dir_merge_list config/scenes
 script: !include_dir_named config/scripts
 sensor: !include_dir_merge_list config/devices/sensors
 shell_command: !include config/shell_command.yaml
-switch: !include devices/switch.yaml
+switch: !include_dir_merge_list config/devices/switches
 weblink: !include config/weblink.yaml
 xiaomi: !include config/devices/xiaomi.yaml
 zone: !include_dir_merge_list config/zones
