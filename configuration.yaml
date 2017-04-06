@@ -14,8 +14,9 @@ influxdb: !include config/influxdb.yaml
 input_select: !include config/inputs/input_select.yaml
 input_boolean: !include config/inputs/input_boolean.yaml
 light: !include config/devices/light.yaml
+logger: !include config/core/logger.yaml
 media_player: !include_dir_merge_list config/devices/media_players
-mqtt: !include config/mqtt.yaml
+mqtt: !include config/core/mqtt.yaml
 notify: !include config/notify.yaml
 panel_custom: !include_dir_merge_list config/panel_custom
 proximity: !include config/proximity.yaml
@@ -34,10 +35,6 @@ zone: !include_dir_merge_list config/zones
 #################
 frontend:
 logbook:
-logger:
-  default: error
-  logs:
-    homeassistant: warning
 sun:
 tts:
   - platform: google
