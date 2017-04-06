@@ -1,0 +1,13 @@
+- platform: rest
+  resource: http://localhost:8006/location?group=WALLISERS
+  value_template: '{{ value_json.users.janis[0].location }}'
+  method: GET
+  name: FIND Janis
+  scan_interval: 1
+
+- platform: rest
+  resource: http://localhost:8006/location?group=WALLISERS
+  value_template: '{{ value_json.users.lena[0].location }}'
+  method: GET
+  name: FIND Lena
+  scan_interval: 1

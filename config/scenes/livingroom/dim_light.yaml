@@ -1,0 +1,6 @@
+- name: Livingroom Dim
+  entities:
+    group.light_livingroom:
+      state: on
+      brightness: 35
+      rgb_color: [255, 255, 255]

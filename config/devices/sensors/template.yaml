@@ -1,53 +1,3 @@
-- platform: openweathermap
-  forecast:
-  api_key: !secret openweathermap_api
-  monitored_conditions:
-    - temperature
-    - weather
-    - humidity
-    - clouds
-    - rain
-    - snow
-
-- platform: command_line
-  command: hass --version
-  name: HA Version
-  scan_interval: 7200
-
-- platform: command_line
-  command: python -c "import requests; print(requests.get('https://pypi.python.org/pypi/homeassistant/json').json()['info']['version'])"
-  name: Newest HA Version
-  scan_interval: 7200
-
-- platform: rest
-  resource: http://localhost:8006/location?group=WALLISERS
-  value_template: '{{ value_json.users.janis[0].location }}'
-  method: GET
-  name: FIND Janis
-  scan_interval: 1
-
-- platform: rest
-  resource: http://localhost:8006/location?group=WALLISERS
-  value_template: '{{ value_json.users.lena[0].location }}'
-  method: GET
-  name: FIND Lena
-  scan_interval: 1
-
-- platform: transmission
-  host: localhost
-  port: 9091
-  username: !secret transmission_user
-  password: !secret transmission_pwd
-  name: Transmission
-  monitored_variables:
-    - 'current_status'
-    - 'download_speed'
-    - 'upload_speed'
-
-- platform: time_date
-  display_options:
-    - "date_time"
-
 - platform: template
   sensors:
     emby_player_uuid:
@@ -55,7 +5,7 @@
     firetv:
       entity_id: device_tracker.firetv
       value_template: >-
-        {% if is_state('device_tracker.firetv', 'home') %} 
+        {% if is_state('device_tracker.firetv', 'home') %}
           online
         {% else %}
           offline
@@ -64,7 +14,7 @@
     lena_laptop:
       entity_id: device_tracker.lena_laptop
       value_template: >-
-        {% if is_state('device_tracker.lena_laptop', 'home') %} 
+        {% if is_state('device_tracker.lena_laptop', 'home') %}
           online
         {% else %}
           offline
@@ -73,7 +23,7 @@
     janis_pc:
       entity_id: device_tracker.janis_pc
       value_template: >-
-        {% if is_state('device_tracker.janis_pc', 'home') %} 
+        {% if is_state('device_tracker.janis_pc', 'home') %}
           online
         {% else %}
           offline
@@ -82,7 +32,7 @@
     taconinja:
       entity_id: device_tracker.taconinja
       value_template: >-
-        {% if is_state('device_tracker.taconinja', 'home') %} 
+        {% if is_state('device_tracker.taconinja', 'home') %}
           online
         {% else %}
           offline
@@ -91,7 +41,7 @@
     milightbridge:
       entity_id: device_tracker.milightbridge
       value_template: >-
-        {% if is_state('device_tracker.milightbridge', 'home') %} 
+        {% if is_state('device_tracker.milightbridge', 'home') %}
           online
         {% else %}
           offline
@@ -100,7 +50,7 @@
     nintendo3ds:
       entity_id: device_tracker.nintendo3ds
       value_template: >-
-        {% if is_state('device_tracker.nintendo3ds', 'home') %} 
+        {% if is_state('device_tracker.nintendo3ds', 'home') %}
           online
         {% else %}
           offline
@@ -110,7 +60,7 @@
     janis_fire7:
       entity_id: device_tracker.janis_fire7
       value_template: >-
-        {% if is_state('device_tracker.janis_fire7', 'home') %} 
+        {% if is_state('device_tracker.janis_fire7', 'home') %}
           online
         {% else %}
           offline
@@ -120,7 +70,7 @@
     nexus7livingroom:
       entity_id: device_tracker.nexus7livingroom
       value_template: >-
-        {% if is_state('device_tracker.nexus7livingroom', 'home') %} 
+        {% if is_state('device_tracker.nexus7livingroom', 'home') %}
           online
         {% else %}
           offline
@@ -130,7 +80,7 @@
     edimax1:
       entity_id: device_tracker.edimax1
       value_template: >-
-        {% if is_state('device_tracker.edimax1', 'home') %} 
+        {% if is_state('device_tracker.edimax1', 'home') %}
           online
         {% else %}
           offline
@@ -140,7 +90,7 @@
     xiaomi_gateway:
       entity_id: device_tracker.xiaomi_gateway
       value_template: >-
-        {% if is_state('device_tracker.xiaomi_gateway', 'home') %} 
+        {% if is_state('device_tracker.xiaomi_gateway', 'home') %}
           online
         {% else %}
           offline
@@ -150,7 +100,7 @@
     broadlinkrmpro:
       entity_id: device_tracker.broadlinkrmpro
       value_template: >-
-        {% if is_state('device_tracker.broadlinkrmpro', 'home') %} 
+        {% if is_state('device_tracker.broadlinkrmpro', 'home') %}
           online
         {% else %}
           offline
@@ -236,26 +186,3 @@
         {%- else -%}
           closed
         {%- endif -%}
-
-- platform: cpuspeed
-
-- platform: systemmonitor
-  resources:
-    - type: disk_use
-      arg: /mnt/share
-    - type: disk_free
-      arg: /mnt/share
-    - type: disk_use
-      arg: /mnt/backup
-    - type: disk_free
-      arg: /mnt/backup
-    - type: swap_use
-    - type: swap_free
-    - type: memory_use
-    - type: memory_free
-    - type: network_in
-      arg: eth0
-    - type: network_out
-      arg: eth0
-    - type: since_last_boot
-    - type: processor_use

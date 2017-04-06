@@ -1,0 +1,5 @@
+- name: Bedtime
+  entities:
+    group.light_livingroom: off
+    switch.edimax1: off
+    input_boolean.media_devices: off

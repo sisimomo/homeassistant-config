@@ -1,0 +1,9 @@
+- platform: command_line
+  command: hass --version
+  name: HA Version
+  scan_interval: 7200
+
+- platform: command_line
+  command: python -c "import requests; print(requests.get('https://pypi.python.org/pypi/homeassistant/json').json()['info']['version'])"
+  name: Newest HA Version
+  scan_interval: 7200

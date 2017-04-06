@@ -1,0 +1,20 @@
+- platform: systemmonitor
+  resources:
+    - type: disk_use
+      arg: /mnt/share
+    - type: disk_free
+      arg: /mnt/share
+    - type: disk_use
+      arg: /mnt/backup
+    - type: disk_free
+      arg: /mnt/backup
+    - type: swap_use
+    - type: swap_free
+    - type: memory_use
+    - type: memory_free
+    - type: network_in
+      arg: eth0
+    - type: network_out
+      arg: eth0
+    - type: since_last_boot
+    - type: processor_use

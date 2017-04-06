@@ -2,32 +2,32 @@
 #    INCLUDES     #
 ###################
 alert: !include_dir_named config/alerts
-apiai: !include apiai.yaml
+apiai: !include config/apiai.yaml
 automation: !include_dir_merge_list config/automation
 binary_sensor: !include devices/binary_sensor.yaml
-camera: !include camera.yaml
+camera: !include config/devices/camera.yaml
 device_tracker: !include devices/device_tracker.yaml
 group: !include_dir_named config/groups
 homeassistant: !include config/core/homeassistant.yaml
-http: !include http.yaml
-influxdb: !include influxdb.yaml
+http: !include config/http.yaml
+influxdb: !include config/influxdb.yaml
 input_select: !include config/inputs/input_select.yaml
 input_boolean: !include config/inputs/input_boolean.yaml
 light: !include devices/light.yaml
-media_player: !include devices/media_player.yaml
-mqtt: !include mqtt.yaml
-notify: !include notify.yaml
+media_player: !include_dir_merge_list config/devices/media_players
+mqtt: !include config/mqtt.yaml
+notify: !include config/notify.yaml
 panel_custom: !include_dir_merge_list config/panel_custom
-proximity: !include proximity.yaml
-recorder: !include recorder.yaml
-scene: !include scene.yaml
+proximity: !include config/proximity.yaml
+recorder: !include config/recorder.yaml
+scene: !include_dir_merge_list config/scenes
 script: !include_dir_named config/scripts
-sensor: !include devices/sensor.yaml
+sensor: !include_dir_merge_list config/devices/sensors
 shell_command: !include config/shell_command.yaml
 switch: !include devices/switch.yaml
-weblink: !include weblink.yaml
-xiaomi: !include xiaomi.yaml
-zone: !include zone.yaml
+weblink: !include config/weblink.yaml
+xiaomi: !include config/devices/xiaomi.yaml
+zone: !include_dir_merge_list config/zones
 
 #################
 #    ENABLES    #
