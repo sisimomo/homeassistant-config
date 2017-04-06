@@ -22,6 +22,7 @@ intents:
 
     TurnLightOnOff:
       speech: !include ../templates/alexa_confirm.yaml
+
       action:
         - service_template: >
             {%- if OnOff == "on" -%}
