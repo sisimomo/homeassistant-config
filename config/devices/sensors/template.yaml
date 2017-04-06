@@ -189,3 +189,18 @@
         {%- else -%}
           closed
         {%- endif -%}
+
+    motion_livingroom_battery:
+      value_template: "{{ states.binary_sensor.motion_sensor_158d00010f8100.attributes.battery_level }}"
+
+    button_livingroom_battery:
+      value_template: "{{ states.binary_sensor.switch_158d00011033aa.attributes.battery_level }}"
+
+    button_kitchen_battery:
+      value_template: "{{ states.binary_sensor.switch_158d00013f9ad7.attributes.battery_level }}"
+
+    balcony_door_battery:
+      value_template: "{{ states.binary_sensor.door_window_sensor_158d000154b7c0.attributes.battery_level }}"
+
+    entrance_door_battery:
+      value_template: "{{ states.binary_sensor.door_window_sensor_158d00011c8066.attributes.battery_level }}"
