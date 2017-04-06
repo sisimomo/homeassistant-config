@@ -6,6 +6,7 @@ include:
     - switch
     - media_player
     - sun
+    - alarm_control_panel
 exclude:
   entities:
     - sensor.since_last_boot
