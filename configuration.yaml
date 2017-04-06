@@ -17,7 +17,7 @@ light: !include config/devices/light.yaml
 logger: !include config/core/logger.yaml
 media_player: !include_dir_merge_list config/devices/media_players
 mqtt: !include config/core/mqtt.yaml
-notify: !include config/notify.yaml
+notify: !include_dir_merge_list config/notify
 panel_custom: !include_dir_merge_list config/panel_custom
 proximity: !include config/proximity.yaml
 recorder: !include config/core/recorder.yaml

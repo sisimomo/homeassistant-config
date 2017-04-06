@@ -1,0 +1,5 @@
+
+- name: lena_handy_telegram
+  platform: telegram
+  api_key: !secret telegram_api
+  chat_id: !secret lena_chat_id
