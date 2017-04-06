@@ -10,7 +10,7 @@ device_tracker: !include config/devices/device_tracker.yaml
 group: !include_dir_named config/groups
 homeassistant: !include config/core/homeassistant.yaml
 http: !include config/http.yaml
-influxdb: !include config/influxdb.yaml
+influxdb: !include config/core/influxdb.yaml
 input_select: !include config/inputs/input_select.yaml
 input_boolean: !include config/inputs/input_boolean.yaml
 light: !include config/devices/light.yaml
