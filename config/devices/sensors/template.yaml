@@ -2,6 +2,9 @@
   sensors:
     emby_player_uuid:
       value_template: !secret emby_player_uuid
+
+- platform: template
+  sensors:
     firetv:
       entity_id: device_tracker.firetv
       value_template: >-
