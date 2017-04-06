@@ -1,0 +1,6 @@
+name: '`[ALERT]` Battery in button in the kitchen is low'
+entity_id: sensor.button_kitchen_battery
+state: True
+repeat: 120
+notifiers:
+ - janis_handy_telegram

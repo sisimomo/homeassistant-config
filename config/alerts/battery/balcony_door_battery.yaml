@@ -1,0 +1,6 @@
+name: '`[ALERT]` Battery in door sensor on the balcony door is low'
+entity_id: sensor.balcony_door_battery
+state: True
+repeat: 120
+notifiers:
+ - janis_handy_telegram
