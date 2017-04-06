@@ -21,7 +21,7 @@ intents:
         {%- endif -%}
 
     TurnLightOnOff:
-      speech: !include templates/alexa_confirm.yaml
+      speech: !include ../templates/alexa_confirm.yaml
       action:
         - service_template: >
             {%- if OnOff == "on" -%}
@@ -38,7 +38,7 @@ intents:
               {%- endif -%}
 
     TurnMediaDevicesOnOff:
-      speech: !include templates/alexa_confirm.yaml
+      speech: !include ../templates/alexa_confirm.yaml
       action:
         - service_template: >
             {%- if OnOff == "on" -%}
@@ -50,10 +50,10 @@ intents:
             entity_id: 
 
     StatusReport:
-      speech: !include templates/statusreport.yaml
+      speech: !include ../templates/statusreport.yaml
 
     DisableAlert:
-      speech: !include templates/alexa_confirm.yaml
+      speech: !include ../templates/alexa_confirm.yaml
       action:
         - service_template: >
             {%- if AlertTarget == "all" -%}
@@ -70,7 +70,7 @@ intents:
               {%- endif -%}
 
     Bedtime:
-      speech: !include templates/speech_bedtime.yaml
+      speech: !include ../templates/speech_bedtime.yaml
       action:
         - service: scene.turn_on
           data:
