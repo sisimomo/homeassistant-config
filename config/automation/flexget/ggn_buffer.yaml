@@ -1,0 +1,14 @@
+# Start flexget buffer for GGn if input is set
+- alias: ggn_buffer
+  trigger:
+    - platform: time
+      minutes: /10
+      seconds: 00
+  condition:
+    condition: state
+    entity_id: input_boolean.ggnBuffer
+    state: 'on'
+  action:
+    - service: script.turn_on
+      data:
+        entity_id: script.flexget_ggnBuffer

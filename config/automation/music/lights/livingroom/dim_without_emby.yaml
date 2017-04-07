@@ -1,0 +1,18 @@
+# Dim lights on kodi playback for things that don't come from emby and kill the timer for motion if the light is on and dinner mode is not enabled
+- alias: dim_without_emby
+  trigger:
+    - platform: state
+      entity_id: media_player.kodi_on_firetv
+      to: 'playing'
+      for:
+        seconds: 5
+  condition:
+    condition: template
+    value_template: '{{ states.input_boolean.dinner_mode.state == "off" and states.group.light_livingroom.state == "on" }}'
+  action:
+    - service: scene.turn_on
+      data:
+        entity_id: scene.livingroom_dim
+    - service: input_boolean.turn_off
+      data:
+        entity_id: input_boolean.livingroom_motion_timer

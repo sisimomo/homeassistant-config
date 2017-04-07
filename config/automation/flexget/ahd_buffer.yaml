@@ -1,0 +1,14 @@
+# Start flexget buffer for AHD if input is set
+- alias: ahd_buffer
+  trigger:
+    - platform: time
+      minutes: /10
+      seconds: 00
+  condition:
+    condition: state
+    entity_id: input_boolean.ahdBuffer
+    state: 'on'
+  action:
+    - service: script.turn_on
+      data:
+        entity_id: script.flexget_ahdBuffer

@@ -1,0 +1,12 @@
+# Toggle media devices if xiaomi button is clicked twice
+- alias: xiaomi_liv_double_click
+  trigger:
+    platform: event
+    event_type: click
+    event_data:
+      entity_id: binary_sensor.switch_158d00011033aa
+      click_type: double
+  action:
+    - service: input_boolean.toggle
+      data:
+        entity_id: input_boolean.media_devices

@@ -1,0 +1,10 @@
+# Stop script to disabled slow mode on transmission
+- alias: slow_timer_off
+  trigger:
+    - platform: state
+      entity_id: switch.transmission_slowmode
+      to: 'off'
+  action:
+    - service: script.turn_off
+      data:
+        entity_id: script.turn_off_tsm_2h

@@ -1,0 +1,16 @@
+# Make lights bright if kodi is done playing and the lights are on
+- alias: kodi_idle_bright
+  trigger:
+    - platform: state
+      entity_id: media_player.kodi_on_firetv
+      to: 'idle'
+      from: 'playing'
+      for:
+        seconds: 10
+  condition:
+    condition: template
+    value_template: '{{ states.group.light_livingroom.state == "on" }}'
+  action:
+    - service: scene.turn_on
+      data:
+        entity_id: scene.livingroom_normal

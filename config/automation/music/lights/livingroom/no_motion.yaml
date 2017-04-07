@@ -1,0 +1,17 @@
+# Turn light and hidden input off if no motion since 5 minutes, light on and hidden input is on
+- alias: no_motion
+  trigger:
+    - platform: numeric_state
+      entity_id: binary_sensor.motion_sensor_158d00010f8100
+      value_template: '{{ state.attributes["No motion since"]|int }}'
+      above: 299
+  condition:
+    condition: template
+    value_template: '{{ states.input_boolean.livingroom_motion_timer.state == "on"}}'
+  action:
+    - service: light.turn_off
+      data:
+        entity_id: group.light_livingroom
+    - service: input_boolean.turn_off
+      data:
+        entity_id: input_boolean.livingroom_motion_timer

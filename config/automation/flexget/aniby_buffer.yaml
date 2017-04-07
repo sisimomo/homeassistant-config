@@ -1,0 +1,14 @@
+# Start flexget buffer for AnimeBytes if input is set
+- alias: aniby_buffer
+  trigger:
+    - platform: time
+      minutes: /10
+      seconds: 00
+  condition:
+    condition: state
+    entity_id: input_boolean.aniByBuffer
+    state: 'on'
+  action:
+    - service: script.turn_on
+      data:
+        entity_id: script.flexget_aniByBuffer

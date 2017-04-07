@@ -1,0 +1,10 @@
+# Make lights bright if dinner mode is enabled
+- alias: dinner_mode_bright
+  trigger:
+    - platform: state
+      entity_id: input_boolean.dinner_mode
+      to: 'on'
+  action:
+    - service: scene.turn_on
+      data:
+        entity_id: scene.livingroom_normal

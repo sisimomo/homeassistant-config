@@ -1,0 +1,13 @@
+# Turn gateway light off if janis leaves his desk
+- alias: gateway_desk_off
+  trigger:
+    - platform: state
+      entity_id: sensor.find_janis
+      from: 'desk'
+  condition:
+    condition: template
+    value_template: '{{ states.device_tracker.janis_handy.state == "home" }}'
+  action:
+    - service: light.turn_off
+      data:
+        entity_id: light.gateway_light_286c07889d7e

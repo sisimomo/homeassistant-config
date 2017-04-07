@@ -1,0 +1,22 @@
+# Play next track if music is playing else send status report to janis (DUMMY)
+- alias: xiaomi_kit_hold
+  trigger:
+    platform: event
+    event_type: click
+    event_data:
+      entity_id: binary_sensor.switch_158d00013f9ad7
+      click_type: hold
+  action:
+    - service_template: >
+        {% if states.media_player.kitchen.state == 'playing' %}
+          media_player.media_previous_track
+        {% else %}
+          script.turn_on
+        {% endif %}
+      data_template:
+        entity_id: >
+          {% if states.media_player.kitchen.state == 'playing' %}
+            media_player.kitchen
+          {% else %}
+            script.send_status_to_janis
+          {% endif %}

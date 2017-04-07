@@ -1,0 +1,8 @@
+#Start timer for 2 hours to disabled slow mode on transmission after it is enabled
+- alias: slow_timer_start
+  trigger:
+    - platform: state
+      entity_id: switch.transmission_slowmode
+      to: 'on'
+  action:
+    - service: script.turn_off_tsm_2h
