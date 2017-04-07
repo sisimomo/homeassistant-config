@@ -1,6 +1,7 @@
 view: yes
 name: Rooms
 entities:
+  - media_player.multiroom
   - group.livingroom
   - group.kitchen
   - group.guestroom
