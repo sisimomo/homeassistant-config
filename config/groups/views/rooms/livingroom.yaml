@@ -13,3 +13,5 @@ entities:
   - scene.livingroom_normal
   - scene.bedtime
   - media_player.kodi_on_firetv
+  - media_player.snapcast
+  - media_player.servermpd
