@@ -1,7 +1,0 @@
->
-  {{ [ 
-  "Okay",
-  "Sure",
-  "If you insist",
-  "Done"
-  ] | random }}

@@ -1,8 +1,0 @@
->
-  {{ [ 
-  "Goodbye",
-  "Be safe",
-  "I will turn everything off",
-  "Just leave me here",
-  "I'll wait for your return"
-  ] | random }}

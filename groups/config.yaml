@@ -1,6 +1,0 @@
-view: yes
-entities:
-  - group.media_commands
-  - group.light_livingroom
-  - group.buffer
-  - group.hidden_elements

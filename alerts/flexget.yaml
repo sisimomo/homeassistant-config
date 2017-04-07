@@ -1,6 +1,0 @@
-name: '`[ALERT]` Flexget is not running'
-entity_id: switch.flexget
-state: 'off'
-repeat: 5
-notifiers:
- - janis_handy_telegram

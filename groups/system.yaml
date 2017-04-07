@@ -1,6 +1,0 @@
-view: yes
-entities:
-  - group.systemmonitor
-  - group.homeassistant
-  - group.services_frontend
-  - group.services_backend

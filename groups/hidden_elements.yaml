@@ -1,5 +1,0 @@
-name: Hidden Elements
-control: hidden
-entities:
-  - input_boolean.livingroom_motion_timer
-  - switch.dinner_mode

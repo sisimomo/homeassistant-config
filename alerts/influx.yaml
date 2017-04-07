@@ -1,6 +1,0 @@
-name: '`[ALERT]` Influx is not running'
-entity_id: switch.influxdb
-state: 'off'
-repeat: 5
-notifiers:
- - janis_handy_telegram

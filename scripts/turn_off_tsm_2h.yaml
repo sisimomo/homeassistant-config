@@ -1,6 +1,0 @@
-sequence:
-  - delay:
-      hours: 1
-  - service: switch.turn_off
-    data:
-      entity_id: switch.transmission_slowmode

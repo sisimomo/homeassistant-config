@@ -1,7 +1,0 @@
->
-  {{ [ 
-  "Good Night",
-  "Sleep tight",
-  "Nighty-night",
-  "I hope you have sweet dreams"
-  ] | random }}

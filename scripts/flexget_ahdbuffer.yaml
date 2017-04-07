@@ -1,4 +1,0 @@
-sequence:
-  - service: shell_command.flexget_task_pending
-    data:
-      buffertask: "ahdBuffer"

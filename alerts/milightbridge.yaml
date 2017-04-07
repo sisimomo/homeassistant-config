@@ -1,6 +1,0 @@
-name: '`[ALERT]` Milight Bridge is offline'
-entity_id: sensor.milightbridge
-state: 'offline'
-repeat: 5
-notifiers:
- - janis_handy_telegram

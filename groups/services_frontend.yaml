@@ -1,8 +1,0 @@
-name: Services Frontend
-control: hidden
-entities:
-  - switch.flexget
-  - switch.emby
-  - switch.ombi
-  - switch.grafana
-  - switch.find

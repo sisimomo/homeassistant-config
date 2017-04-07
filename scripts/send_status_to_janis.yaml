@@ -1,5 +1,0 @@
-sequence:
-  - service: notify.janis_handy_telegram
-    data_template:
-      title: ""
-      message: !include ../templates/statusreport.yaml

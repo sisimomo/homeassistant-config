@@ -1,6 +1,0 @@
-view: yes
-name: Rooms
-entities:
-  - group.livingroom
-  - group.kitchen
-  - group.guestroom

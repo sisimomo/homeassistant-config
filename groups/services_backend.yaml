@@ -1,9 +1,0 @@
-name: Services Backend
-control: hidden
-entities:
-  - switch.mosquitto
-  - switch.influxdb
-  - switch.transmission_service
-  - switch.mysql
-  - switch.asf
-  - switch.telegram_bot

@@ -1,6 +1,0 @@
-name: '`[ALERT]` Ombi is not running'
-entity_id: switch.ombi
-state: 'off'
-repeat: 5
-notifiers:
- - janis_handy_telegram

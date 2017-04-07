@@ -1,6 +1,0 @@
-name: Desktops
-control: hidden
-entities:
-  - sensor.janis_pc
-  - switch.janis_pc_wol
-  - script.power_pc_off

@@ -1,6 +1,0 @@
-name: Download Buffer
-control: hidden
-entities:
-  - input_boolean.ahdbuffer
-  - input_boolean.anibybuffer
-  - input_boolean.ggnbuffer
