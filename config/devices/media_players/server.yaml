@@ -1,7 +1,7 @@
 - platform: mpd
-  host: 192.168.137.49
+  host: localhost
   name: 'ServerMPD'
 
 - platform: snapcast
-  host: 192.168.137.53
+  host: localhost
   name: 'Snapcast'
