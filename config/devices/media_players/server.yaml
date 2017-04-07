@@ -1,0 +1,7 @@
+- platform: mpd
+  host: 192.168.137.49
+  name: 'ServerMPD (Multiroom)'
+
+- platform: snapcast
+  host: 192.168.137.53
+  name: 'Kitchen'
