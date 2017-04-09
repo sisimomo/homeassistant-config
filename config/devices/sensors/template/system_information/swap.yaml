@@ -1,0 +1,7 @@
+- platform: template
+  sensors:
+    swap:
+      entity_id: sensor.swap_use
+      friendly_name: Swap Usage
+      value_template: >
+        {{ (states("sensor.swap_use") | float * 1000) | int }} MB / {{ (((states("sensor.swap_use") | float) + (states("sensor.swap_free") | float)) * 1000) | int }} MB

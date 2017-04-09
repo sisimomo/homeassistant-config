@@ -1,0 +1,7 @@
+- platform: template
+  sensors:
+    ram:
+      entity_id: sensor.ram_use
+      friendly_name: "Ram Usage"
+      value_template: >
+        {{ states("sensor.ram_use") }} MB / {{ ((states("sensor.ram_use")|float) + (states("sensor.ram_free") | float)) | round(2) }} MB
