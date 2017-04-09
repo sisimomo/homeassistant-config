@@ -1,0 +1,6 @@
+name: '`[ALERT]` Backup space is running low!'
+entity_id: sensor.alert_backup_usage
+state: True
+repeat: 720
+notifiers:
+ - janis_handy_telegram
