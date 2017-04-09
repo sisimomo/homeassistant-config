@@ -1,9 +1,11 @@
-- device_tracker.janis_handy
-- device_tracker.lena_handy
-- sun.sun
-- sensor.owm_temperature
-- alarm_control_panel.alarm
-- camera.janis_and_lena
-- group.weblinks
-- group.transmission
-- script.kill_alarm_lights
+view: yes
+entities:
+  - device_tracker.janis_handy
+  - device_tracker.lena_handy
+  - sun.sun
+  - sensor.owm_temperature
+  - alarm_control_panel.alarm
+  - camera.janis_and_lena
+  - group.weblinks
+  - group.transmission
+  - script.kill_alarm_lights
