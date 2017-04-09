@@ -9,4 +9,4 @@ automation.ggn_buffer:
   icon: mdi:steam
 automation.motion_light:
   friendly_name: Motion in Livingroom
-  icon: mdi:steam
+  icon: mdi:spotlight
