@@ -1,9 +1,11 @@
 - platform: template
   sensors:
     alert_nas_usage:
-      entity_id: sensor.disk_free_mntshare
+      entity_id:
+        - sensor.disk_free_mntshare
       value_template: "{{ (100 / (states("sensor.disk_free_mntshare")|float + states("sensor.disk_use_mntshare")|float) * states("sensor.disk_use_mntshare")|float) | round(0) >= 95 }}"
 
     alert_backup_usage:
-      entity_id: sensor.disk_free_mntbackup
+      entity_id:
+        - sensor.disk_free_mntbackup
       value_template: "{{ (100 / (states("sensor.disk_free_mntbackup")|float + states("sensor.disk_use_mntbackup")|float) * states("sensor.disk_use_mntbackup")|float) | round(0)  >= 80 }}"
