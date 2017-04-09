@@ -7,3 +7,6 @@ automation.aniby_buffer:
 automation.ggn_buffer:
   friendly_name: GazelleGames Buffer
   icon: mdi:steam
+automation.motion_light:
+  friendly_name: Motion in Livingroom
+  icon: mdi:steam

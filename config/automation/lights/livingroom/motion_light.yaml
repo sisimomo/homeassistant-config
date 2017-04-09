@@ -7,7 +7,7 @@
         entity_id: binary_sensor.motion_sensor_158d00010f8100
   condition:
     condition: template
-    value_template: '{{ states.group.light_livingroom.state == "off" and states.input_boolean.disable_motion_light_livingroom.state == "off" and states.alarm_control_panel.alarm.state == "disarmed" and (states.sun.sun.state == "below_horizon" or now().hour <= 9) }}'
+    value_template: '{{ states.group.light_livingroom.state == "off" and states.alarm_control_panel.alarm.state == "disarmed" and (states.sun.sun.state == "below_horizon" or now().hour <= 9) }}'
   action:
     - service: scene.turn_on
       data:

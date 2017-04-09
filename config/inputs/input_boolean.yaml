@@ -10,10 +10,6 @@ media_devices:
   name: TV & Receiver
   icon: mdi:television
 
-disable_motion_light_livingroom:
-  name: Disable Motion in Livingroom
-  initial: off
-
 # HIDDEN ELEMENTS #
 livingroom_motion_timer:
  name: Livingroom Motion Timer

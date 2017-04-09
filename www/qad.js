@@ -12,7 +12,7 @@
 		"input_boolean.party_mode",
 		"switch.edimax1",
 		"alarm_control_panel.alarm",
-		"input_boolean.disable_motion_light_livingroom",
+		"automation.motion_light",
 		"input_boolean.media_devices",
 		"sensor.recent_episodes"
 	];
@@ -76,7 +76,7 @@
 					text = 'Dinner';
 					break;
 
-				case 'input_boolean.disable_motion_light_livingroom':
+				case 'automation.motion_light':
 					icon = 'fa fa-podcast';
 					text = 'Motion';
 					break;
