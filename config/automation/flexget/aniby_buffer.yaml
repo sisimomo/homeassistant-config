@@ -1,5 +1,6 @@
 # Start flexget buffer for AnimeBytes if input is set
 - alias: aniby_buffer
+  initial_state: 'off'
   trigger:
     - platform: time
       minutes: /10

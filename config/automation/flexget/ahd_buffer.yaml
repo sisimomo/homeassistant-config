@@ -1,5 +1,6 @@
 # Start flexget buffer for AHD if input is set
 - alias: ahd_buffer
+  initial_state: 'off'
   trigger:
     - platform: time
       minutes: /10

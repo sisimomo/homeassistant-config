@@ -1,5 +1,6 @@
 # Start flexget buffer for GGn if input is set
 - alias: ggn_buffer
+  initial_state: 'off'
   trigger:
     - platform: time
       minutes: /10
