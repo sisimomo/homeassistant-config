@@ -8,5 +8,5 @@ automation.ggn_buffer:
   friendly_name: GazelleGames Buffer
   icon: mdi:steam
 automation.motion_light:
-  friendly_name: Motion in Livingroom
+  friendly_name: Motion trigger in Livingroom
   icon: mdi:spotlight
