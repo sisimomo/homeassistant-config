@@ -1,0 +1,9 @@
+automation.ahd_buffer:
+  friendly_name: Awesome-HD Buffer
+  icon: mdi:play-circle
+automation.aniby_buffer:
+  friendly_name: AnimeBytes Buffer
+  icon: mdi:translate
+automation.ggn_buffer:
+  friendly_name: GazelleGames Buffer
+  icon: mdi:steam

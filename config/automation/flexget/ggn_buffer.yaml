@@ -4,10 +4,6 @@
     - platform: time
       minutes: /10
       seconds: 00
-  condition:
-    condition: state
-    entity_id: input_boolean.ggnBuffer
-    state: 'on'
   action:
     - service: script.turn_on
       data:
