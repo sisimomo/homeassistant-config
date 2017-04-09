@@ -1,0 +1,11 @@
+- platform: template
+  sensors:
+    nexus7livingroom:
+      entity_id: device_tracker.nexus7livingroom
+      value_template: >
+        {% if is_state('device_tracker.nexus7livingroom', 'home') %}
+          online
+        {% else %}
+          offline
+        {% endif %}
+      friendly_name: 'Nexus 7 Livingroom'

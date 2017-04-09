@@ -1,0 +1,11 @@
+- platform: template
+  sensors:
+    xiaomi_gateway:
+      entity_id: device_tracker.xiaomi_gateway
+      value_template: >
+        {% if is_state('device_tracker.xiaomi_gateway', 'home') %}
+          online
+        {% else %}
+          offline
+        {% endif %}
+      friendly_name: 'XIAOMI Gateway'

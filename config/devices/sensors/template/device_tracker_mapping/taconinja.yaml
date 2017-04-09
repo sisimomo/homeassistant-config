@@ -1,0 +1,11 @@
+- platform: template
+  sensors:
+    taconinja:
+      entity_id: device_tracker.taconinja
+      value_template: >
+        {% if is_state('device_tracker.taconinja', 'home') %}
+          online
+        {% else %}
+          offline
+        {% endif %}
+      friendly_name: 'Taco-Ninja (Janis Laptop)'

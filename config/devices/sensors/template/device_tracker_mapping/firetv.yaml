@@ -1,0 +1,11 @@
+- platform: template
+  sensors:
+    firetv:
+      entity_id: device_tracker.firetv
+      value_template: >
+        {% if is_state('device_tracker.firetv', 'home') %}
+          online
+        {% else %}
+          offline
+        {% endif %}
+      friendly_name: 'FireTV'

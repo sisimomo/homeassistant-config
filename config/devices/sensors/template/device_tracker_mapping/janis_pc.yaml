@@ -1,0 +1,11 @@
+- platform: template
+  sensors:
+    janis_pc:
+      entity_id: device_tracker.janis_pc
+      value_template: >
+        {% if is_state('device_tracker.janis_pc', 'home') %}
+          online
+        {% else %}
+          offline
+        {% endif %}
+      friendly_name: 'Burrito-Ninja (Janis PC)'

@@ -1,0 +1,11 @@
+- platform: template
+  sensors:
+    nintendo3ds:
+      entity_id: device_tracker.nintendo3ds
+      value_template: >
+        {% if is_state('device_tracker.nintendo3ds', 'home') %}
+          online
+        {% else %}
+          offline
+        {% endif %}
+      friendly_name: 'Lenas 3DS'

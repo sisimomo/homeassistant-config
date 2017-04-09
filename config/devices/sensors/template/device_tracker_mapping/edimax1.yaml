@@ -1,0 +1,11 @@
+- platform: template
+  sensors:
+    edimax1:
+      entity_id: device_tracker.edimax1
+      value_template: >
+        {% if is_state('device_tracker.edimax1', 'home') %}
+          online
+        {% else %}
+          offline
+        {% endif %}
+      friendly_name: 'Edimax Switch 1 (Shelf lights)'
