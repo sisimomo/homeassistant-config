@@ -12,6 +12,3 @@
     - service: scene.turn_on
       data:
         entity_id: scene.livingroom_dim
-    - service: input_boolean.turn_off
-      data:
-        entity_id: input_boolean.livingroom_motion_timer
