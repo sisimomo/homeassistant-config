@@ -35,16 +35,28 @@
     ombi:
       command_on: 'sudo /etc/init.d/ombi start'
       command_off: 'sudo /etc/init.d/ombi stop'
-      command_state: 'cat /opt/ombi/ombi.pid && ps aux |grep "\s$(cat /opt/ombi/ombi.pid)\s" |grep -v -q grep'
+      command_state: 'cat /opt/ombi/ombi.pid && ps aux | grep "\s$(cat /opt/ombi/ombi.pid)\s" | grep -v -q grep'
     asf:
       command_on: 'sudo su -c /opt/asf/start.sh janis'
       command_off: 'sudo su -c /opt/asf/stop.sh janis'
-      command_state: 'cat /opt/asf/asf.pid && ps aux |grep "\s$(cat /opt/asf/asf.pid)\s" |grep -v -q grep'
+      command_state: 'cat /opt/asf/asf.pid && ps aux | grep "\s$(cat /opt/asf/asf.pid)\s" | grep -v -q grep'
     telegram_bot:
       command_on: 'sudo su -c /opt/scripts/telegram_bot.sh janis'
       command_off: 'sudo kill -9 $(cat /opt/scripts/telegram_bot.pid) && rm -f  /opt/scripts/telegram_bot.pid'
-      command_state: 'cat /opt/scripts/telegram_bot.pid && ps aux |grep "\s$(cat /opt/scripts/telegram_bot.pid)\s" |grep -v -q grep'
+      command_state: 'cat /opt/scripts/telegram_bot.pid && ps aux | grep "\s$(cat /opt/scripts/telegram_bot.pid)\s" | grep -v -q grep'
     find:
       command_on: 'sudo su -c /opt/find/start.sh janis'
       command_off: 'sudo kill $(cat /opt/find/find.pid) && rm -f  /opt/find/find.pid'
-      command_state: 'cat /opt/find/find.pid && ps aux |grep "\s$(cat /opt/find/find.pid)\s" |grep -v -q grep'
+      command_state: 'cat /opt/find/find.pid && ps aux | grep "\s$(cat /opt/find/find.pid)\s" | grep -v -q grep'
+    sonarr:
+      command_on: 'sudo /etc/init.d/nzbdrone start'
+      command_off: 'sudo /etc/init.d/nzbdrone stop'
+      command_state: 'ps aux | grep "NzbDrone.exe" | grep -v -q grep'
+    radarr:
+      command_on: 'sudo /etc/init.d/radarr start'
+      command_off: 'sudo /etc/init.d/radarr stop'
+      command_state: 'cat /opt/radarr/radarr.pid && ps aux | grep "\s$(cat /opt/radarr/radarr.pid)\s" | grep -v -q grep'
+    jackett:
+      command_on: 'sudo /etc/init.d/jackett start'
+      command_off: 'sudo /etc/init.d/jackett stop'
+      command_state: 'cat /opt/jackett/jackett.pid && ps aux | grep "\s$(cat /opt/jackett/jackett.pid)\s" | grep -v -q grep'

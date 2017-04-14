@@ -6,3 +6,6 @@ entities:
   - switch.ombi
   - switch.grafana
   - switch.find
+  - switch.sonarr
+  - switch.radarr
+  - switch.jackett
