@@ -39,17 +39,8 @@
 	}
 
 	function startTime() {
-		var today = new Date();
-		var h = today.getHours();
-		var m = today.getMinutes();
-		h = checkTime(h);
-		m = checkTime(m);
-		$('body /deep/ #qad-datetime').html(h + ":" + m);
+		$('body /deep/ #qad-datetime').html(new Date().toLocaleString('de-DE', { hour: "numeric", minute: "numeric", day: "2-digit", month: "2-digit", year: "2-digit"}));
 		var t = setTimeout(startTime, 30000);
-	}
-	function checkTime(i) {
-		if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
-		return i;
 	}
 
 	function updateView(ent){
