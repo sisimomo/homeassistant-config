@@ -1,0 +1,6 @@
+name: '`[ALERT]` Radarr is not running'
+entity_id: switch.radarr
+state: 'off'
+repeat: 5
+notifiers:
+ - janis_handy_telegram

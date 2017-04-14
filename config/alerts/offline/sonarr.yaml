@@ -1,0 +1,6 @@
+name: '`[ALERT]` Sonarr is not running'
+entity_id: switch.sonarr
+state: 'off'
+repeat: 5
+notifiers:
+ - janis_handy_telegram

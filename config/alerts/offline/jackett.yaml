@@ -1,0 +1,6 @@
+name: '`[ALERT]` Jackett is not running'
+entity_id: switch.jackett
+state: 'off'
+repeat: 5
+notifiers:
+ - janis_handy_telegram
