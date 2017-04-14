@@ -4,3 +4,4 @@ power_pc_off: sudo net rpc shutdown -I 192.168.137.48 -U PhyberApex
 flexget_task: /opt/scripts/flexget_task_pending.sh "{{ flexgettask }}"
 flexget_task_pending: /opt/scripts/flexget_task_pending.sh "{{ buffertask }}"
 add_new_episode: /opt/scripts/add_new_episode.sh "{{ episode }}"
+reboot_remote: "ssh {{user}}@{{host}} 'shutdown -r now'"

@@ -29,3 +29,12 @@ sequence:
   - service: alert.turn_off
     data:
       entity_id: alert.xiaomi_gateway
+  - service: alert.turn_off
+    data:
+      entity_id: alert.jackett
+  - service: alert.turn_off
+    data:
+      entity_id: alert.sonarr
+  - service: alert.turn_off
+    data:
+      entity_id: alert.radarr
