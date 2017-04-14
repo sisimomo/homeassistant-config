@@ -1,0 +1,5 @@
+name: Audio Nodes
+control: hidden
+entities:
+  - script.reboot_kitchen_mpd
+  - script.reboot_guest_room_mpd
