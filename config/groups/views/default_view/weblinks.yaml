@@ -7,3 +7,6 @@ entities:
   - weblink.mayan_edms
   - weblink.owncloud
   - weblink.find
+  - weblink.sonarr
+  - weblink.radarr
+  - weblink.jackett

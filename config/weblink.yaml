@@ -13,3 +13,9 @@ entities:
     url: !secret weblink_ombi
   - name: Find
     url: http://192.168.137.49:8006
+  - name: Sonarr
+    url: http://192.168.137.49:8002
+  - name: Radarr
+    url: http://192.168.137.49:8007
+  - name: Jackett
+    url: http://192.168.137.49:8009
