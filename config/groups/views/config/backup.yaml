@@ -1,0 +1,5 @@
+name: Audio Nodes
+control: hidden
+entities:
+  - script.backup_server
+  - script.backup_documents
