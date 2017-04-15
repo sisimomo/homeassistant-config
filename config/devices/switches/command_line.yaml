@@ -18,7 +18,7 @@
       command_state: 'ps aux | grep -q "/usr/bin/influxd -config /etc/influxdb/influxdb.conf$"'
     emby:
       command_on: 'sudo /etc/init.d/emby-server start'
-      command_off: 'sudo /etc/init.d/emby-server stop'
+      command_off: 'sudo pkill -u emby'
       command_state: '/etc/init.d/emby-server status | grep -q "[a]ctive (running)"'
     transmission_service:
       command_on: 'sudo /etc/init.d/transmission-daemon start'
