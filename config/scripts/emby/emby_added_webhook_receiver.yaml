@@ -1,8 +1,8 @@
 sequence:
   - service: notify.janis_handy_telegram
     data_template:
-      title: ""
-      message: "{{ Metadata.grandparentTitle }} - {{ Metadata.parentTitle }} - {{ Metadata.title }} is now ready on Emby"
+      title: "**Episode Available**"
+      message: "{{ Metadata.title }} is now ready to be watched on Emby"
   - service: shell_command.add_new_episode
     data_template:
       episode: "{{ Metadata.title }}"
