@@ -1,7 +1,13 @@
 sequence:
   - service: notify.janis_handy_telegram
     data_template:
-      title: "**Episode Available**"
+      title: >
+        {% if type == 'tvshows' %}
+          ***Episode Available***
+        {% else %}
+          ***Movie Available***
+        {% endif %}
+
       message: "{{ Metadata.title }} is now ready to be watched on Emby"
   - service: shell_command.add_new_episode
     data_template:
