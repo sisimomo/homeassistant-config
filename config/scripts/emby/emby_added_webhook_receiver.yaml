@@ -2,7 +2,7 @@ sequence:
   - service: notify.janis_handy_telegram
     data_template:
       title: >
-        {% if type == 'tvshows' %}
+        {% if Metadata.type == 'tvshows' %}
           ***Episode Available***
         {% else %}
           ***Movie Available***
