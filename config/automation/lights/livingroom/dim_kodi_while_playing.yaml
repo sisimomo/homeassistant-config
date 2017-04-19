@@ -5,9 +5,8 @@
       entity_id: input_boolean.dinner_mode
       to: 'off'
   condition:
-    condition: state
-    entity_id: media_player.kodi_on_firetv
-    state: 'playing'
+    condition: template
+    value_template: '{{ states.media_player.kodi_on_firetv.state == "playing" and states.media_player.kodi_on_firetv.attributes.media_content_type != "music" }}'
   action:
     - service: scene.turn_on
       data:
