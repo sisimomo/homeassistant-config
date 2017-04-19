@@ -1,0 +1,6 @@
+- platform: command_line
+  switches:
+    telegram_bot:
+      command_on: 'sudo su -c /opt/scripts/telegram_bot.sh janis'
+      command_off: 'sudo kill -9 $(cat /opt/scripts/telegram_bot.pid) && rm -f  /opt/scripts/telegram_bot.pid'
+      command_state: 'cat /opt/scripts/telegram_bot.pid && ps aux | grep "\s$(cat /opt/scripts/telegram_bot.pid)\s" | grep -v -q grep'

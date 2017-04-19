@@ -1,0 +1,6 @@
+- platform: command_line
+  switches:
+    jackett:
+      command_on: 'sudo /etc/init.d/jackett start'
+      command_off: 'sudo /etc/init.d/jackett stop'
+      command_state: 'cat /opt/jackett/jackett.pid && ps aux | grep "\s$(cat /opt/jackett/jackett.pid)\s" | grep -v -q grep'

@@ -9,4 +9,5 @@ entities:
   - weblink.find
   - weblink.sonarr
   - weblink.radarr
+  - weblink.headphones
   - weblink.jackett

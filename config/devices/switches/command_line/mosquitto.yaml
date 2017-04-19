@@ -1,0 +1,6 @@
+- platform: command_line
+  switches:
+    mosquitto:
+      command_on: '/usr/sbin/mosquitto -c /etc/mosquitto/mosquitto.conf'
+      command_off: 'pkill -f "[m]osquitto"'
+      command_state: 'ps aux | grep -q "[m]osquitto"'

@@ -1,0 +1,6 @@
+- platform: command_line
+  switches:
+    mysql:
+      command_on: 'sudo /etc/init.d/mysql start'
+      command_off: 'sudo /etc/init.d/mysql stop'
+      command_state: 'sudo /etc/init.d/mysql status| grep -q "[a]ctive (running)"'

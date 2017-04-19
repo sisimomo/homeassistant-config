@@ -1,0 +1,6 @@
+name: '`[ALERT]` Headphones is not running'
+entity_id: switch.headphones
+state: 'off'
+repeat: 5
+notifiers:
+ - janis_handy_telegram

@@ -1,0 +1,6 @@
+- platform: command_line
+  switches:
+    grafana:
+      command_on: 'sudo /etc/init.d/grafana-server start'
+      command_off: 'sudo /etc/init.d/grafana-server stop'
+      command_state: 'sudo /etc/init.d/grafana-server status | grep -q "[a]ctive (running)"'

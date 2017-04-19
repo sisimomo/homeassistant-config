@@ -8,4 +8,5 @@ entities:
   - switch.find
   - switch.sonarr
   - switch.radarr
+  - switch.headphones
   - switch.jackett

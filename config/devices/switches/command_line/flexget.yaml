@@ -1,0 +1,6 @@
+- platform: command_line
+  switches:
+    flexget:
+      command_on: 'sudo /etc/init.d/flexget start'
+      command_off: 'sudo /etc/init.d/flexget stop'
+      command_state: 'ps aux | grep -q "[f]lexget"'

@@ -1,0 +1,6 @@
+- platform: command_line
+  switches:
+    emby:
+      command_on: 'sudo /etc/init.d/emby-server start'
+      command_off: 'sudo pkill -u emby'
+      command_state: '/etc/init.d/emby-server status | grep -q "[a]ctive (running)"'

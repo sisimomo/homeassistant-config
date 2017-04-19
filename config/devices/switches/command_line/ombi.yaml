@@ -1,0 +1,6 @@
+- platform: command_line
+  switches:
+    ombi:
+      command_on: 'sudo /etc/init.d/ombi start'
+      command_off: 'sudo /etc/init.d/ombi stop'
+      command_state: 'cat /opt/ombi/ombi.pid && ps aux | grep "\s$(cat /opt/ombi/ombi.pid)\s" | grep -v -q grep'

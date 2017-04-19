@@ -1,0 +1,6 @@
+- platform: command_line
+  switches:
+    headphones:
+      command_on: 'sudo /etc/init.d/headphones start'
+      command_off: 'sudo /etc/init.d/headphones stop'
+      command_state: 'cat /opt/headphones/headphones.pid && ps aux | grep "\s$(cat /opt/headphones/headphones.pid)\s" | grep -v -q grep'

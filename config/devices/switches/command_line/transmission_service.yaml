@@ -1,0 +1,6 @@
+- platform: command_line
+  switches:
+    transmission_service:
+      command_on: 'sudo /etc/init.d/transmission-daemon start'
+      command_off: 'sudo /etc/init.d/transmission-daemon stop'
+      command_state: 'ps aux | grep -q "[t]ransmission"'

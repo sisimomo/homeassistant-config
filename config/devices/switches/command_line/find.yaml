@@ -1,0 +1,6 @@
+- platform: command_line
+  switches:
+    find:
+      command_on: 'sudo su -c /opt/find/start.sh janis'
+      command_off: 'sudo kill $(cat /opt/find/find.pid) && rm -f  /opt/find/find.pid'
+      command_state: 'cat /opt/find/find.pid && ps aux | grep "\s$(cat /opt/find/find.pid)\s" | grep -v -q grep'

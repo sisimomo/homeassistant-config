@@ -1,0 +1,6 @@
+- platform: command_line
+  switches:
+    radarr:
+      command_on: 'sudo /etc/init.d/radarr start'
+      command_off: 'sudo /etc/init.d/radarr stop'
+      command_state: 'cat /opt/radarr/radarr.pid && ps aux | grep "\s$(cat /opt/radarr/radarr.pid)\s" | grep -v -q grep'

@@ -1,0 +1,6 @@
+- platform: command_line
+  switches:
+    influxdb:
+      command_on: 'sudo /etc/init.d/influx start'
+      command_off: 'sudo /etc/init.d/influx stop'
+      command_state: 'ps aux | grep -q "/usr/bin/influxd -config /etc/influxdb/influxdb.conf$"'

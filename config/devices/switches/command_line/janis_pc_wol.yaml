@@ -1,0 +1,6 @@
+- platform: command_line
+  switches:
+    janis_pc_wol:
+      command_on: 'wakeonlan 40:8D:5C:F8:3F:A6'
+      command_off: 'wakeonlan A6:3F:F8:5C:8D:40'
+      command_state: 'ping -c1 192.168.137.48 | grep " 0% packet loss"'

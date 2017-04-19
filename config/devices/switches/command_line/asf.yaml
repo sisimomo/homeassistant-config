@@ -1,0 +1,6 @@
+- platform: command_line
+  switches:
+    asf:
+      command_on: 'sudo su -c /opt/asf/start.sh janis'
+      command_off: 'sudo su -c /opt/asf/stop.sh janis'
+      command_state: 'cat /opt/asf/asf.pid && ps aux | grep "\s$(cat /opt/asf/asf.pid)\s" | grep -v -q grep'

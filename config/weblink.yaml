@@ -17,5 +17,7 @@ entities:
     url: http://192.168.137.49:8002
   - name: Radarr
     url: http://192.168.137.49:8007
+  - name: Headphones
+    url: http://192.168.137.49:8010/headphones
   - name: Jackett
     url: http://192.168.137.49:8009

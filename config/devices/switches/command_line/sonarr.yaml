@@ -1,0 +1,6 @@
+- platform: command_line
+  switches:
+    sonarr:
+      command_on: 'sudo /etc/init.d/nzbdrone start'
+      command_off: 'sudo /etc/init.d/nzbdrone stop'
+      command_state: 'ps aux | grep "NzbDrone.exe" | grep -v -q grep'
