@@ -1,0 +1,6 @@
+name: Spiele Playlist
+options:
+  - Janis Favorites
+  - Lenas Favorites
+  - None
+initial: 'None'
