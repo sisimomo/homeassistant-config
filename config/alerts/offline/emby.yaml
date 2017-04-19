@@ -1,6 +1,7 @@
 name: '`[ALERT]` Emby is not running' 
 entity_id: switch.emby
 state: 'off'
+skip_first: True
 repeat: 5
 notifiers:
  - janis_handy_telegram

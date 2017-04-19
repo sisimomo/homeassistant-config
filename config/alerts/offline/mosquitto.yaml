@@ -1,6 +1,7 @@
 name: '`[ALERT]` Mosquitto is not running'
 entity_id: switch.mosquitto
 state: 'off'
+skip_first: True
 repeat: 5
 notifiers:
  - janis_handy_telegram

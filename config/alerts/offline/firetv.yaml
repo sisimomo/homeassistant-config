@@ -1,6 +1,7 @@
 name: '`[ALERT]` FireTV is offline'
 entity_id: sensor.firetv
 state: 'offline'
+skip_first: True
 repeat: 5
 notifiers:
  - janis_handy_telegram

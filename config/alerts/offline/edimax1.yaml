@@ -1,6 +1,7 @@
 name: '`[ALERT]` Edimax Switch 1 is offline'
 entity_id: sensor.edimax1
 state: 'offline'
+skip_first: True
 repeat: 5
 notifiers:
  - janis_handy_telegram
