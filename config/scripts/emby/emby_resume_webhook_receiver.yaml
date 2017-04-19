@@ -6,7 +6,7 @@ sequence:
     entity_id: group.light_livingroom
     state: 'on'
   - condition: template
-    value_template: '{{ Player.uuid == states("sensor.emby_player_uuid") and states.media_player.kodi_on_firetv.attributes.media_content_type != "music" }}'
+    value_template: '{{ Player.uuid == states("sensor.emby_player_uuid") and Metadata.type != "music" }}'
   - service: script.turn_off
     data:
       entity_id: script.emby_pause_webhook_receiver
