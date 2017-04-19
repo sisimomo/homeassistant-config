@@ -38,3 +38,6 @@ sequence:
   - service: alert.turn_off
     data:
       entity_id: alert.radarr
+  - service: alert.turn_off
+    data:
+      entity_id: alert.headphones
