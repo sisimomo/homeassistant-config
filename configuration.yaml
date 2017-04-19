@@ -12,7 +12,7 @@ homeassistant: !include config/core/homeassistant.yaml
 http: !include config/core/http.yaml
 influxdb: !include config/core/influxdb.yaml
 input_select: !include_dir_named config/inputs/input_select
-input_boolean: !include config/inputs/input_boolean.yaml
+input_boolean: !include_dir_named config/inputs/input_boolean
 light: !include config/devices/light.yaml
 logger: !include config/core/logger.yaml
 media_player: !include_dir_merge_list config/devices/media_players
