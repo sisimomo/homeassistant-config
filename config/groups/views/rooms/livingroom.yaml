@@ -6,8 +6,10 @@ entities:
   - automation.motion_light
   - group.light_livingroom
   - light.gateway_light_286c07889d7e
-  - switch.edimax1
   - input_boolean.media_devices
+  - input_boolean.led_strip
+  - input_boolean.blue_light
+  - input_boolean.shelf_light
   - scene.livingroom_media
   - scene.livingroom_dim
   - scene.livingroom_normal
