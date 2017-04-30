@@ -1,4 +1,0 @@
-- platform: edimax
-  host: 192.168.137.42
-  password: !secret edimax1
-  name: edimax1
