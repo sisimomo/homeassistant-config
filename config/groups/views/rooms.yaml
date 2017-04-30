@@ -5,3 +5,5 @@ entities:
   - group.livingroom
   - group.kitchen
   - group.guestroom
+  - group.bathroom
+  - group.bedroom
