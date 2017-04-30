@@ -11,6 +11,8 @@
 		"input_boolean.dinner_mode",
 		"input_boolean.party_mode",
 		"input_boolean.shelf_light",
+		"input_boolean.blue_light",
+		"input_boolean.led_strip",
 		"alarm_control_panel.alarm",
 		"automation.motion_light",
 		"input_boolean.media_devices",
