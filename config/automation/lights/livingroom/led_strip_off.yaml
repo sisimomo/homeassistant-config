@@ -1,0 +1,12 @@
+# Turn light and hidden input off if no motion since 5 minutes, light on and hidden input is on
+- alias: shelf_light_on
+  trigger:
+    - platform: state
+      entity_id: input_boolean.shelf_light
+      to: 'off'
+      from: 'on'
+  action:
+    - service: broadlink.send_packet_192_168_137_43
+      data:
+        packet:
+          - !secret rf_led_strip_off
