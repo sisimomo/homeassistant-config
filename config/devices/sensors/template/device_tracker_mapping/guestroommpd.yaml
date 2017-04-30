@@ -1,6 +1,6 @@
 - platform: template
   sensors:
-    guestroomm2p:
+    guestroompd:
       entity_id: device_tracker.guestroom
       value_template: >
         {% if is_state('device_tracker.guestroom', 'home') %}
@@ -8,4 +8,4 @@
         {% else %}
           offline
         {% endif %}
-      friendly_name: 'RaspberryPi 2 (Guest room)'
+      friendly_name: 'RaspberryPi Zero W (Guest room)'

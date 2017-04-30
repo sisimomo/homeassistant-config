@@ -1,6 +1,6 @@
 - platform: template
   sensors:
-    kitchenm2p:
+    kitchenmpd:
       entity_id: device_tracker.kitchen
       value_template: >
         {% if is_state('device_tracker.kitchen', 'home') %}
@@ -8,4 +8,4 @@
         {% else %}
           offline
         {% endif %}
-      friendly_name: 'RaspberryPi (Kitchen)'
+      friendly_name: 'RaspberryPi 2 (Kitchen)'

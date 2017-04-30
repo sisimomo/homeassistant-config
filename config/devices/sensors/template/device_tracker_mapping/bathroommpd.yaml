@@ -1,0 +1,11 @@
+- platform: template
+  sensors:
+    guestroomm2p:
+      entity_id: device_tracker.bathroom
+      value_template: >
+        {% if is_state('device_tracker.bathroom', 'home') %}
+          online
+        {% else %}
+          offline
+        {% endif %}
+      friendly_name: 'RaspberryPi Zero W (Bathroom)'

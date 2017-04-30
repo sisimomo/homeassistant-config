@@ -10,5 +10,7 @@ entities:
   - sensor.nintendo3ds
   - sensor.janis_fire7
   - sensor.nexus7livingroom
-  - sensor.kitchenm2p
-  - sensor.guestroomm2p
+  - sensor.kitchenmpd
+  - sensor.guestroommpd
+  - sensor.bedroommpd
+  - sensor.bathroommpd
