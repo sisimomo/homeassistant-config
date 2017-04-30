@@ -10,7 +10,7 @@
 		"sensor.owm_temperature",
 		"input_boolean.dinner_mode",
 		"input_boolean.party_mode",
-		"switch.edimax1",
+		"input_boolean.shelf_light",
 		"alarm_control_panel.alarm",
 		"automation.motion_light",
 		"input_boolean.media_devices",
@@ -57,7 +57,7 @@
 					text = 'Ceiling';
 					break;
 
-				case 'switch.edimax1':
+				case 'input_boolean.shelf_light':
 					icon = 'fa fa-lightbulb-o';
 					text = 'Shelf';
 					break;
@@ -80,6 +80,16 @@
 				case 'input_boolean.media_devices':
 					icon = 'fa fa-television';
 					text = 'AV / TV';
+					break;
+
+                case 'input_boolean.blue_light':
+					icon = 'fa fa-lightbulb-o';
+					text = 'Blue light';
+					break;
+
+                case 'input_boolean.led_strip':
+					icon = 'fa fa-lightbulb-o';
+					text = 'LED Strip';
 					break;
 
 				case 'alarm_control_panel.alarm':
