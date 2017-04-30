@@ -2,7 +2,7 @@
 - alias: shelf_light_on
   trigger:
     - platform: state
-      entity_id: input_boolean.shelf_light
+      entity_id: input_boolean.led_strip
       to: 'on'
       from: 'off'
   action:
