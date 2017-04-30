@@ -1,0 +1,5 @@
+sequence:
+  - service: shell_command.reboot_remote
+    data:
+      user: pi
+      host: bathroom-mpd
