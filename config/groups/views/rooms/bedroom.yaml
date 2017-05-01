@@ -1,0 +1,4 @@
+name: Bedroom
+control: hidden
+entities:
+  - media_player.bedroom
