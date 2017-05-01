@@ -4,7 +4,6 @@ entities:
   - sensor.nas
   - sensor.emulationstation
   - sensor.milightbridge
-  - sensor.edimax1
   - sensor.xiaomi_gateway
   - sensor.broadlinkrmpro
   - sensor.nintendo3ds
