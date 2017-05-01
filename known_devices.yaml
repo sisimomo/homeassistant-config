@@ -116,10 +116,19 @@ kitchen:
 guestroom:
   hide_if_away: false
   mac: B8:27:EB:46:63:9F
-  name: guest-room-mpd
+  name: Guest room
   picture:
   track: true
   vendor: Raspberry Pi Foundation
+
+bedroom:
+  hide_if_away: false
+  mac: 00:87:33:06:09:97
+  name: Bedroom
+  picture:
+  track: true
+  vendor: RaspberryPi Foundation
+
 
 #==============================#
 #    END OF TRACKED DEVICES    #
