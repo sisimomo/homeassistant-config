@@ -1,6 +1,6 @@
 - platform: template
   sensors:
-    guestroompd:
+    guestroommpd:
       entity_id: device_tracker.guestroom
       value_template: >
         {% if is_state('device_tracker.guestroom', 'home') %}
