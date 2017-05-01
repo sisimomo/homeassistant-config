@@ -89,14 +89,6 @@ janis_fire7:
   track: false
   vendor: Amazon Technologies Inc.
 
-edimax1:
-  hide_if_away: false
-  mac: 74:DA:38:22:F4:D5
-  name: edimax1
-  picture:
-  track: true
-  vendor: Edimax Technology Co. Ltd.
-
 xiaomi_gateway:
   hide_if_away: false
   mac: 28:6C:07:88:9D:7E
@@ -123,11 +115,11 @@ kitchen:
 
 guestroom:
   hide_if_away: false
-  mac: 00:87:33:06:09:97
-  name: Guest-room
+  mac: B8:27:EB:46:63:9F
+  name: guest-room-mpd
   picture:
   track: true
-  vendor: RaspberryPi Foundation
+  vendor: Raspberry Pi Foundation
 
 #==============================#
 #    END OF TRACKED DEVICES    #
