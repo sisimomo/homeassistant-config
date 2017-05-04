@@ -42,7 +42,7 @@ automation:
           minutes: 30
     condition:
       condition: template
-      value_template: '{{ states.device_tracker.janis_handy.state == "not_home" and states.device_tracker.lena_handy.state == "not_home" }}'
+      value_template: '{{ states.device_tracker.janis_handy.state == "not_home" and states.device_tracker.lena_handy.state == "not_home" and alarm_control_panel.alarm != "armed_away" }}'
     action:
       service: alarm_control_panel.alarm_arm_away
       data:
@@ -51,7 +51,7 @@ automation:
 
   #== TRIGGERS ==#
 
-  # Trigger alarm if there is motion, the entrance door is opned or the balcony door is opened and alarm is armed_home or armed_away
+  # Trigger alarm if there is motion, the entrance door is opened or the balcony door is opened and alarm is armed_home or armed_away
   - alias: trigger1
     trigger:
       - platform: event
