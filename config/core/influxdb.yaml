@@ -1,7 +1,7 @@
 host: 192.168.137.49
 username: home-assistant
 password: !secret influx_pwd
-whitelist:
+include:
   - sensor.transmission_down_speed
   - sensor.transmission_up_speed
   - sensor.owm_temperature
