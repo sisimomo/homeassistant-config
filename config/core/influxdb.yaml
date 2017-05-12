@@ -2,19 +2,20 @@ host: 192.168.137.49
 username: home-assistant
 password: !secret influx_pwd
 include:
-  - sensor.transmission_down_speed
-  - sensor.transmission_up_speed
-  - sensor.owm_temperature
-  - sensor.speedtest_download
-  - sensor.speedtest_ping
-  - sensor.speedtest_upload
-  - sensor.disk_use_mntshare
-  - sensor.disk_free_mntshare
-  - sensor.disk_use_mntbackup
-  - sensor.disk_free_mntbackup
-  - sensor.received_eth0
-  - sensor.sent_eth0
-  - sensor.ram_use
-  - sensor.ram_free
-  - sensor.cpu_use
-  - sensor.cpu_speed
+  entities:
+    - sensor.transmission_down_speed
+    - sensor.transmission_up_speed
+    - sensor.owm_temperature
+    - sensor.speedtest_download
+    - sensor.speedtest_ping
+    - sensor.speedtest_upload
+    - sensor.disk_use_mntshare
+    - sensor.disk_free_mntshare
+    - sensor.disk_use_mntbackup
+    - sensor.disk_free_mntbackup
+    - sensor.received_eth0
+    - sensor.sent_eth0
+    - sensor.ram_use
+    - sensor.ram_free
+    - sensor.cpu_use
+    - sensor.cpu_speed
