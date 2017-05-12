@@ -3,4 +3,4 @@
     influxdb:
       command_on: 'sudo /etc/init.d/influx start'
       command_off: 'sudo /etc/init.d/influx stop'
-      command_state: 'ps aux | grep -q "influxd -config /etc/influxdb/influxdb.conf$"'
+      command_state: 'ps aux | grep -q "influxd -config /opt/influxdb/influxdb.conf$"'
