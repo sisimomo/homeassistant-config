@@ -5,6 +5,18 @@
     - type: disk_free
       arg: /mnt/share
     - type: disk_use
+      arg: /mnt/ext1
+    - type: disk_free
+      arg: /mnt/ext1
+    - type: disk_use
+      arg: /mnt/ext2
+    - type: disk_free
+      arg: /mnt/ext2
+    - type: disk_use
+      arg: /mnt/ext3
+    - type: disk_free
+      arg: /mnt/ext3
+    - type: disk_use
       arg: /mnt/backup
     - type: disk_free
       arg: /mnt/backup

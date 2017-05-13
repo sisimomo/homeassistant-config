@@ -8,6 +8,12 @@ include:
     - sensor.owm_temperature
     - sensor.disk_use_mntshare
     - sensor.disk_free_mntshare
+    - sensor.disk_use_mntext1
+    - sensor.disk_free_mntext1
+    - sensor.disk_use_mntext2
+    - sensor.disk_free_mntext2
+    - sensor.disk_use_mntext3
+    - sensor.disk_free_mntext3
     - sensor.disk_use_mntbackup
     - sensor.disk_free_mntbackup
     - sensor.received_eth0
