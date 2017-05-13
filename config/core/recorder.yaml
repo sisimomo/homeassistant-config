@@ -2,6 +2,7 @@ db_url: !secret mysql_db_url
 purge_days: 5
 include:
   domains:
+    - binary_sensor
     - sensor
     - switch
     - media_player
