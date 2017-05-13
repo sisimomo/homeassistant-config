@@ -6,9 +6,6 @@ include:
     - sensor.transmission_down_speed
     - sensor.transmission_up_speed
     - sensor.owm_temperature
-    - sensor.speedtest_download
-    - sensor.speedtest_ping
-    - sensor.speedtest_upload
     - sensor.disk_use_mntshare
     - sensor.disk_free_mntshare
     - sensor.disk_use_mntbackup
