@@ -13,25 +13,25 @@
   value_template: '{{ value | multiply(0.001) }}'
   unit_of_measurement: °C
   name: CPU Temperature
-  scan_interval: 300
+  scan_interval: 60
 
 - platform: command_line
   command: sudo hddtemp /dev/sde1
   value_template: '{{ value [-4:-2] | int }}'
   name: ext1 temperature
   unit_of_measurement: °C
-  scan_interval: 300
+  scan_interval: 60
 
 - platform: command_line
   command: sudo hddtemp /dev/sdc1
   value_template: '{{ value [-4:-2] | int }}'
   name: ext2 temperature
   unit_of_measurement: °C
-  scan_interval: 300
+  scan_interval: 60
 
 - platform: command_line
   command: sudo hddtemp /dev/sdb1
   value_template: '{{ value [-4:-2] | int }}'
   name: ext3 temperature
   unit_of_measurement: °C
-  scan_interval: 300
+  scan_interval: 60
