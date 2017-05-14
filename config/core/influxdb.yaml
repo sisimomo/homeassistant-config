@@ -18,8 +18,6 @@ include:
     - sensor.disk_free_mntext3
     - sensor.disk_use_mntbackup
     - sensor.disk_free_mntbackup
-    - sensor.received_eth0
-    - sensor.sent_eth0
     - sensor.ram_use
     - sensor.ram_free
     - sensor.swap_use

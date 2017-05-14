@@ -1,9 +1,0 @@
-- platform: template
-  sensors:
-    network:
-      entity_id:
-        - sensor.received_eth0
-        - sensor.sent_eth0
-      friendly_name: "In / Out"
-      value_template: >
-        {{ (states("sensor.received_eth0") | float / 1000) | round(2) }} GB / {{ (states("sensor.sent_eth0") | float / 1000) | round(2) }} GB

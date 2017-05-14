@@ -1,7 +1,0 @@
-- platform: template
-  sensors:
-    nas_disk:
-      entity_id: sensor.disk_use_mntshare
-      friendly_name: "NAS Usage"
-      value_template: >
-        {{ (states("sensor.disk_use_mntshare") | float / 1000)  | round(2) }} TB / {{ (((states("sensor.disk_use_mntshare") | float) + (states("sensor.disk_free_mntshare") |float)) / 1000) | round(2) }} TB

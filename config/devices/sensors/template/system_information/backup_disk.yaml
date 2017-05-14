@@ -1,7 +1,0 @@
-- platform: template
-  sensors:
-    backup_disk:
-      entity_id: sensor.disk_use_mntbackup
-      friendly_name: "Backup Usage"
-      value_template: >
-        {{ (states("sensor.disk_use_mntbackup") | float )  | round(2) }} GB / {{ (((states("sensor.disk_use_mntbackup") | float) + (states("sensor.disk_free_mntbackup") |float))) | round(2) }} GB

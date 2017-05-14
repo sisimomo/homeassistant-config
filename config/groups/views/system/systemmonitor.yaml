@@ -1,8 +1,0 @@
-name: Info
-entities:
-  - sensor.uptime
-  - sensor.nas_disk
-  - sensor.backup_disk
-  - sensor.ram
-  - sensor.swap
-  - sensor.network
