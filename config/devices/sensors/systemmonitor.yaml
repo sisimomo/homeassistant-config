@@ -25,7 +25,5 @@
     - type: disk_free
       arg: /mnt/backup
     - type: swap_use
-    - type: swap_free
     - type: memory_use
-    - type: memory_free
     - type: processor_use

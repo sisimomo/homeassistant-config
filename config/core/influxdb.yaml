@@ -19,9 +19,7 @@ include:
     - sensor.disk_use_mntbackup
     - sensor.disk_free_mntbackup
     - sensor.ram_use
-    - sensor.ram_free
     - sensor.swap_use
-    - sensor.swap_free
     - sensor.cpu_use
     - sensor.cpu_speed
     - sensor.cpu_temperature
