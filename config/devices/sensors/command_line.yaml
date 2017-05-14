@@ -7,3 +7,30 @@
   command: python -c "import requests; print(requests.get('https://pypi.python.org/pypi/homeassistant/json').json()['info']['version'])"
   name: Newest HA Version
   scan_interval: 7200
+
+- platform: command_line
+  command: cat /sys/class/thermal/thermal_zone0/temp
+  value_template: '{{ value | multiply(0.001) }}'
+  name: CPU Temperature
+  scan_interval: 300
+
+- platform: command_line
+  command: sudo hddtemp /dev/sde1
+  value_template: '{{ value [-4:-2] | int }}'
+  name: ext1 temperature
+  unit_of_measurement: °C
+  scan_interval: 300
+
+- platform: command_line
+  command: sudo hddtemp /dev/sdc1
+  value_template: '{{ value [-4:-2] | int }}'
+  name: ext2 temperature
+  unit_of_measurement: °C
+  scan_interval: 300
+
+- platform: command_line
+  command: sudo hddtemp /dev/sdb1
+  value_template: '{{ value [-4:-2] | int }}'
+  name: ext3 temperature
+  unit_of_measurement: °C
+  scan_interval: 300
