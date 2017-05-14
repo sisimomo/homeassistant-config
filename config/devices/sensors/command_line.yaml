@@ -11,6 +11,7 @@
 - platform: command_line
   command: cat /sys/class/thermal/thermal_zone0/temp
   value_template: '{{ value | multiply(0.001) }}'
+  unit_of_measurement: °C
   name: CPU Temperature
   scan_interval: 300
 
