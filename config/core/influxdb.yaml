@@ -28,3 +28,4 @@ include:
     - sensor.ext1_temperature
     - sensor.ext2_temperature
     - sensor.ext3_temperature
+    - sensor.ext4_temperature
