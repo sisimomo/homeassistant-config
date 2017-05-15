@@ -16,6 +16,8 @@ include:
     - sensor.disk_free_mntext2
     - sensor.disk_use_mntext3
     - sensor.disk_free_mntext3
+    - sensor.disk_use_mntext4
+    - sensor.disk_free_mntext4
     - sensor.disk_use_mntbackup
     - sensor.disk_free_mntbackup
     - sensor.ram_use
