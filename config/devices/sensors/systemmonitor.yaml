@@ -21,6 +21,10 @@
     - type: disk_free
       arg: /mnt/ext3
     - type: disk_use
+      arg: /mnt/ext4
+    - type: disk_free
+      arg: /mnt/ext4
+    - type: disk_use
       arg: /mnt/backup
     - type: disk_free
       arg: /mnt/backup

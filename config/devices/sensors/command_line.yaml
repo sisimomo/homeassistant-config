@@ -16,22 +16,29 @@
   scan_interval: 60
 
 - platform: command_line
-  command: sudo hddtemp /dev/sde1
+  command: sudo hddtemp /dev/disk/by-uuid/b4761068-c830-411b-b2cb-6c476c562f4b
   value_template: '{{ value [-4:-2] | int }}'
   name: ext1 temperature
   unit_of_measurement: °C
   scan_interval: 60
 
 - platform: command_line
-  command: sudo hddtemp /dev/sdc1
+  command: sudo hddtemp /dev/disk/by-uuid/5550d519-a70e-4242-9ef4-d51c9205874b
   value_template: '{{ value [-4:-2] | int }}'
   name: ext2 temperature
   unit_of_measurement: °C
   scan_interval: 60
 
 - platform: command_line
-  command: sudo hddtemp /dev/sdb1
+  command: sudo hddtemp /dev/disk/by-uuid/d9f3133a-d1a1-4778-b8b4-8c9bf1384f35
   value_template: '{{ value [-4:-2] | int }}'
   name: ext3 temperature
+  unit_of_measurement: °C
+  scan_interval: 60
+
+- platform: command_line
+  command: sudo hddtemp /dev/disk/by-uuid/e480ecae-699e-47db-b60f-c8c12529657c
+  value_template: '{{ value [-4:-2] | int }}'
+  name: ext4 temperature
   unit_of_measurement: °C
   scan_interval: 60
