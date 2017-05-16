@@ -9,21 +9,21 @@
     - type: disk_free
       arg: /mnt/share
     - type: disk_use
-      arg: /mnt/ext1
+      arg: /mnt/disk1
     - type: disk_free
-      arg: /mnt/ext1
+      arg: /mnt/disk1
     - type: disk_use
-      arg: /mnt/ext2
+      arg: /mnt/disk2
     - type: disk_free
-      arg: /mnt/ext2
+      arg: /mnt/disk2
     - type: disk_use
-      arg: /mnt/ext3
+      arg: /mnt/disk3
     - type: disk_free
-      arg: /mnt/ext3
+      arg: /mnt/disk3
     - type: disk_use
-      arg: /mnt/ext4
+      arg: /mnt/disk4
     - type: disk_free
-      arg: /mnt/ext4
+      arg: /mnt/disk4
     - type: disk_use
       arg: /mnt/backup
     - type: disk_free

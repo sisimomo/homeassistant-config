@@ -10,14 +10,14 @@ include:
     - sensor.disk_free_
     - sensor.disk_use_mntshare
     - sensor.disk_free_mntshare
-    - sensor.disk_use_mntext1
-    - sensor.disk_free_mntext1
-    - sensor.disk_use_mntext2
-    - sensor.disk_free_mntext2
-    - sensor.disk_use_mntext3
-    - sensor.disk_free_mntext3
-    - sensor.disk_use_mntext4
-    - sensor.disk_free_mntext4
+    - sensor.disk_use_mntdisk1
+    - sensor.disk_free_mntdisk1
+    - sensor.disk_use_mntdisk2
+    - sensor.disk_free_mntdisk2
+    - sensor.disk_use_mntdisk3
+    - sensor.disk_free_mntdisk3
+    - sensor.disk_use_mntdisk4
+    - sensor.disk_free_mntdisk4
     - sensor.disk_use_mntbackup
     - sensor.disk_free_mntbackup
     - sensor.ram_use
@@ -25,7 +25,7 @@ include:
     - sensor.cpu_use
     - sensor.cpu_speed
     - sensor.cpu_temperature
-    - sensor.ext1_temperature
-    - sensor.ext2_temperature
-    - sensor.ext3_temperature
-    - sensor.ext4_temperature
+    - sensor.disk1_temperature
+    - sensor.disk2_temperature
+    - sensor.disk3_temperature
+    - sensor.disk4_temperature
