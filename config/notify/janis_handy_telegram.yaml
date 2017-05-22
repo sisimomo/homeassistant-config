@@ -1,4 +1,3 @@
 - name: janis_handy_telegram
   platform: telegram
-  api_key: !secret telegram_api
   chat_id: !secret janis_chat_id
