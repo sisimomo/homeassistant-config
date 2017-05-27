@@ -4,7 +4,7 @@ janis_handy:
   name: Janis
   picture: /local/janis.jpg
   track: true
-  vendor: LG Electronics (Mobile Communications)
+  vendor: Xiaomi Communications Co Ltd
 
 lena_handy:
   name: Lena
@@ -164,3 +164,11 @@ androidfc7b18a1cdd2f2e2:
   picture:
   track: no
   vendor: SAMSUNG ELECTRO-MECHANICS(THAILAND)
+
+multiroom:
+  hide_if_away: false
+  mac: 94:18:82:08:BE:80
+  name: Multiroom
+  picture:
+  track: no
+  vendor: unknown
