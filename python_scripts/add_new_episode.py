@@ -1,20 +1,8 @@
-#ep_name needs to be available
-ep_name = data.get('ep_name')
+#info needs to be available
+ep_name = data.get('info')
 if ep_name is None:
-    logger.error("ep_name missing please add it to the call")
-    exit()
-current_state = hass.states.get("sensor.recent_episodes")
-to_hash = ''
-new_attributes = {'entry1': ep_name}
-to_hash += ep_name
-for x in range(1, 5):
-    if current_state is not None:
-        new_attributes['entry' + str(x + 1)] = current_state.attributes['entry' + str(x)]
-        to_hash += current_state.attributes['entry' + str(x)]
-    else:
-        new_attributes['entry' + str(x + 1)] = 'NO ENTRY'
-h = hashlib.sha224(bytes(to_hash, 'utf-8'))
-new_attributes['friendly_name'] = 'Recent entries in Emby'
-if current_state is None or current_state.state != h.hexdigest():
-    hass.states.set("sensor.recent_episodes", h.hexdigest(), attributes=new_attributes)
-exit()
+    logger.error("Parameter: 'info' missing please add it to the call")
+else:
+    current_state = hass.states.get("sensor.recent_episodes")
+    new_attributes = {'friendly_name': 'Recent entries in Emby', 'entry1': ep_name, 'entry2':current_state.attributes.get('entry1') or 'NO ENTRY', 'entry3':current_state.attributes.get('entry2') or 'NO ENTRY', 'entry4':current_state.attributes.get('entry3') or 'NO ENTRY', 'entry5':current_state.attributes.get('entry4')}
+    hass.states.set("sensor.recent_episodes", ep_name, attributes=new_attributes)
