@@ -1,4 +1,0 @@
-name: Bathroom
-control: hidden
-entities:
-  - media_player.bathroom

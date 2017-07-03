@@ -3,5 +3,4 @@ control: hidden
 entities:
   - script.reboot_kitchen_mpd
   - script.reboot_guest_room_mpd
-  - script.reboot_bathroom_mpd
   - script.reboot_bedroom_mpd
