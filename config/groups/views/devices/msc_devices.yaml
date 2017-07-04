@@ -12,4 +12,3 @@ entities:
   - sensor.bedroommpd
   - sensor.kitchenmpd
   - sensor.guestroommpd
-  - sensor.bathroommpd
