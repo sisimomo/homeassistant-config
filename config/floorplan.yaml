@@ -72,7 +72,17 @@
             - state: 'disarmed'
               class: 'alarm-disarmed'
 
-        - name: Binary sensors
+        - name: Doors
+          entities:
+            - binary_sensor.door_window_sensor_158d00011c8066
+            - binary_sensor.door_window_sensor_158d000154b7c0
+          states:
+            - state: 'off'
+              class: 'door_open'
+            - state: 'on'
+              class: 'door_closed'
+
+        - name: Rooms
           entities:
             - binary_sensor.door_window_sensor_158d00011c8066
             - binary_sensor.door_window_sensor_158d000154b7c0
