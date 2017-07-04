@@ -97,6 +97,24 @@
           states:
             - state: 'idle'
               class: 'camera-idle'
+
+        - name: Media Players
+          entities:
+            - media_player.kodi_on_firetv
+            - media_player.bedroom
+            - media_player.guest_room
+            - media_player.kitchen
+            - media_player.kitchen
+            - media_player.txnr414
+          states:
+            - state: 'off'
+              class: 'squeezebox-off'
+            - state: 'idle'
+              class: 'squeezebox-off'
+            - state: 'paused'
+              class: 'squeezebox-off'
+            - state: 'playing'
+              class: 'squeezebox-on'
               
 #        - name: thermostat_temp
 #          entities:
