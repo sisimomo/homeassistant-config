@@ -32,9 +32,10 @@
 
         - name: Lights
           entities:
-             - light.hallway
-             - light.living_room
-             - light.patio
+            - light.living_left
+            - light.living_middle
+            - light.living_right
+            - light.living_outer
           states:
             - state: 'on'
               class: 'light-on'
