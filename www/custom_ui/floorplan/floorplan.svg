@@ -43,7 +43,7 @@
      id="namedview4487"
      showgrid="true"
      inkscape:zoom="3.7057633"
-     inkscape:cx="45.605737"
+     inkscape:cx="14.438069"
      inkscape:cy="91.562165"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
@@ -630,16 +630,6 @@
   <text
      xml:space="preserve"
      x="10.988022"
-     y="23.493843"
-     id="text4631-4"><tspan
-       sodipodi:role="line"
-       id="tspan4629-0"
-       x="10.988022"
-       y="23.493843"
-       style="font-size:7px">NVR:</tspan></text>
-  <text
-     xml:space="preserve"
-     x="10.988022"
      y="33.493843"
      id="text4631-3"><tspan
        sodipodi:role="line"
@@ -661,39 +651,14 @@
   <text
      xml:space="preserve"
      x="58.988018"
-     y="23.493843"
-     id="binary_sensor.blue_iris_nvr"
-     inkscape:label="binary_sensor.blue_iris_nvr "><tspan
-       sodipodi:role="line"
-       id="tspan4629-03-2"
-       x="58.988018"
-       y="23.493843"
-       style="font-size:7px">-----------</tspan></text>
-  <text
-     xml:space="preserve"
-     x="58.988018"
      y="33.493843"
-     id="sensor.melbourne_now"
-     inkscape:label="sensor.melbourne_now "><tspan
+     id="sensor.owm_temperature"
+     inkscape:label="sensor.owm_temperature"><tspan
        sodipodi:role="line"
        id="tspan4629-03-2-3"
        x="58.988018"
        y="33.493843"
        style="font-size:7px">-----------</tspan></text>
-  <g
-     id="light.living_outer2"
-     inkscape:label="light.living_outer2">
-    <g
-       inkscape:label="camera.hallway"
-       transform="matrix(-0.87047864,0,0,-1.1281938,869.51522,927.22153)"
-       id="camera.hallway">
-      <path
-         style="fill:#646464;fill-opacity:1;stroke-width:0.009375"
-         inkscape:connector-curvature="0"
-         d="m 895.65469,714.11415 h -0.32455 c -0.0861,0 -0.1682,0.009 -0.249,0.0211 v -0.67968 c 0,-0.39354 -0.39028,-0.71221 -0.87253,-0.71221 h -6.26201 c -0.48161,0 -0.87317,0.31866 -0.87317,0.71221 v 3.03968 c 0,0.39388 0.39156,0.71352 0.87317,0.71352 h 6.26201 c 0.48225,0 0.87253,-0.31964 0.87253,-0.71352 v -0.98093 c 0.0808,0.0128 0.16292,0.0211 0.249,0.0211 h 0.35543 l 1.70036,1.07618 v -3.79464 z"
-         id="path4918-2-7" />
-    </g>
-  </g>
   <g
      style="display:block"
      id="media_player.kodi_on_firetv"
@@ -850,9 +815,9 @@
        style="fill:#646464;fill-opacity:1;stroke-width:0.009375" />
   </g>
   <g
-     id="light.living_outer1"
+     id="light.living_outer"
      transform="matrix(-0.87047864,0,0,-1.1281938,869.22541,906.04193)"
-     inkscape:label="light.living_outer1">
+     inkscape:label="light.living_outer">
     <path
        id="path4918-2-7-3"
        d="m 895.65469,714.11415 h -0.32455 c -0.0861,0 -0.1682,0.009 -0.249,0.0211 v -0.67968 c 0,-0.39354 -0.39028,-0.71221 -0.87253,-0.71221 h -6.26201 c -0.48161,0 -0.87317,0.31866 -0.87317,0.71221 v 3.03968 c 0,0.39388 0.39156,0.71352 0.87317,0.71352 h 6.26201 c 0.48225,0 0.87253,-0.31964 0.87253,-0.71352 v -0.98093 c 0.0808,0.0128 0.16292,0.0211 0.249,0.0211 h 0.35543 l 1.70036,1.07618 v -3.79464 z"
