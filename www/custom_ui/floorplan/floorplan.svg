@@ -43,7 +43,7 @@
      id="namedview4487"
      showgrid="true"
      inkscape:zoom="3.7057633"
-     inkscape:cx="14.438069"
+     inkscape:cx="92.027223"
      inkscape:cy="91.562165"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
@@ -123,8 +123,9 @@
   <path
      style="fill:none;stroke:#B9B9B9;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="m 138.98802,28.493843 h 2 v 22 h -2 z"
-     id="path4530"
-     inkscape:connector-curvature="0" />
+     id="binary_sensor.door_window_sensor_158d000154b7c0"
+     inkscape:connector-curvature="0"
+     inkscape:label="binary_sensor.door_window_sensor_158d000154b7c0" />
   <path
      style="fill:none;stroke:#B9B9B9;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="m 191.98802,57.493843 h 2 v 6 h -2 z"
@@ -268,9 +269,9 @@
   <path
      style="fill:none;stroke:#B9B9B9;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="m 186.98802,98.493838 v 7.999992"
-     id="binary_sensor.door_window_sensor_158d000154b7c0"
+     id="12"
      inkscape:connector-curvature="0"
-     inkscape:label="binary_sensor.door_window_sensor_158d000154b7c0" />
+     inkscape:label="12" />
   <path
      style="fill:none;stroke:#B9B9B9;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="m 140.98802,65.493843 v 28.999996 h 8"
@@ -284,9 +285,10 @@
   <path
      style="fill:none;stroke:#B9B9B9;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="m 118.98802,63.493843 h 13 v 2 h -13 L 119,63"
-     id="path4622"
+     id="binary_sensor.door_window_sensor_158d00011c8066"
      inkscape:connector-curvature="0"
-     sodipodi:nodetypes="ccccc" />
+     sodipodi:nodetypes="ccccc"
+     inkscape:label="binary_sensor.door_window_sensor_158d00011c8066" />
   <path
      style="fill:none;stroke:#B9B9B9;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="m 107.98802,63.493843 h 6 v 2 h -6 L 108,63"
@@ -404,9 +406,9 @@
   <path
      style="fill:none;stroke:#B9B9B9;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="m 11.988023,109.49383 v 14"
-     id="binary_sensor.door_window_sensor_158d00011c8066"
+     id="123"
      inkscape:connector-curvature="0"
-     inkscape:label="binary_sensor.door_window_sensor_158d00011c8066" />
+     inkscape:label="123" />
   <path
      style="fill:none;stroke:#B9B9B9;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="m 10.988023,153.49383 h 2 v 7 h 31.999999 v 2 H 10.988023 Z"
