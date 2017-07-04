@@ -16,7 +16,7 @@
 
         - name: Sensors
           entities:
-             - sensor.melbourne_now
+             - sensor.owm_temperature
           text_template: '${entity.state ? entity.state : "unknown"}'
           # An example of rounding up a number, i.e. a temperature of 90.1 becomes 91
           # text_template: '${entity.state ? Math.ceil(entity.state) : "undefined"}'  
@@ -42,24 +42,24 @@
             - state: 'off'
               class: 'light-off'
 
-        - name: Switches
-          entities:
-             - switch.doorbell
-          states:
-            - state: 'on'
-              class: 'doorbell-on'
-            - state: 'off'
-              class: 'doorbell-off'
+#        - name: Switches
+#          entities:
+#             - switch.doorbell
+#          states:
+#            - state: 'on'
+#              class: 'doorbell-on'
+#            - state: 'off'
+#              class: 'doorbell-off'
 
-        - name: NVR
-          entities:
-             - binary_sensor.blue_iris_nvr
-          text_template: '${(entity.state === "on") ? "online" : "offline"}'
-          states:
-            - state: 'off'
-              class: 'danger-text'
-            - state: 'on'
-              class: 'success-text'
+#        - name: NVR
+#          entities:
+#             - binary_sensor.blue_iris_nvr
+#          text_template: '${(entity.state === "on") ? "online" : "offline"}'
+#          states:
+#            - state: 'off'
+#              class: 'danger-text'
+#            - state: 'on'
+#              class: 'success-text'
 
         - name: Alarm Panel
           entities:
@@ -74,10 +74,9 @@
 
         - name: Binary sensors
           entities:
-            - binary_sensor.front_hallway
-            - binary_sensor.kitchen
-            - binary_sensor.master_bedroom
-            - binary_sensor.theatre_room
+            - binary_sensor.door_window_sensor_158d00011c8066
+            - binary_sensor.door_window_sensor_158d000154b7c0
+            - binary_sensor.motion_sensor_158d00010f8100
           states:
             - state: 'off'
               class: 'info-background'
@@ -89,15 +88,15 @@
               to_state: 'off'
               duration: 10
 
-        - name: Cameras
-          entities:
-            - camera.hallway
-            - camera.driveway
-            - camera.front_door
-            - camera.backyard
-          states:
-            - state: 'idle'
-              class: 'camera-idle'
+#        - name: Cameras
+#          entities:
+#            - camera.hallway
+#            - camera.driveway
+#            - camera.front_door
+#            - camera.backyard
+#          states:
+#            - state: 'idle'
+#              class: 'camera-idle'
 
         - name: Media Players
           entities:
