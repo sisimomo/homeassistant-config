@@ -1,6 +1,6 @@
 - platform: onkyo
   host: 192.168.137.57
-  name: 'TX-NR414'
+  name: 'txnr414'
   sources:
     bd-dvd: 'Kodi'
     tv-cd: 'Vinyl'
