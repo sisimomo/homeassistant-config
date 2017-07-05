@@ -9,11 +9,11 @@
   action:
     - service: input_boolean.toggle
       data:
-        entity_id: input_boolean.media_devices
+        entity_id: input_boolean.tv
     - service: media_player.toggle
       data:
-        entity_id: media_player.media_player.txnr414
+        entity_id: media_player.txnr414
     - service: media_player.select_source
       data:
-        entity_id: media_player.media_player.txnr414
+        entity_id: media_player.txnr414
         source: bd-dvd
