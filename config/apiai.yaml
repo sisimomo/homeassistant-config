@@ -79,9 +79,9 @@ intents:
 
     GameServerAction:
       speech: >
-        {%- if GameServerAction == "start" and states.switch.7d2d.state == 'on' -%}
+        {%- if GameServerAction == "start" and states.switch.sdtd.state == "on" -%}
           It's already running.
-        {%- elif GameServerAction == "stop" and states.switch.7d2d.state == 'off' -%}
+        {%- elif GameServerAction == "stop" and states.switch.sdtd.state == "off" -%}
            It's not even running.
         {%- elif GameServerAction == "update" -%}
            Stopping server updating and then starting it up again.
@@ -95,14 +95,14 @@ intents:
             {%- elif GameServerAction == "stop" -%}
               switch.turn_off
             {%- else -%}
-              shell_command.update_7d2d
+              shell_command.update_sdtd
             {%- endif -%}
           data_template:
             entity_id: >
               {%- if GameServerAction == "start" or GameServerAction == "stop" -%}
-                switch.7d2d
+                switch.sdtd
               {%- else -%}
-                shell_command.update_7d2d
+                shell_command.update_sdtd
               {%- endif -%}
 
     Buffer:
