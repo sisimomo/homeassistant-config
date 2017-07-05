@@ -77,6 +77,34 @@ intents:
           data:
             entity_id: scene.bedtime
 
+    GameServerAction:
+      speech: >
+        {%- if GameServerAction == "start" and states.switch.7d2d.state == 'on' -%}
+          It's already running.
+        {%- elif GameServerAction == "stop" and states.switch.7d2d.state == 'off' -%}
+           It's not even running.
+        {%- elif GameServerAction == "update" -%}
+           Stopping server updating and then starting it up again.
+        {%- else -%}
+          NOPE! This should not happen!
+        {%- endif -%}
+      action:
+        - service_template: >
+            {%- if GameServerAction == "start" -%}
+              switch.turn_on
+            {%- elif GameServerAction == "stop" -%}
+              switch.turn_off
+            {%- else -%}
+              shell_command.update_7d2d
+            {%- endif -%}
+          data_template:
+            entity_id: >
+              {%- if GameServerAction == "start" or GameServerAction == "stop" -%}
+                switch.7d2d
+              {%- else -%}
+                shell_command.update_7d2d
+              {%- endif -%}
+
     Buffer:
       speech: >
         {%- if Tracker == "ggn" and OnOff == states.input_boolean.ggnbuffer.state -%}

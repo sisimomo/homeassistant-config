@@ -5,3 +5,4 @@ flexget_task: /opt/scripts/flexget_task_pending.sh "{{ flexgettask }}"
 flexget_task_pending: /opt/scripts/flexget_task_pending.sh "{{ buffertask }}"
 reboot_remote: "ssh {{user}}@{{host}} 'sudo shutdown -r now'"
 do_backup: "/opt/scripts/backup_{{ target }}.sh"
+update_7d2d: /opt/7d2d/update.sh
