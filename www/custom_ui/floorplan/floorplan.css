@@ -142,10 +142,12 @@ svg, svg * {
   fill: #2baaa6 !important;
 }
 
-.door_open {
-  fill: green !important;
+.door_off {
+  fill-opacity: 0 !important;
+  stroke-opacity: 0 !important;
 }
 
-.door_closed {
-  fill: red !important;
+.door_on {
+  fill-opacity: 0 !important;
+  stroke-opacity: 0 !important;
 }
