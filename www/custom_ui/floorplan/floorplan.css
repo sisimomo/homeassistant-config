@@ -148,6 +148,6 @@ svg, svg * {
 }
 
 .door_on {
-  fill-opacity: 0 !important;
-  stroke-opacity: 0 !important;
+  fill-opacity: 1 !important;
+  stroke-opacity: 1 !important;
 }
