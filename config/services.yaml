@@ -33,6 +33,8 @@
         - name: Services
           entities:
             - switch.discordbot
+            - switch.telegram_bot
+            - switch.asf
           states:
             - state: 'on'
               class: 'light-on'
