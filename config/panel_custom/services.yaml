@@ -1,5 +1,5 @@
 - name: services
   sidebar_title: Services
   sidebar_icon: mdi:home
-  url_path: floorplan
+  url_path: services
   config: !include ../services.yaml
