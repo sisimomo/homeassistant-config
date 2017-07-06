@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1500cm"
+   height="1500cm"
+   viewBox="0 0 15000 15000"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="services.svg">
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient4512"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop4510" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.010000001"
+     inkscape:cx="36290.431"
+     inkscape:cy="34014.055"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     units="cm"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid10"
+       units="cm"
+       spacingx="9.9999999"
+       spacingy="9.9999999" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,14703)">
+    <path
+       id="switch.discordbot"
+       d="m 3482.0476,-10812.163 -818.5967,-779.644 98.2363,311.74 H 753.47038 a 389.79744,389.79744 0 0 1 -389.822,-389.528 v -2338.932 a 389.79744,389.79744 0 0 1 389.822,-389.527 H 3092.2256 a 389.79744,389.79744 0 0 1 389.822,389.527 v 3196.364 m -1559.2291,-2681.905 c -417.8727,0 -710.9905,179.147 -710.9905,179.147 160.5843,-143.199 441.2679,-225.701 441.2679,-225.701 l -26.5185,-29.465 c -263.4761,0 -502.0247,186.808 -502.0247,186.808 -268.19052,559.835 -251.04192,1043.061 -251.04192,1043.061 218.27682,282.274 542.56862,262.238 542.56862,262.238 l 110.7295,-140.253 c -194.8816,-41.251 -318.1042,-215.095 -318.1042,-215.095 0,0 293.1768,199.184 714.1138,199.184 420.996,0 714.1139,-199.184 714.1139,-199.184 0,0 -123.1638,172.665 -318.0453,215.095 l 110.6706,140.253 c 0,0 324.3507,17.679 542.6275,-262.238 0,0 17.0897,-483.226 -251.0419,-1043.061 0,0 -238.5486,-182.094 -502.0836,-186.808 l -26.5185,29.465 c 0,0 280.6247,82.502 441.2089,225.701 0,0 -293.1178,-179.147 -710.9905,-179.147 M 1600,-12903 c 101.3596,0 183.9794,88.985 182.4473,198.005 0,107.842 -81.0877,198.005 -182.4473,198.005 -99.7686,0 -180.8562,-90.163 -180.8562,-198.005 0,-109.02 79.5555,-198.005 180.8562,-198.005 m 650.2336,0 c 101.3007,0 182.3884,88.985 182.3884,198.005 0,107.842 -81.0877,198.005 -182.3884,198.005 -99.8274,0 -180.9151,-90.163 -180.9151,-198.005 0,-109.02 79.5555,-198.005 180.9151,-198.005 z"
+       inkscape:connector-curvature="0"
+       style="stroke-width:155.91897583"
+       inkscape:label="switch.discordbot" />
+  </g>
+</svg>

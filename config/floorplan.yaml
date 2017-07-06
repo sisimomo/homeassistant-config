@@ -1,4 +1,4 @@
-      name: Demo Floorplan
+      name: Floorplan
       image: /local/custom_ui/floorplan/floorplan.svg
       stylesheet: /local/custom_ui/floorplan/floorplan.css
       warnings:
@@ -32,12 +32,12 @@
 
         - name: Lights
           entities:
-            - light.living_left
-            - light.living_middle
-            - light.living_right
-            - light.living_outer
-            - group.light_livingroom
+#            - light.living_left
+#            - light.living_middle
+#            - light.living_right
+#            - light.living_outer
             - light.gateway_light_286c07889d7e
+            - input_boolean.shelf_light
             - input_boolean.blue_light
             - input_boolean.led_strip
           states:
