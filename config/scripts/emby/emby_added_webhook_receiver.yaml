@@ -9,6 +9,6 @@ sequence:
         {% endif %}
 
       message: "{{ Metadata.title }} is now ready to be watched on Emby"
-  - service: shell_command.add_new_episode
+  - service: python_script.add_new_episode
     data_template:
-      episode: "{{ Metadata.title }}"
+      info: "{{ Metadata.title }}"

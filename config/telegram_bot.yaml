@@ -1,4 +1,4 @@
-platform: webhooks
+platform: broadcast
 api_key: !secret telegram_api
 parse_mode: markdown
 allowed_chat_ids:

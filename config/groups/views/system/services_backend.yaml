@@ -7,3 +7,5 @@ entities:
   - switch.mysql
   - switch.asf
   - switch.telegram_bot
+  - switch.7d2d
+  - switch.discordbot

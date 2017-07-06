@@ -1,17 +1,16 @@
-# Turn media devices on / off when switch is pressed
-- alias: media_devices
+# Turn tv on / off with input boolean
+- alias: tv
   trigger:
     - platform: state
-      entity_id: input_boolean.media_devices
+      entity_id: input_boolean.tv
       to: 'off'
       from: 'on'
     - platform: state
-      entity_id: input_boolean.media_devices
+      entity_id: input_boolean.tv
       to: 'on'
       from: 'off'
   action:
     - service: broadlink.send_packet_192_168_137_43
       data:
         packet:
-          - !secret ir_av_power
           - !secret ir_tv_power

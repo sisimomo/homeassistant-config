@@ -3,4 +3,3 @@ control: hidden
 entities:
   - automation.ahd_buffer
   - automation.aniby_buffer
-  - automation.ggn_buffer

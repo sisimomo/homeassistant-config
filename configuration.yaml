@@ -36,6 +36,7 @@ zone: !include_dir_merge_list config/zones
 #################
 frontend:
 logbook:
+python_script:
 sun:
 tts:
   - platform: google

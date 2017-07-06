@@ -3,6 +3,6 @@ restart_homeassistant: sudo /etc/init.d/homeassistant restart
 power_pc_off: sudo net rpc shutdown -I 192.168.137.48 -U PhyberApex
 flexget_task: /opt/scripts/flexget_task_pending.sh "{{ flexgettask }}"
 flexget_task_pending: /opt/scripts/flexget_task_pending.sh "{{ buffertask }}"
-add_new_episode: /opt/scripts/add_new_episode.sh "{{ episode }}"
 reboot_remote: "ssh {{user}}@{{host}} 'sudo shutdown -r now'"
 do_backup: "/opt/scripts/backup_{{ target }}.sh"
+update_7d2d: /opt/7d2d/update.sh

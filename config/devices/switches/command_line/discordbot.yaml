@@ -1,0 +1,6 @@
+- platform: command_line
+  switches:
+    discordbot:
+      command_on: 'sudo /etc/init.d/discordbot start'
+      command_off: 'sudo /etc/init.d/discordbot stop'
+      command_state: 'cat /opt/discordbot/discordbot.pid && ps aux | grep "\s$(cat /opt/discordbot/discordbot.pid)\s" | grep -v -q grep'
