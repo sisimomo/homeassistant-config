@@ -14,42 +14,46 @@
 
       groups:
 
-        - name: Sensors
-          entities:
-             - sensor.owm_temperature
-          text_template: '${entity.state ? entity.state : "unknown"}'
+#        - name: Sensors
+#          entities:
+#             - sensor.owm_temperature
+#          text_template: '${entity.state ? entity.state : "unknown"}'
           # An example of rounding up a number, i.e. a temperature of 90.1 becomes 91
           # text_template: '${entity.state ? Math.ceil(entity.state) : "undefined"}'  
-          class_template: '
-            var temp = parseFloat(entity.state.replace("°", ""));
-            if (temp < 10)
-              return "temp-low";
-            else if (temp < 30)
-              return "temp-medium";
-            else
-              return "temp-high";
-            '
+#          class_template: '
+#            var temp = parseFloat(entity.state.replace("°", ""));
+#            if (temp < 10)
+#              return "temp-low";
+#            else if (temp < 30)
+#             return "temp-medium";
+#            else
+#              return "temp-high";
+#            '
 
-#        - name: Lights
-#          entities:
-#            - light.living_left
-#            - light.living_middle
-#            - light.living_right
-#            - light.living_outer
-#          states:
-#            - state: 'on'
-#              class: 'light-on'
-#            - state: 'off'
-#              class: 'light-off'
+        - name: Lights
+          entities:
+            - light.living_left
+            - light.living_middle
+            - light.living_right
+            - light.living_outer
+            - group.light_livingroom
+            - light.gateway_light_286c07889d7e
+            - input_boolean.blue_light
+            - input_boolean.led_strip
+          states:
+            - state: 'on'
+              class: 'light-on'
+            - state: 'off'
+              class: 'light-off'
 
-#        - name: Switches
-#          entities:
-#             - switch.doorbell
-#          states:
-#            - state: 'on'
-#              class: 'doorbell-on'
-#            - state: 'off'
-#              class: 'doorbell-off'
+        - name: Switches
+          entities:
+             - switch.janis_pc_wol
+          states:
+            - state: 'on'
+              class: 'doorbell-on'
+            - state: 'off'
+              class: 'doorbell-off'
 
 #        - name: NVR
 #          entities:
@@ -113,11 +117,10 @@
         - name: Media Players
           entities:
             - media_player.kodi_on_firetv
-#            - media_player.bedroom
-#            - media_player.guest_room
-#            - media_player.kitchen
-#            - media_player.kitchen
-#            - media_player.txnr414
+            - media_player.bedroom
+            - media_player.guest_room
+            - media_player.kitchen
+            - media_player.txnr414
           states:
             - state: 'off'
               class: 'squeezebox-off'
