@@ -9,8 +9,8 @@
       # pan_zoom:            # enable experimental panning / zooming
       # hide_app_toolbar:    # hide the application toolbar (when used as a custom panel)
 
-      last_motion_entity: sensor.template_last_motion
-      last_motion_class: last-motion
+#      last_motion_entity: sensor.template_last_motion
+#      last_motion_class: last-motion
 
       groups:
 
@@ -30,17 +30,17 @@
               return "temp-high";
             '
 
-        - name: Lights
-          entities:
-            - light.living_left
-            - light.living_middle
-            - light.living_right
-            - light.living_outer
-          states:
-            - state: 'on'
-              class: 'light-on'
-            - state: 'off'
-              class: 'light-off'
+#        - name: Lights
+#          entities:
+#            - light.living_left
+#            - light.living_middle
+#            - light.living_right
+#            - light.living_outer
+#          states:
+#            - state: 'on'
+#              class: 'light-on'
+#            - state: 'off'
+#              class: 'light-off'
 
 #        - name: Switches
 #          entities:
@@ -61,42 +61,44 @@
 #            - state: 'on'
 #              class: 'success-text'
 
-        - name: Alarm Panel
-          entities:
-             - alarm_control_panel.alarm
-          states:
-            - state: 'armed_away'
-              class: 'alarm-armed'
-            - state: 'armed_home'
-              class: 'alarm-armed'
-            - state: 'disarmed'
-              class: 'alarm-disarmed'
+#        - name: Alarm Panel
+#          entities:
+#             - alarm_control_panel.alarm
+#          states:
+#            - state: 'armed_away'
+#              class: 'alarm-armed'
+#            - state: 'armed_home'
+#              class: 'alarm-armed'
+#            - state: 'disarmed'
+#              class: 'alarm-disarmed'
 
         - name: Doors
           entities:
-            - binary_sensor.door_window_sensor_158d00011c8066
-            - binary_sensor.door_window_sensor_158d000154b7c0
+            - sensor.balcony_door_open
+            - sensor.balcony_door_closed
+            - sensor.entrance_door_open
+            - sensor.entrance_door_closed
           states:
             - state: 'off'
               class: 'door_off'
             - state: 'on'
               class: 'door_on'
 
-        - name: Rooms
-          entities:
-            - binary_sensor.door_window_sensor_158d00011c8066
-            - binary_sensor.door_window_sensor_158d000154b7c0
-            - binary_sensor.motion_sensor_158d00010f8100
-          states:
-            - state: 'off'
-              class: 'info-background'
-            - state: 'on'
-              class: 'warning-background'
-          state_transitions:
-            - name: On to off
-              from_state: 'on'
-              to_state: 'off'
-              duration: 10
+#        - name: Rooms
+#          entities:
+#            - binary_sensor.door_window_sensor_158d00011c8066
+#            - binary_sensor.door_window_sensor_158d000154b7c0
+#            - binary_sensor.motion_sensor_158d00010f8100
+#          states:
+#            - state: 'off'
+#              class: 'info-background'
+#            - state: 'on'
+#              class: 'warning-background'
+#          state_transitions:
+#            - name: On to off
+#              from_state: 'on'
+#              to_state: 'off'
+#              duration: 10
 
 #        - name: Cameras
 #          entities:
@@ -111,11 +113,11 @@
         - name: Media Players
           entities:
             - media_player.kodi_on_firetv
-            - media_player.bedroom
-            - media_player.guest_room
-            - media_player.kitchen
-            - media_player.kitchen
-            - media_player.txnr414
+#            - media_player.bedroom
+#            - media_player.guest_room
+#            - media_player.kitchen
+#            - media_player.kitchen
+#            - media_player.txnr414
           states:
             - state: 'off'
               class: 'squeezebox-off'
