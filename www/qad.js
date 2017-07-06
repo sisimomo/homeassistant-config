@@ -15,7 +15,7 @@
 		"input_boolean.led_strip",
 		"alarm_control_panel.alarm",
 		"automation.motion_light",
-		"input_boolean.media_devices",
+		"input_boolean.tv",
 		"sensor.recent_episodes"
 	];
 	var alarmCode = "";
@@ -79,9 +79,9 @@
 					text = 'Party';
 					break;
 
-				case 'input_boolean.media_devices':
+				case 'input_boolean.tv':
 					icon = 'fa fa-television';
-					text = 'AV / TV';
+					text = 'TV';
 					break;
 
                 case 'input_boolean.blue_light':
