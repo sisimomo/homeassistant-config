@@ -78,9 +78,9 @@
             - binary_sensor.door_window_sensor_158d000154b7c0
           states:
             - state: 'off'
-              class: 'door_open'
+              class: 'door_off'
             - state: 'on'
-              class: 'door_closed'
+              class: 'door_on'
 
         - name: Rooms
           entities:
