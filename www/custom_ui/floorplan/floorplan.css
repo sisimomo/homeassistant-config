@@ -14,8 +14,9 @@ svg, svg * {
 }
 
 /* Disable hover for doors */
-.entity.door_off:hover .entity.door_on:hover{
+.entity.door_off:hover, .entity.door_on:hover{
   stroke-opacity: 0 !important;
+  stroke-width: 0px !important;
   pointer-events: none !important;
 }
 
