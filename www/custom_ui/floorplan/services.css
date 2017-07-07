@@ -65,12 +65,12 @@ svg, svg * {
   stroke-width: 1px !important;
 }
 
-/* Light */
+/* Services */
 
-.light-off {
-  fill: green !important;
+.service-off {
+  fill: red !important;
 }
 
-.light-on {
-  fill: red !important;
+.service-on {
+  fill: green !important;
 }

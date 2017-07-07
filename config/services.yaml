@@ -2,7 +2,6 @@
       image: /local/custom_ui/floorplan/services.svg
       stylesheet: /local/custom_ui/floorplan/services.css
       warnings:
-      pan_zoom:
       
       # These options are optional
       # warnings:            # enable warnings (to find out why things might ot be working correctly)
@@ -37,6 +36,6 @@
             - switch.asf
           states:
             - state: 'on'
-              class: 'light-on'
+              class: 'service-on'
             - state: 'off'
-              class: 'light-off'
+              class: 'service-off'
