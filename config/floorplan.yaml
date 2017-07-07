@@ -2,7 +2,6 @@
       image: /local/custom_ui/floorplan/floorplan.svg
       stylesheet: /local/custom_ui/floorplan/floorplan.css
       warnings:
-      pan_zoom:
       hide_app_toolbar:
       
       # These options are optional
