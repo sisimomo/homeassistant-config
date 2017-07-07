@@ -4,8 +4,4 @@
   port: 8002
   days: 2
   monitored_conditions:
-    - series
     - upcoming
-    - wanted
-    - wanted
-    - commands
