@@ -4,23 +4,6 @@
     platform: event
     event_type: homeassistant_start
   action:
-    - service: script.turn_on
-      data:
-        entity_id: emby_added_webhook_receiver
-        info: "NO ENTRY"
-    - service: script.turn_on
-      data:
-        entity_id: emby_added_webhook_receiver
-        info: "NO ENTRY"
-    - service: script.turn_on
-      data:
-        entity_id: emby_added_webhook_receiver
-        info: "NO ENTRY"
-    - service: script.turn_on
-      data:
-        entity_id: emby_added_webhook_receiver
-        info: "NO ENTRY"
-    - service: script.turn_on
-      data:
-        entity_id: emby_added_webhook_receiver
-        info: "NO ENTRY"
+   - service: python_script.add_new_episode
+     data:
+      info: "NO ENTRY"
