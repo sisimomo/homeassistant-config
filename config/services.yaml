@@ -2,33 +2,7 @@
       image: /local/custom_ui/floorplan/services.svg
       stylesheet: /local/custom_ui/floorplan/services.css
       warnings:
-      
-      # These options are optional
-      # warnings:            # enable warnings (to find out why things might ot be working correctly)
-      # pan_zoom:            # enable experimental panning / zooming
-      # hide_app_toolbar:    # hide the application toolbar (when used as a custom panel)
-
-#      last_motion_entity: sensor.template_last_motion
-#      last_motion_class: last-motion
-
       groups:
-
-#        - name: Sensors
-#          entities:
-#             - sensor.owm_temperature
-#          text_template: '${entity.state ? entity.state : "unknown"}'
-          # An example of rounding up a number, i.e. a temperature of 90.1 becomes 91
-          # text_template: '${entity.state ? Math.ceil(entity.state) : "undefined"}'  
-#          class_template: '
-#            var temp = parseFloat(entity.state.replace("°", ""));
-#            if (temp < 10)
-#              return "temp-low";
-#            else if (temp < 30)
-#             return "temp-medium";
-#            else
-#              return "temp-high";
-#            '
-
         - name: Services
           entities:
             - switch.discordbot

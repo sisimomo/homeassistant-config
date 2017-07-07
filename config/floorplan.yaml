@@ -31,7 +31,6 @@
 #            '
         - name: ToggleLights
           entities:
-            - light.gateway_light_286c07889d7e
             - input_boolean.shelf_light
             - input_boolean.blue_light
             - input_boolean.led_strip
@@ -49,7 +48,7 @@
 #            - light.living_middle
 #            - light.living_right
 #            - light.living_outer
-            - group.light_livingroom
+            - light.gateway_light_286c07889d7e
           states:
             - state: 'on'
               class: 'light-on'
