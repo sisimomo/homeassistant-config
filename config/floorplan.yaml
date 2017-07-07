@@ -29,6 +29,19 @@
 #            else
 #              return "temp-high";
 #            '
+        - name: ToggleLights
+          entities:
+            - light.gateway_light_286c07889d7e
+            - input_boolean.shelf_light
+            - input_boolean.blue_light
+            - input_boolean.led_strip
+          states:
+            - state: 'on'
+              class: 'light-on'
+            - state: 'off'
+              class: 'light-off'
+          action:
+            service: toggle
 
         - name: Lights
           entities:
@@ -36,10 +49,7 @@
 #            - light.living_middle
 #            - light.living_right
 #            - light.living_outer
-            - light.gateway_light_286c07889d7e
-            - input_boolean.shelf_light
-            - input_boolean.blue_light
-            - input_boolean.led_strip
+            - group.light_livingroom
           states:
             - state: 'on'
               class: 'light-on'
