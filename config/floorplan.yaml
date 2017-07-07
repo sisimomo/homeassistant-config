@@ -3,6 +3,7 @@
       stylesheet: /local/custom_ui/floorplan/floorplan.css
       warnings:
       pan_zoom:
+      hide_app_toolbar:
       
       # These options are optional
       # warnings:            # enable warnings (to find out why things might ot be working correctly)
