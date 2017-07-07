@@ -13,6 +13,11 @@ svg, svg * {
   stroke-opacity: 1 !important;
 }
 
+/* Disable hover for doors */
+.entity.door_off:hover .entity.door_off:hover{
+  stroke-opacity: 0 !important;
+}
+
 /* Bootstrap succsss */
 
 .success-text {
