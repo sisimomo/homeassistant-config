@@ -1,0 +1,10 @@
+# Turn TV off if AV gets switched off
+- alias: tv_av_on
+  trigger:
+    platform: state
+    entity_id: media_player.txnr414
+    to: 'off'
+  action:
+    - service: input_boolean.turn_off
+      data:
+        entity_id: input_boolean.tv

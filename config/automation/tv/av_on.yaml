@@ -1,0 +1,14 @@
+# Turn AV on if tv gets switched on and switch to correct source
+- alias: tv_av_on
+  trigger:
+    platform: state
+    entity_id: input_boolean.tv
+    to: 'on'
+  action:
+    - service: media_player.turn_on
+      data:
+        entity_id: media_player.txnr414
+    - service: media_player.select_source
+      data:
+        entity_id: media_player.txnr414
+        source: bd-dvd

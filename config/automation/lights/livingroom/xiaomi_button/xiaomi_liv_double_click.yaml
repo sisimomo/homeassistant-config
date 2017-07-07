@@ -13,7 +13,3 @@
     - service: media_player.toggle
       data:
         entity_id: media_player.txnr414
-    - service: media_player.select_source
-      data:
-        entity_id: media_player.txnr414
-        source: bd-dvd
