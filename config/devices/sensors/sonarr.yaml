@@ -3,3 +3,10 @@ sensor:
     api_key: !secret sonarr_api_key
     host: 192.168.137.49
     port: 8002
+    days: 2
+    monitored_conditions:
+      - series
+      - upcoming
+      - wanted
+      - wanted
+      - commands
