@@ -35,9 +35,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.02"
-     inkscape:cx="28844.992"
-     inkscape:cy="9653.1714"
+     inkscape:zoom="0.01"
+     inkscape:cx="11328.885"
+     inkscape:cy="15120.282"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -77,6 +77,14 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(3650.0003,13205.813)">
+    <rect
+       style="opacity:1;vector-effect:none;fill:#799fb4;fill-opacity:1;stroke:none;stroke-width:46.58374786;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect5005"
+       width="15091.726"
+       height="11273.168"
+       x="-2200"
+       y="-12976.163"
+       ry="473.16394" />
     <path
        style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:37.79527664;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 8881.8887,7559.0547 v 377.9531 0 24264.5702 0 377.932 0.02 H 24377.951 v 15760.627 0 h 23055.117 v 0 0 -40781.1033 0 H 8881.8888 Z m 377.9531,377.9531 H 24377.953 v 8012.5972 0 377.95 0 3779.502 0 h 377.951 v 0 -3779.502 h 8881.889 v 3779.533 377.951 9259.842 h -8881.891 -377.951 v 0 377.951 2078.74 H 9259.8398 V 7937.0018 Z m 15496.0642,0 h 8881.889 v 8012.5972 h -8881.889 z m 9259.842,0 h 13039.369 v 8012.5972 h -7559.055 -377.951 -5102.363 z m 0,8390.5512 h 5102.361 v 3779.531 h -5102.361 z m 5480.314,0 h 7559.055 v 3779.531 h -7559.055 z m -5480.314,4157.484 h 5102.361 v 9259.842 h -5102.361 z m 5480.314,0 h 7559.055 v 9259.842 h -7559.055 z m -14740.158,9637.795 h 8881.891 v 17839.367 h -8881.891 v -15382.674 0 -377.951 0 -2078.74 z m 9259.844,0 H 47055.117 V 47962.205 H 34015.748 Z"
@@ -1591,26 +1599,26 @@
     </g>
     <text
        xml:space="preserve"
-       x="1183.8486"
+       x="859.73407"
        y="-3274.9634"
        id="text4631"
        style="font-size:3.17499995px;stroke-width:0.26458332"><tspan
          sodipodi:role="line"
          id="tspan4629"
-         x="1183.8486"
+         x="859.73407"
          y="-3274.9634"
          style="font-size:705.55554199px;stroke-width:0.26458332">Alarm:</tspan></text>
     <text
        xml:space="preserve"
-       x="3517.3777"
-       y="-3283.3225"
+       x="3272.6382"
+       y="-3263.4788"
        id="alarm_control_panel.alarm"
        inkscape:label="alarm_control_panel.alarm "
        style="font-size:3.17499995px;stroke-width:0.26458332"><tspan
          sodipodi:role="line"
          id="tspan4629-03"
-         x="3517.3777"
-         y="-3283.3225"
+         x="3272.6382"
+         y="-3263.4788"
          style="font-size:705.55554199px;stroke-width:0.26458332">-----------</tspan></text>
   </g>
 </svg>
