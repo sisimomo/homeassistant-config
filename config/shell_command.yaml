@@ -1,4 +1,5 @@
 update_homeassistant: /opt/homeassistant/update.sh
+update_homeassistant_config: /opt/homeassistant/update_config.sh
 restart_homeassistant: sudo /etc/init.d/homeassistant restart
 power_pc_off: sudo net rpc shutdown -I 192.168.137.48 -U PhyberApex
 flexget_task: /opt/scripts/flexget_task_pending.sh "{{ flexgettask }}"
