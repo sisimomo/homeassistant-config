@@ -1,0 +1,6 @@
+- platform: command_line
+  switches:
+    project_zomboid:
+      command_on: 'sudo /etc/init.d/projectZomboid start'
+      command_off: 'sudo /etc/init.d/projectZomboid stop'
+      command_state: 'cat /opt/projectZomboid/projectZomboid.pid && ps aux | grep "\s$(cat /opt/projectZomboid/projectZomboid.pid)\s" | grep -v -q grep'

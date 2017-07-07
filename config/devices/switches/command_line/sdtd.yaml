@@ -1,6 +1,6 @@
 - platform: command_line
   switches:
-    7d2d:
+    sdtd:
       command_on: 'sudo /etc/init.d/7d2d start'
       command_off: 'sudo /etc/init.d/7d2d stop'
       command_state: 'cat /opt/7d2d/7d2d.pid && ps aux | grep "\s$(cat /opt/7d2d/7d2d.pid)\s" | grep -v -q grep'
