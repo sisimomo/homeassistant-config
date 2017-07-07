@@ -1,8 +1,8 @@
 # Initialize stuff
 - alias: init
   trigger:
-    platform: event
-    event_type: homeassistant_start
+    platform: homeassistant
+    event_type: start
   action:
    - service: python_script.add_new_episode
      data:
