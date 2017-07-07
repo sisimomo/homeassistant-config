@@ -35,9 +35,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.014142136"
-     inkscape:cx="32137.348"
-     inkscape:cy="5385.092"
+     inkscape:zoom="0.02"
+     inkscape:cx="28844.992"
+     inkscape:cy="9653.1714"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -1589,30 +1589,28 @@
          y="94.010002"
          x="10.658" />
     </g>
-    <flowRoot
+    <text
        xml:space="preserve"
-       id="flowRoot4961"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.26458333,0,0,0.26458333,-4622.344,-13582.845)"><flowRegion
-         id="flowRegion4963"><rect
-           id="rect4965"
-           width="9155.3145"
-           height="3503.7446"
-           x="22866.143"
-           y="36672.051" /></flowRegion><flowPara
-         id="flowPara4967"
-         style="font-size:2666.66674805px;line-height:1.25">Alarm:</flowPara></flowRoot>    <flowRoot
+       x="1183.8486"
+       y="-3274.9634"
+       id="text4631"
+       style="font-size:3.17499995px;stroke-width:0.26458332"><tspan
+         sodipodi:role="line"
+         id="tspan4629"
+         x="1183.8486"
+         y="-3274.9634"
+         style="font-size:705.55554199px;stroke-width:0.26458332">Alarm:</tspan></text>
+    <text
        xml:space="preserve"
+       x="3517.3777"
+       y="-3283.3225"
        id="alarm_control_panel.alarm"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.26458333,0,0,0.26458333,-3724.8358,-13481.769)"
-       inkscape:label="alarm_control_panel.alarm"><flowRegion
-         id="flowRegion4981"><rect
-           id="rect4983"
-           width="9070.8662"
-           height="3023.624"
-           x="28913.387"
-           y="36294.098" /></flowRegion><flowPara
-         id="flowPara4985"
-         style="font-size:2666.66674805px">---------</flowPara></flowRoot>  </g>
+       inkscape:label="alarm_control_panel.alarm "
+       style="font-size:3.17499995px;stroke-width:0.26458332"><tspan
+         sodipodi:role="line"
+         id="tspan4629-03"
+         x="3517.3777"
+         y="-3283.3225"
+         style="font-size:705.55554199px;stroke-width:0.26458332">-----------</tspan></text>
+  </g>
 </svg>
