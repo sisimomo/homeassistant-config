@@ -6,4 +6,4 @@
   action:
    - service: python_script.add_new_episode
      data:
-      info: "NO ENTRY"
+      info: "INIT"
