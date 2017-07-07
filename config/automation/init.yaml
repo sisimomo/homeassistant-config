@@ -1,0 +1,26 @@
+# Initialize stuff
+- alias: init
+  trigger:
+    platform: event
+    event_type: homeassistant_start
+  action:
+    - service: script.turn_on
+      data:
+        entity_id: emby_added_webhook_receiver
+        info: "NO ENTRY"
+    - service: script.turn_on
+      data:
+        entity_id: emby_added_webhook_receiver
+        info: "NO ENTRY"
+    - service: script.turn_on
+      data:
+        entity_id: emby_added_webhook_receiver
+        info: "NO ENTRY"
+    - service: script.turn_on
+      data:
+        entity_id: emby_added_webhook_receiver
+        info: "NO ENTRY"
+    - service: script.turn_on
+      data:
+        entity_id: emby_added_webhook_receiver
+        info: "NO ENTRY"
