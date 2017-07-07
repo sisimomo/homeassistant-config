@@ -74,16 +74,16 @@
 #            - state: 'on'
 #              class: 'success-text'
 
-#        - name: Alarm Panel
-#          entities:
-#             - alarm_control_panel.alarm
-#          states:
-#            - state: 'armed_away'
-#              class: 'alarm-armed'
-#            - state: 'armed_home'
-#              class: 'alarm-armed'
-#            - state: 'disarmed'
-#              class: 'alarm-disarmed'
+        - name: Alarm Panel
+          entities:
+             - alarm_control_panel.alarm
+          states:
+            - state: 'armed_away'
+              class: 'alarm-armed'
+            - state: 'armed_home'
+              class: 'alarm-armed'
+            - state: 'disarmed'
+              class: 'alarm-disarmed'
 
         - name: Doors
           entities:
