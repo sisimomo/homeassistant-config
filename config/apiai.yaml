@@ -22,33 +22,24 @@ intents:
 
     TurnLightOnOff:
       speech: !include ../templates/alexa_confirm.yaml
-
       action:
         - service_template: >
-            {%- if OnOff == "on" -%}
+            {%- if OnOff == "on" and LightEntity == 'group.light_livingroom' -%}
               scene.turn_on
-            {%- else -%}
+            {%- elif OnOff == "off" and LightEntity == 'group.light_livingroom' -%}
               light.turn_off
+            {%- elif OnOff == "on" and LightEntity != 'group.light_livingroom' -%}
+              input_boolean.turn_on
+            {%- elif OnOff == "off" and LightEntity != 'group.light_livingroom' -%}
+              input_boolean.turn_off
             {%- endif -%}
           data_template:
             entity_id: >
-              {%- if OnOff == "on" -%}
+              {%- if OnOff == "on" and LightEntity == 'group.light_livingroom' -%}
                 scene.livingroom_normal
               {%- else -%}
-                group.light_livingroom
+                {{ LightEntity }}
               {%- endif -%}
-
-    TurnMediaDevicesOnOff:
-      speech: !include ../templates/alexa_confirm.yaml
-      action:
-        - service_template: >
-            {%- if OnOff == "on" -%}
-              input_boolean.turn_on
-            {%- else -%}
-              input_boolean.turn_off
-            {%- endif -%}
-          data:
-            entity_id:
 
     DisableAlert:
       speech: !include ../templates/alexa_confirm.yaml
