@@ -135,9 +135,7 @@ intents:
 
     Buffer:
       speech: >
-        {%- if Tracker == "ggn" and OnOff == states.input_boolean.ggnbuffer.state -%}
-          It already is {{ OnOff }}
-        {%- elif Tracker == "ahd" and OnOff == states.input_boolean.ahdbuffer.state -%}
+        {%- if Tracker == "ahd" and OnOff == states.input_boolean.ahdbuffer.state -%}
            It already is {{ OnOff }}
         {%- elif Tracker == "animebytes" and OnOff == states.input_boolean.anibybuffer.state -%}
            It already is {{ OnOff }}
