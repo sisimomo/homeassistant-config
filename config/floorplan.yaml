@@ -44,9 +44,8 @@
 
         - name: Lights
           entities:
-            - light.gateway_light_286c07889d7e
-          groups:
             - group.light_livingroom
+            - light.gateway_light_286c07889d7e
           states:
             - state: 'on'
               class: 'light-on'
