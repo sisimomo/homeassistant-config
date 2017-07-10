@@ -1,4 +1,4 @@
-# Turn light on if xiaomi button is clicked long
+# Turn light on / off if xiaomi button is clicked long
 - alias: xiaomi_liv_hold
   trigger:
     platform: event
