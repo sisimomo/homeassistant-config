@@ -74,7 +74,7 @@ intents:
         {%- elif GameServerAction == "update" -%}
            Stopping server updating and then starting it up again.
         {%- else -%}
-          Done!
+          {{GameServerAction}} Done!
         {%- endif -%}
       action:
         - service_template: >
@@ -102,7 +102,7 @@ intents:
         {%- elif GameServerAction == "update" -%}
            Stopping server updating and then starting it up again.
         {%- else -%}
-          Done!
+          {{GameServerAction}} Done!
         {%- endif -%}
       action:
         - service_template: >
