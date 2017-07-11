@@ -36,10 +36,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.08"
-     inkscape:cx="10614.848"
+     inkscape:cx="11948.43"
      inkscape:cy="41260.581"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer5"
+     inkscape:current-layer="layer1"
      showgrid="true"
      units="cm"
      inkscape:window-width="1920"
@@ -592,26 +592,26 @@
        inkscape:label="light.gateway_light_286c07889d7e" />
     <text
        xml:space="preserve"
-       x="844.98193"
-       y="-12539.619"
+       x="1061.2795"
+       y="-12695.062"
        id="text4631"
        style="line-height:0%;stroke-width:0.26458332"><tspan
          sodipodi:role="line"
          id="tspan4629"
-         x="844.98193"
-         y="-12539.619"
+         x="1061.2795"
+         y="-12695.062"
          style="font-size:264.58349609px;line-height:1.25;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332">Alarm</tspan></text>
     <text
        xml:space="preserve"
-       x="833.48553"
-       y="-11911.924"
+       x="1051.7668"
+       y="-12037.601"
        id="alarm_control_panel.alarm"
        inkscape:label="alarm_control_panel.alarm "
        style="line-height:0%;stroke-width:0.26458332"><tspan
          sodipodi:role="line"
          id="tspan4629-03"
-         x="833.48553"
-         y="-11911.924"
+         x="1051.7668"
+         y="-12037.601"
          style="font-size:705.55554199px;line-height:1.25;stroke-width:0.26458332">---</tspan></text>
     <rect
        style="opacity:1;fill:#007d00;fill-opacity:1;stroke:none;stroke-width:6.12265015;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
