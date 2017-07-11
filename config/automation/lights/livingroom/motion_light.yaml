@@ -1,5 +1,6 @@
 # Turn light on, on motion
 - alias: motion_light
+  initial_state: 'off'
   trigger:
     - platform: event
       event_type: motion
