@@ -53,6 +53,7 @@
         - name: Switches
           entities:
              - switch.janis_pc_wol
+             - input_boolean.tv
           states:
             - state: 'on'
               class: 'doorbell-on'
