@@ -63,12 +63,7 @@
         - name: Alarm Panel
           entities:
              - alarm_control_panel.alarm
-          text_template: '
-            if (entity.state == "armed_away" || entity.state == "armed_home")
-              "ON"
-            else
-              "OFF"
-            '
+          text_template: '${entity.state && (entity.state == "armed_away" || entity.state == "armed_home") ? "ON" : "OFF"}'
           states:
             - state: 'armed_away'
               class: 'alarm-armed'
