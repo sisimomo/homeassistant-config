@@ -153,12 +153,12 @@ svg, svg * {
   fill: #8AA8A7 !important;
 }
 
-.bottom_left {
+.door_open .bottom_left {
   transform: rotate(90deg);
   transform-origin: bottom left;
 }
 
-.top_right {
+.door_open .top_right {
   transform: rotate(90deg);
   transform-origin: top right;
 }
