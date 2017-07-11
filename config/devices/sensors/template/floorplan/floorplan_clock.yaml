@@ -1,5 +1,0 @@
-  - platform: template
-    sensors:
-      floorplan_clock:
-        value_template: >-
-          {{now().strftime("%H")}}:{{now().strftime("%M")}}

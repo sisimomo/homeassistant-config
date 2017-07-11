@@ -151,18 +151,3 @@ svg, svg * {
 
 /* Date & Time */
 
-.static-text-date
-{
-  font-family : Helvetica;
-  font-weight : bold;
-  font-size : 16px;
-  fill : #FFFFA6;
-}
-
-.static-text-time
-{
-  font-family : Helvetica;
-  font-weight : bold;
-  font-size : 35px;
-  fill: #FFFFA6;
-}

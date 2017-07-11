@@ -68,13 +68,13 @@
           entities:
             - sensor.floorplan_date
           text_template: '${entity.state ? entity.state : "undefined"}'
-          class_template: 'return "static-text-date";'
+          #class_template: 'return "static-text-date";'
 
         - name: text_font_time
           entities:
             - sensor.floorplan_time
           text_template: '${entity.state ? entity.state : "undefined"}'
-          class_template: 'return "static-text-time";'
+          #class_template: 'return "static-text-time";'
 
         - name: Alarm Panel
           entities:
