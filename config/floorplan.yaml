@@ -82,23 +82,23 @@
             - state: 'disarmed'
               class: 'alarm-disarmed'
 
-        - name: Doors open bottom right
+        - name: Doors open bottom left
           entities:
             - binary_sensor.door_window_sensor_158d00011c8066
           states:
             - state: 'off'
               class: 'door_closed'
             - state: 'on'
-              class: 'door_open bottom_right'
+              class: 'door_open bottom_left'
 
-        - name: Doors open left top
+        - name: Doors open top right
           entities:
             - binary_sensor.door_window_sensor_158d000154b7c0
           states:
             - state: 'off'
               class: 'door_closed'
             - state: 'on'
-              class: 'door_open left_top'
+              class: 'door_open top_right'
 
 #        - name: Rooms
 #          entities:
