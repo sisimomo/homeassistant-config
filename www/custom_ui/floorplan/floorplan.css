@@ -14,7 +14,7 @@ svg, svg * {
 }
 
 /* Disable hover for doors */
-.entity.door_off:hover, .entity.door_on:hover{
+.entity.door_closed:hover, .entity.door_open:hover{
   stroke-opacity: 0 !important;
   stroke-width: 0px !important;
   pointer-events: none !important;
@@ -149,12 +149,11 @@ svg, svg * {
   fill: #2baaa6 !important;
 }
 
-.door_off {
-  fill-opacity: 0 !important;
-  stroke-opacity: 0 !important;
+.door_closed {
+  fill: #8AA8A7 !important;
 }
 
-.door_on {
-  fill-opacity: 1 !important;
-  stroke-opacity: 1 !important;
+.top_right {
+  transform: rotate(270deg);
+  transform-origin: bottom right;
 }
