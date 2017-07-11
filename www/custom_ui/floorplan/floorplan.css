@@ -147,6 +147,4 @@ svg, svg * {
 .entity.door_closed:hover, .entity.door_open_bottom_left:hover, .entity.door_open_top_right:hover{
   stroke-opacity: 0 !important;
   stroke-width: 0px !important;
-  pointer-events: none !important;
-  cursor: inherit !important;
 }
