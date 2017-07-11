@@ -35,9 +35,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.014142136"
-     inkscape:cx="20494.711"
-     inkscape:cy="26453.077"
+     inkscape:zoom="0.02"
+     inkscape:cx="-1580.1488"
+     inkscape:cy="34270.181"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -575,27 +575,27 @@
        inkscape:label="light.gateway_light_286c07889d7e" />
     <text
        xml:space="preserve"
-       x="-948.07758"
-       y="-10322.618"
+       x="844.98193"
+       y="-12539.619"
        id="text4631"
        style="line-height:0%;stroke-width:0.26458332"><tspan
          sodipodi:role="line"
          id="tspan4629"
-         x="-948.07758"
-         y="-10322.618"
-         style="font-size:705.55554199px;line-height:1.25;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332">Alarm</tspan></text>
+         x="844.98193"
+         y="-12539.619"
+         style="font-size:264.58349609px;line-height:1.25;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332">Alarm</tspan></text>
     <text
        xml:space="preserve"
-       x="-1272.7292"
-       y="-9633.8008"
+       x="744.61841"
+       y="-11911.924"
        id="alarm_control_panel.alarm"
        inkscape:label="alarm_control_panel.alarm "
        style="line-height:0%;stroke-width:0.26458332"><tspan
          sodipodi:role="line"
          id="tspan4629-03"
-         x="-1272.7292"
-         y="-9633.8008"
-         style="font-size:705.55554199px;line-height:1.25;stroke-width:0.26458332">-----------</tspan></text>
+         x="744.61841"
+         y="-11911.924"
+         style="font-size:705.55554199px;line-height:1.25;stroke-width:0.26458332">----</tspan></text>
     <rect
        style="opacity:1;fill:#007d00;fill-opacity:1;stroke:none;stroke-width:6.12265015;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="binary_sensor.door_window_sensor_158d00011c8066"
@@ -729,5 +729,29 @@
          d="m 4669.9996,-10853 a 140.39005,140.39005 0 0 0 -140.3913,140.384 c 0,47.755 23.8622,89.673 60.1634,115.142 v 45.329 a 20.055721,20.055721 0 0 0 20.057,20.087 h 120.3343 a 20.055721,20.055721 0 0 0 20.0569,-20.087 v -45.329 c 36.3012,-25.469 60.171,-67.387 60.171,-115.142 A 140.39005,140.39005 0 0 0 4669.9996,-10853 m -60.1709,381.052 a 20.055721,20.055721 0 0 0 20.057,20.088 h 80.2203 a 20.055721,20.055721 0 0 0 20.057,-20.088 v -20.011 h -120.3343 z"
          id="group.light_livingroom-4" />
     </g>
+    <text
+       xml:space="preserve"
+       x="-1906.4197"
+       y="-12534.455"
+       id="sensor.floorplan_date"
+       style="font-size:12px;line-height:0%;display:inline;stroke-width:0.26458332"
+       inkscape:label="sensor.floorplan_date"><tspan
+         sodipodi:role="line"
+         id="tspan4629-6"
+         x="-1906.4197"
+         y="-12534.455"
+         style="font-size:264.58337402px;line-height:1.25;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332">Friday, June 30</tspan></text>
+    <text
+       xml:space="preserve"
+       x="-1906.4197"
+       y="-11907.708"
+       id="sensor.floorplan_clock"
+       style="font-size:12px;line-height:0%;display:inline;stroke-width:0.26458332"
+       inkscape:label="sensor.floorplan_clock"><tspan
+         sodipodi:role="line"
+         id="tspan4629-6-0"
+         x="-1906.4197"
+         y="-11907.708"
+         style="font-size:705.55554199px;line-height:1.25;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332">22:22</tspan></text>
   </g>
 </svg>
