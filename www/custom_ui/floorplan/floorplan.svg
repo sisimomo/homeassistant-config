@@ -35,9 +35,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.08"
-     inkscape:cx="11948.43"
-     inkscape:cy="41260.581"
+     inkscape:zoom="0.04"
+     inkscape:cx="15161.32"
+     inkscape:cy="41845.617"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -603,14 +603,14 @@
          style="font-size:264.58349609px;line-height:1.25;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332">Alarm</tspan></text>
     <text
        xml:space="preserve"
-       x="1051.7668"
+       x="800.41266"
        y="-12037.601"
        id="alarm_control_panel.alarm"
        inkscape:label="alarm_control_panel.alarm "
        style="line-height:0%;stroke-width:0.26458332"><tspan
          sodipodi:role="line"
          id="tspan4629-03"
-         x="1051.7668"
+         x="800.41266"
          y="-12037.601"
          style="font-size:705.55554199px;line-height:1.25;stroke-width:0.26458332">---</tspan></text>
     <rect
@@ -760,14 +760,14 @@
          style="font-size:264.58337402px;line-height:1.25;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332">Friday, June 30</tspan></text>
     <text
        xml:space="preserve"
-       x="-2141.1335"
+       x="-1929.4669"
        y="-12062.893"
        id="sensor.floorplan_time"
        style="font-size:12px;line-height:0%;display:inline;stroke-width:0.26458332"
        inkscape:label="sensor.floorplan_time"><tspan
          sodipodi:role="line"
          id="tspan4629-6-0"
-         x="-2141.1335"
+         x="-1929.4669"
          y="-12062.893"
          style="font-size:705.55554199px;line-height:1.25;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332">22:22</tspan></text>
   </g>
