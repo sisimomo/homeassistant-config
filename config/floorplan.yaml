@@ -89,7 +89,7 @@
             - state: 'off'
               class: 'door_closed'
             - state: 'on'
-              class: 'door_open bottom_left'
+              class: 'door_open_bottom_left'
 
         - name: Doors open top right
           entities:
@@ -98,7 +98,7 @@
             - state: 'off'
               class: 'door_closed'
             - state: 'on'
-              class: 'door_open top_right'
+              class: 'door_open_top_right'
 
 #        - name: Rooms
 #          entities:
