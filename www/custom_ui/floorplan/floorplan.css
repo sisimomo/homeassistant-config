@@ -13,13 +13,6 @@ svg, svg * {
   stroke-opacity: 1 !important;
 }
 
-/* Disable hover for doors */
-.entity.door_closed:hover, .entity.door_open:hover{
-  stroke-opacity: 0 !important;
-  stroke-width: 0px !important;
-  pointer-events: none !important;
-}
-
 /* Bootstrap succsss */
 
 .success-text {
@@ -90,13 +83,6 @@ svg, svg * {
   fill: #8a6d3b !important;
 }
 
-/* Camera */
-
-.camera-idle {
-/*  fill: #B9CEF7 !important; */
-  fill: #6FAECE !important;
-}
-
 /* Light */
 
 .light-off {
@@ -104,16 +90,6 @@ svg, svg * {
 }
 
 .light-on {
-  fill: #F8D2B9 !important;
-}
-
-/* Doorbell */
-
-.doorbell-off {
-  fill: #C3B7F4 !important;
-}
-
-.doorbell-on {
   fill: #F8D2B9 !important;
 }
 
@@ -149,16 +125,28 @@ svg, svg * {
   fill: #2baaa6 !important;
 }
 
+/* Doors */
+
 .door_closed {
-  fill: #8AA8A7 !important;
+  fill: green !important;
 }
 
 .door_open_bottom_left {
+  fill: red !important;
   transform: rotate(-90deg);
   transform-origin: bottom left;
 }
 
 .door_open_top_right {
+  fill: red !important;
   transform: rotate(90deg);
   transform-origin: top right;
+}
+
+/* Disable hover for doors */
+.entity.door_closed:hover, .entity.door_open_bottom_left:hover, .entity.door_open_top_right:hover{
+  stroke-opacity: 0 !important;
+  stroke-width: 0px !important;
+  pointer-events: none !important;
+  cursor: inherit !important;
 }

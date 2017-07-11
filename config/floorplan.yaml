@@ -3,15 +3,6 @@
       stylesheet: /local/custom_ui/floorplan/floorplan.css
       warnings:
       hide_app_toolbar:
-      
-      # These options are optional
-      # warnings:            # enable warnings (to find out why things might ot be working correctly)
-      # pan_zoom:            # enable experimental panning / zooming
-      # hide_app_toolbar:    # hide the application toolbar (when used as a custom panel)
-
-#      last_motion_entity: sensor.template_last_motion
-#      last_motion_class: last-motion
-
       groups:
 
 #        - name: Sensors
@@ -29,6 +20,12 @@
 #            else
 #              return "temp-high";
 #            '
+
+        ############
+        #  LIGHTS  #
+        ############
+
+        # Lights that can only be on/off
         - name: ToggleLights
           entities:
             - input_boolean.shelf_light
@@ -42,6 +39,7 @@
           action:
             service: toggle
 
+        #Lights that are full light components
         - name: Lights
           entities:
             - group.light_livingroom
@@ -61,16 +59,6 @@
             - state: 'off'
               class: 'doorbell-off'
 
-#        - name: NVR
-#          entities:
-#             - binary_sensor.blue_iris_nvr
-#          text_template: '${(entity.state === "on") ? "online" : "offline"}'
-#          states:
-#            - state: 'off'
-#              class: 'danger-text'
-#            - state: 'on'
-#              class: 'success-text'
-
         - name: Alarm Panel
           entities:
              - alarm_control_panel.alarm
@@ -82,7 +70,12 @@
             - state: 'disarmed'
               class: 'alarm-disarmed'
 
-        - name: Doors open bottom left
+        ###########
+        #  DOORS  #
+        ###########
+
+        # Doors that open to the bottom left
+        - name: Doors 1
           entities:
             - binary_sensor.door_window_sensor_158d00011c8066
           states:
@@ -91,7 +84,8 @@
             - state: 'on'
               class: 'door_open_bottom_left'
 
-        - name: Doors open top right
+        # Doors that open to the top right
+        - name: Doors 2
           entities:
             - binary_sensor.door_window_sensor_158d000154b7c0
           states:
@@ -125,6 +119,10 @@
 #          states:
 #            - state: 'idle'
 #              class: 'camera-idle'
+
+        ###################
+        #  MEDIA PLAYERS  #
+        ###################
 
         - name: Media Players
           entities:
