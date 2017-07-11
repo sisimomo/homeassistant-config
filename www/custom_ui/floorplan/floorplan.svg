@@ -35,11 +35,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.02"
-     inkscape:cx="-1580.1488"
-     inkscape:cy="34270.181"
+     inkscape:zoom="0.08"
+     inkscape:cx="10614.848"
+     inkscape:cy="41260.581"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer5"
      showgrid="true"
      units="cm"
      inkscape:window-width="1920"
@@ -86,7 +86,24 @@
        height="11356.862"
        x="1450.0004"
        y="229.64992"
-       ry="476.67679" />
+       ry="0"
+       rx="0" />
+    <rect
+       style="opacity:1;vector-effect:none;fill:#3d3b3f;fill-opacity:1;stroke:none;stroke-width:0.54494649;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect5653"
+       width="2472.9585"
+       height="920.00006"
+       x="1487.0414"
+       y="266.4422"
+       ry="104.54543" />
+    <rect
+       style="display:inline;opacity:1;vector-effect:none;fill:#3d3b3f;fill-opacity:1;stroke:none;stroke-width:0.42723545;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect5653-3"
+       width="1520"
+       height="920.00006"
+       x="4320"
+       y="272.81314"
+       ry="104.54543" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -586,16 +603,16 @@
          style="font-size:264.58349609px;line-height:1.25;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332">Alarm</tspan></text>
     <text
        xml:space="preserve"
-       x="744.61841"
+       x="833.48553"
        y="-11911.924"
        id="alarm_control_panel.alarm"
        inkscape:label="alarm_control_panel.alarm "
        style="line-height:0%;stroke-width:0.26458332"><tspan
          sodipodi:role="line"
          id="tspan4629-03"
-         x="744.61841"
+         x="833.48553"
          y="-11911.924"
-         style="font-size:705.55554199px;line-height:1.25;stroke-width:0.26458332">----</tspan></text>
+         style="font-size:705.55554199px;line-height:1.25;stroke-width:0.26458332">---</tspan></text>
     <rect
        style="opacity:1;fill:#007d00;fill-opacity:1;stroke:none;stroke-width:6.12265015;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="binary_sensor.door_window_sensor_158d00011c8066"
@@ -731,27 +748,27 @@
     </g>
     <text
        xml:space="preserve"
-       x="-1906.4197"
-       y="-12534.455"
+       x="-2141.1335"
+       y="-12689.64"
        id="sensor.floorplan_date"
        style="font-size:12px;line-height:0%;display:inline;stroke-width:0.26458332"
        inkscape:label="sensor.floorplan_date"><tspan
          sodipodi:role="line"
          id="tspan4629-6"
-         x="-1906.4197"
-         y="-12534.455"
+         x="-2141.1335"
+         y="-12689.64"
          style="font-size:264.58337402px;line-height:1.25;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332">Friday, June 30</tspan></text>
     <text
        xml:space="preserve"
-       x="-1906.4197"
-       y="-11907.708"
-       id="sensor.floorplan_clock"
+       x="-2141.1335"
+       y="-12062.893"
+       id="sensor.floorplan_time"
        style="font-size:12px;line-height:0%;display:inline;stroke-width:0.26458332"
-       inkscape:label="sensor.floorplan_clock"><tspan
+       inkscape:label="sensor.floorplan_time"><tspan
          sodipodi:role="line"
          id="tspan4629-6-0"
-         x="-1906.4197"
-         y="-11907.708"
+         x="-2141.1335"
+         y="-12062.893"
          style="font-size:705.55554199px;line-height:1.25;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332">22:22</tspan></text>
   </g>
 </svg>
