@@ -1,5 +1,5 @@
 - name: sembach
   latitude: !secret sembach_lat
   longitude: !secret sembach_long
-  radius: 150
+  radius: 100
   icon: mdi:home

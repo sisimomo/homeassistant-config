@@ -1,11 +1,11 @@
 - name: home janis
   latitude: !secret home_lat
   longitude: !secret home_long
-  radius: 150
+  radius: 100
   icon: mdi:home
 
 - name: home lena
   latitude: !secret home_lat
   longitude: !secret home_long
-  radius: 150
+  radius: 100
   icon: mdi:home
