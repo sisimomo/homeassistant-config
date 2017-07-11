@@ -35,9 +35,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.01"
-     inkscape:cx="11328.885"
-     inkscape:cy="15120.282"
+     inkscape:zoom="0.056568542"
+     inkscape:cx="33105.715"
+     inkscape:cy="35351.656"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -68,7 +68,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -88,9 +88,9 @@
     <path
        style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:37.79527664;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 8881.8887,7559.0547 v 377.9531 0 24264.5702 0 377.932 0.02 H 24377.951 v 15760.627 0 h 23055.117 v 0 0 -40781.1033 0 H 8881.8888 Z m 377.9531,377.9531 H 24377.953 v 8012.5972 0 377.95 0 3779.502 0 h 377.951 v 0 -3779.502 h 8881.889 v 3779.533 377.951 9259.842 h -8881.891 -377.951 v 0 377.951 2078.74 H 9259.8398 V 7937.0018 Z m 15496.0642,0 h 8881.889 v 8012.5972 h -8881.889 z m 9259.842,0 h 13039.369 v 8012.5972 h -7559.055 -377.951 -5102.363 z m 0,8390.5512 h 5102.361 v 3779.531 h -5102.361 z m 5480.314,0 h 7559.055 v 3779.531 h -7559.055 z m -5480.314,4157.484 h 5102.361 v 9259.842 h -5102.361 z m 5480.314,0 h 7559.055 v 9259.842 h -7559.055 z m -14740.158,9637.795 h 8881.891 v 17839.367 h -8881.891 v -15382.674 0 -377.951 0 -2078.74 z m 9259.844,0 H 47055.117 V 47962.205 H 34015.748 Z"
-       transform="matrix(0.26458333,0,0,0.26458333,0,-14703)"
        id="rect3687"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       transform="matrix(0.26458333,0,0,0.26458333,0,-14703)" />
     <path
        style="opacity:1;fill:#9b9b9b;fill-opacity:1;stroke:none;stroke-width:37.79527664;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 8881.8906,32579.529 v 7559.055 377.953 0 H 24377.953 v -377.955 H 9259.8418 v -7559.055 h -377.9512 z"
@@ -190,397 +190,260 @@
        style="stroke-width:25.93290138"
        inkscape:label="switch.janis_pc_wol" />
     <g
-       id="sensor.balcony_door_open"
+       id="sensor.balcony_door_open-das"
        transform="matrix(11.725867,0,0,11.725867,4415.451,-7193.1352)"
-       inkscape:label="sensor.balcony_door_open">
+       inkscape:label="sensor.balcony_door_open"
+       style="stroke:none;stroke-opacity:1;fill:#000000;fill-opacity:1">
       <rect
          id="rect4530"
          height="13.968"
          width="3.1500001"
          y="81.028999"
-         x="7.5079999" />
+         x="7.5079999"
+         style="stroke:none;stroke-opacity:1;fill:#000000;fill-opacity:1" />
       <rect
          id="rect4532"
          height="13.968"
          width="3.1500001"
          y="81.028999"
-         x="89.342003" />
+         x="89.342003"
+         style="stroke:none;stroke-opacity:1;fill:#000000;fill-opacity:1" />
       <rect
          id="rect4534"
          height="75.047997"
          width="3.1500001"
          y="5.9790001"
-         x="86.191002" />
+         x="86.191002"
+         style="stroke:none;stroke-opacity:1;fill:#000000;fill-opacity:1" />
       <rect
          id="rect4536"
          height="0.99000001"
          width="1.979"
          y="81.028"
-         x="84.211998" />
+         x="84.211998"
+         style="stroke:none;stroke-opacity:1;fill:#000000;fill-opacity:1" />
       <rect
          id="rect4538"
          height="0.99000001"
          width="3.767"
          y="81.029999"
-         x="23.938" />
+         x="23.938"
+         style="stroke:none;stroke-opacity:1;fill:#000000;fill-opacity:1" />
       <rect
          id="rect4540"
          height="0.99000001"
          width="3.767"
          y="81.029999"
-         x="16.405001" />
+         x="16.405001"
+         style="stroke:none;stroke-opacity:1;fill:#000000;fill-opacity:1" />
       <rect
          id="rect4542"
          height="0.99000001"
          width="3.767"
          y="81.028999"
-         x="61.609001" />
+         x="61.609001"
+         style="stroke:none;stroke-opacity:1;fill:#000000;fill-opacity:1" />
       <rect
          id="rect4544"
          height="0.99000001"
          width="3.767"
          y="81.028999"
-         x="54.075001" />
+         x="54.075001"
+         style="stroke:none;stroke-opacity:1;fill:#000000;fill-opacity:1" />
       <rect
          id="rect4546"
          height="0.99000001"
          width="3.767"
          y="81.028999"
-         x="46.541" />
+         x="46.541"
+         style="stroke:none;stroke-opacity:1;fill:#000000;fill-opacity:1" />
       <rect
          id="rect4548"
          height="0.99000001"
          width="3.767"
          y="81.028999"
-         x="39.007" />
+         x="39.007"
+         style="stroke:none;stroke-opacity:1;fill:#000000;fill-opacity:1" />
       <rect
          id="rect4550"
          height="0.99000001"
          width="3.7679999"
          y="81.028999"
-         x="31.473" />
+         x="31.473"
+         style="stroke:none;stroke-opacity:1;fill:#000000;fill-opacity:1" />
       <rect
          id="rect4552-4"
          height="0.99000001"
          width="3.7679999"
          y="81.028"
-         x="76.676003" />
+         x="76.676003"
+         style="stroke:none;stroke-opacity:1;fill:#000000;fill-opacity:1" />
       <rect
          id="rect4554-7"
          height="0.99000001"
          width="3.7679999"
          y="81.028"
-         x="69.142998" />
+         x="69.142998"
+         style="stroke:none;stroke-opacity:1;fill:#000000;fill-opacity:1" />
       <rect
          id="rect4556"
          height="0.99000001"
          width="1.98"
          y="81.029999"
-         x="10.658" />
+         x="10.658"
+         style="stroke:none;stroke-opacity:1;fill:#000000;fill-opacity:1" />
       <rect
          id="rect4558"
          height="0.991"
          width="1.98"
          y="94.008003"
-         x="87.361" />
+         x="87.361"
+         style="stroke:none;stroke-opacity:1;fill:#000000;fill-opacity:1" />
       <rect
          id="rect4560"
          height="0.99000001"
          width="3.934"
          y="94.010002"
-         x="24.437" />
+         x="24.437"
+         style="stroke:none;stroke-opacity:1;fill:#000000;fill-opacity:1" />
       <rect
          id="rect4562"
          height="0.99000001"
          width="3.9330001"
          y="94.010002"
-         x="16.570999" />
+         x="16.570999"
+         style="stroke:none;stroke-opacity:1;fill:#000000;fill-opacity:1" />
       <rect
          id="rect4564"
          height="0.991"
          width="3.9330001"
          y="94.008003"
-         x="63.764999" />
+         x="63.764999"
+         style="stroke:none;stroke-opacity:1;fill:#000000;fill-opacity:1" />
       <rect
          id="rect4566"
          height="0.991"
          width="3.9330001"
          y="94.009003"
-         x="55.898998" />
+         x="55.898998"
+         style="stroke:none;stroke-opacity:1;fill:#000000;fill-opacity:1" />
       <rect
          id="rect4568"
          height="0.991"
          width="3.934"
          y="94.009003"
-         x="48.033001" />
+         x="48.033001"
+         style="stroke:none;stroke-opacity:1;fill:#000000;fill-opacity:1" />
       <rect
          id="rect4570"
          height="0.991"
          width="3.9330001"
          y="94.009003"
-         x="40.167999" />
+         x="40.167999"
+         style="stroke:none;stroke-opacity:1;fill:#000000;fill-opacity:1" />
       <rect
          id="rect4572"
          height="0.991"
          width="3.9330001"
          y="94.009003"
-         x="32.303001" />
+         x="32.303001"
+         style="stroke:none;stroke-opacity:1;fill:#000000;fill-opacity:1" />
       <rect
          id="rect4574"
          height="0.991"
          width="3.9330001"
          y="94.008003"
-         x="79.496002" />
+         x="79.496002"
+         style="stroke:none;stroke-opacity:1;fill:#000000;fill-opacity:1" />
       <rect
          id="rect4576"
          height="0.991"
          width="3.9330001"
          y="94.008003"
-         x="71.630997" />
+         x="71.630997"
+         style="stroke:none;stroke-opacity:1;fill:#000000;fill-opacity:1" />
       <rect
          id="rect4578"
          height="0.99000001"
          width="1.98"
          y="94.010002"
-         x="10.658" />
+         x="10.658"
+         style="stroke:none;stroke-opacity:1;fill:#000000;fill-opacity:1" />
       <path
          id="path4580"
          d="m 11.006,77.223 -0.989,-0.051 c 0.067,-1.323 0.168,-2.661 0.302,-3.972 l 0.985,0.1 c -0.132,1.296 -0.232,2.614 -0.298,3.923 z"
-         inkscape:connector-curvature="0" />
+         inkscape:connector-curvature="0"
+         style="stroke:none;stroke-opacity:1;fill:#000000;fill-opacity:1" />
       <path
          id="path4582"
          d="m 11.807,69.401 -0.979,-0.153 c 0.204,-1.309 0.444,-2.627 0.716,-3.919 l 0.969,0.203 c -0.268,1.276 -0.506,2.576 -0.706,3.869 z"
-         inkscape:connector-curvature="0" />
+         inkscape:connector-curvature="0"
+         style="stroke:none;stroke-opacity:1;fill:#000000;fill-opacity:1" />
       <path
          id="path4584"
          d="M 13.422,61.706 12.465,61.45 c 0.341,-1.279 0.719,-2.565 1.125,-3.82 l 0.942,0.303 c -0.401,1.239 -0.774,2.508 -1.11,3.773 z"
-         inkscape:connector-curvature="0" />
+         inkscape:connector-curvature="0"
+         style="stroke:none;stroke-opacity:1;fill:#000000;fill-opacity:1" />
       <path
          id="path4586"
          d="m 15.84,54.225 -0.924,-0.354 c 0.468,-1.227 0.979,-2.463 1.518,-3.676 l 0.905,0.401 c -0.532,1.199 -1.036,2.419 -1.499,3.629 z"
-         inkscape:connector-curvature="0" />
+         inkscape:connector-curvature="0"
+         style="stroke:none;stroke-opacity:1;fill:#000000;fill-opacity:1" />
       <path
          id="path4588"
          d="m 19.025,47.051 -0.883,-0.449 c 0.6,-1.177 1.238,-2.354 1.897,-3.499 l 0.858,0.495 c -0.65,1.13 -1.281,2.292 -1.872,3.453 z"
-         inkscape:connector-curvature="0" />
+         inkscape:connector-curvature="0"
+         style="stroke:none;stroke-opacity:1;fill:#000000;fill-opacity:1" />
       <path
          id="path4590"
          d="m 22.949,40.248 -0.831,-0.539 c 0.72,-1.109 1.478,-2.213 2.253,-3.283 l 0.802,0.581 c -0.766,1.056 -1.514,2.146 -2.224,3.241 z"
-         inkscape:connector-curvature="0" />
+         inkscape:connector-curvature="0"
+         style="stroke:none;stroke-opacity:1;fill:#000000;fill-opacity:1" />
       <path
          id="path4592"
          d="m 27.564,33.888 -0.77,-0.623 c 0.83,-1.027 1.7,-2.047 2.584,-3.032 l 0.737,0.662 c -0.873,0.972 -1.731,1.979 -2.551,2.993 z"
-         inkscape:connector-curvature="0" />
+         inkscape:connector-curvature="0"
+         style="stroke:none;stroke-opacity:1;fill:#000000;fill-opacity:1" />
       <path
          id="path4594"
          d="m 32.82,28.038 -0.701,-0.699 c 0.935,-0.938 1.907,-1.863 2.886,-2.748 l 0.663,0.735 c -0.966,0.873 -1.924,1.786 -2.848,2.712 z"
-         inkscape:connector-curvature="0" />
+         inkscape:connector-curvature="0"
+         style="stroke:none;stroke-opacity:1;fill:#000000;fill-opacity:1" />
       <path
          id="path4596"
          d="m 38.657,22.766 -0.625,-0.769 c 1.027,-0.834 2.09,-1.652 3.158,-2.432 l 0.584,0.799 c -1.055,0.77 -2.104,1.578 -3.117,2.402 z"
-         inkscape:connector-curvature="0" />
+         inkscape:connector-curvature="0"
+         style="stroke:none;stroke-opacity:1;fill:#000000;fill-opacity:1" />
       <path
          id="path4598"
          d="m 45.013,18.128 -0.541,-0.83 c 1.11,-0.724 2.253,-1.427 3.397,-2.091 l 0.498,0.857 c -1.13,0.655 -2.257,1.35 -3.354,2.064 z"
-         inkscape:connector-curvature="0" />
+         inkscape:connector-curvature="0"
+         style="stroke:none;stroke-opacity:1;fill:#000000;fill-opacity:1" />
       <path
          id="path4600"
          d="m 51.824,14.18 -0.45,-0.882 c 1.182,-0.605 2.394,-1.184 3.601,-1.723 l 0.403,0.904 c -1.191,0.532 -2.386,1.104 -3.554,1.701 z"
-         inkscape:connector-curvature="0" />
+         inkscape:connector-curvature="0"
+         style="stroke:none;stroke-opacity:1;fill:#000000;fill-opacity:1" />
       <path
          id="path4602"
          d="m 59.017,10.967 -0.356,-0.924 c 1.245,-0.478 2.513,-0.927 3.767,-1.334 l 0.305,0.941 c -1.239,0.403 -2.489,0.846 -3.716,1.317 z"
-         inkscape:connector-curvature="0" />
+         inkscape:connector-curvature="0"
+         style="stroke:none;stroke-opacity:1;fill:#000000;fill-opacity:1" />
       <path
          id="path4604"
          d="M 66.502,8.534 66.247,7.577 C 67.52,7.235 68.823,6.923 70.123,6.648 l 0.204,0.969 c -1.28,0.272 -2.568,0.58 -3.825,0.917 z"
-         inkscape:connector-curvature="0" />
+         inkscape:connector-curvature="0"
+         style="stroke:none;stroke-opacity:1;fill:#000000;fill-opacity:1" />
       <path
          id="path4606"
          d="M 74.193,6.905 74.042,5.927 c 1.307,-0.206 2.636,-0.379 3.951,-0.515 l 0.102,0.984 c -1.298,0.135 -2.61,0.306 -3.902,0.509 z"
-         inkscape:connector-curvature="0" />
+         inkscape:connector-curvature="0"
+         style="stroke:none;stroke-opacity:1;fill:#000000;fill-opacity:1" />
       <path
          id="path4608"
          d="M 82.016,6.091 81.966,5.102 C 83.287,5.034 84.627,5 85.947,5 v 0.99 c -1.302,0 -2.625,0.034 -3.931,0.101 z"
-         inkscape:connector-curvature="0" />
-    </g>
-    <g
-       id="sensor.balcony_door_closed"
-       transform="matrix(11.76692,0,0,11.76692,4411.6539,-7196.4617)"
-       inkscape:label="sensor.balcony_door_closed">
-      <rect
-         id="rect2"
-         height="13.968"
-         width="3.1500001"
-         y="81.028999"
-         x="7.5079999" />
-      <rect
-         id="rect4"
-         height="13.968"
-         width="3.1500001"
-         y="81.028999"
-         x="89.342003" />
-      <rect
-         id="rect6"
-         height="3.1500015"
-         width="78.683998"
-         y="81.028999"
-         x="10.658" />
-      <rect
-         id="rect30"
-         height="0.991"
-         width="1.98"
-         y="94.008003"
-         x="87.361" />
-      <rect
-         id="rect32"
-         height="0.99000001"
-         width="3.934"
-         y="94.010002"
-         x="24.437" />
-      <rect
-         id="rect34"
-         height="0.99000001"
-         width="3.9330001"
-         y="94.010002"
-         x="16.570999" />
-      <rect
-         id="rect36"
-         height="0.991"
-         width="3.9330001"
-         y="94.008003"
-         x="63.764999" />
-      <rect
-         id="rect38"
-         height="0.991"
-         width="3.9330001"
-         y="94.009003"
-         x="55.898998" />
-      <rect
-         id="rect40"
-         height="0.991"
-         width="3.934"
-         y="94.009003"
-         x="48.033001" />
-      <rect
-         id="rect42"
-         height="0.991"
-         width="3.9330001"
-         y="94.009003"
-         x="40.167999" />
-      <rect
-         id="rect44"
-         height="0.991"
-         width="3.9330001"
-         y="94.009003"
-         x="32.303001" />
-      <rect
-         id="rect46"
-         height="0.991"
-         width="3.9330001"
-         y="94.008003"
-         x="79.496002" />
-      <rect
-         id="rect48"
-         height="0.991"
-         width="3.9330001"
-         y="94.008003"
-         x="71.630997" />
-      <rect
-         id="rect50"
-         height="0.99000001"
-         width="1.98"
-         y="94.010002"
-         x="10.658" />
-    </g>
-    <g
-       id="sensor.entrance_door_closed"
-       transform="matrix(-11.647664,2.1125664e-5,-2.1125664e-5,-11.647664,7704.1424,-11599.202)"
-       inkscape:label="sensor.entrance_door_closed">
-      <rect
-         id="rect2-4"
-         height="13.968"
-         width="3.1500001"
-         y="81.028999"
-         x="7.5079999" />
-      <rect
-         id="rect4-6"
-         height="13.968"
-         width="3.1500001"
-         y="81.028999"
-         x="89.342003" />
-      <rect
-         id="rect6-3"
-         height="3.1500015"
-         width="78.683998"
-         y="81.028999"
-         x="10.658" />
-      <rect
-         id="rect30-7"
-         height="0.991"
-         width="1.98"
-         y="94.008003"
-         x="87.361" />
-      <rect
-         id="rect32-1"
-         height="0.99000001"
-         width="3.934"
-         y="94.010002"
-         x="24.437" />
-      <rect
-         id="rect34-3"
-         height="0.99000001"
-         width="3.9330001"
-         y="94.010002"
-         x="16.570999" />
-      <rect
-         id="rect36-2"
-         height="0.991"
-         width="3.9330001"
-         y="94.008003"
-         x="63.764999" />
-      <rect
-         id="rect38-4"
-         height="0.991"
-         width="3.9330001"
-         y="94.009003"
-         x="55.898998" />
-      <rect
-         id="rect40-5"
-         height="0.991"
-         width="3.934"
-         y="94.009003"
-         x="48.033001" />
-      <rect
-         id="rect42-8"
-         height="0.991"
-         width="3.9330001"
-         y="94.009003"
-         x="40.167999" />
-      <rect
-         id="rect44-2"
-         height="0.991"
-         width="3.9330001"
-         y="94.009003"
-         x="32.303001" />
-      <rect
-         id="rect46-0"
-         height="0.991"
-         width="3.9330001"
-         y="94.008003"
-         x="79.496002" />
-      <rect
-         id="rect48-2"
-         height="0.991"
-         width="3.9330001"
-         y="94.008003"
-         x="71.630997" />
-      <rect
-         id="rect50-2"
-         height="0.99000001"
-         width="1.98"
-         y="94.010002"
-         x="10.658" />
+         inkscape:connector-curvature="0"
+         style="stroke:none;stroke-opacity:1;fill:#000000;fill-opacity:1" />
     </g>
     <g
        id="sensor.entrance_door_open"
@@ -886,362 +749,6 @@
        style="stroke-width:28.57117081"
        inkscape:label="light.gateway_light_286c07889d7e" />
     <g
-       id="sensor.balcony_door_closed-1"
-       transform="matrix(-9.9674862,1.378395e-5,-1.378395e-5,-9.9674862,7875.9702,-5865.956)"
-       inkscape:label="sensor.balcony_door_closed">
-      <rect
-         id="rect2-5"
-         height="13.968"
-         width="3.1500001"
-         y="81.028999"
-         x="7.5079999" />
-      <rect
-         id="rect4-0"
-         height="13.968"
-         width="3.1500001"
-         y="81.028999"
-         x="89.342003" />
-      <rect
-         id="rect6-2"
-         height="3.1500015"
-         width="78.683998"
-         y="81.028999"
-         x="10.658" />
-      <rect
-         id="rect30-3"
-         height="0.991"
-         width="1.98"
-         y="94.008003"
-         x="87.361" />
-      <rect
-         id="rect32-9"
-         height="0.99000001"
-         width="3.934"
-         y="94.010002"
-         x="24.437" />
-      <rect
-         id="rect34-0"
-         height="0.99000001"
-         width="3.9330001"
-         y="94.010002"
-         x="16.570999" />
-      <rect
-         id="rect36-9"
-         height="0.991"
-         width="3.9330001"
-         y="94.008003"
-         x="63.764999" />
-      <rect
-         id="rect38-7"
-         height="0.991"
-         width="3.9330001"
-         y="94.009003"
-         x="55.898998" />
-      <rect
-         id="rect40-8"
-         height="0.991"
-         width="3.934"
-         y="94.009003"
-         x="48.033001" />
-      <rect
-         id="rect42-4"
-         height="0.991"
-         width="3.9330001"
-         y="94.009003"
-         x="40.167999" />
-      <rect
-         id="rect44-9"
-         height="0.991"
-         width="3.9330001"
-         y="94.009003"
-         x="32.303001" />
-      <rect
-         id="rect46-6"
-         height="0.991"
-         width="3.9330001"
-         y="94.008003"
-         x="79.496002" />
-      <rect
-         id="rect48-6"
-         height="0.991"
-         width="3.9330001"
-         y="94.008003"
-         x="71.630997" />
-      <rect
-         id="rect50-3"
-         height="0.99000001"
-         width="1.98"
-         y="94.010002"
-         x="10.658" />
-    </g>
-    <g
-       id="sensor.balcony_door_closed-5"
-       transform="matrix(-9.5981894,-1.2489285e-5,1.2489285e-5,-9.5981894,9896.7999,-5900.6731)"
-       inkscape:label="sensor.balcony_door_closed">
-      <rect
-         id="rect2-6"
-         height="13.968"
-         width="3.1500001"
-         y="81.028999"
-         x="7.5079999" />
-      <rect
-         id="rect4-09"
-         height="13.968"
-         width="3.1500001"
-         y="81.028999"
-         x="89.342003" />
-      <rect
-         id="rect6-5"
-         height="3.1500015"
-         width="78.683998"
-         y="81.028999"
-         x="10.658" />
-      <rect
-         id="rect30-4"
-         height="0.991"
-         width="1.98"
-         y="94.008003"
-         x="87.361" />
-      <rect
-         id="rect32-6"
-         height="0.99000001"
-         width="3.934"
-         y="94.010002"
-         x="24.437" />
-      <rect
-         id="rect34-33"
-         height="0.99000001"
-         width="3.9330001"
-         y="94.010002"
-         x="16.570999" />
-      <rect
-         id="rect36-98"
-         height="0.991"
-         width="3.9330001"
-         y="94.008003"
-         x="63.764999" />
-      <rect
-         id="rect38-3"
-         height="0.991"
-         width="3.9330001"
-         y="94.009003"
-         x="55.898998" />
-      <rect
-         id="rect40-6"
-         height="0.991"
-         width="3.934"
-         y="94.009003"
-         x="48.033001" />
-      <rect
-         id="rect42-84"
-         height="0.991"
-         width="3.9330001"
-         y="94.009003"
-         x="40.167999" />
-      <rect
-         id="rect44-5"
-         height="0.991"
-         width="3.9330001"
-         y="94.009003"
-         x="32.303001" />
-      <rect
-         id="rect46-5"
-         height="0.991"
-         width="3.9330001"
-         y="94.008003"
-         x="79.496002" />
-      <rect
-         id="rect48-4"
-         height="0.991"
-         width="3.9330001"
-         y="94.008003"
-         x="71.630997" />
-      <rect
-         id="rect50-5"
-         height="0.99000001"
-         width="1.98"
-         y="94.010002"
-         x="10.658" />
-    </g>
-    <g
-       id="sensor.balcony_door_closed-3"
-       transform="matrix(7.2007883,0,0,7.2007883,11083.984,-11099.39)"
-       inkscape:label="sensor.balcony_door_closed">
-      <rect
-         id="rect2-8"
-         height="13.968"
-         width="3.1500001"
-         y="81.028999"
-         x="7.5079999" />
-      <rect
-         id="rect4-8"
-         height="13.968"
-         width="3.1500001"
-         y="81.028999"
-         x="89.342003" />
-      <rect
-         id="rect6-35"
-         height="3.1500015"
-         width="78.683998"
-         y="81.028999"
-         x="10.658" />
-      <rect
-         id="rect30-34"
-         height="0.991"
-         width="1.98"
-         y="94.008003"
-         x="87.361" />
-      <rect
-         id="rect32-2"
-         height="0.99000001"
-         width="3.934"
-         y="94.010002"
-         x="24.437" />
-      <rect
-         id="rect34-9"
-         height="0.99000001"
-         width="3.9330001"
-         y="94.010002"
-         x="16.570999" />
-      <rect
-         id="rect36-8"
-         height="0.991"
-         width="3.9330001"
-         y="94.008003"
-         x="63.764999" />
-      <rect
-         id="rect38-75"
-         height="0.991"
-         width="3.9330001"
-         y="94.009003"
-         x="55.898998" />
-      <rect
-         id="rect40-4"
-         height="0.991"
-         width="3.934"
-         y="94.009003"
-         x="48.033001" />
-      <rect
-         id="rect42-0"
-         height="0.991"
-         width="3.9330001"
-         y="94.009003"
-         x="40.167999" />
-      <rect
-         id="rect44-6"
-         height="0.991"
-         width="3.9330001"
-         y="94.009003"
-         x="32.303001" />
-      <rect
-         id="rect46-1"
-         height="0.991"
-         width="3.9330001"
-         y="94.008003"
-         x="79.496002" />
-      <rect
-         id="rect48-47"
-         height="0.991"
-         width="3.9330001"
-         y="94.008003"
-         x="71.630997" />
-      <rect
-         id="rect50-1"
-         height="0.99000001"
-         width="1.98"
-         y="94.010002"
-         x="10.658" />
-    </g>
-    <g
-       id="sensor.balcony_door_closed-4"
-       transform="matrix(7.2954903,0,0,7.2954903,8946.1097,-10008.834)"
-       inkscape:label="sensor.balcony_door_closed">
-      <rect
-         id="rect2-60"
-         height="13.968"
-         width="3.1500001"
-         y="81.028999"
-         x="7.5079999" />
-      <rect
-         id="rect4-091"
-         height="13.968"
-         width="3.1500001"
-         y="81.028999"
-         x="89.342003" />
-      <rect
-         id="rect6-7"
-         height="3.1500015"
-         width="78.683998"
-         y="81.028999"
-         x="10.658" />
-      <rect
-         id="rect30-36"
-         height="0.991"
-         width="1.98"
-         y="94.008003"
-         x="87.361" />
-      <rect
-         id="rect32-3"
-         height="0.99000001"
-         width="3.934"
-         y="94.010002"
-         x="24.437" />
-      <rect
-         id="rect34-8"
-         height="0.99000001"
-         width="3.9330001"
-         y="94.010002"
-         x="16.570999" />
-      <rect
-         id="rect36-3"
-         height="0.991"
-         width="3.9330001"
-         y="94.008003"
-         x="63.764999" />
-      <rect
-         id="rect38-72"
-         height="0.991"
-         width="3.9330001"
-         y="94.009003"
-         x="55.898998" />
-      <rect
-         id="rect40-7"
-         height="0.991"
-         width="3.934"
-         y="94.009003"
-         x="48.033001" />
-      <rect
-         id="rect42-07"
-         height="0.991"
-         width="3.9330001"
-         y="94.009003"
-         x="40.167999" />
-      <rect
-         id="rect44-3"
-         height="0.991"
-         width="3.9330001"
-         y="94.009003"
-         x="32.303001" />
-      <rect
-         id="rect46-2"
-         height="0.991"
-         width="3.9330001"
-         y="94.008003"
-         x="79.496002" />
-      <rect
-         id="rect48-8"
-         height="0.991"
-         width="3.9330001"
-         y="94.008003"
-         x="71.630997" />
-      <rect
-         id="rect50-8"
-         height="0.99000001"
-         width="1.98"
-         y="94.010002"
-         x="10.658" />
-    </g>
-    <g
        id="sensor.balcony_door_closed-11"
        transform="matrix(-9.6579555,1.2180728e-5,-1.2180728e-5,-9.6579555,8973.8252,-9555.0749)"
        inkscape:label="sensor.balcony_door_closed">
@@ -1330,273 +837,6 @@
          y="94.010002"
          x="10.658" />
     </g>
-    <g
-       id="sensor.balcony_door_closed-7"
-       transform="matrix(-0.01754265,9.7551578,-9.7551578,-0.01754265,9840.6375,-12055.548)"
-       inkscape:label="sensor.balcony_door_closed">
-      <rect
-         id="rect2-3"
-         height="13.968"
-         width="3.1500001"
-         y="81.028999"
-         x="7.5079999" />
-      <rect
-         id="rect4-68"
-         height="13.968"
-         width="3.1500001"
-         y="81.028999"
-         x="89.342003" />
-      <rect
-         id="rect6-1"
-         height="3.1500015"
-         width="78.683998"
-         y="81.028999"
-         x="10.658" />
-      <rect
-         id="rect30-0"
-         height="0.991"
-         width="1.98"
-         y="94.008003"
-         x="87.361" />
-      <rect
-         id="rect32-4"
-         height="0.99000001"
-         width="3.934"
-         y="94.010002"
-         x="24.437" />
-      <rect
-         id="rect34-6"
-         height="0.99000001"
-         width="3.9330001"
-         y="94.010002"
-         x="16.570999" />
-      <rect
-         id="rect36-1"
-         height="0.991"
-         width="3.9330001"
-         y="94.008003"
-         x="63.764999" />
-      <rect
-         id="rect38-37"
-         height="0.991"
-         width="3.9330001"
-         y="94.009003"
-         x="55.898998" />
-      <rect
-         id="rect40-0"
-         height="0.991"
-         width="3.934"
-         y="94.009003"
-         x="48.033001" />
-      <rect
-         id="rect42-3"
-         height="0.991"
-         width="3.9330001"
-         y="94.009003"
-         x="40.167999" />
-      <rect
-         id="rect44-64"
-         height="0.991"
-         width="3.9330001"
-         y="94.009003"
-         x="32.303001" />
-      <rect
-         id="rect46-4"
-         height="0.991"
-         width="3.9330001"
-         y="94.008003"
-         x="79.496002" />
-      <rect
-         id="rect48-5"
-         height="0.991"
-         width="3.9330001"
-         y="94.008003"
-         x="71.630997" />
-      <rect
-         id="rect50-7"
-         height="0.99000001"
-         width="1.98"
-         y="94.010002"
-         x="10.658" />
-    </g>
-    <g
-       id="sensor.balcony_door_closed-8"
-       transform="matrix(0,9.8496862,-9.8496862,0,9845.959,-8308.6414)"
-       inkscape:label="sensor.balcony_door_closed">
-      <rect
-         id="rect2-9"
-         height="13.968"
-         width="3.1500001"
-         y="81.028999"
-         x="7.5079999" />
-      <rect
-         id="rect4-31"
-         height="13.968"
-         width="3.1500001"
-         y="81.028999"
-         x="89.342003" />
-      <rect
-         id="rect6-0"
-         height="3.1500015"
-         width="78.683998"
-         y="81.028999"
-         x="10.658" />
-      <rect
-         id="rect30-6"
-         height="0.991"
-         width="1.98"
-         y="94.008003"
-         x="87.361" />
-      <rect
-         id="rect32-0"
-         height="0.99000001"
-         width="3.934"
-         y="94.010002"
-         x="24.437" />
-      <rect
-         id="rect34-5"
-         height="0.99000001"
-         width="3.9330001"
-         y="94.010002"
-         x="16.570999" />
-      <rect
-         id="rect36-7"
-         height="0.991"
-         width="3.9330001"
-         y="94.008003"
-         x="63.764999" />
-      <rect
-         id="rect38-6"
-         height="0.991"
-         width="3.9330001"
-         y="94.009003"
-         x="55.898998" />
-      <rect
-         id="rect40-62"
-         height="0.991"
-         width="3.934"
-         y="94.009003"
-         x="48.033001" />
-      <rect
-         id="rect42-2"
-         height="0.991"
-         width="3.9330001"
-         y="94.009003"
-         x="40.167999" />
-      <rect
-         id="rect44-98"
-         height="0.991"
-         width="3.9330001"
-         y="94.009003"
-         x="32.303001" />
-      <rect
-         id="rect46-8"
-         height="0.991"
-         width="3.9330001"
-         y="94.008003"
-         x="79.496002" />
-      <rect
-         id="rect48-7"
-         height="0.991"
-         width="3.9330001"
-         y="94.008003"
-         x="71.630997" />
-      <rect
-         id="rect50-6"
-         height="0.99000001"
-         width="1.98"
-         y="94.010002"
-         x="10.658" />
-    </g>
-    <g
-       id="sensor.balcony_door_closed-8-0"
-       transform="matrix(0,8.5502697,-8.5502697,0,11193.802,-7867.3311)"
-       inkscape:label="sensor.balcony_door_closed">
-      <rect
-         id="rect2-9-5"
-         height="13.968"
-         width="3.1500001"
-         y="81.028999"
-         x="7.5079999" />
-      <rect
-         id="rect4-31-4"
-         height="13.968"
-         width="3.1500001"
-         y="81.028999"
-         x="89.342003" />
-      <rect
-         id="rect6-0-3"
-         height="3.1500015"
-         width="78.683998"
-         y="81.028999"
-         x="10.658" />
-      <rect
-         id="rect30-6-7"
-         height="0.991"
-         width="1.98"
-         y="94.008003"
-         x="87.361" />
-      <rect
-         id="rect32-0-5"
-         height="0.99000001"
-         width="3.934"
-         y="94.010002"
-         x="24.437" />
-      <rect
-         id="rect34-5-6"
-         height="0.99000001"
-         width="3.9330001"
-         y="94.010002"
-         x="16.570999" />
-      <rect
-         id="rect36-7-3"
-         height="0.991"
-         width="3.9330001"
-         y="94.008003"
-         x="63.764999" />
-      <rect
-         id="rect38-6-9"
-         height="0.991"
-         width="3.9330001"
-         y="94.009003"
-         x="55.898998" />
-      <rect
-         id="rect40-62-8"
-         height="0.991"
-         width="3.934"
-         y="94.009003"
-         x="48.033001" />
-      <rect
-         id="rect42-2-7"
-         height="0.991"
-         width="3.9330001"
-         y="94.009003"
-         x="40.167999" />
-      <rect
-         id="rect44-98-9"
-         height="0.991"
-         width="3.9330001"
-         y="94.009003"
-         x="32.303001" />
-      <rect
-         id="rect46-8-9"
-         height="0.991"
-         width="3.9330001"
-         y="94.008003"
-         x="79.496002" />
-      <rect
-         id="rect48-7-8"
-         height="0.991"
-         width="3.9330001"
-         y="94.008003"
-         x="71.630997" />
-      <rect
-         id="rect50-6-7"
-         height="0.99000001"
-         width="1.98"
-         y="94.010002"
-         x="10.658" />
-    </g>
     <text
        xml:space="preserve"
        x="859.73407"
@@ -1620,5 +860,1529 @@
          x="3272.6382"
          y="-3263.4788"
          style="font-size:705.55554199px;stroke-width:0.26458332">-----------</tspan></text>
+    <g
+       id="sensor.balcony_door_open-3"
+       transform="matrix(-9.9963772,0,0,-9.9963772,7876.0719,-5886.1182)"
+       inkscape:label="sensor.balcony_door_open">
+      <rect
+         id="rect4530-7"
+         height="13.968"
+         width="3.1500001"
+         y="81.028999"
+         x="7.5079999" />
+      <rect
+         id="rect4532-6"
+         height="13.968"
+         width="3.1500001"
+         y="81.028999"
+         x="89.342003" />
+      <rect
+         id="rect4534-7"
+         height="75.047997"
+         width="3.1500001"
+         y="5.9790001"
+         x="86.191002" />
+      <rect
+         id="rect4536-3"
+         height="0.99000001"
+         width="1.979"
+         y="81.028"
+         x="84.211998" />
+      <rect
+         id="rect4538-8"
+         height="0.99000001"
+         width="3.767"
+         y="81.029999"
+         x="23.938" />
+      <rect
+         id="rect4540-3"
+         height="0.99000001"
+         width="3.767"
+         y="81.029999"
+         x="16.405001" />
+      <rect
+         id="rect4542-2"
+         height="0.99000001"
+         width="3.767"
+         y="81.028999"
+         x="61.609001" />
+      <rect
+         id="rect4544-7"
+         height="0.99000001"
+         width="3.767"
+         y="81.028999"
+         x="54.075001" />
+      <rect
+         id="rect4546-1"
+         height="0.99000001"
+         width="3.767"
+         y="81.028999"
+         x="46.541" />
+      <rect
+         id="rect4548-6"
+         height="0.99000001"
+         width="3.767"
+         y="81.028999"
+         x="39.007" />
+      <rect
+         id="rect4550-8"
+         height="0.99000001"
+         width="3.7679999"
+         y="81.028999"
+         x="31.473" />
+      <rect
+         id="rect4552-4-6"
+         height="0.99000001"
+         width="3.7679999"
+         y="81.028"
+         x="76.676003" />
+      <rect
+         id="rect4554-7-5"
+         height="0.99000001"
+         width="3.7679999"
+         y="81.028"
+         x="69.142998" />
+      <rect
+         id="rect4556-5"
+         height="0.99000001"
+         width="1.98"
+         y="81.029999"
+         x="10.658" />
+      <rect
+         id="rect4558-8"
+         height="0.991"
+         width="1.98"
+         y="94.008003"
+         x="87.361" />
+      <rect
+         id="rect4560-2"
+         height="0.99000001"
+         width="3.934"
+         y="94.010002"
+         x="24.437" />
+      <rect
+         id="rect4562-9"
+         height="0.99000001"
+         width="3.9330001"
+         y="94.010002"
+         x="16.570999" />
+      <rect
+         id="rect4564-5"
+         height="0.991"
+         width="3.9330001"
+         y="94.008003"
+         x="63.764999" />
+      <rect
+         id="rect4566-4"
+         height="0.991"
+         width="3.9330001"
+         y="94.009003"
+         x="55.898998" />
+      <rect
+         id="rect4568-2"
+         height="0.991"
+         width="3.934"
+         y="94.009003"
+         x="48.033001" />
+      <rect
+         id="rect4570-3"
+         height="0.991"
+         width="3.9330001"
+         y="94.009003"
+         x="40.167999" />
+      <rect
+         id="rect4572-3"
+         height="0.991"
+         width="3.9330001"
+         y="94.009003"
+         x="32.303001" />
+      <rect
+         id="rect4574-7"
+         height="0.991"
+         width="3.9330001"
+         y="94.008003"
+         x="79.496002" />
+      <rect
+         id="rect4576-2"
+         height="0.991"
+         width="3.9330001"
+         y="94.008003"
+         x="71.630997" />
+      <rect
+         id="rect4578-9"
+         height="0.99000001"
+         width="1.98"
+         y="94.010002"
+         x="10.658" />
+      <path
+         id="path4580-7"
+         d="m 11.006,77.223 -0.989,-0.051 c 0.067,-1.323 0.168,-2.661 0.302,-3.972 l 0.985,0.1 c -0.132,1.296 -0.232,2.614 -0.298,3.923 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4582-7"
+         d="m 11.807,69.401 -0.979,-0.153 c 0.204,-1.309 0.444,-2.627 0.716,-3.919 l 0.969,0.203 c -0.268,1.276 -0.506,2.576 -0.706,3.869 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4584-6"
+         d="M 13.422,61.706 12.465,61.45 c 0.341,-1.279 0.719,-2.565 1.125,-3.82 l 0.942,0.303 c -0.401,1.239 -0.774,2.508 -1.11,3.773 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4586-7"
+         d="m 15.84,54.225 -0.924,-0.354 c 0.468,-1.227 0.979,-2.463 1.518,-3.676 l 0.905,0.401 c -0.532,1.199 -1.036,2.419 -1.499,3.629 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4588-4"
+         d="m 19.025,47.051 -0.883,-0.449 c 0.6,-1.177 1.238,-2.354 1.897,-3.499 l 0.858,0.495 c -0.65,1.13 -1.281,2.292 -1.872,3.453 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4590-0"
+         d="m 22.949,40.248 -0.831,-0.539 c 0.72,-1.109 1.478,-2.213 2.253,-3.283 l 0.802,0.581 c -0.766,1.056 -1.514,2.146 -2.224,3.241 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4592-4"
+         d="m 27.564,33.888 -0.77,-0.623 c 0.83,-1.027 1.7,-2.047 2.584,-3.032 l 0.737,0.662 c -0.873,0.972 -1.731,1.979 -2.551,2.993 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4594-3"
+         d="m 32.82,28.038 -0.701,-0.699 c 0.935,-0.938 1.907,-1.863 2.886,-2.748 l 0.663,0.735 c -0.966,0.873 -1.924,1.786 -2.848,2.712 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4596-5"
+         d="m 38.657,22.766 -0.625,-0.769 c 1.027,-0.834 2.09,-1.652 3.158,-2.432 l 0.584,0.799 c -1.055,0.77 -2.104,1.578 -3.117,2.402 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4598-4"
+         d="m 45.013,18.128 -0.541,-0.83 c 1.11,-0.724 2.253,-1.427 3.397,-2.091 l 0.498,0.857 c -1.13,0.655 -2.257,1.35 -3.354,2.064 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4600-3"
+         d="m 51.824,14.18 -0.45,-0.882 c 1.182,-0.605 2.394,-1.184 3.601,-1.723 l 0.403,0.904 c -1.191,0.532 -2.386,1.104 -3.554,1.701 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4602-4"
+         d="m 59.017,10.967 -0.356,-0.924 c 1.245,-0.478 2.513,-0.927 3.767,-1.334 l 0.305,0.941 c -1.239,0.403 -2.489,0.846 -3.716,1.317 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4604-4"
+         d="M 66.502,8.534 66.247,7.577 C 67.52,7.235 68.823,6.923 70.123,6.648 l 0.204,0.969 c -1.28,0.272 -2.568,0.58 -3.825,0.917 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4606-5"
+         d="M 74.193,6.905 74.042,5.927 c 1.307,-0.206 2.636,-0.379 3.951,-0.515 l 0.102,0.984 c -1.298,0.135 -2.61,0.306 -3.902,0.509 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4608-1"
+         d="M 82.016,6.091 81.966,5.102 C 83.287,5.034 84.627,5 85.947,5 v 0.99 c -1.302,0 -2.625,0.034 -3.931,0.101 z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="sensor.balcony_door_open-3-9"
+       transform="matrix(-9.9963772,0,0,-9.9963772,9955.0526,-5883.0031)"
+       inkscape:label="sensor.balcony_door_open">
+      <rect
+         id="rect4530-7-9"
+         height="13.968"
+         width="3.1500001"
+         y="81.028999"
+         x="7.5079999" />
+      <rect
+         id="rect4532-6-6"
+         height="13.968"
+         width="3.1500001"
+         y="81.028999"
+         x="89.342003" />
+      <rect
+         id="rect4534-7-9"
+         height="75.047997"
+         width="3.1500001"
+         y="5.9790001"
+         x="86.191002" />
+      <rect
+         id="rect4536-3-0"
+         height="0.99000001"
+         width="1.979"
+         y="81.028"
+         x="84.211998" />
+      <rect
+         id="rect4538-8-8"
+         height="0.99000001"
+         width="3.767"
+         y="81.029999"
+         x="23.938" />
+      <rect
+         id="rect4540-3-7"
+         height="0.99000001"
+         width="3.767"
+         y="81.029999"
+         x="16.405001" />
+      <rect
+         id="rect4542-2-1"
+         height="0.99000001"
+         width="3.767"
+         y="81.028999"
+         x="61.609001" />
+      <rect
+         id="rect4544-7-9"
+         height="0.99000001"
+         width="3.767"
+         y="81.028999"
+         x="54.075001" />
+      <rect
+         id="rect4546-1-6"
+         height="0.99000001"
+         width="3.767"
+         y="81.028999"
+         x="46.541" />
+      <rect
+         id="rect4548-6-5"
+         height="0.99000001"
+         width="3.767"
+         y="81.028999"
+         x="39.007" />
+      <rect
+         id="rect4550-8-0"
+         height="0.99000001"
+         width="3.7679999"
+         y="81.028999"
+         x="31.473" />
+      <rect
+         id="rect4552-4-6-9"
+         height="0.99000001"
+         width="3.7679999"
+         y="81.028"
+         x="76.676003" />
+      <rect
+         id="rect4554-7-5-1"
+         height="0.99000001"
+         width="3.7679999"
+         y="81.028"
+         x="69.142998" />
+      <rect
+         id="rect4556-5-4"
+         height="0.99000001"
+         width="1.98"
+         y="81.029999"
+         x="10.658" />
+      <rect
+         id="rect4558-8-5"
+         height="0.991"
+         width="1.98"
+         y="94.008003"
+         x="87.361" />
+      <rect
+         id="rect4560-2-3"
+         height="0.99000001"
+         width="3.934"
+         y="94.010002"
+         x="24.437" />
+      <rect
+         id="rect4562-9-6"
+         height="0.99000001"
+         width="3.9330001"
+         y="94.010002"
+         x="16.570999" />
+      <rect
+         id="rect4564-5-8"
+         height="0.991"
+         width="3.9330001"
+         y="94.008003"
+         x="63.764999" />
+      <rect
+         id="rect4566-4-3"
+         height="0.991"
+         width="3.9330001"
+         y="94.009003"
+         x="55.898998" />
+      <rect
+         id="rect4568-2-2"
+         height="0.991"
+         width="3.934"
+         y="94.009003"
+         x="48.033001" />
+      <rect
+         id="rect4570-3-8"
+         height="0.991"
+         width="3.9330001"
+         y="94.009003"
+         x="40.167999" />
+      <rect
+         id="rect4572-3-1"
+         height="0.991"
+         width="3.9330001"
+         y="94.009003"
+         x="32.303001" />
+      <rect
+         id="rect4574-7-5"
+         height="0.991"
+         width="3.9330001"
+         y="94.008003"
+         x="79.496002" />
+      <rect
+         id="rect4576-2-8"
+         height="0.991"
+         width="3.9330001"
+         y="94.008003"
+         x="71.630997" />
+      <rect
+         id="rect4578-9-5"
+         height="0.99000001"
+         width="1.98"
+         y="94.010002"
+         x="10.658" />
+      <path
+         id="path4580-7-2"
+         d="m 11.006,77.223 -0.989,-0.051 c 0.067,-1.323 0.168,-2.661 0.302,-3.972 l 0.985,0.1 c -0.132,1.296 -0.232,2.614 -0.298,3.923 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4582-7-2"
+         d="m 11.807,69.401 -0.979,-0.153 c 0.204,-1.309 0.444,-2.627 0.716,-3.919 l 0.969,0.203 c -0.268,1.276 -0.506,2.576 -0.706,3.869 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4584-6-8"
+         d="M 13.422,61.706 12.465,61.45 c 0.341,-1.279 0.719,-2.565 1.125,-3.82 l 0.942,0.303 c -0.401,1.239 -0.774,2.508 -1.11,3.773 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4586-7-5"
+         d="m 15.84,54.225 -0.924,-0.354 c 0.468,-1.227 0.979,-2.463 1.518,-3.676 l 0.905,0.401 c -0.532,1.199 -1.036,2.419 -1.499,3.629 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4588-4-8"
+         d="m 19.025,47.051 -0.883,-0.449 c 0.6,-1.177 1.238,-2.354 1.897,-3.499 l 0.858,0.495 c -0.65,1.13 -1.281,2.292 -1.872,3.453 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4590-0-7"
+         d="m 22.949,40.248 -0.831,-0.539 c 0.72,-1.109 1.478,-2.213 2.253,-3.283 l 0.802,0.581 c -0.766,1.056 -1.514,2.146 -2.224,3.241 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4592-4-3"
+         d="m 27.564,33.888 -0.77,-0.623 c 0.83,-1.027 1.7,-2.047 2.584,-3.032 l 0.737,0.662 c -0.873,0.972 -1.731,1.979 -2.551,2.993 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4594-3-0"
+         d="m 32.82,28.038 -0.701,-0.699 c 0.935,-0.938 1.907,-1.863 2.886,-2.748 l 0.663,0.735 c -0.966,0.873 -1.924,1.786 -2.848,2.712 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4596-5-7"
+         d="m 38.657,22.766 -0.625,-0.769 c 1.027,-0.834 2.09,-1.652 3.158,-2.432 l 0.584,0.799 c -1.055,0.77 -2.104,1.578 -3.117,2.402 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4598-4-3"
+         d="m 45.013,18.128 -0.541,-0.83 c 1.11,-0.724 2.253,-1.427 3.397,-2.091 l 0.498,0.857 c -1.13,0.655 -2.257,1.35 -3.354,2.064 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4600-3-9"
+         d="m 51.824,14.18 -0.45,-0.882 c 1.182,-0.605 2.394,-1.184 3.601,-1.723 l 0.403,0.904 c -1.191,0.532 -2.386,1.104 -3.554,1.701 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4602-4-8"
+         d="m 59.017,10.967 -0.356,-0.924 c 1.245,-0.478 2.513,-0.927 3.767,-1.334 l 0.305,0.941 c -1.239,0.403 -2.489,0.846 -3.716,1.317 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4604-4-4"
+         d="M 66.502,8.534 66.247,7.577 C 67.52,7.235 68.823,6.923 70.123,6.648 l 0.204,0.969 c -1.28,0.272 -2.568,0.58 -3.825,0.917 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4606-5-8"
+         d="M 74.193,6.905 74.042,5.927 c 1.307,-0.206 2.636,-0.379 3.951,-0.515 l 0.102,0.984 c -1.298,0.135 -2.61,0.306 -3.902,0.509 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4608-1-9"
+         d="M 82.016,6.091 81.966,5.102 C 83.287,5.034 84.627,5 85.947,5 v 0.99 c -1.302,0 -2.625,0.034 -3.931,0.101 z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="sensor.balcony_door_open-3-2"
+       transform="matrix(0,8.4671485,-8.4671485,0,11154.354,-7866.5708)"
+       inkscape:label="sensor.balcony_door_open">
+      <rect
+         id="rect4530-7-2"
+         height="13.968"
+         width="3.1500001"
+         y="81.028999"
+         x="7.5079999" />
+      <rect
+         id="rect4532-6-9"
+         height="13.968"
+         width="3.1500001"
+         y="81.028999"
+         x="89.342003" />
+      <rect
+         id="rect4534-7-97"
+         height="75.047997"
+         width="3.1500001"
+         y="5.9790001"
+         x="86.191002" />
+      <rect
+         id="rect4536-3-00"
+         height="0.99000001"
+         width="1.979"
+         y="81.028"
+         x="84.211998" />
+      <rect
+         id="rect4538-8-0"
+         height="0.99000001"
+         width="3.767"
+         y="81.029999"
+         x="23.938" />
+      <rect
+         id="rect4540-3-0"
+         height="0.99000001"
+         width="3.767"
+         y="81.029999"
+         x="16.405001" />
+      <rect
+         id="rect4542-2-7"
+         height="0.99000001"
+         width="3.767"
+         y="81.028999"
+         x="61.609001" />
+      <rect
+         id="rect4544-7-1"
+         height="0.99000001"
+         width="3.767"
+         y="81.028999"
+         x="54.075001" />
+      <rect
+         id="rect4546-1-4"
+         height="0.99000001"
+         width="3.767"
+         y="81.028999"
+         x="46.541" />
+      <rect
+         id="rect4548-6-3"
+         height="0.99000001"
+         width="3.767"
+         y="81.028999"
+         x="39.007" />
+      <rect
+         id="rect4550-8-4"
+         height="0.99000001"
+         width="3.7679999"
+         y="81.028999"
+         x="31.473" />
+      <rect
+         id="rect4552-4-6-6"
+         height="0.99000001"
+         width="3.7679999"
+         y="81.028"
+         x="76.676003" />
+      <rect
+         id="rect4554-7-5-6"
+         height="0.99000001"
+         width="3.7679999"
+         y="81.028"
+         x="69.142998" />
+      <rect
+         id="rect4556-5-6"
+         height="0.99000001"
+         width="1.98"
+         y="81.029999"
+         x="10.658" />
+      <rect
+         id="rect4558-8-9"
+         height="0.991"
+         width="1.98"
+         y="94.008003"
+         x="87.361" />
+      <rect
+         id="rect4560-2-5"
+         height="0.99000001"
+         width="3.934"
+         y="94.010002"
+         x="24.437" />
+      <rect
+         id="rect4562-9-0"
+         height="0.99000001"
+         width="3.9330001"
+         y="94.010002"
+         x="16.570999" />
+      <rect
+         id="rect4564-5-2"
+         height="0.991"
+         width="3.9330001"
+         y="94.008003"
+         x="63.764999" />
+      <rect
+         id="rect4566-4-7"
+         height="0.991"
+         width="3.9330001"
+         y="94.009003"
+         x="55.898998" />
+      <rect
+         id="rect4568-2-29"
+         height="0.991"
+         width="3.934"
+         y="94.009003"
+         x="48.033001" />
+      <rect
+         id="rect4570-3-5"
+         height="0.991"
+         width="3.9330001"
+         y="94.009003"
+         x="40.167999" />
+      <rect
+         id="rect4572-3-6"
+         height="0.991"
+         width="3.9330001"
+         y="94.009003"
+         x="32.303001" />
+      <rect
+         id="rect4574-7-0"
+         height="0.991"
+         width="3.9330001"
+         y="94.008003"
+         x="79.496002" />
+      <rect
+         id="rect4576-2-84"
+         height="0.991"
+         width="3.9330001"
+         y="94.008003"
+         x="71.630997" />
+      <rect
+         id="rect4578-9-9"
+         height="0.99000001"
+         width="1.98"
+         y="94.010002"
+         x="10.658" />
+      <path
+         id="path4580-7-0"
+         d="m 11.006,77.223 -0.989,-0.051 c 0.067,-1.323 0.168,-2.661 0.302,-3.972 l 0.985,0.1 c -0.132,1.296 -0.232,2.614 -0.298,3.923 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4582-7-5"
+         d="m 11.807,69.401 -0.979,-0.153 c 0.204,-1.309 0.444,-2.627 0.716,-3.919 l 0.969,0.203 c -0.268,1.276 -0.506,2.576 -0.706,3.869 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4584-6-0"
+         d="M 13.422,61.706 12.465,61.45 c 0.341,-1.279 0.719,-2.565 1.125,-3.82 l 0.942,0.303 c -0.401,1.239 -0.774,2.508 -1.11,3.773 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4586-7-2"
+         d="m 15.84,54.225 -0.924,-0.354 c 0.468,-1.227 0.979,-2.463 1.518,-3.676 l 0.905,0.401 c -0.532,1.199 -1.036,2.419 -1.499,3.629 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4588-4-2"
+         d="m 19.025,47.051 -0.883,-0.449 c 0.6,-1.177 1.238,-2.354 1.897,-3.499 l 0.858,0.495 c -0.65,1.13 -1.281,2.292 -1.872,3.453 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4590-0-6"
+         d="m 22.949,40.248 -0.831,-0.539 c 0.72,-1.109 1.478,-2.213 2.253,-3.283 l 0.802,0.581 c -0.766,1.056 -1.514,2.146 -2.224,3.241 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4592-4-0"
+         d="m 27.564,33.888 -0.77,-0.623 c 0.83,-1.027 1.7,-2.047 2.584,-3.032 l 0.737,0.662 c -0.873,0.972 -1.731,1.979 -2.551,2.993 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4594-3-9"
+         d="m 32.82,28.038 -0.701,-0.699 c 0.935,-0.938 1.907,-1.863 2.886,-2.748 l 0.663,0.735 c -0.966,0.873 -1.924,1.786 -2.848,2.712 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4596-5-75"
+         d="m 38.657,22.766 -0.625,-0.769 c 1.027,-0.834 2.09,-1.652 3.158,-2.432 l 0.584,0.799 c -1.055,0.77 -2.104,1.578 -3.117,2.402 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4598-4-1"
+         d="m 45.013,18.128 -0.541,-0.83 c 1.11,-0.724 2.253,-1.427 3.397,-2.091 l 0.498,0.857 c -1.13,0.655 -2.257,1.35 -3.354,2.064 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4600-3-8"
+         d="m 51.824,14.18 -0.45,-0.882 c 1.182,-0.605 2.394,-1.184 3.601,-1.723 l 0.403,0.904 c -1.191,0.532 -2.386,1.104 -3.554,1.701 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4602-4-6"
+         d="m 59.017,10.967 -0.356,-0.924 c 1.245,-0.478 2.513,-0.927 3.767,-1.334 l 0.305,0.941 c -1.239,0.403 -2.489,0.846 -3.716,1.317 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4604-4-2"
+         d="M 66.502,8.534 66.247,7.577 C 67.52,7.235 68.823,6.923 70.123,6.648 l 0.204,0.969 c -1.28,0.272 -2.568,0.58 -3.825,0.917 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4606-5-2"
+         d="M 74.193,6.905 74.042,5.927 c 1.307,-0.206 2.636,-0.379 3.951,-0.515 l 0.102,0.984 c -1.298,0.135 -2.61,0.306 -3.902,0.509 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4608-1-6"
+         d="M 82.016,6.091 81.966,5.102 C 83.287,5.034 84.627,5 85.947,5 v 0.99 c -1.302,0 -2.625,0.034 -3.931,0.101 z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="sensor.balcony_door_open-3-9-5"
+       transform="matrix(0,9.9963772,-9.9963772,0,9849.6257,-8328.0523)"
+       inkscape:label="sensor.balcony_door_open">
+      <rect
+         id="rect4530-7-9-8"
+         height="13.968"
+         width="3.1500001"
+         y="81.028999"
+         x="7.5079999" />
+      <rect
+         id="rect4532-6-6-0"
+         height="13.968"
+         width="3.1500001"
+         y="81.028999"
+         x="89.342003" />
+      <rect
+         id="rect4534-7-9-0"
+         height="75.047997"
+         width="3.1500001"
+         y="5.9790001"
+         x="86.191002" />
+      <rect
+         id="rect4536-3-0-5"
+         height="0.99000001"
+         width="1.979"
+         y="81.028"
+         x="84.211998" />
+      <rect
+         id="rect4538-8-8-4"
+         height="0.99000001"
+         width="3.767"
+         y="81.029999"
+         x="23.938" />
+      <rect
+         id="rect4540-3-7-5"
+         height="0.99000001"
+         width="3.767"
+         y="81.029999"
+         x="16.405001" />
+      <rect
+         id="rect4542-2-1-0"
+         height="0.99000001"
+         width="3.767"
+         y="81.028999"
+         x="61.609001" />
+      <rect
+         id="rect4544-7-9-8"
+         height="0.99000001"
+         width="3.767"
+         y="81.028999"
+         x="54.075001" />
+      <rect
+         id="rect4546-1-6-7"
+         height="0.99000001"
+         width="3.767"
+         y="81.028999"
+         x="46.541" />
+      <rect
+         id="rect4548-6-5-5"
+         height="0.99000001"
+         width="3.767"
+         y="81.028999"
+         x="39.007" />
+      <rect
+         id="rect4550-8-0-8"
+         height="0.99000001"
+         width="3.7679999"
+         y="81.028999"
+         x="31.473" />
+      <rect
+         id="rect4552-4-6-9-0"
+         height="0.99000001"
+         width="3.7679999"
+         y="81.028"
+         x="76.676003" />
+      <rect
+         id="rect4554-7-5-1-8"
+         height="0.99000001"
+         width="3.7679999"
+         y="81.028"
+         x="69.142998" />
+      <rect
+         id="rect4556-5-4-1"
+         height="0.99000001"
+         width="1.98"
+         y="81.029999"
+         x="10.658" />
+      <rect
+         id="rect4558-8-5-3"
+         height="0.991"
+         width="1.98"
+         y="94.008003"
+         x="87.361" />
+      <rect
+         id="rect4560-2-3-6"
+         height="0.99000001"
+         width="3.934"
+         y="94.010002"
+         x="24.437" />
+      <rect
+         id="rect4562-9-6-9"
+         height="0.99000001"
+         width="3.9330001"
+         y="94.010002"
+         x="16.570999" />
+      <rect
+         id="rect4564-5-8-5"
+         height="0.991"
+         width="3.9330001"
+         y="94.008003"
+         x="63.764999" />
+      <rect
+         id="rect4566-4-3-2"
+         height="0.991"
+         width="3.9330001"
+         y="94.009003"
+         x="55.898998" />
+      <rect
+         id="rect4568-2-2-4"
+         height="0.991"
+         width="3.934"
+         y="94.009003"
+         x="48.033001" />
+      <rect
+         id="rect4570-3-8-9"
+         height="0.991"
+         width="3.9330001"
+         y="94.009003"
+         x="40.167999" />
+      <rect
+         id="rect4572-3-1-3"
+         height="0.991"
+         width="3.9330001"
+         y="94.009003"
+         x="32.303001" />
+      <rect
+         id="rect4574-7-5-1"
+         height="0.991"
+         width="3.9330001"
+         y="94.008003"
+         x="79.496002" />
+      <rect
+         id="rect4576-2-8-9"
+         height="0.991"
+         width="3.9330001"
+         y="94.008003"
+         x="71.630997" />
+      <rect
+         id="rect4578-9-5-3"
+         height="0.99000001"
+         width="1.98"
+         y="94.010002"
+         x="10.658" />
+      <path
+         id="path4580-7-2-0"
+         d="m 11.006,77.223 -0.989,-0.051 c 0.067,-1.323 0.168,-2.661 0.302,-3.972 l 0.985,0.1 c -0.132,1.296 -0.232,2.614 -0.298,3.923 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4582-7-2-1"
+         d="m 11.807,69.401 -0.979,-0.153 c 0.204,-1.309 0.444,-2.627 0.716,-3.919 l 0.969,0.203 c -0.268,1.276 -0.506,2.576 -0.706,3.869 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4584-6-8-6"
+         d="M 13.422,61.706 12.465,61.45 c 0.341,-1.279 0.719,-2.565 1.125,-3.82 l 0.942,0.303 c -0.401,1.239 -0.774,2.508 -1.11,3.773 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4586-7-5-8"
+         d="m 15.84,54.225 -0.924,-0.354 c 0.468,-1.227 0.979,-2.463 1.518,-3.676 l 0.905,0.401 c -0.532,1.199 -1.036,2.419 -1.499,3.629 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4588-4-8-4"
+         d="m 19.025,47.051 -0.883,-0.449 c 0.6,-1.177 1.238,-2.354 1.897,-3.499 l 0.858,0.495 c -0.65,1.13 -1.281,2.292 -1.872,3.453 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4590-0-7-2"
+         d="m 22.949,40.248 -0.831,-0.539 c 0.72,-1.109 1.478,-2.213 2.253,-3.283 l 0.802,0.581 c -0.766,1.056 -1.514,2.146 -2.224,3.241 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4592-4-3-8"
+         d="m 27.564,33.888 -0.77,-0.623 c 0.83,-1.027 1.7,-2.047 2.584,-3.032 l 0.737,0.662 c -0.873,0.972 -1.731,1.979 -2.551,2.993 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4594-3-0-6"
+         d="m 32.82,28.038 -0.701,-0.699 c 0.935,-0.938 1.907,-1.863 2.886,-2.748 l 0.663,0.735 c -0.966,0.873 -1.924,1.786 -2.848,2.712 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4596-5-7-4"
+         d="m 38.657,22.766 -0.625,-0.769 c 1.027,-0.834 2.09,-1.652 3.158,-2.432 l 0.584,0.799 c -1.055,0.77 -2.104,1.578 -3.117,2.402 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4598-4-3-1"
+         d="m 45.013,18.128 -0.541,-0.83 c 1.11,-0.724 2.253,-1.427 3.397,-2.091 l 0.498,0.857 c -1.13,0.655 -2.257,1.35 -3.354,2.064 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4600-3-9-6"
+         d="m 51.824,14.18 -0.45,-0.882 c 1.182,-0.605 2.394,-1.184 3.601,-1.723 l 0.403,0.904 c -1.191,0.532 -2.386,1.104 -3.554,1.701 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4602-4-8-8"
+         d="m 59.017,10.967 -0.356,-0.924 c 1.245,-0.478 2.513,-0.927 3.767,-1.334 l 0.305,0.941 c -1.239,0.403 -2.489,0.846 -3.716,1.317 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4604-4-4-2"
+         d="M 66.502,8.534 66.247,7.577 C 67.52,7.235 68.823,6.923 70.123,6.648 l 0.204,0.969 c -1.28,0.272 -2.568,0.58 -3.825,0.917 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4606-5-8-1"
+         d="M 74.193,6.905 74.042,5.927 c 1.307,-0.206 2.636,-0.379 3.951,-0.515 l 0.102,0.984 c -1.298,0.135 -2.61,0.306 -3.902,0.509 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4608-1-9-8"
+         d="M 82.016,6.091 81.966,5.102 C 83.287,5.034 84.627,5 85.947,5 v 0.99 c -1.302,0 -2.625,0.034 -3.931,0.101 z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="sensor.balcony_door_open-3-9-52"
+       transform="matrix(7.3483214,0,0,7.3483214,8936.5599,-10005.694)"
+       inkscape:label="sensor.balcony_door_open">
+      <rect
+         id="rect4530-7-9-7"
+         height="13.968"
+         width="3.1500001"
+         y="81.028999"
+         x="7.5079999" />
+      <rect
+         id="rect4532-6-6-8"
+         height="13.968"
+         width="3.1500001"
+         y="81.028999"
+         x="89.342003" />
+      <rect
+         id="rect4534-7-9-7"
+         height="75.047997"
+         width="3.1500001"
+         y="5.9790001"
+         x="86.191002" />
+      <rect
+         id="rect4536-3-0-7"
+         height="0.99000001"
+         width="1.979"
+         y="81.028"
+         x="84.211998" />
+      <rect
+         id="rect4538-8-8-43"
+         height="0.99000001"
+         width="3.767"
+         y="81.029999"
+         x="23.938" />
+      <rect
+         id="rect4540-3-7-6"
+         height="0.99000001"
+         width="3.767"
+         y="81.029999"
+         x="16.405001" />
+      <rect
+         id="rect4542-2-1-3"
+         height="0.99000001"
+         width="3.767"
+         y="81.028999"
+         x="61.609001" />
+      <rect
+         id="rect4544-7-9-2"
+         height="0.99000001"
+         width="3.767"
+         y="81.028999"
+         x="54.075001" />
+      <rect
+         id="rect4546-1-6-0"
+         height="0.99000001"
+         width="3.767"
+         y="81.028999"
+         x="46.541" />
+      <rect
+         id="rect4548-6-5-50"
+         height="0.99000001"
+         width="3.767"
+         y="81.028999"
+         x="39.007" />
+      <rect
+         id="rect4550-8-0-84"
+         height="0.99000001"
+         width="3.7679999"
+         y="81.028999"
+         x="31.473" />
+      <rect
+         id="rect4552-4-6-9-07"
+         height="0.99000001"
+         width="3.7679999"
+         y="81.028"
+         x="76.676003" />
+      <rect
+         id="rect4554-7-5-1-4"
+         height="0.99000001"
+         width="3.7679999"
+         y="81.028"
+         x="69.142998" />
+      <rect
+         id="rect4556-5-4-8"
+         height="0.99000001"
+         width="1.98"
+         y="81.029999"
+         x="10.658" />
+      <rect
+         id="rect4558-8-5-7"
+         height="0.991"
+         width="1.98"
+         y="94.008003"
+         x="87.361" />
+      <rect
+         id="rect4560-2-3-2"
+         height="0.99000001"
+         width="3.934"
+         y="94.010002"
+         x="24.437" />
+      <rect
+         id="rect4562-9-6-7"
+         height="0.99000001"
+         width="3.9330001"
+         y="94.010002"
+         x="16.570999" />
+      <rect
+         id="rect4564-5-8-8"
+         height="0.991"
+         width="3.9330001"
+         y="94.008003"
+         x="63.764999" />
+      <rect
+         id="rect4566-4-3-23"
+         height="0.991"
+         width="3.9330001"
+         y="94.009003"
+         x="55.898998" />
+      <rect
+         id="rect4568-2-2-3"
+         height="0.991"
+         width="3.934"
+         y="94.009003"
+         x="48.033001" />
+      <rect
+         id="rect4570-3-8-2"
+         height="0.991"
+         width="3.9330001"
+         y="94.009003"
+         x="40.167999" />
+      <rect
+         id="rect4572-3-1-2"
+         height="0.991"
+         width="3.9330001"
+         y="94.009003"
+         x="32.303001" />
+      <rect
+         id="rect4574-7-5-5"
+         height="0.991"
+         width="3.9330001"
+         y="94.008003"
+         x="79.496002" />
+      <rect
+         id="rect4576-2-8-4"
+         height="0.991"
+         width="3.9330001"
+         y="94.008003"
+         x="71.630997" />
+      <rect
+         id="rect4578-9-5-39"
+         height="0.99000001"
+         width="1.98"
+         y="94.010002"
+         x="10.658" />
+      <path
+         id="path4580-7-2-6"
+         d="m 11.006,77.223 -0.989,-0.051 c 0.067,-1.323 0.168,-2.661 0.302,-3.972 l 0.985,0.1 c -0.132,1.296 -0.232,2.614 -0.298,3.923 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4582-7-2-5"
+         d="m 11.807,69.401 -0.979,-0.153 c 0.204,-1.309 0.444,-2.627 0.716,-3.919 l 0.969,0.203 c -0.268,1.276 -0.506,2.576 -0.706,3.869 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4584-6-8-2"
+         d="M 13.422,61.706 12.465,61.45 c 0.341,-1.279 0.719,-2.565 1.125,-3.82 l 0.942,0.303 c -0.401,1.239 -0.774,2.508 -1.11,3.773 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4586-7-5-4"
+         d="m 15.84,54.225 -0.924,-0.354 c 0.468,-1.227 0.979,-2.463 1.518,-3.676 l 0.905,0.401 c -0.532,1.199 -1.036,2.419 -1.499,3.629 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4588-4-8-42"
+         d="m 19.025,47.051 -0.883,-0.449 c 0.6,-1.177 1.238,-2.354 1.897,-3.499 l 0.858,0.495 c -0.65,1.13 -1.281,2.292 -1.872,3.453 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4590-0-7-23"
+         d="m 22.949,40.248 -0.831,-0.539 c 0.72,-1.109 1.478,-2.213 2.253,-3.283 l 0.802,0.581 c -0.766,1.056 -1.514,2.146 -2.224,3.241 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4592-4-3-6"
+         d="m 27.564,33.888 -0.77,-0.623 c 0.83,-1.027 1.7,-2.047 2.584,-3.032 l 0.737,0.662 c -0.873,0.972 -1.731,1.979 -2.551,2.993 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4594-3-0-4"
+         d="m 32.82,28.038 -0.701,-0.699 c 0.935,-0.938 1.907,-1.863 2.886,-2.748 l 0.663,0.735 c -0.966,0.873 -1.924,1.786 -2.848,2.712 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4596-5-7-0"
+         d="m 38.657,22.766 -0.625,-0.769 c 1.027,-0.834 2.09,-1.652 3.158,-2.432 l 0.584,0.799 c -1.055,0.77 -2.104,1.578 -3.117,2.402 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4598-4-3-4"
+         d="m 45.013,18.128 -0.541,-0.83 c 1.11,-0.724 2.253,-1.427 3.397,-2.091 l 0.498,0.857 c -1.13,0.655 -2.257,1.35 -3.354,2.064 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4600-3-9-4"
+         d="m 51.824,14.18 -0.45,-0.882 c 1.182,-0.605 2.394,-1.184 3.601,-1.723 l 0.403,0.904 c -1.191,0.532 -2.386,1.104 -3.554,1.701 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4602-4-8-5"
+         d="m 59.017,10.967 -0.356,-0.924 c 1.245,-0.478 2.513,-0.927 3.767,-1.334 l 0.305,0.941 c -1.239,0.403 -2.489,0.846 -3.716,1.317 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4604-4-4-3"
+         d="M 66.502,8.534 66.247,7.577 C 67.52,7.235 68.823,6.923 70.123,6.648 l 0.204,0.969 c -1.28,0.272 -2.568,0.58 -3.825,0.917 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4606-5-8-6"
+         d="M 74.193,6.905 74.042,5.927 c 1.307,-0.206 2.636,-0.379 3.951,-0.515 l 0.102,0.984 c -1.298,0.135 -2.61,0.306 -3.902,0.509 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4608-1-9-2"
+         d="M 82.016,6.091 81.966,5.102 C 83.287,5.034 84.627,5 85.947,5 v 0.99 c -1.302,0 -2.625,0.034 -3.931,0.101 z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="sensor.balcony_door_open-3-9-0"
+       transform="matrix(-7.1840192,0,0,-7.1840192,11800.675,-9783.6737)"
+       inkscape:label="sensor.balcony_door_open">
+      <rect
+         id="rect4530-7-9-6"
+         height="13.968"
+         width="3.1500001"
+         y="81.028999"
+         x="7.5079999" />
+      <rect
+         id="rect4532-6-6-3"
+         height="13.968"
+         width="3.1500001"
+         y="81.028999"
+         x="89.342003" />
+      <rect
+         id="rect4534-7-9-1"
+         height="75.047997"
+         width="3.1500001"
+         y="5.9790001"
+         x="86.191002" />
+      <rect
+         id="rect4536-3-0-79"
+         height="0.99000001"
+         width="1.979"
+         y="81.028"
+         x="84.211998" />
+      <rect
+         id="rect4538-8-8-3"
+         height="0.99000001"
+         width="3.767"
+         y="81.029999"
+         x="23.938" />
+      <rect
+         id="rect4540-3-7-8"
+         height="0.99000001"
+         width="3.767"
+         y="81.029999"
+         x="16.405001" />
+      <rect
+         id="rect4542-2-1-32"
+         height="0.99000001"
+         width="3.767"
+         y="81.028999"
+         x="61.609001" />
+      <rect
+         id="rect4544-7-9-5"
+         height="0.99000001"
+         width="3.767"
+         y="81.028999"
+         x="54.075001" />
+      <rect
+         id="rect4546-1-6-2"
+         height="0.99000001"
+         width="3.767"
+         y="81.028999"
+         x="46.541" />
+      <rect
+         id="rect4548-6-5-2"
+         height="0.99000001"
+         width="3.767"
+         y="81.028999"
+         x="39.007" />
+      <rect
+         id="rect4550-8-0-6"
+         height="0.99000001"
+         width="3.7679999"
+         y="81.028999"
+         x="31.473" />
+      <rect
+         id="rect4552-4-6-9-6"
+         height="0.99000001"
+         width="3.7679999"
+         y="81.028"
+         x="76.676003" />
+      <rect
+         id="rect4554-7-5-1-9"
+         height="0.99000001"
+         width="3.7679999"
+         y="81.028"
+         x="69.142998" />
+      <rect
+         id="rect4556-5-4-2"
+         height="0.99000001"
+         width="1.98"
+         y="81.029999"
+         x="10.658" />
+      <rect
+         id="rect4558-8-5-6"
+         height="0.991"
+         width="1.98"
+         y="94.008003"
+         x="87.361" />
+      <rect
+         id="rect4560-2-3-62"
+         height="0.99000001"
+         width="3.934"
+         y="94.010002"
+         x="24.437" />
+      <rect
+         id="rect4562-9-6-3"
+         height="0.99000001"
+         width="3.9330001"
+         y="94.010002"
+         x="16.570999" />
+      <rect
+         id="rect4564-5-8-50"
+         height="0.991"
+         width="3.9330001"
+         y="94.008003"
+         x="63.764999" />
+      <rect
+         id="rect4566-4-3-4"
+         height="0.991"
+         width="3.9330001"
+         y="94.009003"
+         x="55.898998" />
+      <rect
+         id="rect4568-2-2-9"
+         height="0.991"
+         width="3.934"
+         y="94.009003"
+         x="48.033001" />
+      <rect
+         id="rect4570-3-8-99"
+         height="0.991"
+         width="3.9330001"
+         y="94.009003"
+         x="40.167999" />
+      <rect
+         id="rect4572-3-1-0"
+         height="0.991"
+         width="3.9330001"
+         y="94.009003"
+         x="32.303001" />
+      <rect
+         id="rect4574-7-5-4"
+         height="0.991"
+         width="3.9330001"
+         y="94.008003"
+         x="79.496002" />
+      <rect
+         id="rect4576-2-8-1"
+         height="0.991"
+         width="3.9330001"
+         y="94.008003"
+         x="71.630997" />
+      <rect
+         id="rect4578-9-5-7"
+         height="0.99000001"
+         width="1.98"
+         y="94.010002"
+         x="10.658" />
+      <path
+         id="path4580-7-2-3"
+         d="m 11.006,77.223 -0.989,-0.051 c 0.067,-1.323 0.168,-2.661 0.302,-3.972 l 0.985,0.1 c -0.132,1.296 -0.232,2.614 -0.298,3.923 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4582-7-2-9"
+         d="m 11.807,69.401 -0.979,-0.153 c 0.204,-1.309 0.444,-2.627 0.716,-3.919 l 0.969,0.203 c -0.268,1.276 -0.506,2.576 -0.706,3.869 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4584-6-8-65"
+         d="M 13.422,61.706 12.465,61.45 c 0.341,-1.279 0.719,-2.565 1.125,-3.82 l 0.942,0.303 c -0.401,1.239 -0.774,2.508 -1.11,3.773 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4586-7-5-83"
+         d="m 15.84,54.225 -0.924,-0.354 c 0.468,-1.227 0.979,-2.463 1.518,-3.676 l 0.905,0.401 c -0.532,1.199 -1.036,2.419 -1.499,3.629 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4588-4-8-8"
+         d="m 19.025,47.051 -0.883,-0.449 c 0.6,-1.177 1.238,-2.354 1.897,-3.499 l 0.858,0.495 c -0.65,1.13 -1.281,2.292 -1.872,3.453 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4590-0-7-5"
+         d="m 22.949,40.248 -0.831,-0.539 c 0.72,-1.109 1.478,-2.213 2.253,-3.283 l 0.802,0.581 c -0.766,1.056 -1.514,2.146 -2.224,3.241 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4592-4-3-3"
+         d="m 27.564,33.888 -0.77,-0.623 c 0.83,-1.027 1.7,-2.047 2.584,-3.032 l 0.737,0.662 c -0.873,0.972 -1.731,1.979 -2.551,2.993 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4594-3-0-0"
+         d="m 32.82,28.038 -0.701,-0.699 c 0.935,-0.938 1.907,-1.863 2.886,-2.748 l 0.663,0.735 c -0.966,0.873 -1.924,1.786 -2.848,2.712 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4596-5-7-48"
+         d="m 38.657,22.766 -0.625,-0.769 c 1.027,-0.834 2.09,-1.652 3.158,-2.432 l 0.584,0.799 c -1.055,0.77 -2.104,1.578 -3.117,2.402 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4598-4-3-16"
+         d="m 45.013,18.128 -0.541,-0.83 c 1.11,-0.724 2.253,-1.427 3.397,-2.091 l 0.498,0.857 c -1.13,0.655 -2.257,1.35 -3.354,2.064 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4600-3-9-3"
+         d="m 51.824,14.18 -0.45,-0.882 c 1.182,-0.605 2.394,-1.184 3.601,-1.723 l 0.403,0.904 c -1.191,0.532 -2.386,1.104 -3.554,1.701 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4602-4-8-85"
+         d="m 59.017,10.967 -0.356,-0.924 c 1.245,-0.478 2.513,-0.927 3.767,-1.334 l 0.305,0.941 c -1.239,0.403 -2.489,0.846 -3.716,1.317 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4604-4-4-1"
+         d="M 66.502,8.534 66.247,7.577 C 67.52,7.235 68.823,6.923 70.123,6.648 l 0.204,0.969 c -1.28,0.272 -2.568,0.58 -3.825,0.917 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4606-5-8-2"
+         d="M 74.193,6.905 74.042,5.927 c 1.307,-0.206 2.636,-0.379 3.951,-0.515 l 0.102,0.984 c -1.298,0.135 -2.61,0.306 -3.902,0.509 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4608-1-9-9"
+         d="M 82.016,6.091 81.966,5.102 C 83.287,5.034 84.627,5 85.947,5 v 0.99 c -1.302,0 -2.625,0.034 -3.931,0.101 z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="sensor.balcony_door_open-3-9-8"
+       transform="matrix(0,9.9963772,-9.9963772,0,9859.9963,-12077.584)"
+       inkscape:label="sensor.balcony_door_open">
+      <rect
+         id="rect4530-7-9-0"
+         height="13.968"
+         width="3.1500001"
+         y="81.028999"
+         x="7.5079999" />
+      <rect
+         id="rect4532-6-6-08"
+         height="13.968"
+         width="3.1500001"
+         y="81.028999"
+         x="89.342003" />
+      <rect
+         id="rect4534-7-9-00"
+         height="75.047997"
+         width="3.1500001"
+         y="5.9790001"
+         x="86.191002" />
+      <rect
+         id="rect4536-3-0-4"
+         height="0.99000001"
+         width="1.979"
+         y="81.028"
+         x="84.211998" />
+      <rect
+         id="rect4538-8-8-2"
+         height="0.99000001"
+         width="3.767"
+         y="81.029999"
+         x="23.938" />
+      <rect
+         id="rect4540-3-7-84"
+         height="0.99000001"
+         width="3.767"
+         y="81.029999"
+         x="16.405001" />
+      <rect
+         id="rect4542-2-1-8"
+         height="0.99000001"
+         width="3.767"
+         y="81.028999"
+         x="61.609001" />
+      <rect
+         id="rect4544-7-9-3"
+         height="0.99000001"
+         width="3.767"
+         y="81.028999"
+         x="54.075001" />
+      <rect
+         id="rect4546-1-6-3"
+         height="0.99000001"
+         width="3.767"
+         y="81.028999"
+         x="46.541" />
+      <rect
+         id="rect4548-6-5-59"
+         height="0.99000001"
+         width="3.767"
+         y="81.028999"
+         x="39.007" />
+      <rect
+         id="rect4550-8-0-68"
+         height="0.99000001"
+         width="3.7679999"
+         y="81.028999"
+         x="31.473" />
+      <rect
+         id="rect4552-4-6-9-7"
+         height="0.99000001"
+         width="3.7679999"
+         y="81.028"
+         x="76.676003" />
+      <rect
+         id="rect4554-7-5-1-6"
+         height="0.99000001"
+         width="3.7679999"
+         y="81.028"
+         x="69.142998" />
+      <rect
+         id="rect4556-5-4-6"
+         height="0.99000001"
+         width="1.98"
+         y="81.029999"
+         x="10.658" />
+      <rect
+         id="rect4558-8-5-30"
+         height="0.991"
+         width="1.98"
+         y="94.008003"
+         x="87.361" />
+      <rect
+         id="rect4560-2-3-3"
+         height="0.99000001"
+         width="3.934"
+         y="94.010002"
+         x="24.437" />
+      <rect
+         id="rect4562-9-6-0"
+         height="0.99000001"
+         width="3.9330001"
+         y="94.010002"
+         x="16.570999" />
+      <rect
+         id="rect4564-5-8-89"
+         height="0.991"
+         width="3.9330001"
+         y="94.008003"
+         x="63.764999" />
+      <rect
+         id="rect4566-4-3-7"
+         height="0.991"
+         width="3.9330001"
+         y="94.009003"
+         x="55.898998" />
+      <rect
+         id="rect4568-2-2-2"
+         height="0.991"
+         width="3.934"
+         y="94.009003"
+         x="48.033001" />
+      <rect
+         id="rect4570-3-8-6"
+         height="0.991"
+         width="3.9330001"
+         y="94.009003"
+         x="40.167999" />
+      <rect
+         id="rect4572-3-1-23"
+         height="0.991"
+         width="3.9330001"
+         y="94.009003"
+         x="32.303001" />
+      <rect
+         id="rect4574-7-5-8"
+         height="0.991"
+         width="3.9330001"
+         y="94.008003"
+         x="79.496002" />
+      <rect
+         id="rect4576-2-8-14"
+         height="0.991"
+         width="3.9330001"
+         y="94.008003"
+         x="71.630997" />
+      <rect
+         id="rect4578-9-5-0"
+         height="0.99000001"
+         width="1.98"
+         y="94.010002"
+         x="10.658" />
+      <path
+         id="path4580-7-2-60"
+         d="m 11.006,77.223 -0.989,-0.051 c 0.067,-1.323 0.168,-2.661 0.302,-3.972 l 0.985,0.1 c -0.132,1.296 -0.232,2.614 -0.298,3.923 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4582-7-2-11"
+         d="m 11.807,69.401 -0.979,-0.153 c 0.204,-1.309 0.444,-2.627 0.716,-3.919 l 0.969,0.203 c -0.268,1.276 -0.506,2.576 -0.706,3.869 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4584-6-8-7"
+         d="M 13.422,61.706 12.465,61.45 c 0.341,-1.279 0.719,-2.565 1.125,-3.82 l 0.942,0.303 c -0.401,1.239 -0.774,2.508 -1.11,3.773 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4586-7-5-2"
+         d="m 15.84,54.225 -0.924,-0.354 c 0.468,-1.227 0.979,-2.463 1.518,-3.676 l 0.905,0.401 c -0.532,1.199 -1.036,2.419 -1.499,3.629 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4588-4-8-6"
+         d="m 19.025,47.051 -0.883,-0.449 c 0.6,-1.177 1.238,-2.354 1.897,-3.499 l 0.858,0.495 c -0.65,1.13 -1.281,2.292 -1.872,3.453 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4590-0-7-1"
+         d="m 22.949,40.248 -0.831,-0.539 c 0.72,-1.109 1.478,-2.213 2.253,-3.283 l 0.802,0.581 c -0.766,1.056 -1.514,2.146 -2.224,3.241 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4592-4-3-5"
+         d="m 27.564,33.888 -0.77,-0.623 c 0.83,-1.027 1.7,-2.047 2.584,-3.032 l 0.737,0.662 c -0.873,0.972 -1.731,1.979 -2.551,2.993 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4594-3-0-07"
+         d="m 32.82,28.038 -0.701,-0.699 c 0.935,-0.938 1.907,-1.863 2.886,-2.748 l 0.663,0.735 c -0.966,0.873 -1.924,1.786 -2.848,2.712 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4596-5-7-08"
+         d="m 38.657,22.766 -0.625,-0.769 c 1.027,-0.834 2.09,-1.652 3.158,-2.432 l 0.584,0.799 c -1.055,0.77 -2.104,1.578 -3.117,2.402 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4598-4-3-18"
+         d="m 45.013,18.128 -0.541,-0.83 c 1.11,-0.724 2.253,-1.427 3.397,-2.091 l 0.498,0.857 c -1.13,0.655 -2.257,1.35 -3.354,2.064 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4600-3-9-68"
+         d="m 51.824,14.18 -0.45,-0.882 c 1.182,-0.605 2.394,-1.184 3.601,-1.723 l 0.403,0.904 c -1.191,0.532 -2.386,1.104 -3.554,1.701 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4602-4-8-9"
+         d="m 59.017,10.967 -0.356,-0.924 c 1.245,-0.478 2.513,-0.927 3.767,-1.334 l 0.305,0.941 c -1.239,0.403 -2.489,0.846 -3.716,1.317 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4604-4-4-7"
+         d="M 66.502,8.534 66.247,7.577 C 67.52,7.235 68.823,6.923 70.123,6.648 l 0.204,0.969 c -1.28,0.272 -2.568,0.58 -3.825,0.917 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4606-5-8-4"
+         d="M 74.193,6.905 74.042,5.927 c 1.307,-0.206 2.636,-0.379 3.951,-0.515 l 0.102,0.984 c -1.298,0.135 -2.61,0.306 -3.902,0.509 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4608-1-9-22"
+         d="M 82.016,6.091 81.966,5.102 C 83.287,5.034 84.627,5 85.947,5 v 0.99 c -1.302,0 -2.625,0.034 -3.931,0.101 z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <rect
+       style="opacity:1;vector-effect:none;fill:#007d00;fill-opacity:1;stroke:none;stroke-width:6.12265015;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;font-variant-east_asian:normal"
+       id="binary_sensor.door_window_sensor_158d00011c8066"
+       width="869.99951"
+       height="40.46875"
+       x="-7529.9995"
+       y="12542.999"
+       ry="20.234375"
+       transform="scale(-1)"
+       inkscape:label="binary_sensor.door_window_sensor_158d00011c8066" />
+    <rect
+       style="opacity:1;vector-effect:none;fill:#007d00;fill-opacity:1;stroke:none;stroke-width:6.12265015;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="binary_sensor.door_window_sensor_158d000154b7c0"
+       width="880.00006"
+       height="40.46875"
+       x="4580"
+       y="-6242.9995"
+       ry="20.234375"
+       inkscape:label="binary_sensor.door_window_sensor_158d000154b7c0" />
   </g>
 </svg>
