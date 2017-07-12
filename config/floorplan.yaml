@@ -102,7 +102,7 @@
         #  INFO PANEL  #
         ################
 
-        # DATE & TIME #
+        # DATE & TIME & WEATHER#
         - name: text_font_date
           entities:
             - sensor.floorplan_date
@@ -114,6 +114,12 @@
             - sensor.floorplan_time
           text_template: '${entity.state ? entity.state : "undefined"}'
           class_template: 'return "static-text-time";'
+
+        - name: text_font_weather
+          entities:
+            - sensor.owm_temperature
+          text_template: '${entity.state ? entity.state + "°C" : "undefined"}'
+          class_template: 'return "static-text-weather";'
 
         # LOCATION #
         - name: text_font_date

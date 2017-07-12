@@ -143,6 +143,14 @@ svg, svg * {
   fill: #FFFFA6;
 }
 
+.static-text-weather
+{
+  font-family : Helvetica;
+  font-weight : bold;
+  font-size : 1500px;
+  fill: #FFFFA6;
+}
+
 /* Alarm Panel */
 
 .alarm-disarmed {
