@@ -35,11 +35,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.028284273"
-     inkscape:cx="8974.476"
-     inkscape:cy="38097.648"
+     inkscape:zoom="0.080000004"
+     inkscape:cx="10235.297"
+     inkscape:cy="39606.427"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer5"
      showgrid="true"
      units="cm"
      inkscape:window-width="1920"
@@ -89,19 +89,19 @@
        ry="0"
        rx="0" />
     <rect
-       style="opacity:1;fill:#3d3b3f;fill-opacity:1;stroke:none;stroke-width:0.55793351;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#3d3b3f;fill-opacity:1;stroke:none;stroke-width:0.56672043;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect5653"
-       width="2519.9998"
+       width="2599.9998"
        height="1101.5931"
        x="1640"
        y="393.97104"
        ry="125.18101" />
     <rect
-       style="display:inline;opacity:1;fill:#3d3b3f;fill-opacity:1;stroke:none;stroke-width:0.42613417;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="display:inline;opacity:1;fill:#3d3b3f;fill-opacity:1;stroke:none;stroke-width:0.42053628;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect5653-3"
-       width="1480"
+       width="1441.3716"
        height="1094.1772"
-       x="4320"
+       x="4358.6284"
        y="401.38693"
        ry="124.33829" />
   </g>
@@ -592,25 +592,25 @@
        inkscape:label="light.gateway_light_286c07889d7e" />
     <text
        xml:space="preserve"
-       x="1061.2795"
+       x="1099.9084"
        y="-12498.099"
        id="text4631"
        style="line-height:0%;stroke-width:0.26458332"><tspan
          sodipodi:role="line"
          id="tspan4629"
-         x="1061.2795"
+         x="1099.9084"
          y="-12498.099"
          style="font-size:264.58349609px;line-height:1.25;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332">Alarm</tspan></text>
     <text
        xml:space="preserve"
-       x="800.41266"
+       x="839.04199"
        y="-11840.639"
        id="alarm_control_panel.alarm"
        inkscape:label="alarm_control_panel.alarm "
        style="line-height:0%;stroke-width:0.26458332"><tspan
          sodipodi:role="line"
          id="tspan4629-03"
-         x="800.41266"
+         x="839.04199"
          y="-11840.639"
          style="font-size:705.55554199px;line-height:1.25;stroke-width:0.26458332">---</tspan></text>
     <rect
