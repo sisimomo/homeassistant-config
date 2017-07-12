@@ -5,28 +5,12 @@
       hide_app_toolbar:
       groups:
 
-#        - name: Sensors
-#          entities:
-#             - sensor.owm_temperature
-#          text_template: '${entity.state ? entity.state : "unknown"}'
-          # An example of rounding up a number, i.e. a temperature of 90.1 becomes 91
-          # text_template: '${entity.state ? Math.ceil(entity.state) : "undefined"}'  
-#          class_template: '
-#            var temp = parseFloat(entity.state.replace("°", ""));
-#            if (temp < 10)
-#              return "temp-low";
-#            else if (temp < 30)
-#             return "temp-medium";
-#            else
-#              return "temp-high";
-#            '
+        ################
+        #  GROUNDPLAN  #
+        ################
 
-        ############
-        #  LIGHTS  #
-        ############
-
-        # Lights that can only be on/off
-        - name: ToggleLights
+        # LIGHTS #
+        - name: ToggleLights #Lights that can only be on/off
           entities:
             - input_boolean.shelf_light
             - input_boolean.blue_light
@@ -39,8 +23,8 @@
           action:
             service: toggle
 
-        #Lights that are full light components
-        - name: Lights
+
+        - name: Lights #Lights that are full light components
           entities:
             - group.light_livingroom
             - light.gateway_light_286c07889d7e
@@ -50,6 +34,7 @@
             - state: 'off'
               class: 'light-off'
 
+        # SWITCHES #
         - name: Switches
           entities:
              - switch.janis_pc_wol
@@ -60,40 +45,8 @@
             - state: 'off'
               class: 'doorbell-off'
 
-        ################
-        #  INFO PANEL  #
-        ################
-
-        - name: text_font_date
-          entities:
-            - sensor.floorplan_date
-          text_template: '${entity.state ? entity.state : "undefined"}'
-          #class_template: 'return "static-text-date";'
-
-        - name: text_font_time
-          entities:
-            - sensor.floorplan_time
-          text_template: '${entity.state ? entity.state : "undefined"}'
-          #class_template: 'return "static-text-time";'
-
-        - name: Alarm Panel
-          entities:
-             - alarm_control_panel.alarm
-          text_template: '${entity.state && (entity.state == "armed_away" || entity.state == "armed_home") ? "ON" : "OFF"}'
-          states:
-            - state: 'armed_away'
-              class: 'alarm-armed'
-            - state: 'armed_home'
-              class: 'alarm-armed'
-            - state: 'disarmed'
-              class: 'alarm-disarmed'
-
-        ###########
         #  DOORS  #
-        ###########
-
-        # Doors that open to the bottom left
-        - name: Doors 1
+        - name: Doors 1 #Doors that open to the bottom left
           entities:
             - binary_sensor.door_window_sensor_158d00011c8066
           states:
@@ -102,8 +55,7 @@
             - state: 'on'
               class: 'door_open_bottom_left'
 
-        # Doors that open to the top right
-        - name: Doors 2
+        - name: Doors 2 #Doors that open to the top right
           entities:
             - binary_sensor.door_window_sensor_158d000154b7c0
           states:
@@ -128,20 +80,7 @@
 #              to_state: 'off'
 #              duration: 10
 
-#        - name: Cameras
-#          entities:
-#            - camera.hallway
-#            - camera.driveway
-#            - camera.front_door
-#            - camera.backyard
-#          states:
-#            - state: 'idle'
-#              class: 'camera-idle'
-
-        ###################
         #  MEDIA PLAYERS  #
-        ###################
-
         - name: Media Players
           entities:
             - media_player.kodi_on_firetv
@@ -158,20 +97,37 @@
               class: 'squeezebox-off'
             - state: 'playing'
               class: 'squeezebox-on'
-              
-#        - name: thermostat_temp
-#          entities:
-#            - climate.downstairs
-#            - climate.upstairs
-#          text_template: '${entity.attributes.current_temperature ? entity.attributes.current_temperature : "undefined"}'
-#
-# The above text_template uses extended attributes from the climate.* objects to get current temperature.
 
-#        - name: text_states
-#          entities:
-#            - sensor.downstairs_thermostat_humidity
-#            - sensor.dark_sky_temperature
-#            - sensor.last_message
-#          text_template: '${entity.state ? entity.state.replace(/\s{2,}/g,"") : "undefined"}'
-#
-# The above text_template uses jQuery syntax to search and replace any instance of 2 consecutive (or more) spaces in a string of text.
+        ################
+        #  INFO PANEL  #
+        ################
+
+        # DATE & TIME #
+        - name: text_font_date
+          entities:
+            - sensor.floorplan_date
+          text_template: '${entity.state ? entity.state : "undefined"}'
+          #class_template: 'return "static-text-date";'
+
+        - name: text_font_time
+          entities:
+            - sensor.floorplan_time
+          text_template: '${entity.state ? entity.state : "undefined"}'
+          #class_template: 'return "static-text-time";'
+
+        # ALARM PANEL #
+        - name: Alarm Panel
+          entities:
+             - alarm_control_panel.alarm
+          text_template: '${entity.state && (entity.state == "armed_away" || entity.state == "armed_home") ? "ON" : "OFF"}'
+          states:
+            - state: 'armed_away'
+              class: 'alarm-armed'
+            - state: 'armed_home'
+              class: 'alarm-armed'
+            - state: 'disarmed'
+              class: 'alarm-disarmed'
+            - state: 'triggered'
+              class: 'alarm-triggered'
+            - state: 'pending'
+              class: 'alarm-pending'

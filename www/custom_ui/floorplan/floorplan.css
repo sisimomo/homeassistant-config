@@ -5,14 +5,6 @@ svg, svg * {
   pointer-events: all !important;
 }
 
-/* Hover over */
-
-.entity:hover {
-  stroke: #03A9F4 !important;
-  stroke-width: 1px !important;
-  stroke-opacity: 1 !important;
-}
-
 /* Bootstrap succsss */
 
 .success-text {
@@ -65,23 +57,9 @@ svg, svg * {
   stroke-width: 1px !important;
 }
 
-/* Last motion entity */
-
-.last-motion {
-  stroke: #808080 !important;
-  stroke-width: 1px !important;
-  stroke-opacity: 1 !important;
-}
-
-/* Alarm Panel */
-
-.alarm-disarmed {
-  fill: #3c763d !important;
-}
-
-.alarm-armed {
-  fill: #8a6d3b !important;
-}
+/**************/
+/* Groundplan */
+/**************/
 
 /* Light */
 
@@ -128,26 +106,24 @@ svg, svg * {
 /* Doors */
 
 .door_closed {
-  fill: green !important;
+  fill: #008000 !important;
 }
 
 .door_open_bottom_left {
-  fill: red !important;
+  fill: #ff0000 !important;
   transform: rotate(-90deg);
   transform-origin: bottom left;
 }
 
 .door_open_top_right {
-  fill: red !important;
+  fill: #ff0000 !important;
   transform: rotate(90deg);
   transform-origin: top right;
 }
 
-/* Disable hover for doors */
-.entity.door_closed:hover, .entity.door_open_bottom_left:hover, .entity.door_open_top_right:hover{
-  stroke-opacity: 0 !important;
-  stroke-width: 0px !important;
-}
+/**************/
+/* Info Panel */
+/**************/
 
 /* Date & Time */
 
@@ -165,4 +141,22 @@ svg, svg * {
   font-weight : bold;
   font-size : 2000px;
   fill: #FFFFA6;
+}
+
+/* Alarm Panel */
+
+.alarm-disarmed {
+  fill: #3c763d !important;
+}
+
+.alarm-armed {
+  fill: #8a6d3b !important;
+}
+
+.alarm-triggered {
+  fill: #ff0000 !important;
+}
+
+.alarm-pending {
+  fill: #00cc99 !important;
 }
