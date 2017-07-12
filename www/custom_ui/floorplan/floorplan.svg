@@ -35,9 +35,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.080000004"
-     inkscape:cx="7030.9843"
-     inkscape:cy="33161.969"
+     inkscape:zoom="0.040000002"
+     inkscape:cx="8006.4017"
+     inkscape:cy="35045.955"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -114,16 +114,16 @@
        ry="125.18101" />
     <text
        xml:space="preserve"
-       x="2698.2327"
+       x="2777.6077"
        y="1926.1714"
        id="janis"
        style="font-size:12px;line-height:0%;display:inline;stroke-width:0.26458332"
        inkscape:label="janis"><tspan
          sodipodi:role="line"
          id="tspan4629-6-08"
-         x="2388.1094"
+         x="2777.6077"
          y="1926.1714"
-         style="font-size:264.58337402px;line-height:1.25;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332;text-anchor:middle;text-align:center">Janis</tspan></text>
+         style="font-size:264.58337402px;line-height:1.25;text-align:center;text-anchor:middle;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332">Janis</tspan></text>
     <text
        xml:space="preserve"
        x="2675.6694"
@@ -138,16 +138,16 @@
          style="font-size:705.55560303px;line-height:1.25;text-align:center;text-anchor:middle;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332">away</tspan></text>
     <text
        xml:space="preserve"
-       x="4814.9434"
+       x="4887.7036"
        y="1931.2936"
        id="janis-5"
        style="font-size:12px;line-height:0%;display:inline;stroke-width:0.26458332"
        inkscape:label="janis"><tspan
          sodipodi:role="line"
          id="tspan4629-6-08-0"
-         x="4522.1963"
+         x="4887.7036"
          y="1931.2936"
-         style="font-size:264.58337402px;line-height:1.25;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332;text-anchor:middle;text-align:center">Lena</tspan></text>
+         style="font-size:264.58337402px;line-height:1.25;text-align:center;text-anchor:middle;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332">Lena</tspan></text>
     <text
        xml:space="preserve"
        x="4814.8013"
@@ -804,26 +804,26 @@
     </g>
     <text
        xml:space="preserve"
-       x="170.13406"
+       x="-425.17841"
        y="-12492.677"
        id="sensor.floorplan_date"
        style="line-height:0%;text-align:center;text-anchor:middle;display:inline;stroke-width:0.26458332"
        inkscape:label="sensor.floorplan_date"><tspan
          sodipodi:role="line"
          id="tspan4629-6"
-         x="170.13406"
+         x="-425.17844"
          y="-12492.677"
          style="font-size:264.58337402px;line-height:1.25;text-align:center;text-anchor:middle;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332">Friday, June 30</tspan></text>
     <text
        xml:space="preserve"
-       x="177.86082"
+       x="-437.29541"
        y="-11834.177"
        id="sensor.floorplan_time"
        style="line-height:0%;text-align:center;text-anchor:middle;display:inline;stroke-width:0.26458332"
        inkscape:label="sensor.floorplan_time"><tspan
          sodipodi:role="line"
          id="tspan4629-6-0"
-         x="177.86082"
+         x="-437.29538"
          y="-11834.177"
          style="font-size:705.55554199px;line-height:1.25;text-align:center;text-anchor:middle;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332">22:22</tspan></text>
   </g>
