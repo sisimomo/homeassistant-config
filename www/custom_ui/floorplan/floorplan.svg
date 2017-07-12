@@ -35,11 +35,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.080000004"
-     inkscape:cx="10235.297"
-     inkscape:cy="39606.427"
+     inkscape:zoom="0.056568545"
+     inkscape:cx="10006.702"
+     inkscape:cy="36319.347"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer5"
      showgrid="true"
      units="cm"
      inkscape:window-width="1920"
@@ -104,6 +104,70 @@
        x="4358.6284"
        y="401.38693"
        ry="124.33829" />
+    <rect
+       style="display:inline;opacity:1;fill:#3d3b3f;fill-opacity:1;stroke:none;stroke-width:0.49720222;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect5653-4"
+       width="2001.2511"
+       height="1101.5931"
+       x="1638.7488"
+       y="1607.0101"
+       ry="125.18101" />
+    <text
+       xml:space="preserve"
+       x="2388.1094"
+       y="1926.1714"
+       id="janis"
+       style="font-size:12px;line-height:0%;display:inline;stroke-width:0.26458332"
+       inkscape:label="janis"><tspan
+         sodipodi:role="line"
+         id="tspan4629-6-08"
+         x="2388.1094"
+         y="1926.1714"
+         style="font-size:264.58337402px;line-height:1.25;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332">Janis</tspan></text>
+    <text
+       xml:space="preserve"
+       x="1767.8339"
+       y="2510.5977"
+       id="device_tracker.janis_handy"
+       style="font-size:12px;line-height:0%;display:inline;stroke-width:0.26458332"
+       inkscape:label="device_tracker.janis_handy"><tspan
+         sodipodi:role="line"
+         id="tspan4629-6-0-3"
+         x="1767.8339"
+         y="2510.5977"
+         style="font-size:705.55560303px;line-height:1.25;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332">away</tspan></text>
+    <rect
+       style="display:inline;opacity:1;fill:#3d3b3f;fill-opacity:1;stroke:none;stroke-width:0.49720222;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect5653-4-0"
+       width="2001.2511"
+       height="1101.5931"
+       x="3800"
+       y="1611.2202"
+       ry="125.18101" />
+    <text
+       xml:space="preserve"
+       x="4522.1963"
+       y="1931.2936"
+       id="janis-5"
+       style="font-size:12px;line-height:0%;display:inline;stroke-width:0.26458332"
+       inkscape:label="janis"><tspan
+         sodipodi:role="line"
+         id="tspan4629-6-08-0"
+         x="4522.1963"
+         y="1931.2936"
+         style="font-size:264.58337402px;line-height:1.25;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332">Lena</tspan></text>
+    <text
+       xml:space="preserve"
+       x="3864.8711"
+       y="2515.7283"
+       id="device_tracker.lena_handy"
+       style="font-size:12px;line-height:0%;display:inline;stroke-width:0.26458332"
+       inkscape:label="device_tracker.lena_handy"><tspan
+         sodipodi:role="line"
+         id="tspan4629-6-0-3-4"
+         x="3864.8711"
+         y="2515.7283"
+         style="font-size:705.55566406px;line-height:1.25;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332">away</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
