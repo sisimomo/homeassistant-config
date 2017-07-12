@@ -35,11 +35,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.040000002"
-     inkscape:cx="8006.4017"
-     inkscape:cy="35045.955"
+     inkscape:zoom="0.080000004"
+     inkscape:cx="9673.3346"
+     inkscape:cy="36745.964"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer5"
      showgrid="true"
      units="cm"
      inkscape:window-width="1920"
@@ -160,6 +160,18 @@
          x="4814.8013"
          y="2515.7283"
          style="font-size:705.55566406px;line-height:1.25;text-align:center;text-anchor:middle;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332">away</tspan></text>
+    <text
+       xml:space="preserve"
+       x="5023.5264"
+       y="1040.8025"
+       id="sensor.owm_temperature"
+       style="font-size:12px;line-height:0%;text-align:center;text-anchor:middle;display:inline;stroke-width:0.26458332"
+       inkscape:label="sensor.owm_temperature"><tspan
+         sodipodi:role="line"
+         id="tspan4629-6-0-3-2"
+         x="5023.5264"
+         y="1040.8025"
+         style="font-size:529.16668701px;line-height:1.25;text-align:center;text-anchor:middle;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332">32°C</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -660,14 +672,14 @@
     <text
        xml:space="preserve"
        x="-1297.8799"
-       y="-9489.2119"
+       y="-9423.0664"
        id="alarm_control_panel.alarm"
        inkscape:label="alarm_control_panel.alarm "
        style="line-height:0%;text-align:center;text-anchor:middle;stroke-width:0.26458332"><tspan
          sodipodi:role="line"
          id="tspan4629-03"
          x="-1297.8799"
-         y="-9489.2119"
+         y="-9423.0664"
          style="font-size:705.55554199px;line-height:1.25;text-align:center;text-anchor:middle;stroke-width:0.26458332">---</tspan></text>
     <rect
        style="opacity:1;fill:#007d00;fill-opacity:1;stroke:none;stroke-width:6.12265015;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
