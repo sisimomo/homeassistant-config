@@ -162,15 +162,15 @@
          style="font-size:705.55566406px;line-height:1.25;text-align:center;text-anchor:middle;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332">away</tspan></text>
     <text
        xml:space="preserve"
-       x="5023.5264"
-       y="1040.8025"
+       x="5079.7505"
+       y="1351.6879"
        id="sensor.owm_temperature"
        style="font-size:12px;line-height:0%;text-align:center;text-anchor:middle;display:inline;stroke-width:0.26458332"
        inkscape:label="sensor.owm_temperature"><tspan
          sodipodi:role="line"
          id="tspan4629-6-0-3-2"
-         x="5023.5264"
-         y="1040.8025"
+         x="5079.7505"
+         y="1351.6879"
          style="font-size:529.16668701px;line-height:1.25;text-align:center;text-anchor:middle;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332">32°C</tspan></text>
   </g>
   <g
