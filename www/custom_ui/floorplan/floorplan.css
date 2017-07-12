@@ -106,17 +106,17 @@ svg, svg * {
 /* Doors */
 
 .door_closed {
-  fill: #008000 !important;
+  fill: #00e600 !important;
 }
 
 .door_open_bottom_left {
-  fill: #ff0000 !important;
+  fill: #e60000 !important;
   transform: rotate(-90deg);
   transform-origin: bottom left;
 }
 
 .door_open_top_right {
-  fill: #ff0000 !important;
+  fill: #e60000 !important;
   transform: rotate(90deg);
   transform-origin: top right;
 }
