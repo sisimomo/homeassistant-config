@@ -127,28 +127,11 @@ svg, svg * {
 
 /* Date & Time */
 
-.static-text-date
+.static-text
 {
   font-family : Helvetica;
   font-weight : bold;
-  font-size : 750px;
   fill : #FFFFA6;
-}
-
-.static-text-time
-{
-  font-family : Helvetica;
-  font-weight : bold;
-  font-size : 2000px;
-  fill: #FFFFA6;
-}
-
-.static-text-weather
-{
-  font-family : Helvetica;
-  font-weight : bold;
-  font-size : 1500px;
-  fill: #FFFFA6;
 }
 
 /* Alarm Panel */
