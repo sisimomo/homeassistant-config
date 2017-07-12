@@ -15,7 +15,7 @@
    viewBox="0 0 15111.726 11376.863"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.1 r15371"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="floorplan.svg">
   <defs
      id="defs2">
@@ -35,17 +35,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.014142136"
-     inkscape:cx="23812.907"
-     inkscape:cy="37274.828"
+     inkscape:zoom="0.080000002"
+     inkscape:cx="9918.59"
+     inkscape:cy="35070.955"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer5"
+     inkscape:current-layer="layer1"
      showgrid="true"
      units="cm"
      inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-height="1027"
+     inkscape:window-x="1912"
+     inkscape:window-y="468"
      inkscape:window-maximized="1"
      fit-margin-top="1"
      fit-margin-left="1"
@@ -89,21 +89,21 @@
        ry="0"
        rx="0" />
     <rect
-       style="opacity:1;vector-effect:none;fill:#3d3b3f;fill-opacity:1;stroke:none;stroke-width:0.57461679;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#3d3b3f;fill-opacity:1;stroke:none;stroke-width:0.57461679;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect5653"
        width="2672.9585"
-       height="946.37097"
+       height="1101.5931"
        x="1487.0414"
        y="266.4422"
-       ry="107.54212" />
+       ry="125.18101" />
     <rect
-       style="display:inline;opacity:1;vector-effect:none;fill:#3d3b3f;fill-opacity:1;stroke:none;stroke-width:0.43185434;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="display:inline;opacity:1;fill:#3d3b3f;fill-opacity:1;stroke:none;stroke-width:0.43185434;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect5653-3"
        width="1520"
-       height="940"
+       height="1094.1772"
        x="4320"
-       y="272.81314"
-       ry="106.81815" />
+       y="273.85809"
+       ry="124.33829" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -593,25 +593,27 @@
     <text
        xml:space="preserve"
        x="1061.2795"
-       y="-12695.062"
+       y="-12625.635"
        id="text4631"
-       style="line-height:0%;stroke-width:0.26458332"><tspan
+       style="line-height:0%;stroke-width:0.26458332"
+       sodipodi:linespacing="0%"><tspan
          sodipodi:role="line"
          id="tspan4629"
          x="1061.2795"
-         y="-12695.062"
+         y="-12625.635"
          style="font-size:264.58349609px;line-height:1.25;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332">Alarm</tspan></text>
     <text
        xml:space="preserve"
        x="800.41266"
-       y="-12037.601"
+       y="-11968.174"
        id="alarm_control_panel.alarm"
        inkscape:label="alarm_control_panel.alarm "
-       style="line-height:0%;stroke-width:0.26458332"><tspan
+       style="line-height:0%;stroke-width:0.26458332"
+       sodipodi:linespacing="0%"><tspan
          sodipodi:role="line"
          id="tspan4629-03"
          x="800.41266"
-         y="-12037.601"
+         y="-11968.174"
          style="font-size:705.55554199px;line-height:1.25;stroke-width:0.26458332">---</tspan></text>
     <rect
        style="opacity:1;fill:#007d00;fill-opacity:1;stroke:none;stroke-width:6.12265015;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -650,31 +652,31 @@
        style="display:inline;stroke-width:43.28409195"
        inkscape:label="media_player.kitchen" />
     <rect
-       style="opacity:1;vector-effect:none;fill:#00adee;fill-opacity:1;stroke:none;stroke-width:0.25707749;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#00adee;fill-opacity:1;stroke:none;stroke-width:0.25707749;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="media_player.txnr414"
        width="452.17365"
        height="799.99951"
-       x="2737.8259"
+       x="2681.3806"
        y="-11733"
        ry="119.99975"
        rx="119.99975"
        inkscape:label="media_player.txnr414" />
     <rect
-       style="opacity:1;vector-effect:none;fill:#00adee;fill-opacity:1;stroke:none;stroke-width:0.27597028;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#00adee;fill-opacity:1;stroke:none;stroke-width:0.27597028;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="input_boolean.tv"
        width="188.57156"
        height="1760.0006"
-       x="2481.4282"
+       x="2452.0767"
        y="-11733"
        rx="62.856934"
        ry="62.856934"
        inkscape:label="input_boolean.tv" />
     <rect
-       style="opacity:1;vector-effect:none;fill:#00adee;fill-opacity:1;stroke:none;stroke-width:0.25707749;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#00adee;fill-opacity:1;stroke:none;stroke-width:0.25707749;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="media_player.kodi_on_firetv"
        width="319.99994"
        height="239.99982"
-       x="2749.9998"
+       x="2699.199"
        y="-10893"
        rx="40.000057"
        ry="79.999802"
@@ -748,27 +750,29 @@
     </g>
     <text
        xml:space="preserve"
-       x="-2065.0659"
-       y="-12689.64"
+       x="-1918.3109"
+       y="-12620.213"
        id="sensor.floorplan_date"
        style="font-size:12px;line-height:0%;display:inline;stroke-width:0.26458332"
-       inkscape:label="sensor.floorplan_date"><tspan
+       inkscape:label="sensor.floorplan_date"
+       sodipodi:linespacing="0%"><tspan
          sodipodi:role="line"
          id="tspan4629-6"
-         x="-2065.0659"
-         y="-12689.64"
+         x="-1918.3109"
+         y="-12620.213"
          style="font-size:264.58337402px;line-height:1.25;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332">Friday, June 30</tspan></text>
     <text
        xml:space="preserve"
-       x="-1800.4825"
-       y="-12062.893"
+       x="-1732.7496"
+       y="-11993.466"
        id="sensor.floorplan_time"
        style="font-size:12px;line-height:0%;display:inline;stroke-width:0.26458332"
-       inkscape:label="sensor.floorplan_time"><tspan
+       inkscape:label="sensor.floorplan_time"
+       sodipodi:linespacing="0%"><tspan
          sodipodi:role="line"
          id="tspan4629-6-0"
-         x="-1800.4825"
-         y="-12062.893"
+         x="-1732.7496"
+         y="-11993.466"
          style="font-size:705.55554199px;line-height:1.25;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332">22:22</tspan></text>
   </g>
 </svg>
