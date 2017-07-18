@@ -164,24 +164,8 @@
 
 				case 'sensor.dark_sky_temperature':
 					new_html = ent.state + ent.attributes.unit_of_measurement;
-					if (homeassistant.states["sensor.owm_cloud_coverage"].state >= 60) {
-						new_html += "<span class=\"fa-stack\"><i class=\"fa fa-cloud fa-stack-1x\"></i><i class=\"fa fa-circle-thin fa-stack-2x text-danger\"></i></span>"
-					}
-					else {
-						new_html += "<span class=\"fa-stack\"><i class=\"fa fa-cloud fa-stack-1x\"></i><i class=\"fa fa-ban fa-stack-2x text-danger\"></i></span>"
-					}
-					if (homeassistant.states["sensor.owm_rain"].state == "not raining") {
-						new_html += "<span class=\"fa-stack\"><i class=\"fa fa-umbrella fa-stack-1x\"></i><i class=\"fa fa-ban fa-stack-2x text-danger\"></i></span>"
-					}
-					else {
-						new_html += "<span class=\"fa-stack\"><i class=\"fa fa-umbrella fa-stack-1x\"></i><i class=\"fa fa-circle-thin fa-stack-2x text-danger\"></i></span>"
-					}
-					if (homeassistant.states["sensor.owm_snow"].state == "not snowing") {
-						new_html += "<span class=\"fa-stack\"><i class=\"fa fa-snowflake-o fa-stack-1x\"></i><i class=\"fa fa-ban fa-stack-2x text-danger\"></i></span>"
-					}
-					else {
-						new_html += "<span class=\"fa-stack\"><i class=\"fa fa-snowflake-o fa-stack-1x\"></i><i class=\"fa fa-circle-thin fa-stack-2x text-danger\"></i></span>"
-					}
+                    new_html += "<span class=\"fa-stack\"><i class=\"fa fa-umbrella fa-stack-1x\"></i><i class=\"fa fa-ban fa-stack-2x text-danger\"></i></span>"
+                    new_html += "<span class=\"fa-stack\"><i class=\"fa fa-snowflake-o fa-stack-1x\"></i><i class=\"fa fa-ban fa-stack-2x text-danger\"></i></span>"
 					break;
 			}
 			if (icon != '') {
