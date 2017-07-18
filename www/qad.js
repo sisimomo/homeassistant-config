@@ -7,7 +7,7 @@
 		"device_tracker.lena_handy",
 		"proximity.home_janis",
 		"proximity.home_lena",
-		"sensor.owm_temperature",
+		"sensor.dark_sky_temperature",
 		"input_boolean.dinner_mode",
 		"input_boolean.party_mode",
 		"input_boolean.shelf_light",
@@ -162,7 +162,7 @@
 					}
 					break;
 
-				case 'sensor.owm_temperature':
+				case 'sensor.dark_sky_temperature':
 					new_html = ent.state + ent.attributes.unit_of_measurement;
 					if (homeassistant.states["sensor.owm_cloud_coverage"].state >= 60) {
 						new_html += "<span class=\"fa-stack\"><i class=\"fa fa-cloud fa-stack-1x\"></i><i class=\"fa fa-circle-thin fa-stack-2x text-danger\"></i></span>"
