@@ -67,6 +67,7 @@
         - name: Rooms
           entities:
             - binary_sensor.motion_sensor_158d00010f8100
+            - binary_sensor.motion_sensor_158d0001307b02
           states:
             - state: 'off'
               class: 'info-background'
