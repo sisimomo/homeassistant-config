@@ -16,7 +16,7 @@
 		"alarm_control_panel.alarm",
 		"automation.motion_light",
 		"input_boolean.tv",
-		"sensor.recent_episodes"
+		"sensor.news"
 	];
 	var alarmCode = "";
 	var alarmAction = "";
@@ -155,7 +155,7 @@
 					}
 					break;
 
-				case 'sensor.recent_episodes':
+				case 'sensor.news':
 					new_html = ''
 					for (x = 1; x <= 5; x++) {
 						new_html += '<div class="scrollContent">'+ent.attributes['entry'+x]+'</div>';
@@ -164,8 +164,6 @@
 
 				case 'sensor.dark_sky_temperature':
 					new_html = ent.state + ent.attributes.unit_of_measurement;
-                    new_html += "<span class=\"fa-stack\"><i class=\"fa fa-umbrella fa-stack-1x\"></i><i class=\"fa fa-ban fa-stack-2x text-danger\"></i></span>"
-                    new_html += "<span class=\"fa-stack\"><i class=\"fa fa-snowflake-o fa-stack-1x\"></i><i class=\"fa fa-ban fa-stack-2x text-danger\"></i></span>"
 					break;
 			}
 			if (icon != '') {
