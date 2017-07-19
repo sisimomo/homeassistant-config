@@ -4,6 +4,6 @@
     platform: homeassistant
     event: start
   action:
-   - service: python_script.news
+   - service: python_script.add_news
      data:
       info: "INIT"
