@@ -121,7 +121,7 @@
           class_template: 'return "static-text";'
 
         # LOCATION #
-        - name: text_font_date
+        - name: text_font_device_tracker
           entities:
             - device_tracker.janis_handy
             - device_tracker.lena_handy
@@ -144,3 +144,10 @@
               class: 'alarm-triggered'
             - state: 'pending'
               class: 'alarm-pending'
+
+        # NEWS #
+        - name: text_font_news
+          entities:
+            - sensor.news
+          text_template: '${entity.attributes.entry1 + "\n" + entity.attributes.entry2 + "\n" + entity.attributes.entry3 + "\n" + entity.attributes.entry4 + "\n" + entity.attributes.entry5}'
+          class_template: 'return "static-text";'
