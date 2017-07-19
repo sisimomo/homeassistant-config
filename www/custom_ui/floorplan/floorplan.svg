@@ -35,11 +35,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.22627418"
-     inkscape:cx="680.08724"
-     inkscape:cy="40210.648"
+     inkscape:zoom="0.020000001"
+     inkscape:cx="-7681.5134"
+     inkscape:cy="21769.325"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer5"
+     inkscape:current-layer="layer1"
      showgrid="true"
      units="cm"
      inkscape:window-width="1920"
@@ -847,7 +847,7 @@
          id="tspan4629-6"
          x="-4625.1777"
          y="-12492.677"
-         style="font-size:264.58333333px;line-height:1.25;text-align:center;text-anchor:middle;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332;-inkscape-font-specification:'sans-serif, Bold';font-family:sans-serif;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal">Friday, June 30</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:264.58334351px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332">Friday, June 30</tspan></text>
     <text
        xml:space="preserve"
        x="-4637.2949"
@@ -859,7 +859,7 @@
          id="tspan4629-6-0"
          x="-4637.2949"
          y="-11834.177"
-         style="font-size:705.55555556px;line-height:1.25;text-align:center;text-anchor:middle;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332;-inkscape-font-specification:'sans-serif, Bold';font-family:sans-serif;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal">22:22</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:705.55554199px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332">22:22</tspan></text>
     <text
        xml:space="preserve"
        x="338.41885"
@@ -895,7 +895,7 @@
          id="tspan4629-6-0-3-2"
          x="-2770.249"
          y="-11854.125"
-         style="font-size:423.33333333px;line-height:1.25;text-align:center;text-anchor:middle;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332;-inkscape-font-specification:'sans-serif, Bold';font-family:sans-serif;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal">32°C</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:423.33334351px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332">32°C</tspan></text>
     <rect
        style="opacity:1;vector-effect:none;fill:#007d00;fill-opacity:1;stroke:none;stroke-width:2.54127789;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="binary_sensor.door_window_sensor_158d000154b7c0"
@@ -915,20 +915,17 @@
        y="-8412.998"
        ry="49.99963"
        inkscape:label="#rect4628" />
-    <flowRoot
+    <text
        xml:space="preserve"
+       x="-2769.4368"
+       y="-7808.9858"
        id="sensor.news"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2666.66674805px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:#ffffa6;fill-opacity:1;stroke:none;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       transform="matrix(0.26458333,0,0,0.26458333,-8113.6459,-13078.767)"
-       inkscape:label="#flowRoot4667"><flowRegion
-         id="flowRegion4669"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2666.66674805px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;vector-effect:none;fill:#ffffa6;fill-opacity:1;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><rect
-           id="rect4671"
-           width="22979.527"
-           height="22979.529"
-           x="2004.3311"
-           y="16528.496"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2666.66674805px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;vector-effect:none;fill:#ffffa6;fill-opacity:1;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" /></flowRegion><flowPara
-         id="flowPara4673"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2666.66674805px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;vector-effect:none;fill:#ffffa6;fill-opacity:1;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">IAMTEXT</flowPara></flowRoot>  </g>
+       style="font-size:12px;line-height:0%;text-align:center;text-anchor:middle;display:inline;stroke-width:0.26458332"
+       inkscape:label="sensor.news"><tspan
+         sodipodi:role="line"
+         id="tspan4629-6-0-3-4-6"
+         x="-2769.4365"
+         y="-7808.9858"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:705.55560303px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332">away</tspan></text>
+  </g>
 </svg>
