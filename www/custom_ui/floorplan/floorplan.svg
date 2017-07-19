@@ -35,9 +35,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.056568544"
-     inkscape:cx="64977.619"
-     inkscape:cy="20140.401"
+     inkscape:zoom="0.11313709"
+     inkscape:cx="45557.506"
+     inkscape:cy="30416.638"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -903,8 +903,9 @@
        height="1000.0001"
        x="4624.1533"
        y="-10562.999"
-       ry="82.28624"
-       inkscape:label="#rect4628" />
+       ry="52.92326"
+       inkscape:label="#rect4628"
+       rx="52.92326" />
     <rect
        style="display:inline;opacity:1;vector-effect:none;fill:#007d00;fill-opacity:1;stroke:none;stroke-width:2.44219351;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="binary_sensor.door_window_sensor_158d00011c8066"
@@ -912,7 +913,7 @@
        height="964.99963"
        x="11150"
        y="-8412.998"
-       ry="79.406189"
+       ry="49.99963"
        inkscape:label="#rect4628" />
   </g>
 </svg>
