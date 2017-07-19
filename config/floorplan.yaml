@@ -149,5 +149,5 @@
         - name: text_font_news
           entities:
             - sensor.news
-          text_template: '${entity.attributes.entry1 + "\n" + entity.attributes.entry2 + "\n" + entity.attributes.entry3 + "\n" + entity.attributes.entry4 + "\n" + entity.attributes.entry5}'
+          text_template: '${entity.attributes.entry1}'
           class_template: 'return "static-text";'
