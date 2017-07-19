@@ -148,6 +148,10 @@
         # NEWS #
         - name: text_font_news
           entities:
-            - sensor.news
-          text_template: '${entity.attributes.entry1 + "\n" + entity.attributes.entry2}'
+            - sensor.news1
+            - sensor.news2
+            - sensor.news3
+            - sensor.news4
+            - sensor.news5
+          text_template: '${entity.state ? entity.state : "undefined"}'
           class_template: 'return "static-text";'
