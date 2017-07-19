@@ -3,5 +3,5 @@
     pihole_switch:
       command_on: "curl -X GET 'http://localhost:8012/admin/api.php?enable&auth={{ states(\"sensor.pihole_auth\") }}'"
       command_off: "curl -X GET 'http://localhost:8012/admin/api.php?disable=3600&auth={{ states(\"sensor.pihole_auth\") }}'"
-      command_state: curl -X GET http://localhost:8012/admin/api.php?status&auth="{{ states.sensor.pihole_auth.state }}"
+      command_state: "curl -X GET http://localhost:8012/admin/api.php?status&auth={{ states.sensor.pihole_auth.state }}"
       value_template: "{{ value_json.status == 'enabled' }}"
