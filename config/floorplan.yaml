@@ -149,5 +149,5 @@
         - name: text_font_news
           entities:
             - sensor.news
-          text_template: '${entity.state ? entity.state.attributes.entry1 : "undefined"}'
+          text_template: '${entity.state && entity.state.attributes ? entity.state.attributes.entry1 : "undefined"}'
           class_template: 'return "static-text";'
