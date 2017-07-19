@@ -53,7 +53,7 @@
             - state: 'off'
               class: 'door_closed'
             - state: 'on'
-              class: 'door_open_bottom_left'
+              class: 'door_open_top_left'
 
         - name: Doors 2 #Doors that open to the top left
           entities:
@@ -62,7 +62,7 @@
             - state: 'off'
               class: 'door_closed'
             - state: 'on'
-              class: 'door_open_top_right'
+              class: 'door_open_bottom_right'
 
         - name: Rooms
           entities:
