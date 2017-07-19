@@ -46,23 +46,23 @@
               class: 'doorbell-off'
 
         #  DOORS  #
-        - name: Doors 1 #Doors that open to the bottom left
+        - name: Doors 1 #Doors that open to the bottom right
           entities:
             - binary_sensor.door_window_sensor_158d00011c8066
           states:
             - state: 'off'
               class: 'door_closed'
             - state: 'on'
-              class: 'door_open_bottom_left'
+              class: 'door_open_bottom_right'
 
-        - name: Doors 2 #Doors that open to the top right
+        - name: Doors 2 #Doors that open to the bottom left
           entities:
             - binary_sensor.door_window_sensor_158d000154b7c0
           states:
             - state: 'off'
               class: 'door_closed'
             - state: 'on'
-              class: 'door_open_top_right'
+              class: 'door_open_bottom_left'
 
         - name: Rooms
           entities:
