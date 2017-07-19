@@ -39,7 +39,7 @@
      inkscape:cx="17612.685"
      inkscape:cy="21769.325"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer7"
+     inkscape:current-layer="layer6"
      showgrid="true"
      units="cm"
      inkscape:window-width="1920"
@@ -145,16 +145,16 @@
     <text
        transform="translate(6420.3125,12986.163)"
        xml:space="preserve"
-       x="-5362.3535"
+       x="-6362.4648"
        y="-8377.8398"
        id="sensor.news"
-       style="display:inline;font-size:12px;line-height:0%;text-align:center;text-anchor:middle;stroke-width:0.26458332"
+       style="font-size:12px;line-height:0%;text-align:start;text-anchor:start;display:inline;stroke-width:0.26458332;"
        inkscape:label="sensor.news"><tspan
          sodipodi:role="line"
          id="tspan4629-6-0-3-4-6"
          x="-5362.3535"
          y="-8377.8398"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:705.55560303px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332">away</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:705.55560303px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332;">away</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -611,7 +611,12 @@
            x="5630.6763"
            y="6079.6211"
            style="font-size:317.50003052px;line-height:1.25;vector-effect:none;fill:#9b9b9b;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-           id="tspan5614">GUESTROOM</tspan></text>
+           id="tspan5614">GUES</tspan><tspan
+           sodipodi:role="line"
+           x="5630.6763"
+           y="6476.4961"
+           style="font-size:317.50003052px;line-height:1.25;vector-effect:none;fill:#9b9b9b;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="tspan4716">TROOM</tspan></text>
       <text
          xml:space="preserve"
          x="6439.9585"
@@ -880,28 +885,28 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:705.55554199px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332">22:22</tspan></text>
     <text
        xml:space="preserve"
-       x="338.41885"
+       x="-661.69232"
        y="-12164.865"
        id="device_tracker.janis_handy"
-       style="font-size:12px;line-height:0%;text-align:center;text-anchor:middle;display:inline;stroke-width:0.26458332"
+       style="font-size:12px;line-height:0%;text-align:start;text-anchor:start;display:inline;stroke-width:0.26458332;"
        inkscape:label="device_tracker.janis_handy"><tspan
          sodipodi:role="line"
          id="tspan4629-6-0-3"
          x="338.41885"
          y="-12164.865"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:705.55554199px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332">away</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:705.55554199px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332;">away</tspan></text>
     <text
        xml:space="preserve"
-       x="349.41727"
+       x="-650.69391"
        y="-10700.444"
        id="device_tracker.lena_handy"
-       style="font-size:12px;line-height:0%;text-align:center;text-anchor:middle;display:inline;stroke-width:0.26458332"
+       style="font-size:12px;line-height:0%;text-align:start;text-anchor:start;display:inline;stroke-width:0.26458332;"
        inkscape:label="device_tracker.lena_handy"><tspan
          sodipodi:role="line"
          id="tspan4629-6-0-3-4"
          x="349.41727"
          y="-10700.444"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:705.55554199px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332">away</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:705.55554199px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332;">away</tspan></text>
     <text
        xml:space="preserve"
        x="-2770.249"
