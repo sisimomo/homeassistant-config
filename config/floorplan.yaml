@@ -55,14 +55,14 @@
             - state: 'on'
               class: 'door_open_bottom_left'
 
-        - name: Doors 2 #Doors that open to the bottom left
+        - name: Doors 2 #Doors that open to the top left
           entities:
             - binary_sensor.door_window_sensor_158d000154b7c0
           states:
             - state: 'off'
               class: 'door_closed'
             - state: 'on'
-              class: 'door_open_bottom_right'
+              class: 'door_open_top_right'
 
         - name: Rooms
           entities:

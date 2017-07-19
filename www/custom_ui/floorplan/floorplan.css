@@ -109,10 +109,10 @@ svg, svg * {
   fill: #008000 !important;
 }
 
-.door_open_bottom_left {
+.door_open_top_left {
   fill: #ff0000 !important;
-  transform: rotate(-90deg);
-  transform-origin: bottom left;
+  transform: rotate(90deg);
+  transform-origin: top left;
 }
 
 .door_open_bottom_right {

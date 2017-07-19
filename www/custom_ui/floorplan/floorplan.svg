@@ -36,8 +36,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.056568544"
-     inkscape:cx="40418.036"
-     inkscape:cy="27889.715"
+     inkscape:cx="64977.619"
+     inkscape:cy="20140.401"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -716,16 +716,6 @@
          x="-5499.2515"
          y="-10623.065"
          style="font-size:705.55554199px;line-height:1.25;text-align:center;text-anchor:middle;stroke-width:0.26458332">---</tspan></text>
-    <rect
-       style="opacity:1;fill:#007d00;fill-opacity:1;stroke:none;stroke-width:6.12265015;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="binary_sensor.door_window_sensor_158d00011c8066"
-       width="964.79114"
-       height="99.779518"
-       x="-8413.9395"
-       y="-11251.111"
-       ry="49.889759"
-       inkscape:label="binary_sensor.door_window_sensor_158d00011c8066"
-       transform="rotate(90)" />
     <path
        id="media_player.guest_room"
        d="m 969.99984,-7986.6717 a 129.85228,129.85228 0 0 0 -129.8441,129.8932 129.85228,129.85228 0 0 0 129.8441,129.8932 129.85228,129.85228 0 0 0 129.86036,-129.8932 129.85228,129.85228 0 0 0 -129.86036,-129.8932 m 0,346.3273 a 216.42047,216.42047 0 0 1 -216.4178,-216.4341 216.42047,216.42047 0 0 1 216.4178,-216.4341 216.42047,216.42047 0 0 1 216.41766,216.4341 216.42047,216.42047 0 0 1 -216.41766,216.4341 m 0,-692.6546 a 86.568187,86.568187 0 0 1 86.57356,86.5409 86.568187,86.568187 0 0 1 -86.57356,86.7046 c -48.0474,0 -86.5737,-38.9353 -86.5737,-86.7046 0,-47.9328 38.5263,-86.5409 86.5737,-86.5409 m 216.41766,-86.5409 H 753.58204 c -48.0473,0 -86.5736,38.608 -86.5736,86.5409 v 692.6546 a 86.568187,86.568187 0 0 0 86.5736,86.5409 h 432.83546 a 86.568187,86.568187 0 0 0 86.5737,-86.5409 v -692.6546 c 0,-47.9329 -38.9516,-86.5409 -86.5737,-86.5409 z"
@@ -907,14 +897,22 @@
          y="-11854.125"
          style="font-size:423.33333333px;line-height:1.25;text-align:center;text-anchor:middle;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332;-inkscape-font-specification:'sans-serif, Bold';font-family:sans-serif;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal">32°C</tspan></text>
     <rect
-       style="display:inline;opacity:1;fill:#007d00;fill-opacity:1;stroke:none;stroke-width:6.12265062;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;vector-effect:none;fill:#007d00;fill-opacity:1;stroke:none;stroke-width:2.54127789;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="binary_sensor.door_window_sensor_158d000154b7c0"
-       width="998.48956"
-       height="105.32616"
-       x="-10561.487"
-       y="-4729.8198"
-       ry="52.663082"
-       inkscape:label="binary_sensor.door_window_sensor_158d000154b7c0"
-       transform="rotate(90)" />
+       width="105.84652"
+       height="1000.0001"
+       x="4624.1533"
+       y="-10562.999"
+       ry="82.28624"
+       inkscape:label="#rect4628" />
+    <rect
+       style="display:inline;opacity:1;vector-effect:none;fill:#007d00;fill-opacity:1;stroke:none;stroke-width:2.44219351;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="binary_sensor.door_window_sensor_158d00011c8066"
+       width="101.299"
+       height="964.99963"
+       x="11150"
+       y="-8412.998"
+       ry="79.406189"
+       inkscape:label="#rect4628" />
   </g>
 </svg>
