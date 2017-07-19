@@ -36,10 +36,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.020000001"
-     inkscape:cx="-7681.5134"
+     inkscape:cx="17612.685"
      inkscape:cy="21769.325"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer7"
      showgrid="true"
      units="cm"
      inkscape:window-width="1920"
@@ -137,6 +137,24 @@
          x="2235.3657"
          y="2340.7151"
          style="font-size:317.5px;line-height:1.25;text-align:center;text-anchor:middle;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332">Lena</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer7"
+     inkscape:label="special_entites">
+    <text
+       transform="translate(6420.3125,12986.163)"
+       xml:space="preserve"
+       x="-5362.3535"
+       y="-8377.8398"
+       id="sensor.news"
+       style="display:inline;font-size:12px;line-height:0%;text-align:center;text-anchor:middle;stroke-width:0.26458332"
+       inkscape:label="sensor.news"><tspan
+         sodipodi:role="line"
+         id="tspan4629-6-0-3-4-6"
+         x="-5362.3535"
+         y="-8377.8398"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:705.55560303px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332">away</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -915,17 +933,5 @@
        y="-8412.998"
        ry="49.99963"
        inkscape:label="#rect4628" />
-    <text
-       xml:space="preserve"
-       x="-2769.4368"
-       y="-7808.9858"
-       id="sensor.news"
-       style="font-size:12px;line-height:0%;text-align:center;text-anchor:middle;display:inline;stroke-width:0.26458332"
-       inkscape:label="sensor.news"><tspan
-         sodipodi:role="line"
-         id="tspan4629-6-0-3-4-6"
-         x="-2769.4365"
-         y="-7808.9858"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:705.55560303px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332">away</tspan></text>
   </g>
 </svg>
