@@ -1,4 +1,0 @@
-- platform: template
-  sensors:
-    pihole_auth:
-      value_template: !secret pihole_auth
