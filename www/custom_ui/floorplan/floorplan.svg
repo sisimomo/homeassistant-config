@@ -35,11 +35,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.028284273"
-     inkscape:cx="12724.264"
-     inkscape:cy="25007.297"
+     inkscape:zoom="0.020000001"
+     inkscape:cx="10543.164"
+     inkscape:cy="25598.992"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer5"
+     inkscape:current-layer="layer1"
      showgrid="true"
      units="cm"
      inkscape:window-width="1920"
@@ -850,28 +850,28 @@
     </g>
     <text
        xml:space="preserve"
-       x="-4625.1777"
+       x="-6116.4609"
        y="-12492.677"
        id="sensor.floorplan_date"
-       style="line-height:0%;text-align:center;text-anchor:middle;display:inline;stroke-width:0.26458332"
+       style="line-height:0%;text-align:start;text-anchor:start;display:inline;stroke-width:0.26458332"
        inkscape:label="sensor.floorplan_date"><tspan
          sodipodi:role="line"
          id="tspan4629-6"
-         x="-4625.1777"
+         x="-6116.4609"
          y="-12492.677"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:264.58334351px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332">Friday, June 30</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:264.58334351px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332">Friday, June 30</tspan></text>
     <text
        xml:space="preserve"
-       x="-4637.2949"
-       y="-11834.177"
+       x="-6148.1284"
+       y="-11845.87"
        id="sensor.floorplan_time"
-       style="line-height:0%;text-align:center;text-anchor:middle;display:inline;stroke-width:0.26458332"
+       style="line-height:0%;text-align:start;text-anchor:start;display:inline;stroke-width:0.26458332"
        inkscape:label="sensor.floorplan_time"><tspan
          sodipodi:role="line"
          id="tspan4629-6-0"
-         x="-4637.2949"
-         y="-11834.177"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:705.55554199px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332">22:22</tspan></text>
+         x="-6148.1284"
+         y="-11845.87"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:705.55554199px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332">22:22</tspan></text>
     <text
        xml:space="preserve"
        x="-1749.2441"
@@ -898,16 +898,16 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:705.55554199px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332">SEMBACH</tspan></text>
     <text
        xml:space="preserve"
-       x="-2770.249"
+       x="-2133.2856"
        y="-11854.125"
        id="sensor.dark_sky_temperature"
-       style="font-size:12px;line-height:0%;text-align:center;text-anchor:middle;display:inline;stroke-width:0.26458332"
+       style="font-size:12px;line-height:0%;text-align:end;text-anchor:end;display:inline;stroke-width:0.26458332"
        inkscape:label="sensor.dark_sky_temperature"><tspan
          sodipodi:role="line"
          id="tspan4629-6-0-3-2"
-         x="-2770.249"
+         x="-2133.2856"
          y="-11854.125"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:423.33334351px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332">32°C</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:423.33334351px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;writing-mode:lr-tb;text-anchor:end;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332">32°C</tspan></text>
     <rect
        style="opacity:1;vector-effect:none;fill:#007d00;fill-opacity:1;stroke:none;stroke-width:2.54127789;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="binary_sensor.door_window_sensor_158d000154b7c0"
