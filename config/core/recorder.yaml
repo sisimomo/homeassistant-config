@@ -15,4 +15,5 @@ exclude:
     - sensor.uptime
     - sensor.cpu_speed
     - sensor.emby_player_uuid
-    - sensor.alexa_response
+    - sensor.floorplan_date
+    - sensor.floorplan_time
