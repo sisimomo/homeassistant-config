@@ -95,11 +95,11 @@ svg, svg * {
 
 /* Rooms */
 .room-no-motion {
-  fill: #3d3b3 !important;
+  fill-opacity: 0 !important;
 }
 
 .room-motion {
-  fill: #e6e6e6 !important;
+  fill-opacity: 1 !important;
 }
 
 /**************/
