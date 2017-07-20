@@ -17,3 +17,9 @@ exclude:
     - sensor.emby_player_uuid
     - sensor.floorplan_date
     - sensor.floorplan_time
+    - sensor.news
+    - sensor.news1
+    - sensor.news2
+    - sensor.news3
+    - sensor.news4
+    - sensor.news5

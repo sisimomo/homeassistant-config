@@ -6,6 +6,7 @@ include:
     - sensor.transmission_down_speed
     - sensor.transmission_up_speed
     - sensor.owm_temperature
+    - sensor.dark_sky_temperature
     - sensor.disk_use_
     - sensor.disk_free_
     - sensor.disk_use_mntshare
