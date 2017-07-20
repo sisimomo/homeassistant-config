@@ -70,31 +70,24 @@ svg, svg * {
 
 /* Doors */
 
-.door_closed_top_left {
-  fill: #008000 !important;
+/* Doors that open to the top left */
+#binary_sensor\.door_window_sensor_158d000154b7c0 {
   transform-origin: top left;
+}
+
+/* Doors that open to the bottom right */
+#binary_sensor\.door_window_sensor_158d00011c8066 {
+  transform-origin: bottom right;
+}
+
+.door_closed {
+  fill: #008000 !important;
   animation-duration: 4s;
   animation-name: rotateReset90;
 }
 
-.door_closed_bottom_right {
-  fill: #008000 !important;
-  transform-origin: bottom right;
-  animation-duration: 4s;
-  animation-name: rotateReset90;
-}
-
-.door_open_top_left {
+.door_open {
   fill: #ff0000 !important;
-  transform-origin: top left;
-  animation-duration: 4s;
-  animation-name: rotate90;
-  animation-fill-mode: forwards;
-}
-
-.door_open_bottom_right {
-  fill: #ff0000 !important;
-  transform-origin: bottom right;
   animation-duration: 4s;
   animation-name: rotate90;
   animation-fill-mode: forwards;
