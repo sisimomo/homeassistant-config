@@ -1,3 +1,19 @@
+/* Animation */
+@keyframes rotate90 {
+	100% {
+		transform: rotate(90deg);
+	}
+}
+
+@keyframes rotateReset90 {
+	0% {
+		transform: rotate(90deg);
+	}
+	100% {
+		transform: none;
+	}
+}
+
 /* SVG shapes */
 
 svg, svg * {
@@ -106,20 +122,34 @@ svg, svg * {
 
 /* Doors */
 
-.door_closed {
+.door_closed_top_left {
   fill: #008000 !important;
+  transform-origin: top left;
+  animation-duration: 4s;
+  animation-name: rotateReset90;
+}
+
+.door_closed_bottom_right {
+  fill: #008000 !important;
+  transform-origin: bottom right;
+  animation-duration: 4s;
+  animation-name: rotateReset90;
 }
 
 .door_open_top_left {
   fill: #ff0000 !important;
-  transform: rotate(90deg);
   transform-origin: top left;
+  animation-duration: 4s;
+  animation-name: rotate90;
+  animation-fill-mode: forwards;
 }
 
 .door_open_bottom_right {
   fill: #ff0000 !important;
-  transform: rotate(90deg);
   transform-origin: bottom right;
+  animation-duration: 4s;
+  animation-name: rotate90;
+  animation-fill-mode: forwards;
 }
 
 /**************/
