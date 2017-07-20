@@ -13,4 +13,4 @@ sequence:
       message: "{{ Metadata.title }} is now ready to be watched on Emby"
   - service: python_script.add_news
     data_template:
-      info: "{{ Metadata.title }}"
+      info: "NEW: {{ Metadata.parentTitle }}"
