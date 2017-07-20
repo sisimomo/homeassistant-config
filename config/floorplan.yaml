@@ -73,15 +73,6 @@
               class: 'room-no-motion'
             - state: 'on'
               class: 'room-motion'
-          state_transitions:
-            - name: On to off
-              from_state: 'on'
-              to_state: 'off'
-              duration: 10
-            - name: Off to on
-              from_state: 'off'
-              to_state: 'on'
-              duration: 10
 
         #  MEDIA PLAYERS  #
         - name: Media Players
