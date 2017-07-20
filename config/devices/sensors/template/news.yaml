@@ -1,0 +1,5 @@
+- platform: template
+  sensors:
+    news:
+      entity_id: zone.home
+      value_template: "{{ states.sensor.news.state }}"

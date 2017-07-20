@@ -1,5 +1,0 @@
-- platform: template
-  sensors:
-    recent_episodes:
-      entity_id: zone.home
-      value_template: "{{ states.sensor.recent_episodes.state }}"

@@ -46,39 +46,38 @@
               class: 'doorbell-off'
 
         #  DOORS  #
-        - name: Doors 1 #Doors that open to the bottom left
+        - name: Doors 1 #Doors that open to the bottom right
           entities:
             - binary_sensor.door_window_sensor_158d00011c8066
           states:
             - state: 'off'
               class: 'door_closed'
             - state: 'on'
-              class: 'door_open_bottom_left'
+              class: 'door_open_top_left'
 
-        - name: Doors 2 #Doors that open to the top right
+        - name: Doors 2 #Doors that open to the top left
           entities:
             - binary_sensor.door_window_sensor_158d000154b7c0
           states:
             - state: 'off'
               class: 'door_closed'
             - state: 'on'
-              class: 'door_open_top_right'
+              class: 'door_open_bottom_right'
 
-#        - name: Rooms
-#          entities:
-#            - binary_sensor.door_window_sensor_158d00011c8066
-#            - binary_sensor.door_window_sensor_158d000154b7c0
-#            - binary_sensor.motion_sensor_158d00010f8100
-#          states:
-#            - state: 'off'
-#              class: 'info-background'
-#            - state: 'on'
-#              class: 'warning-background'
-#          state_transitions:
-#            - name: On to off
-#              from_state: 'on'
-#              to_state: 'off'
-#              duration: 10
+        - name: Rooms
+          entities:
+            - binary_sensor.motion_sensor_158d00010f8100
+            - binary_sensor.motion_sensor_158d0001307b02
+          states:
+            - state: 'off'
+              class: 'info-background'
+            - state: 'on'
+              class: 'warning-background'
+          state_transitions:
+            - name: On to off
+              from_state: 'on'
+              to_state: 'off'
+              duration: 10
 
         #  MEDIA PLAYERS  #
         - name: Media Players
@@ -102,18 +101,32 @@
         #  INFO PANEL  #
         ################
 
-        # DATE & TIME #
+        # DATE & TIME & WEATHER #
         - name: text_font_date
           entities:
             - sensor.floorplan_date
           text_template: '${entity.state ? entity.state : "undefined"}'
-          #class_template: 'return "static-text-date";'
+          class_template: 'return "static-text";'
 
         - name: text_font_time
           entities:
             - sensor.floorplan_time
           text_template: '${entity.state ? entity.state : "undefined"}'
-          #class_template: 'return "static-text-time";'
+          class_template: 'return "static-text";'
+
+        - name: text_font_weather
+          entities:
+            - sensor.dark_sky_temperature
+          text_template: '${entity.state ? entity.state + "°C" : "undefined"}'
+          class_template: 'return "static-text";'
+
+        # LOCATION #
+        - name: text_font_device_tracker
+          entities:
+            - device_tracker.janis_handy
+            - device_tracker.lena_handy
+          text_template: '${entity.state ? entity.state.replace("not_home", "away") : "undefined"}'
+          class_template: 'return "static-text";'
 
         # ALARM PANEL #
         - name: Alarm Panel
@@ -131,3 +144,14 @@
               class: 'alarm-triggered'
             - state: 'pending'
               class: 'alarm-pending'
+
+        # NEWS #
+        - name: text_font_news
+          entities:
+            - sensor.news1
+            - sensor.news2
+            - sensor.news3
+            - sensor.news4
+            - sensor.news5
+          text_template: '${entity.state ? entity.state : "undefined"}'
+          class_template: 'return "static-text";'

@@ -3,7 +3,7 @@ entities:
   - device_tracker.janis_handy
   - device_tracker.lena_handy
   - sun.sun
-  - sensor.owm_temperature
+  - sensor.dark_sky_temperature
   - alarm_control_panel.alarm
   - camera.janis_and_lena
   - group.weblinks

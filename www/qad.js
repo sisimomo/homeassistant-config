@@ -7,7 +7,7 @@
 		"device_tracker.lena_handy",
 		"proximity.home_janis",
 		"proximity.home_lena",
-		"sensor.owm_temperature",
+		"sensor.dark_sky_temperature",
 		"input_boolean.dinner_mode",
 		"input_boolean.party_mode",
 		"input_boolean.shelf_light",
@@ -16,7 +16,7 @@
 		"alarm_control_panel.alarm",
 		"automation.motion_light",
 		"input_boolean.tv",
-		"sensor.recent_episodes"
+		"sensor.news"
 	];
 	var alarmCode = "";
 	var alarmAction = "";
@@ -155,33 +155,15 @@
 					}
 					break;
 
-				case 'sensor.recent_episodes':
+				case 'sensor.news':
 					new_html = ''
 					for (x = 1; x <= 5; x++) {
 						new_html += '<div class="scrollContent">'+ent.attributes['entry'+x]+'</div>';
 					}
 					break;
 
-				case 'sensor.owm_temperature':
+				case 'sensor.dark_sky_temperature':
 					new_html = ent.state + ent.attributes.unit_of_measurement;
-					if (homeassistant.states["sensor.owm_cloud_coverage"].state >= 60) {
-						new_html += "<span class=\"fa-stack\"><i class=\"fa fa-cloud fa-stack-1x\"></i><i class=\"fa fa-circle-thin fa-stack-2x text-danger\"></i></span>"
-					}
-					else {
-						new_html += "<span class=\"fa-stack\"><i class=\"fa fa-cloud fa-stack-1x\"></i><i class=\"fa fa-ban fa-stack-2x text-danger\"></i></span>"
-					}
-					if (homeassistant.states["sensor.owm_rain"].state == "not raining") {
-						new_html += "<span class=\"fa-stack\"><i class=\"fa fa-umbrella fa-stack-1x\"></i><i class=\"fa fa-ban fa-stack-2x text-danger\"></i></span>"
-					}
-					else {
-						new_html += "<span class=\"fa-stack\"><i class=\"fa fa-umbrella fa-stack-1x\"></i><i class=\"fa fa-circle-thin fa-stack-2x text-danger\"></i></span>"
-					}
-					if (homeassistant.states["sensor.owm_snow"].state == "not snowing") {
-						new_html += "<span class=\"fa-stack\"><i class=\"fa fa-snowflake-o fa-stack-1x\"></i><i class=\"fa fa-ban fa-stack-2x text-danger\"></i></span>"
-					}
-					else {
-						new_html += "<span class=\"fa-stack\"><i class=\"fa fa-snowflake-o fa-stack-1x\"></i><i class=\"fa fa-circle-thin fa-stack-2x text-danger\"></i></span>"
-					}
 					break;
 			}
 			if (icon != '') {

@@ -3,6 +3,7 @@
 svg, svg * {
   vector-effect: non-scaling-stroke !important;
   pointer-events: all !important;
+  background-color: #231f26;
 }
 
 /* Bootstrap succsss */
@@ -106,19 +107,19 @@ svg, svg * {
 /* Doors */
 
 .door_closed {
-  fill: #00e600 !important;
+  fill: #008000 !important;
 }
 
-.door_open_bottom_left {
-  fill: #e60000 !important;
-  transform: rotate(-90deg);
-  transform-origin: bottom left;
-}
-
-.door_open_top_right {
-  fill: #e60000 !important;
+.door_open_top_left {
+  fill: #ff0000 !important;
   transform: rotate(90deg);
-  transform-origin: top right;
+  transform-origin: top left;
+}
+
+.door_open_bottom_right {
+  fill: #ff0000 !important;
+  transform: rotate(90deg);
+  transform-origin: bottom right;
 }
 
 /**************/
@@ -127,20 +128,11 @@ svg, svg * {
 
 /* Date & Time */
 
-.static-text-date
+.static-text
 {
   font-family : Helvetica;
   font-weight : bold;
-  font-size : 750px;
   fill : #FFFFA6;
-}
-
-.static-text-time
-{
-  font-family : Helvetica;
-  font-weight : bold;
-  font-size : 2000px;
-  fill: #FFFFA6;
 }
 
 /* Alarm Panel */
