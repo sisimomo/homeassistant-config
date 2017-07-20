@@ -70,9 +70,9 @@
             - binary_sensor.motion_sensor_158d0001307b02
           states:
             - state: 'off'
-              class: 'info-background'
+              class: 'room-no-motion'
             - state: 'on'
-              class: 'warning-background'
+              class: 'room-motion'
           state_transitions:
             - name: On to off
               from_state: 'on'
