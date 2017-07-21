@@ -6,3 +6,4 @@ entities:
   - script.restart_homeassistant
   - script.update_homeassistant_config
   - script.update_homeassistant
+  - group.alarm_clock_janis
