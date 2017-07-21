@@ -1,5 +1,9 @@
 - name: Bedtime
   entities:
     group.light_livingroom: off
-    switch.edimax1: off
-    input_boolean.media_devices: off
+    input_boolean.blue_light: off
+    input_boolean.led_strip: off
+    input_boolean.shelf_light: off
+    input_boolean.tv: off
+    media_player.txnr414: off
+    light.gateway_light_286c07889d7e: off
