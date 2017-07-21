@@ -31,20 +31,26 @@ automation:
       platform: mqtt
       topic: "setHourJanis"
     action:
-       service: input_slider.select_value
-       data_template:
-        entity_id: input_slider.alarm_hour_janis
-        value: '{{ trigger.payload}}'
+      - service: input_slider.select_value
+        data_template:
+          entity_id: input_slider.alarm_hour_janis
+          value: '{{ trigger.payload}}'
+      - service: homeassistant.turn_on
+        data:
+          entity_id: input_boolean.alarm_clock
 
   - alias: SetJanisAlarmMinutes
     trigger:
       platform: mqtt
       topic: "setMinutesJanis"
     action:
-       service: input_slider.select_value
-       data_template:
-        entity_id: input_slider.alarm_minutes_janis
-        value: '{{ trigger.payload}}'
+      - service: input_slider.select_value
+        data_template:
+          entity_id: input_slider.alarm_minutes_janis
+          value: '{{ trigger.payload}}'
+      - service: homeassistant.turn_on
+        data:
+          entity_id: input_boolean.alarm_clock
 
   - alias: alarmClockJanis
     trigger:
