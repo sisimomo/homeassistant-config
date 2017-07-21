@@ -22,8 +22,8 @@ sensor:
       time_until_alarm_janis:
         friendly_name: Time until next alarm
         entity_id:
-         - sensor.nextalarm
-        value_template: '{{  (states.sensor.nextalarm.state.split(" ")[0] | int *60 ) | timestamp_custom("%H:%M") }}'
+         - sensor.nextalarm_janis
+        value_template: '{{  (states.sensor.nextalarm_janis.state.split(" ")[0] | int *60 ) | timestamp_custom("%H:%M") }}'
 
 automation:
   - alias: SetJanisAlarmHour
