@@ -36,10 +36,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.020000001"
-     inkscape:cx="3587.8918"
+     inkscape:cx="-4737.1078"
      inkscape:cy="27554.09"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer10"
+     inkscape:current-layer="lighting"
      showgrid="true"
      units="cm"
      inkscape:window-width="1920"
@@ -687,7 +687,7 @@
      inkscape:label="hidden_layers">
     <g
        inkscape:groupmode="layer"
-       id="layer10"
+       id="lighting"
        inkscape:label="lighting"
        style="display:inline">
       <rect
