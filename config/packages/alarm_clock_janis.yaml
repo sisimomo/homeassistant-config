@@ -184,7 +184,8 @@ input_select:
 
 group:
  alarm_clock_janis:
-  name: Wakeup Light with Radio
+  control: hidden
+  name: Alarm for Janis
   entities:
   - input_boolean.alarm_clock
   - sensor.alarmtime
