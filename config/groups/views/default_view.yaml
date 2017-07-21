@@ -9,3 +9,4 @@ entities:
   - group.weblinks
   - group.transmission
   - script.kill_alarm_lights
+  - group.alarm_clock_janis
