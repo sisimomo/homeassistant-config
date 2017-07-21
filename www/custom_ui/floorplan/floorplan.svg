@@ -688,7 +688,8 @@
     <g
        inkscape:groupmode="layer"
        id="layer10"
-       inkscape:label="lighting">
+       inkscape:label="lighting"
+       style="display:inline">
       <rect
          style="opacity:1;vector-effect:none;fill:#d53b3f;fill-opacity:1;stroke:none;stroke-width:0.42053628;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="rect4629"
