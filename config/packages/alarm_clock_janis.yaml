@@ -8,7 +8,7 @@ sensor:
          - input_slider.alarm_minutes_janis
         value_template: '{{ "%0.02d:%0.02d" | format(states("input_slider.alarm_hour_janis") | int, states("input_slider.alarm_minutes_janis") | int) }}'
       nextalarm_janis:
-        friendly_name: Seconds untill next alarm
+        friendly_name: Seconds until next alarm
         entity_id:
          - input_slider.alarm_hour_janis
          - input_slider.alarm_minutes_janis
@@ -20,7 +20,7 @@ sensor:
                    {{ relative_time-60}}
           {%- endif %}
       time_until_alarm_janis:
-        friendly_name: Time untill next alarm
+        friendly_name: Time until next alarm
         entity_id:
          - sensor.nextalarm
         value_template: '{{  (states.sensor.nextalarm.state.split(" ")[0] | int *60 ) | timestamp_custom("%H:%M") }}'
@@ -156,42 +156,6 @@ automation:
           entity_id: media_player.kodi_on_firetv
           volume_level: '0.70'
       - delay: '00:02:00'
-      - service: light.turn_on
-        data:
-          entity_id: light.hall_way
-          brightness: 125
-      - service: light.turn_on
-        data:
-          entity_id: light.diner_table
-          brightness: 125
-      - service: light.turn_on
-        data:
-          entity_id: light.living_room
-          brightness: 140
-      - service: media_player.volume_set
-        data:
-          entity_id: media_player.ca_bathroom
-          volume_level: '0.40'
-      - delay: '00:00:10'
-      - service: media_player.volume_set
-        data:
-          entity_id: media_player.ca_bathroom
-          volume_level: '0.40'
-      - service: media_player.play_media
-        data_template:
-          entity_id: media_player.ca_bathroom
-          media_content_id: >
-              {% if is_state("input_select.radio_wakeup_janis", "Radio 538") %} http://vip-icecast.538.lw.triple-it.nl:80/RADIO538_MP3
-              {% elif is_state("input_select.radio_wakeup_janis", "Q-Music") %} http://icecast-qmusic.cdp.triple-it.nl/Qmusic_nl_live_96.mp3
-              {% elif is_state("input_select.radio_wakeup_janis", "3FM") %} http://icecast.omroep.nl/3fm-bb-mp3
-              {% elif is_state("input_select.radio_wakeup_janis", "100% NL") %} http://stream.100p.nl/100pctnl.mp3
-              {% elif is_state("input_select.radio_wakeup_janis", "Veronica") %} http://8543.live.streamtheworld.com/VERONICACMP3
-              {% elif is_state("input_select.radio_wakeup_janis", "Sky Radio") %} http://8623.live.streamtheworld.com:80/SKYRADIOAAC_SC
-              {% elif is_state("input_select.radio_wakeup_janis", "Arrow Classic Rock") %} http://91.221.151.155/listen.mp3
-              {% elif is_state("input_select.radio_wakeup_janis", "Classic FM") %} http://19143.live.streamtheworld.com/CLASSICFM_SC
-              {% elif is_state("input_select.radio_wakeup_janis", "BNR Nieuwsradio") %} http://icecast-bnr.cdp.triple-it.nl/bnr_mp3_96_03
-              {% endif %}
-          media_content_type: 'audio/mp4'
       - service: homeassistant.turn_off
         data:
           entity_id: input_boolean.alarm_clock
@@ -207,7 +171,7 @@ script:
           volume_level: '1.0'
       - alias: Say Sleep Left
         service: tts.google_say
-        entity_id: media_player.bed_room
+        entity_id: media_player.bedroom
         data_template:
           message: 'Next alarm in  {{  (states.sensor.nextalarm.state.split(" ")[0] | int *60 ) | timestamp_custom("%H") | int }} hours and {{  (states.sensor.nextalarm.state.split(" ")[0] | int *60 ) | timestamp_custom("%M")  }} minutes . Good night.'
           cache: false
@@ -215,15 +179,15 @@ script:
       - alias: Set Volume2
         service: media_player.volume_set
         data:
-          entity_id: media_player.bed_room
+          entity_id: media_player.bedroom
           volume_level: '0.75'
       - condition: state
         entity_id: input_boolean.lullaby_janis
         state: 'on'
       - service: media_player.play_media
-        entity_id: media_player.bed_room
+        entity_id: media_player.bedroom
         data_template:
-          entity_id: media_player.bed_room
+          entity_id: media_player.bedroom
           media_content_id: >
            {% if is_state("input_select.lullaby_janis", "Sleep Radio") %} http://37.59.28.208:8722/stream
            {% elif is_state("input_select.lullaby_janis", "Ambient Sleeping Pill") %} http://perseus.shoutca.st:8447/h
@@ -235,52 +199,52 @@ script:
       - delay: '00:05:00'
       - service: media_player.volume_set
         data:
-          entity_id: media_player.bed_room
+          entity_id: media_player.bedroom
           volume_level: '0.70'
       - delay: '00:02:30'
       - service: media_player.volume_set
         data:
-          entity_id: media_player.bed_room
+          entity_id: media_player.bedroom
           volume_level: '0.65'
       - delay: '00:02:30'
       - service: media_player.volume_set
         data:
-          entity_id: media_player.bed_room
+          entity_id: media_player.bedroom
           volume_level: '0.60'
       - delay: '00:05:00'
       - service: media_player.volume_set
         data:
-          entity_id: media_player.bed_room
+          entity_id: media_player.bedroom
           volume_level: '0.55'
       - delay: '00:02:30'
       - service: media_player.volume_set
         data:
-          entity_id: media_player.bed_room
+          entity_id: media_player.bedroom
           volume_level: '0.50'
       - delay: '00:02:30'
       - service: media_player.volume_set
         data:
-          entity_id: media_player.bed_room
+          entity_id: media_player.bedroom
           volume_level: '0.45'
       - delay: '00:05:00'
       - service: media_player.volume_set
         data:
-          entity_id: media_player.bed_room
+          entity_id: media_player.bedroom
           volume_level: '0.40'
       - delay: '00:02:30'
       - service: media_player.volume_set
         data:
-          entity_id: media_player.bed_room
+          entity_id: media_player.bedroom
           volume_level: '0.35'
       - delay: '00:02:30'
       - service: media_player.volume_set
         data:
-          entity_id: media_player.bed_room
+          entity_id: media_player.bedroom
           volume_level: '0.30'
       - delay: '00:05:00'
       - service: media_player.volume_set
         data:
-          entity_id: media_player.bed_room
+          entity_id: media_player.bedroom
           volume_level: '0.25'
 
 input_boolean:
