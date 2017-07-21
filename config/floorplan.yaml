@@ -132,6 +132,21 @@
             - state: 'pending'
               class: 'alarm-pending'
 
+        # Layer toggles #
+        - name: Light Livingroom
+          elements:
+            - light_livingroom
+          action:
+            domain: class
+            service: toggle
+            data:
+              elements:
+                - lighting
+              classes:
+                - layer-visible
+                - layer-hidden
+              default_class: layer-hidden
+
         # NEWS #
         - name: text_font_news
           entities:

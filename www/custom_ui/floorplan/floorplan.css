@@ -132,3 +132,13 @@ svg, svg * {
 .alarm-pending {
   fill: #00cc99 !important;
 }
+
+.layer-visible {
+  fill-opacity: 1 !important;
+  stroke-opacity: 1 !important;
+}
+
+.layer-hidden {
+  fill-opacity: 0 !important;
+  stroke-opacity: 0 !important;
+}
