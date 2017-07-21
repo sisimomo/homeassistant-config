@@ -1,0 +1,18 @@
+# Check if it will rain today if yes set news
+- alias: rainday
+  trigger:
+    - platform: state
+      entity_id: input_boolean.tv
+      to: 'off'
+      from: 'on'
+    - platform: state
+      entity_id: input_boolean.tv
+      to: 'on'
+      from: 'off'
+  condition:
+    condition: template
+    value_template: '{{ states.sensor.darksky_precip_probability.state > 0.5 }}'
+  action:
+    - service: python_script.add_news
+      data_template:
+        info: "It will rain today! ({{ states.sensor.darksky_precip_probability.state * 100}}%)"

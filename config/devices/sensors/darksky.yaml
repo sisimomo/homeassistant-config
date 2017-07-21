@@ -9,3 +9,4 @@
     - cloud_cover
     - humidity
     - temperature_max
+    - precip_probability
