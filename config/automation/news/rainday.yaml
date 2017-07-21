@@ -11,8 +11,8 @@
       from: 'off'
   condition:
     condition: template
-    value_template: '{{ states.sensor.darksky_precip_probability.state > 0.5 }}'
+    value_template: '{{ states.sensor.dark_sky_precip_probability.state > 0.5 }}'
   action:
     - service: python_script.add_news
       data_template:
-        info: "It will rain today! ({{ states.sensor.darksky_precip_probability.state * 100}}%)"
+        info: "It will rain today! ({{ states.sensor.dark_sky_precip_probability.state * 100}}%)"
