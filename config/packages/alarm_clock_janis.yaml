@@ -35,7 +35,7 @@ automation:
         data_template:
           entity_id: input_slider.alarm_hour_janis
           value: '{{ trigger.payload}}'
-      - service: homeassistant.turn_on
+      - service: input_boolean.turn_on
         data:
           entity_id: input_boolean.alarm_clock
 
@@ -48,7 +48,7 @@ automation:
         data_template:
           entity_id: input_slider.alarm_minutes_janis
           value: '{{ trigger.payload}}'
-      - service: homeassistant.turn_on
+      - service: input_boolean.turn_on
         data:
           entity_id: input_boolean.alarm_clock
 
@@ -162,7 +162,7 @@ automation:
           entity_id: media_player.kodi_on_firetv
           volume_level: '0.70'
       - delay: '00:02:00'
-      - service: homeassistant.turn_off
+      - service: input_boolean.turn_off
         data:
           entity_id: input_boolean.alarm_clock
 
