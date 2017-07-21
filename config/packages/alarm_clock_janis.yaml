@@ -35,6 +35,7 @@ automation:
        data_template:
         entity_id: input_slider.alarm_hour
         value: '{{ trigger.payload}}'
+
   - alias: Set alarmtime_minutes
     trigger:
       platform: mqtt
@@ -44,6 +45,156 @@ automation:
        data_template:
         entity_id: input_slider.alarm_minutes
         value: '{{ trigger.payload}}'
+
+  - alias: 'Wakeup Light with Radio'
+    trigger:
+      platform: time
+      minutes: '/5'
+      seconds: '0'
+    condition:
+      condition: and
+      conditions:
+        - condition: template
+          value_template: '{{ ((now().strftime("%s") | int + 1200) | timestamp_custom("%H:%M")) == states.sensor.alarmtime.state  }}'
+        - condition: state
+          entity_id: input_boolean.alarm_clock
+          state: 'on'
+    action:
+      - service: light.turn_on
+        data:
+          entity_id: light.bed_room
+          brightness: 255
+          rgb_color: [255,255,255]
+          transition: 1200
+      - service: media_player.play_media
+        data_template:
+          entity_id: media_player.bed_room
+          media_content_id: >
+              {% if is_state("input_select.radio_wakeup", "Radio 538") %} http://vip-icecast.538.lw.triple-it.nl:80/RADIO538_MP3
+              {% elif is_state("input_select.radio_wakeup", "Q-Music") %} http://icecast-qmusic.cdp.triple-it.nl/Qmusic_nl_live_96.mp3
+              {% elif is_state("input_select.radio_wakeup", "3FM") %} http://icecast.omroep.nl/3fm-bb-mp3
+              {% elif is_state("input_select.radio_wakeup", "100% NL") %} http://stream.100p.nl/100pctnl.mp3
+              {% elif is_state("input_select.radio_wakeup", "Veronica") %} http://8543.live.streamtheworld.com/VERONICACMP3
+              {% elif is_state("input_select.radio_wakeup", "Sky Radio") %} http://8623.live.streamtheworld.com:80/SKYRADIOAAC_SC
+              {% elif is_state("input_select.radio_wakeup", "Arrow Classic Rock") %} http://91.221.151.155/listen.mp3
+              {% elif is_state("input_select.radio_wakeup", "Classic FM") %} http://19143.live.streamtheworld.com/CLASSICFM_SC
+              {% elif is_state("input_select.radio_wakeup", "BNR Nieuwsradio") %} http://icecast-bnr.cdp.triple-it.nl/bnr_mp3_96_03
+              {% endif %}
+          media_content_type: 'audio/mp4'
+      - service: media_player.volume_set
+        data:
+          entity_id: media_player.bed_room
+          volume_level: '0.01'
+      - delay: '00:02:00'
+      - service: media_player.volume_set
+        data:
+          entity_id: media_player.bed_room
+          volume_level: '0.05'
+      - delay: '00:02:00'
+      - service: media_player.volume_set
+        data:
+          entity_id: media_player.bed_room
+          volume_level: '0.10'
+      - delay: '00:01:30'
+      - service: media_player.volume_set
+        data:
+          entity_id: media_player.bed_room
+          volume_level: '0.15'
+      - delay: '00:01:30'
+      - service: media_player.volume_set
+        data:
+          entity_id: media_player.bed_room
+          volume_level: '0.20'
+      - delay: '00:01:30'
+      - service: media_player.volume_set
+        data:
+          entity_id: media_player.bed_room
+          volume_level: '0.25'
+      - delay: '00:01:00'
+      - service: media_player.volume_set
+        data:
+          entity_id: media_player.bed_room
+          volume_level: '0.30'
+      - delay: '00:01:00'
+      - service: media_player.volume_set
+        data:
+          entity_id: media_player.bed_room
+          volume_level: '0.35'
+      - delay: '00:01:00'
+      - service: media_player.volume_set
+        data:
+          entity_id: media_player.bed_room
+          volume_level: '0.40'
+      - delay: '00:01:00'
+      - service: media_player.volume_set
+        data:
+          entity_id: media_player.bed_room
+          volume_level: '0.45'
+      - delay: '00:01:00'
+      - service: media_player.volume_set
+        data:
+          entity_id: media_player.bed_room
+          volume_level: '0.50'
+      - delay: '00:01:00'
+      - service: media_player.volume_set
+        data:
+          entity_id: media_player.bed_room
+          volume_level: '0.55'
+      - delay: '00:00:45'
+      - service: media_player.volume_set
+        data:
+          entity_id: media_player.bed_room
+          volume_level: '0.60'
+      - delay: '00:00:45'
+      - service: media_player.volume_set
+        data:
+          entity_id: media_player.bed_room
+          volume_level: '0.65'
+      - delay: '00:00:45'
+      - service: media_player.volume_set
+        data:
+          entity_id: media_player.bed_room
+          volume_level: '0.70'
+      - delay: '00:02:00'
+      - service: light.turn_on
+        data:
+          entity_id: light.hall_way
+          brightness: 125
+      - service: light.turn_on
+        data:
+          entity_id: light.diner_table
+          brightness: 125
+      - service: light.turn_on
+        data:
+          entity_id: light.living_room
+          brightness: 140
+      - service: media_player.volume_set
+        data:
+          entity_id: media_player.ca_bathroom
+          volume_level: '0.40'
+      - delay: '00:00:10'
+      - service: media_player.volume_set
+        data:
+          entity_id: media_player.ca_bathroom
+          volume_level: '0.40'
+      - service: media_player.play_media
+        data_template:
+          entity_id: media_player.ca_bathroom
+          media_content_id: >
+              {% if is_state("input_select.radio_wakeup", "Radio 538") %} http://vip-icecast.538.lw.triple-it.nl:80/RADIO538_MP3
+              {% elif is_state("input_select.radio_wakeup", "Q-Music") %} http://icecast-qmusic.cdp.triple-it.nl/Qmusic_nl_live_96.mp3
+              {% elif is_state("input_select.radio_wakeup", "3FM") %} http://icecast.omroep.nl/3fm-bb-mp3
+              {% elif is_state("input_select.radio_wakeup", "100% NL") %} http://stream.100p.nl/100pctnl.mp3
+              {% elif is_state("input_select.radio_wakeup", "Veronica") %} http://8543.live.streamtheworld.com/VERONICACMP3
+              {% elif is_state("input_select.radio_wakeup", "Sky Radio") %} http://8623.live.streamtheworld.com:80/SKYRADIOAAC_SC
+              {% elif is_state("input_select.radio_wakeup", "Arrow Classic Rock") %} http://91.221.151.155/listen.mp3
+              {% elif is_state("input_select.radio_wakeup", "Classic FM") %} http://19143.live.streamtheworld.com/CLASSICFM_SC
+              {% elif is_state("input_select.radio_wakeup", "BNR Nieuwsradio") %} http://icecast-bnr.cdp.triple-it.nl/bnr_mp3_96_03
+              {% endif %}
+          media_content_type: 'audio/mp4'
+      - service: homeassistant.turn_off
+        data:
+          entity_id: input_boolean.alarm_clock
 
 script:
   sleep:
