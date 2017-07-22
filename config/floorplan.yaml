@@ -164,9 +164,11 @@
             - input_boolean.dinner_mode
           states:
             - state: 'on'
-              class: 'doorbell-on'
+              class: 'hidden_boolean_on'
             - state: 'off'
-              class: 'doorbell-off'
+              class: 'hidden_boolean_off'
+          action:
+            service: toggle
 
         # NEWS #
         - name: text_font_news

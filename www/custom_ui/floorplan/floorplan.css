@@ -162,3 +162,11 @@ svg, svg * {
   animation-name: fadeOut;
   animation-fill-mode: forwards;
 }
+
+.hidden_boolean_on {
+  fill: #ffffff !important;
+}
+
+.hidden_boolean_off {
+  fill: #000000 !important;
+}
