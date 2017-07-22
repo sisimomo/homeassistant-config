@@ -1,0 +1,4 @@
+- name: Livingroom Dim
+  entities:
+    group.light_livingroom:
+      state: off
