@@ -164,9 +164,9 @@ svg, svg * {
 }
 
 .hidden_boolean_on {
-  fill: #ffffff !important;
+  fill: #69946f !important;
 }
 
 .hidden_boolean_off {
-  fill: #000000 !important;
+  fill: #d5643f !important;
 }
