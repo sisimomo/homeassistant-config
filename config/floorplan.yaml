@@ -158,6 +158,7 @@
           action:
             service: turn_on
 
+        # INPUT_BOOLEANS #
         - name: Ceiling light input_booleans
           entities:
             - input_boolean.party_mode
@@ -169,6 +170,27 @@
               class: 'hidden_boolean_off'
           action:
             service: toggle
+
+        # INPUT_BOOLEANS2 #
+         - name: Ceiling light input_booleans2
+          elements:
+            - input_boolean.party_mode2
+          action:
+            domain: input_boolean
+            service: toggle
+            data:
+              entity_id:
+                - input_boolean.party_mode
+
+         - name: Ceiling light input_booleans2
+          elements:
+            - input_boolean.dinner_mode2
+          action:
+            domain: input_boolean
+            service: toggle
+            data:
+              entity_id:
+                - input_boolean.dinner_mode
 
         # NEWS #
         - name: text_font_news
