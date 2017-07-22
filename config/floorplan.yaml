@@ -172,7 +172,7 @@
             service: toggle
 
         # INPUT_BOOLEANS2 #
-         - name: Ceiling light input_booleans2
+        - name: Ceiling light input_booleans2
           elements:
             - input_boolean.party_mode2
           action:
