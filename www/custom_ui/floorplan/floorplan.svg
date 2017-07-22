@@ -35,11 +35,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.040000002"
-     inkscape:cx="16171.627"
-     inkscape:cy="23048.153"
+     inkscape:zoom="0.080000004"
+     inkscape:cx="10905.653"
+     inkscape:cy="29356.984"
      inkscape:document-units="mm"
-     inkscape:current-layer="lighting"
+     inkscape:current-layer="layer5"
      showgrid="true"
      units="cm"
      inkscape:window-width="1920"
@@ -953,13 +953,12 @@
        inkscape:label="lighting"
        style="display:inline">
       <rect
-         transform="translate(6420.3125,12986.163)"
-         style="display:inline;opacity:1;vector-effect:none;fill:#3d3b6e;fill-opacity:1;stroke:none;stroke-width:0.63219732;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         style="display:inline;opacity:1;vector-effect:none;fill:#3d3b6e;fill-opacity:1;stroke:none;stroke-width:0.62918919;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="light_livingroom-4"
-         width="6320"
+         width="6260"
          height="1208.3568"
-         x="-5090"
-         y="-10408.233"
+         x="1390.3126"
+         y="2577.9297"
          ry="164.7756"
          inkscape:label="light_livingroom" />
       <rect

@@ -16,19 +16,19 @@
 
 @keyframes fadeIn {
 	0% {
-		opacity: 0;
+		transform: scale(0, 1);
 	}
 	100% {
-		opacity: 1;
+		transform: scale(1, 1);
 	}
 }
 
 @keyframes fadeOut {
 	0% {
-		opacity: 1;
+		transform: scale(1, 1);
 	}
 	100% {
-		opacity: 0;
+		transform: scale(0, 1);
 	}
 }
 
@@ -155,12 +155,14 @@ svg, svg * {
   animation-duration: 2s;
   animation-name: fadeIn;
   animation-fill-mode: forwards;
+  transform-origin: left
 }
 
 .layer-hidden {
   animation-duration: 2s;
   animation-name: fadeOut;
   animation-fill-mode: forwards;
+  transform-origin: left
 }
 
 .hidden_boolean_on {
