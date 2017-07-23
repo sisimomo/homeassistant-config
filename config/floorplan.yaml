@@ -161,7 +161,7 @@
             service: turn_on
 
         # INPUT_BOOLEANS #
-        - name: Ceiling light input_booleans
+        - name: Light input_booleans
           entities:
             - input_boolean.party_mode
             - input_boolean.dinner_mode
