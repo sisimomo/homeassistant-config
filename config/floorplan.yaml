@@ -171,6 +171,21 @@
           action:
             service: toggle
 
+        # LIGHT SWITCH #
+        - name: Light Livingroom view
+          elements:
+            - group.light_livingroom
+          action:
+            domain: class
+            service: toggle
+            data:
+              elements:
+                - group.light_livingroom_view
+              classes:
+                - light-on
+                - light-off
+              default_class: light-off
+
         # NEWS #
         - name: text_font_news
           entities:
