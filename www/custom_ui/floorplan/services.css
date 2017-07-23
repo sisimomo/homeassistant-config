@@ -1,13 +1,13 @@
 /* Animation */
 @keyframes flash {
 	0% {
-		opacity: 0;
+		opacity: 1;
 	}
 	50% {
 		opacity: 0;
 	}
 	100% {
-		opacity: 0;
+		opacity: 1;
 	}
 }
 
@@ -22,11 +22,9 @@ svg, svg * {
 
 .service-off {
   fill: red !important;
-  animation-duration: 8s;
+  animation-duration: 4s;
   animation-name: flash;
-  animation-delay: 0;
   animation-iteration-count: infinite;
-  animation-direction: forward;
 }
 
 .service-on {
