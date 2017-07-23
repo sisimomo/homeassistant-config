@@ -11,6 +11,8 @@
             - switch.asf
             - switch.mysql
             - switch.project_zomboid
+            - switch.sdtd
+            - switch.transmission_service
           states:
             - state: 'on'
               class: 'service-on'
