@@ -10,6 +10,7 @@
             - switch.telegram_bot
             - switch.asf
             - switch.mysql
+            - switch.project_zomboid
           states:
             - state: 'on'
               class: 'service-on'
