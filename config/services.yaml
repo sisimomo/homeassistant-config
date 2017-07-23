@@ -9,6 +9,7 @@
             - switch.discordbot
             - switch.telegram_bot
             - switch.asf
+            - switch.mysql
           states:
             - state: 'on'
               class: 'service-on'
