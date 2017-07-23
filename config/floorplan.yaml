@@ -149,8 +149,6 @@
                 - layer-hidden
               default_class: layer-hidden
 
-        # LIGHT HIDDEN LAYER #
-
         # SCENES #
         - name: Ceiling light scenes
           entities:
