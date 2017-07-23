@@ -1,0 +1,23 @@
+# Turn light and hidden input off if no motion since 5 minutes, light on and hidden input is on
+- alias: livingroom light on
+  trigger:
+    - platform: state
+      entity_id: input_boolean.floorplan_light_livingroom
+      to: 'on'
+      from: 'off'
+  action:
+    - service: scene.turn_on
+      data:
+        entity_id: scene.livingroom_normal
+
+# Turn light and hidden input off if no motion since 5 minutes, light on and hidden input is on
+- alias: livingroom light off
+  trigger:
+    - platform: state
+      entity_id: input_boolean.floorplan_light_livingroom
+      to: 'off'
+      from: 'on'
+  action:
+    - service: light.turn_off
+      data:
+        entity_id: group.light_livingroom
