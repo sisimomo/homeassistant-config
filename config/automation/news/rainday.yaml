@@ -11,7 +11,7 @@
         entity: rainday
   condition:
     condition: template
-    value_template: '{{ states.sensor.dark_sky_precip_probability.state > 30 }}'
+    value_template: '{{ states.sensor.dark_sky_precip_probability.state | float > 30 }}'
   action:
     - service: python_script.add_news
       data_template:
