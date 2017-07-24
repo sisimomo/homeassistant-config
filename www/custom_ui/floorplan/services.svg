@@ -35,9 +35,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.16"
-     inkscape:cx="3508.0691"
-     inkscape:cy="549.36922"
+     inkscape:zoom="1.28"
+     inkscape:cx="1196.9512"
+     inkscape:cy="153.75507"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -68,7 +68,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -163,7 +163,7 @@
            inkscape:connector-curvature="0" />
         <polygon
            id="polygon4565"
-           points="36.2,73.8 36.2,74.9 39.9,74.9 39.9,73.8 38.7,73.8 38.7,69 39.7,69 39.7,70.2 40.8,70.2 40.8,67.9 35.3,67.9 35.3,70.2 36.4,70.2 36.4,69 37.4,69 37.4,73.8 " />
+           points="35.3,70.2 36.4,70.2 36.4,69 37.4,69 37.4,73.8 36.2,73.8 36.2,74.9 39.9,74.9 39.9,73.8 38.7,73.8 38.7,69 39.7,69 39.7,70.2 40.8,70.2 40.8,67.9 35.3,67.9 " />
         <path
            id="path4567"
            d="m 43,74 c 0.2,0.3 0.5,0.6 0.8,0.8 0.3,0.2 0.7,0.3 1.2,0.3 0.9,0 1.5,-0.3 2,-1 0.5,-0.7 0.7,-1.5 0.7,-2.7 0,-0.5 0,-1 -0.1,-1.5 -0.1,-0.4 -0.2,-0.8 -0.5,-1.1 -0.3,-0.3 -0.5,-0.6 -0.8,-0.8 -0.3,-0.2 -0.7,-0.3 -1.2,-0.3 -0.4,0 -0.8,0.1 -1.2,0.2 -0.3,0.2 -0.6,0.4 -0.8,0.7 -0.2,0.3 -0.4,0.7 -0.5,1.1 -0.1,0.5 -0.2,1 -0.2,1.5 0,0.5 0,1 0.1,1.5 0.1,0.5 0.3,1 0.5,1.3 z m 1.1,-4.4 c 0.2,-0.4 0.5,-0.6 1,-0.6 0.3,0 0.5,0.1 0.6,0.2 0.2,0.1 0.3,0.3 0.4,0.5 0.1,0.2 0.1,0.5 0.2,0.8 0,0.3 0,0.6 0,0.9 0,0.4 0,0.8 -0.1,1.1 0,0.3 -0.1,0.6 -0.2,0.8 -0.1,0.2 -0.2,0.3 -0.4,0.4 -0.2,0.1 -0.3,0.1 -0.6,0.1 -0.3,0 -0.5,-0.1 -0.6,-0.2 -0.2,-0.1 -0.3,-0.3 -0.4,-0.5 -0.1,-0.2 -0.1,-0.5 -0.2,-0.8 0,-0.3 0,-0.6 0,-1 0,-0.7 0.1,-1.3 0.3,-1.7 z"
@@ -178,118 +178,22 @@
            inkscape:connector-curvature="0" />
         <polygon
            id="polygon4573"
-           points="68.1,72 68.1,70.8 65.1,70.8 65.1,69.1 68.3,69.1 68.3,67.9 63.7,67.9 63.7,74.9 68.4,74.9 68.4,73.7 65.1,73.7 65.1,72 " />
+           points="65.1,69.1 68.3,69.1 68.3,67.9 63.7,67.9 63.7,74.9 68.4,74.9 68.4,73.7 65.1,73.7 65.1,72 68.1,72 68.1,70.8 65.1,70.8 " />
         <polygon
            id="polygon4575"
-           points="74.2,72.2 71.8,67.9 70.6,67.9 70.6,74.9 71.9,74.9 71.9,71.6 71.8,70.8 71.9,70.8 74.3,74.9 75.5,74.9 75.5,67.9 74.2,67.9 74.2,71.4 74.3,72.2 " />
+           points="74.3,72.2 74.2,72.2 71.8,67.9 70.6,67.9 70.6,74.9 71.9,74.9 71.9,71.6 71.8,70.8 71.9,70.8 74.3,74.9 75.5,74.9 75.5,67.9 74.2,67.9 74.2,71.4 " />
         <polygon
            id="polygon4577"
-           points="78.2,73.8 78.2,74.9 81.9,74.9 81.9,73.8 80.7,73.8 80.7,69 81.7,69 81.7,70.2 82.8,70.2 82.8,67.9 77.3,67.9 77.3,70.2 78.4,70.2 78.4,69 79.4,69 79.4,73.8 " />
+           points="77.3,70.2 78.4,70.2 78.4,69 79.4,69 79.4,73.8 78.2,73.8 78.2,74.9 81.9,74.9 81.9,73.8 80.7,73.8 80.7,69 81.7,69 81.7,70.2 82.8,70.2 82.8,67.9 77.3,67.9 " />
       </g>
     </g>
-    <flowRoot
-       xml:space="preserve"
-       id="flowRoot4510"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.26458333,0,0,0.26458333,336.02303,49.813768)"><flowRegion
-         id="flowRegion4512"><rect
-           id="rect4514"
-           width="566.92908"
-           height="188.97644"
-           x="52.82497"
-           y="556.29578" /></flowRegion><flowPara
-         id="flowPara4516"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:64px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle">Discord bot</flowPara></flowRoot>    <flowRoot
-       xml:space="preserve"
-       id="flowRoot4510-5"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.26458333,0,0,0.26458333,528.98635,58.290548)"><flowRegion
-         id="flowRegion4512-7"><rect
-           id="rect4514-6"
-           width="566.92908"
-           height="188.97646"
-           x="79.420288"
-           y="524.25757" /></flowRegion><flowPara
-         id="flowPara4516-0"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:64px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle">Telegram bot</flowPara></flowRoot>    <flowRoot
-       xml:space="preserve"
-       id="flowRoot4510-5-2"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.26458333,0,0,0.26458333,740.21148,49.276262)"><flowRegion
-         id="flowRegion4512-7-8"><rect
-           id="rect4514-6-1"
-           width="566.92914"
-           height="188.97635"
-           x="36.994377"
-           y="558.32733" /></flowRegion><flowPara
-         id="flowPara4516-0-6"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:64px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle">ASF bot</flowPara></flowRoot>    <flowRoot
-       xml:space="preserve"
-       id="flowRoot4510-5-2-3"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.26458333,0,0,0.26458333,924.98392,48.259892)"><flowRegion
-         id="flowRegion4512-7-8-7"><rect
-           id="rect4514-6-1-7"
-           width="566.92914"
-           height="188.97638"
-           x="94.547356"
-           y="562.16876" /></flowRegion><flowPara
-         id="flowPara4516-0-6-3"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:64px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle">MySQL</flowPara></flowRoot>    <flowRoot
-       xml:space="preserve"
-       id="flowRoot4510-5-2-3-2"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.26458333,0,0,0.26458333,1154.648,46.552072)"><flowRegion
-         id="flowRegion4512-7-8-7-4"><rect
-           id="rect4514-6-1-7-5"
-           width="566.92914"
-           height="188.97635"
-           x="-17.568863"
-           y="568.62354" /></flowRegion><flowPara
-         id="flowPara4516-0-6-3-9"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:64px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle">Transmission</flowPara></flowRoot>    <flowRoot
-       xml:space="preserve"
-       id="flowRoot4510-8"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.26458333,0,0,0.26458333,349.61433,358.76144)"><flowRegion
-         id="flowRegion4512-76"><rect
-           id="rect4514-0"
-           width="566.92914"
-           height="377.95276"
-           x="1.4560624"
-           y="144.5251" /></flowRegion><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:62.66666794px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
-         id="flowPara4638">Project Zomboid Server</flowPara></flowRoot>    <flowRoot
-       xml:space="preserve"
-       id="flowRoot4510-8-6"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.26458333,0,0,0.26458333,549.44972,245.92228)"><flowRegion
-         id="flowRegion4512-76-0"><rect
-           id="rect4514-0-0"
-           width="566.92914"
-           height="188.97641"
-           x="2.078203"
-           y="571.00385" /></flowRegion><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:64px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
-         id="flowPara4638-2">7d2d  Server</flowPara></flowRoot>    <path
+    <path
        style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:1.64582813;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 1364.5732,169.25349 c -14.9306,-21.2732 -15.9113,-52.25979 -2.3846,-75.341322 4.139,-7.062616 8.5024,-13.444949 9.6966,-14.182973 1.1942,-0.738045 5.9607,1.917735 10.5924,5.901705 l 8.4211,7.24359 -5.9928,10.72405 c -7.9861,14.29113 -9.7896,37.48673 -3.6674,47.1704 4.9521,7.83275 9.3721,-0.46715 5.7626,-10.82109 -3.6882,-10.5802 0.4335,-30.01908 7.6318,-35.99318 3.7897,-3.1451 5.6775,-2.59866 11.6474,3.37123 6.4614,6.4613 6.7972,7.99247 3.6073,16.44357 -3.1585,8.36792 -2.8287,10.05203 3.2326,16.50396 9.9623,10.60439 6.2749,16.77067 -3.9276,6.56811 -7.1214,-7.1214 -7.9769,-9.80881 -6.7076,-21.07014 1.0744,-9.53234 0.4387,-12.90766 -2.431,-12.90766 -5.8338,0 -8.3673,18.99595 -3.9544,29.64959 3.5413,8.54947 3.2714,9.5673 -4.2538,16.0402 -9.3223,8.01864 -12.5121,6.86328 -18.1223,-6.56384 -5.784,-13.84309 -5.077,-34.48404 1.6315,-47.6339 5.2934,-10.375768 5.263,-14.833329 -0.101,-14.833329 -1.1941,0 -4.9141,5.666325 -8.2666,12.591809 -8.4445,17.44396 -8.0296,38.03487 1.1312,56.1296 8.06,15.92059 5.4939,23.88906 -3.5454,11.00962 z m 112.1785,5.8719 c -0.9845,-1.59291 1.4291,-9.25473 5.3636,-17.02628 9.0849,-17.94507 9.4752,-38.59709 1.0579,-55.98484 -3.3525,-6.925484 -7.0726,-12.591809 -8.2667,-12.591809 -5.364,0 -5.3943,4.457561 -0.1011,14.833329 6.7086,13.14986 7.4156,33.79081 1.6316,47.6339 -5.6102,13.42712 -8.8001,14.58248 -18.1223,6.56384 -7.5252,-6.4729 -7.7951,-7.49073 -4.2538,-16.0402 4.4129,-10.65364 1.8794,-29.64959 -3.9544,-29.64959 -2.8697,0 -3.5055,3.37532 -2.431,12.90766 1.2693,11.26133 0.4138,13.94874 -6.7076,21.07014 -10.2026,10.20256 -13.89,4.03628 -3.9276,-6.56811 6.0613,-6.45193 6.3911,-8.13604 3.2326,-16.50396 -3.1899,-8.4511 -2.8541,-9.98227 3.6072,-16.44357 5.97,-5.96989 7.8578,-6.51633 11.6475,-3.37123 7.1984,5.9741 11.32,25.41298 7.6317,35.99318 -3.6093,10.35394 0.8106,18.65384 5.7626,10.82109 6.0709,-9.60245 4.3475,-33.09011 -3.4055,-46.4141 l -5.8002,-9.967743 8.6479,-8.647909 8.6479,-8.64789 7.6501,11.560075 c 13.2158,19.970337 16.5547,40.588837 10.0752,62.215467 -3.8513,12.85468 -15.4037,28.43622 -17.9857,24.25855 z m -54.5891,-28.12502 c 0,-5.29555 -1.4872,-11.11556 -3.3051,-12.93335 -4.7284,-4.72846 -0.869,-12.45029 6.2227,-12.45029 7.0919,0 10.9513,7.72183 6.2228,12.45029 -1.8178,1.81779 -3.3051,7.6378 -3.3051,12.93335 0,5.29555 -1.3129,9.62829 -2.9177,9.62829 -1.6046,0 -2.9176,-4.33274 -2.9176,-9.62829 z"
        id="switch.mosquitto"
        inkscape:connector-curvature="0"
        inkscape:label="switch.mosquitto" />
-    <flowRoot
-       xml:space="preserve"
-       id="flowRoot4510-5-2-3-2-6"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.26458333,0,0,0.26458333,1355.7326,46.552073)"><flowRegion
-         id="flowRegion4512-7-8-7-4-9"><rect
-           id="rect4514-6-1-7-5-8"
-           width="566.92914"
-           height="188.97635"
-           x="-17.568863"
-           y="568.62354" /></flowRegion><flowPara
-         id="flowPara4516-0-6-3-9-6"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:64px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle">Mosquitto</flowPara></flowRoot>    <g
+    <g
        id="switch.influxdb"
        transform="matrix(0.26458333,0,0,0.26458333,1567.0437,127.0371)"
        style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:6.22045279;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -303,17 +207,111 @@
     </g>
     <flowRoot
        xml:space="preserve"
-       id="flowRoot4510-5-2-3-2-6-5"
+       id="flowRoot4598"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.26458333,0,0,0.26458333,1546.2338,46.552073)"><flowRegion
-         id="flowRegion4512-7-8-7-4-9-5"><rect
-           id="rect4514-6-1-7-5-8-5"
-           width="566.92914"
-           height="188.97636"
-           x="14.232584"
-           y="568.62347" /></flowRegion><flowPara
-         id="flowPara4516-0-6-3-9-6-0"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:64px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle">InfluxDB</flowPara></flowRoot>  </g>
+       transform="matrix(0.26458333,0,0,0.26458333,338.03235,33.771217)"><flowRegion
+         id="flowRegion4600"><rect
+           id="rect4602"
+           width="188.97638"
+           height="113.38583"
+           x="649.95447"
+           y="579.13385" /></flowRegion><flowPara
+         id="flowPara4604"></flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="425.69641"
+       y="226.83989"
+       id="text4608"><tspan
+         sodipodi:role="line"
+         id="tspan4606"
+         x="425.69641"
+         y="226.83989"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.93333244px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle">Discord bot</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.93333244px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="625.5097"
+       y="226.16705"
+       id="text4614"><tspan
+         sodipodi:role="line"
+         id="tspan4612"
+         x="625.5097"
+         y="226.16705">Telegram bot</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.93333244px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="825.11658"
+       y="227.07413"
+       id="text4634"><tspan
+         sodipodi:role="line"
+         id="tspan4632"
+         x="825.11658"
+         y="227.07413">ASF bot</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.93333244px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="1024.5198"
+       y="226.6123"
+       id="text4644"><tspan
+         sodipodi:role="line"
+         id="tspan4642"
+         x="1024.5198"
+         y="226.6123">MySQL</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.93333244px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="1225.4698"
+       y="226.84868"
+       id="text4654"><tspan
+         sodipodi:role="line"
+         id="tspan4652"
+         x="1225.4698"
+         y="226.84868">Transmission</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.93333244px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="1425.9204"
+       y="226.77744"
+       id="text4664"><tspan
+         sodipodi:role="line"
+         id="tspan4662"
+         x="1425.9204"
+         y="226.77744">Mosquitto</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.93333244px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="1625.3667"
+       y="226.59108"
+       id="text4674"><tspan
+         sodipodi:role="line"
+         id="tspan4672"
+         x="1625.3667"
+         y="226.59108">InfluxDB</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.93333244px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="424.21689"
+       y="417.16205"
+       id="text4684"><tspan
+         sodipodi:role="line"
+         id="tspan4682"
+         x="424.21689"
+         y="417.16205">Project Zomboid</tspan><tspan
+         sodipodi:role="line"
+         x="424.21689"
+         y="438.3287"
+         id="tspan4692">Server</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.93333244px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="624.96655"
+       y="426.73123"
+       id="text4696"><tspan
+         sodipodi:role="line"
+         id="tspan4694"
+         x="624.96655"
+         y="426.73123">7d2d  Server</tspan></text>
+  </g>
   <style
      id="style5353"
      type="text/css">
