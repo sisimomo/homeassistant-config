@@ -13,6 +13,8 @@
             - switch.project_zomboid
             - switch.sdtd
             - switch.transmission_service
+            - switch.influxdb
+            - switch.mosquitto
           states:
             - state: 'on'
               class: 'service-on'
