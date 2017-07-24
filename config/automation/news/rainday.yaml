@@ -5,6 +5,10 @@
       hours: '8'
       minutes: '0'
       seconds: '0'
+    - platform: event
+      event_type: automation_debug
+      event_data:
+        entity: rainday
   condition:
     condition: template
     value_template: '{{ states.sensor.dark_sky_precip_probability.state > 30 }}'
