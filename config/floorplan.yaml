@@ -91,30 +91,35 @@
         ################
 
         # DATE & TIME & WEATHER #
-        - name: text_font_date
+        - name: Date
           entities:
             - sensor.floorplan_date
           text_template: '${entity.state ? entity.state : "undefined"}'
           class_template: 'return "static-text";'
 
-        - name: text_font_time
+        - name: Time
           entities:
             - sensor.floorplan_time
           text_template: '${entity.state ? entity.state : "undefined"}'
           class_template: 'return "static-text";'
 
-        - name: text_font_weather
+        - name: Weather
           entities:
             - sensor.dark_sky_temperature
           text_template: '${entity.state ? entity.state + "°C" : "undefined"}'
           class_template: 'return "static-text";'
 
         # LOCATION #
-        - name: text_font_device_tracker
+        - name: Location Janis
           entities:
             - device_tracker.janis_handy
+          text_template: '${entity.state ? entity.state.replace("not_home", "away (" + hass.states.proximity.home_janis.state +"m)") : "undefined"}'
+          class_template: 'return "static-text";'
+
+        - name: Location Lena
+          entities:
             - device_tracker.lena_handy
-          text_template: '${entity.state ? entity.state.replace("not_home", "away") : "undefined"}'
+          text_template: '${entity.state ? entity.state.replace("not_home", "away (" + hass.states.proximity.home_lena.state +"m)") : "undefined"}'
           class_template: 'return "static-text";'
 
         # ALARM PANEL #
