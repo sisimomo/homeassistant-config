@@ -10,16 +10,32 @@ sequence:
           ***Music Available***
         {% endif %}
 
-      message: "{{ Metadata.title }} is now ready to be watched on Emby"
+      message: >
+        {% if Metadata.type == 'music' %}
+          {{ Metadata.title }} is now ready to be listened to on Emby
+        {% else %}
+          {{ Metadata.title }} is now ready to be watched on Emby
+        {% endif %}
 
   - service: python_script.add_news
     data_template:
-      info: "NEW: {{ Metadata.title }}"
+      info:  >
+        {% if Metadata.type == 'tvshows' %}
+          {% if Metadata.grandparentTitle == 'animes' %}
+            NEW EP: {{ Metadata.parentTitle }}
+          {% else %}
+            NEW EP: {{ Metadata.grandparentTitle }}
+          {% endif %}
+        {% elif Metadata.type == 'movies' %}
+          NEW MOVIE: {{ Metadata.title }}
+        {% else %}
+          NEW MUSIC: {{ Metadata.parentTitle }}
+        {% endif %}
 
   - condition: template
     value_template: "{{ 'Game of Thrones' in Metadata.title or 'Suits' in Metadata.title or 'Rick & Morty' in Metadata.title }}"
 
-- service: notify.janis_handy_telegram
+- service: notify.luke_handy_telegram
     data_template:
       title: >
         {% if Metadata.type == 'tvshows' %}
