@@ -11,6 +11,23 @@ sequence:
         {% endif %}
 
       message: "{{ Metadata.title }} is now ready to be watched on Emby"
+
   - service: python_script.add_news
     data_template:
       info: "NEW: {{ Metadata.title }}"
+
+  - condition: template
+    value_template: "{{ 'Game of Thrones' in Metadata.title or 'Suits' in Metadata.title or 'Rick & Morty' in Metadata.title }}"
+
+- service: notify.janis_handy_telegram
+    data_template:
+      title: >
+        {% if Metadata.type == 'tvshows' %}
+          ***Episode Available***
+        {% elif Metadata.type == 'movies' %}
+          ***Movie Available***
+        {% else %}
+          ***Music Available***
+        {% endif %}
+
+      message: "{{ Metadata.title }} is now ready to be watched on Emby"
