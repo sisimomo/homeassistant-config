@@ -4,3 +4,4 @@ parse_mode: markdown
 allowed_chat_ids:
     - !secret janis_chat_id
     - !secret lena_chat_id
+    - !secret luke_chat_id

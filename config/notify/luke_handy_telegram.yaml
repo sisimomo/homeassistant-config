@@ -1,0 +1,3 @@
+- name: luke_handy_telegram
+  platform: telegram
+  chat_id: !secret luke_chat_id
