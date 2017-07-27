@@ -167,7 +167,7 @@ automation:
           entity_id: input_boolean.alarm_clock_janis
 
 script:
-  sleep:
+  sleep_janis:
     alias: Good Night
     sequence:
       - alias: Set Volume
@@ -179,7 +179,7 @@ script:
         service: tts.google_say
         entity_id: media_player.bedroom
         data_template:
-          message: 'Next alarm in  {{  (states.sensor.nextalarm.state.split(" ")[0] | int *60 ) | timestamp_custom("%H") | int }} hours and {{  (states.sensor.nextalarm.state.split(" ")[0] | int *60 ) | timestamp_custom("%M")  }} minutes . Good night.'
+          message: 'Next alarm in {{ (states.sensor.nextalarm_janis.state.split(" ")[0] | int *60 ) | timestamp_custom("%H") | int }} hours and {{ (states.sensor.nextalarm_janis.state.split(" ")[0] | int *60 ) | timestamp_custom("%M") }} minutes . Good night.'
           cache: false
       - delay: '00:00:15'
       - alias: Set Volume2
