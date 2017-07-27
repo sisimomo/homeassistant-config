@@ -105,42 +105,8 @@
 
         - name: Weather Icon
           entities:
-            - sensor.home_dark_sky_icon
-          image_template: '
-            var imageName = "";
-
-            switch (entity.state) {
-              case "clear-day":
-                imageName = "day";
-                break;
-
-              case "clear-night":
-                imageName = "night";
-                break;
-
-              case "partly-cloudy-day":
-                imageName = "cloudy-day-1";
-                break;
-
-              case "partly-cloudy-night":
-                imageName = "cloudy-night-1";
-                break;
-
-              case "cloudy":
-                imageName = "cloudy";
-                break;
-
-              case "rain":
-                imageName = "rainy-1";
-                break;
-
-              case "snow":
-                imageName = "snowy-1";
-                break;
-            }
-
-            return "/local/custom_ui/floorplan/images/weather/" + imageName + ".svg";
-            '
+            - sensor.dark_sky_summary
+          image_template: '${entity.attributes.entity_picture ? entity.attributes.entity_picture : "undefined"}'
 
         - name: Weather
           entities:

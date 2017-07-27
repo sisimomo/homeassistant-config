@@ -1495,10 +1495,10 @@
          inkscape:connector-curvature="0" />
     </g>
     <g
-       id="sensor.dark_sky_icon"
+       id="sensor.dark_sky_summary"
        transform="matrix(13.730957,0,0,13.730957,-3944.9666,-13001.124)"
        style="filter:url(#blur)"
-       inkscape:label="sensor.dark_sky_icon">
+       inkscape:label="sensor.dark_sky_summary">
       <g
          id="g4674"
          transform="translate(20,10)">
