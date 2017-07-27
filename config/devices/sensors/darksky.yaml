@@ -12,3 +12,6 @@
     - precip_probability
     - precip_type
     - summary
+    - minutely_summary
+    - hourly_summary
+    - daily_summary

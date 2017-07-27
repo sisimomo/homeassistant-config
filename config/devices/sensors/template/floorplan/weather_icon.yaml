@@ -1,0 +1,6 @@
+- platform: template
+  sensors:
+    weather_icon:
+      entity_id: sensor.weather_icon
+      value_template: >-
+        {{ states.sensor.news.attributes.entry1 }}
