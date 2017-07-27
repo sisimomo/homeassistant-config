@@ -103,6 +103,45 @@
           text_template: '${entity.state ? entity.state : "undefined"}'
           class_template: 'return "static-text";'
 
+        - name: Weather Icon
+          entities:
+            - sensor.home_dark_sky_icon
+          image_template: '
+            var imageName = "";
+
+            switch (entity.state) {
+              case "clear-day":
+                imageName = "day";
+                break;
+
+              case "clear-night":
+                imageName = "night";
+                break;
+
+              case "partly-cloudy-day":
+                imageName = "cloudy-day-1";
+                break;
+
+              case "partly-cloudy-night":
+                imageName = "cloudy-night-1";
+                break;
+
+              case "cloudy":
+                imageName = "cloudy";
+                break;
+
+              case "rain":
+                imageName = "rainy-1";
+                break;
+
+              case "snow":
+                imageName = "snowy-1";
+                break;
+            }
+
+            return "/local/custom_ui/floorplan/images/weather/" + imageName + ".svg";
+            '
+
         - name: Weather
           entities:
             - sensor.dark_sky_temperature

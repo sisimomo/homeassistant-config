@@ -11,3 +11,4 @@
     - temperature_max
     - precip_probability
     - precip_type
+    - summary
