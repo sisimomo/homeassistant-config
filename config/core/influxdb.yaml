@@ -30,3 +30,9 @@ include:
     - sensor.disk2_temperature
     - sensor.disk3_temperature
     - sensor.disk4_temperature
+    - sensor.humidity_158d0001a4a582
+    - sensor.pressure_158d0001a4a582
+    - sensor.temperature_158d0001a4a582
+    - sensor.humidity_158d0001a35e24
+    - sensor.pressure_158d0001a35e24
+    - sensor.temperature_158d0001a35e24
