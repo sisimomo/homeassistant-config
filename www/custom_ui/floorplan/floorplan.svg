@@ -537,7 +537,7 @@
      inkscape:cx="22580.87"
      inkscape:cy="28732.286"
      inkscape:document-units="mm"
-     inkscape:current-layer="lighting"
+     inkscape:current-layer="layer1"
      showgrid="true"
      units="cm"
      inkscape:window-width="1920"
@@ -1472,11 +1472,11 @@
          style="opacity:1;vector-effect:none;fill:#3d3b3f;fill-opacity:1;stroke:none;stroke-width:0.42053628;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;font-variant-east_asian:normal" />
     </g>
     <path
-       inkscape:label="input_boolean.floorplan_light_livingroom"
+       inkscape:label="input_boolean.floorplan_light_living_room"
        style="display:inline;stroke-width:50.84686661"
        inkscape:connector-curvature="0"
        d="m -4410,-10312.999 a 355.928,355.928 0 0 0 -355.933,355.9147 c 0,121.0725 60.4993,227.3461 152.5325,291.917 v 114.9218 a 50.846857,50.846857 0 0 0 50.8501,50.9261 h 305.0803 a 50.846857,50.846857 0 0 0 50.8502,-50.9261 v -114.9218 c 92.033,-64.5709 152.5502,-170.8445 152.5502,-291.917 A 355.928,355.928 0 0 0 -4410,-10312.999 m -152.5504,966.0753 a 50.846857,50.846857 0 0 0 50.8501,50.9287 h 203.3801 a 50.846857,50.846857 0 0 0 50.8501,-50.9287 v -50.7334 h -305.0803 z"
-       id="input_boolean.floorplan_light_livingroom" />
+       id="input_boolean.floorplan_light_living_room" />
     <g
        id="g5730"
        transform="translate(-5211.836,-8521.2312)"

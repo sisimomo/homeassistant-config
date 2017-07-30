@@ -16,7 +16,7 @@
             - input_boolean.blue_light
             - input_boolean.led_strip
             # INFO PANEL SWITCH #
-            - input_boolean.floorplan_light_livin_groom
+            - input_boolean.floorplan_light_living_room
           states:
             - state: 'on'
               class: 'light-on'
