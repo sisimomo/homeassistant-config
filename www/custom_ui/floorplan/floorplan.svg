@@ -535,7 +535,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.028284273"
      inkscape:cx="43981.25"
-     inkscape:cy="12728.508"
+     inkscape:cy="29699.07"
      inkscape:document-units="mm"
      inkscape:current-layer="layer7"
      showgrid="true"
@@ -723,16 +723,16 @@
        rx="0" />
     <text
        xml:space="preserve"
-       x="8561.1807"
-       y="9288.9863"
+       x="8579.8896"
+       y="9176.7334"
        id="sensor.temperature_158d0001a4a582"
        style="font-size:12px;line-height:0%;text-align:start;text-anchor:start;display:inline;stroke-width:0.26458332"
        inkscape:label="sensor.temperature_158d0001a4a582"><tspan
          sodipodi:role="line"
          id="tspan4629-6-0-3-4-5-1"
-         x="8561.1807"
-         y="9288.9863"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:529.16668701px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332">20°C</tspan></text>
+         x="8579.8896"
+         y="9176.7334"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:317.5px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332">20°C</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -1517,16 +1517,16 @@
        inkscape:label="sensor.weather_icon" />
     <text
        xml:space="preserve"
-       x="6544.021"
-       y="-10114.438"
+       x="6581.439"
+       y="-10217.337"
        id="sensor.temperature_158d0001a35e24"
        style="font-size:12px;line-height:0%;text-align:start;text-anchor:start;display:inline;stroke-width:0.26458332"
        inkscape:label="sensor.temperature_158d0001a35e24"><tspan
          sodipodi:role="line"
          id="tspan4629-6-0-3-4-5"
-         x="6544.021"
-         y="-10114.438"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:529.16668701px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332">20°C</tspan></text>
+         x="6581.439"
+         y="-10217.337"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:317.5px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332">20°C</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
