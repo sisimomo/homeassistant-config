@@ -86,6 +86,14 @@
             - state: 'playing'
               class: 'squeezebox-on'
 
+        #  TEMPERATURE SENSORS  #
+        - name: Temperature
+          entities:
+            - sensor.temperature_158d0001a35e24
+            - sensor.temperature_158d0001a4a582
+          text_template: '${entity.state ? entity.state + "°C" : "undefined"}'
+          class_template: 'return "static-text";'
+
         ################
         #  INFO PANEL  #
         ################

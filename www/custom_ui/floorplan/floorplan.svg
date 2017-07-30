@@ -533,11 +533,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.020000001"
-     inkscape:cx="24890.874"
-     inkscape:cy="28595.529"
+     inkscape:zoom="0.014142136"
+     inkscape:cx="42101.143"
+     inkscape:cy="21182.755"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer7"
      showgrid="true"
      units="cm"
      inkscape:window-width="1920"
@@ -721,6 +721,18 @@
        y="4213.1646"
        ry="0"
        rx="0" />
+    <text
+       xml:space="preserve"
+       x="9423.5273"
+       y="9494.7832"
+       id="sensor.temperature_158d0001a4a582"
+       style="font-size:12px;line-height:0%;text-align:center;text-anchor:middle;display:inline;stroke-width:0.26458332"
+       inkscape:label="sensor.temperature_158d0001a4a582"><tspan
+         sodipodi:role="line"
+         id="tspan4629-6-0-3-4-5-1"
+         x="9423.5273"
+         y="9494.7832"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:705.55566406px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332">20°C</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -1503,6 +1515,18 @@
        y="-12732.999"
        ry="0.0002039375"
        inkscape:label="sensor.weather_icon" />
+    <text
+       xml:space="preserve"
+       x="7584.8472"
+       y="-9812.3555"
+       id="sensor.temperature_158d0001a35e24"
+       style="font-size:12px;line-height:0%;text-align:center;text-anchor:middle;display:inline;stroke-width:0.26458332;"
+       inkscape:label="sensor.temperature_158d0001a35e24"><tspan
+         sodipodi:role="line"
+         id="tspan4629-6-0-3-4-5"
+         x="6709.4482"
+         y="-9812.3555"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:705.55560303px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332;">20°C</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
