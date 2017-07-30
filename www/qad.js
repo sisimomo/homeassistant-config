@@ -178,7 +178,7 @@
 					new_html = "<button class=\"qad-button-"+ent.state+"\" onclick=\"homeassistant.callService('"+ent.entity_id.substr(0, ent.entity_id.indexOf('.')).replace("group","light")+"', '"+action+"', { entity_id: '"+ent.entity_id+"' });\"><i class=\""+icon+"\" aria-hidden=\"true\"></i><p style=\"font-size:10px\">"+text+"</p></button>";
 				}
 			}
-			var outputState = $("body /deep/ #qad-"+(ent.entity_id).replace(".","-")+"_state");
+			var outputState = "";
 			if(outputState.length != 0 && outputState.text() != ent.state){
 				outputState.text(ent.state)
 				output.html(new_html);
