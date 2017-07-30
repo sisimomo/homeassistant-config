@@ -1,0 +1,15 @@
+speech: !include ../templates/alexa_confirm.yaml
+action:
+  - service_template: >
+      {%- if AlertTarget == "all" -%}
+        script.turn_on
+      {%- else -%}
+        alert.turn_off
+      {%- endif -%}
+    data_template:
+      entity_id: >
+        {%- if AlertTarget == "all" -%}
+          script.disable_all_alerts
+        {%- else -%}
+          alert.{{ AlertTarget }}
+        {%- endif -%}

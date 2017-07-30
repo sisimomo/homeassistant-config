@@ -1,0 +1,8 @@
+speech: >
+  {%- if is_state('device_tracker.janis_handy', 'home') and
+         is_state('device_tracker.lena_handy', 'home') -%}
+    You are both home, you silly
+  {%- else -%}
+    Janis is at {{ states("device_tracker.janis_handy") }} and
+    Lena is at {{ states("device_tracker.lena_handy") }}
+  {% endif %}
