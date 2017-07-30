@@ -20,7 +20,7 @@ automation:
     condition:
       condition: state
       entity_id: alarm_control_panel.alarm
-      state: 'armed_away'
+      to: 'armed_away'
     action:
       service: alarm_control_panel.alarm_disarm
       data:
@@ -131,7 +131,7 @@ automation:
     trigger:
       platform: state
       entity_id: alarm_control_panel.alarm
-      state: triggered
+      to: triggered
     action:
       - service: script.turn_on
         entity_id: script.alarm_lights_loop
@@ -140,7 +140,7 @@ alert:
   alarm:
     name: '`[ALARM]` Your Alarm has been triggered!!!' 
     entity_id: alarm_control_panel.alarm
-    state: 'triggered'
+    to: 'triggered'
     repeat: 1
     notifiers:
      - janis_handy_telegram
