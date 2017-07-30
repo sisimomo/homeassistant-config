@@ -1,11 +1,12 @@
-speech: >
-  {%- if Tracker == "ahd" and OnOff == states.input_boolean.ahdbuffer.state -%}
-     It already is {{ OnOff }}
-  {%- elif Tracker == "animebytes" and OnOff == states.input_boolean.anibybuffer.state -%}
-     It already is {{ OnOff }}
-  {%- else -%}
-    It is done!
-  {%- endif -%}
+speech:
+  text: >
+    {%- if Tracker == "ahd" and OnOff == states.input_boolean.ahdbuffer.state -%}
+       It already is {{ OnOff }}
+    {%- elif Tracker == "animebytes" and OnOff == states.input_boolean.anibybuffer.state -%}
+       It already is {{ OnOff }}
+    {%- else -%}
+      It is done!
+    {%- endif -%}
 action:
   - service_template: >
       {%- if OnOff == "on" -%}

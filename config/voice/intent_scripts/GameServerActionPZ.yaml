@@ -1,13 +1,14 @@
-speech: >
-  {%- if GameServerAction == "startup" and states.switch.project_zomboid.state == "on" -%}
-    It's already running.
-  {%- elif GameServerAction == "shutdown" and states.switch.project_zomboid.state == "off" -%}
-     It's not even running.
-  {%- elif GameServerAction == "update" -%}
-     Stopping server updating and then starting it up again.
-  {%- else -%}
-    {{GameServerAction}} Done!
-  {%- endif -%}
+speech:
+  text: >
+    {%- if GameServerAction == "startup" and states.switch.project_zomboid.state == "on" -%}
+      It's already running.
+    {%- elif GameServerAction == "shutdown" and states.switch.project_zomboid.state == "off" -%}
+       It's not even running.
+    {%- elif GameServerAction == "update" -%}
+       Stopping server updating and then starting it up again.
+    {%- else -%}
+      {{GameServerAction}} Done!
+    {%- endif -%}
 action:
   - service_template: >
       {%- if GameServerAction == "startup" -%}
