@@ -3,7 +3,7 @@ sequence:
     entity_id: input_boolean.dinner_mode
     state: 'off'
   - condition: state
-    entity_id: group.light_livingroom
+    entity_id: group.light_living_room
     state: 'on'
   - condition: template
     value_template: '{{ Player.uuid == states("sensor.emby_player_uuid") }}'
@@ -11,4 +11,4 @@ sequence:
       seconds: 5
   - service: scene.turn_on
     data:
-      entity_id: scene.livingroom_normal
+      entity_id: scene.living_room_normal

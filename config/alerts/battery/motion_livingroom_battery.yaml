@@ -1,6 +1,0 @@
-name: '`[ALERT]` Battery in motion sensor in the livingroom is low'
-entity_id: sensor.motion_livingroom_battery
-state: True
-repeat: 120
-notifiers:
- - janis_handy_telegram

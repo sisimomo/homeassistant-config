@@ -1,9 +1,9 @@
 - platform: template
   sensors:
-    motion_livingroom_battery:
+    motion_living_room_battery:
       value_template: "{{ states.binary_sensor.motion_sensor_158d00010f8100.attributes.battery_level | int < 5 }}"
 
-    button_livingroom_battery:
+    button_living_room_battery:
       value_template: "{{ states.binary_sensor.switch_158d00011033aa.attributes.battery_level | int < 5 }}"
 
     button_kitchen_battery:

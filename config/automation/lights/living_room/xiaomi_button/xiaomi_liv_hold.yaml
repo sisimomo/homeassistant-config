@@ -8,15 +8,15 @@
       click_type: hold
   action:
     - service_template: >
-        {%- if states.group.light_livingroom.state == "off" -%}
+        {%- if states.group.light_living_room.state == "off" -%}
           scene.turn_on
         {%- else -%}
           light.turn_off
         {%- endif -%}
       data_template:
         entity_id: >
-          {%- if states.group.light_livingroom.state == "off" -%}
-            scene.livingroom_normal
+          {%- if states.group.light_living_room.state == "off" -%}
+            scene.living_room_normal
           {%- else -%}
-            group.light_livingroom
+            group.light_living_room
           {%- endif -%}

@@ -8,7 +8,7 @@ entities:
   - sensor.broadlinkrmpro
   - sensor.nintendo3ds
   - sensor.janis_fire7
-  - sensor.nexus7livingroom
+  - sensor.nexus7living_room
   - sensor.bedroommpd
   - sensor.kitchenmpd
   - sensor.guestroommpd

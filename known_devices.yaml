@@ -73,10 +73,10 @@ enchiladaninja:
   track: yes
   hide_if_away: no
 
-nexus7livingroom:
+nexus7living_room:
   hide_if_away: false
   mac: 30:85:A9:DB:E0:0F
-  name: Nexus 7 Livingroom
+  name: Nexus 7 living room
   picture:
   track: true
   vendor: ASUSTek COMPUTER INC.

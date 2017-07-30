@@ -2,6 +2,6 @@ view: yes
 entities:
   - group.audio_nodes
   - group.backup
-  - group.light_livingroom
+  - group.light_living_room
   - group.buffer
   - group.hidden_elements

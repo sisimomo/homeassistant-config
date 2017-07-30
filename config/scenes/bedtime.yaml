@@ -1,6 +1,6 @@
 - name: Bedtime
   entities:
-    group.light_livingroom: off
+    group.light_living_room: off
     input_boolean.blue_light: off
     input_boolean.led_strip: off
     input_boolean.shelf_light: off

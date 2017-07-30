@@ -8,11 +8,11 @@
         seconds: 5
   condition:
     condition: template
-    value_template: '{{ states.input_boolean.dinner_mode.state == "off" and states.group.light_livingroom.state == "on" and states.media_player.kodi_on_firetv.attributes.media_content_type != "music" }}'
+    value_template: '{{ states.input_boolean.dinner_mode.state == "off" and states.group.light_living_room.state == "on" and states.media_player.kodi_on_firetv.attributes.media_content_type != "music" }}'
   action:
     - service: scene.turn_on
       data:
-        entity_id: scene.livingroom_dim
+        entity_id: scene.living_room_dim
     - service: input_boolean.turn_off
       data:
-        entity_id: input_boolean.livingroom_motion_timer
+        entity_id: input_boolean.living_room_motion_timer

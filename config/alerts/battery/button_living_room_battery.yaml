@@ -1,0 +1,6 @@
+name: '`[ALERT]` Battery in button in the living room is low'
+entity_id: sensor.button_living_room_battery
+state: True
+repeat: 120
+notifiers:
+ - janis_handy_telegram

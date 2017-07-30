@@ -3,7 +3,7 @@ sequence:
     entity_id: input_boolean.dinner_mode
     state: 'off'
   - condition: state
-    entity_id: group.light_livingroom
+    entity_id: group.light_living_room
     state: 'on'
   - condition: template
     value_template: '{{ Player.uuid == states("sensor.emby_player_uuid") and Metadata.type != "music" }}'
@@ -12,7 +12,7 @@ sequence:
       entity_id: script.emby_pause_webhook_receiver
   - service: input_boolean.turn_off
     data:
-      entity_id: input_boolean.livingroom_motion_timer
+      entity_id: input_boolean.living_room_motion_timer
   - service: scene.turn_on
     data:
-      entity_id: scene.livingroom_dim
+      entity_id: scene.living_room_dim

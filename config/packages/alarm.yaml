@@ -89,7 +89,7 @@ automation:
     action:
       service: light.turn_on
       data:
-        entity_id: group.light_livingroom
+        entity_id: group.light_living_room
         rgb_color: [255, 128, 0]
         brightness: 255
 
@@ -103,7 +103,7 @@ automation:
     action:
       service: light.turn_off
       data:
-        entity_id: group.light_livingroom
+        entity_id: group.light_living_room
 
   #== DISARM ==#
 
@@ -157,7 +157,7 @@ script:
     sequence:
       - service: light.turn_on
         data:
-          entity_id: group.light_livingroom
+          entity_id: group.light_living_room
           rgb_color: [255, 0, 0]
           brightness: 255
       - service: light.turn_on
@@ -169,7 +169,7 @@ script:
           seconds: 3
       - service: light.turn_off
         data:
-          entity_id: group.light_livingroom
+          entity_id: group.light_living_room
       - service: light.turn_off
         data:
           entity_id: light.gateway_light_286c07889d7e
@@ -185,7 +185,7 @@ script:
           entity_id: script.alarm_lights_pause
       - service: light.turn_off
         data:
-          entity_id: group.light_livingroom
+          entity_id: group.light_living_room
       - service: light.turn_off
         data:
           entity_id: light.gateway_light_286c07889d7e

@@ -8,11 +8,11 @@
         entity_id: binary_sensor.motion_sensor_158d00010f8100
   condition:
     condition: template
-    value_template: '{{ states.group.light_livingroom.state == "off" and states.alarm_control_panel.alarm.state == "disarmed"}}'
+    value_template: '{{ states.group.light_living_room.state == "off" and states.alarm_control_panel.alarm.state == "disarmed"}}'
   action:
     - service: scene.turn_on
       data:
-        entity_id: scene.livingroom_normal
+        entity_id: scene.living_room_normal
     - service: input_boolean.turn_on
       data:
-        entity_id: input_boolean.livingroom_motion_timer
+        entity_id: input_boolean.living_room_motion_timer

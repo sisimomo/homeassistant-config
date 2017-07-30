@@ -7,4 +7,4 @@ sequence:
       entity_id: script.party_lights_pause
   - service: scene.turn_on
     data:
-      entity_id: scene.livingroom_normal
+      entity_id: scene.living_room_normal

@@ -1,6 +1,6 @@
-- name: Livingroom Dim
+- name: Living room dim
   entities:
-    group.light_livingroom:
+    group.light_living_room:
       state: on
       brightness: 35
       rgb_color: [255, 255, 255]

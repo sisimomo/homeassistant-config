@@ -1,4 +1,4 @@
-name: Light Livingroom
+name: Light living room
 entities:
   - light.living_left
   - light.living_middle

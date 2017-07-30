@@ -2,19 +2,19 @@ speech:
   text: !include ../../../templates/alexa_confirm.yaml
 action:
   - service_template: >
-      {%- if OnOff == "on" and LightEntity == 'group.light_livingroom' -%}
+      {%- if OnOff == "on" and LightEntity == 'group.light_living_room' -%}
         scene.turn_on
-      {%- elif OnOff == "off" and LightEntity == 'group.light_livingroom' -%}
+      {%- elif OnOff == "off" and LightEntity == 'group.light_living_room' -%}
         light.turn_off
-      {%- elif OnOff == "on" and LightEntity != 'group.light_livingroom' -%}
+      {%- elif OnOff == "on" and LightEntity != 'group.light_living_room' -%}
         input_boolean.turn_on
-      {%- elif OnOff == "off" and LightEntity != 'group.light_livingroom' -%}
+      {%- elif OnOff == "off" and LightEntity != 'group.light_living_room' -%}
         input_boolean.turn_off
       {%- endif -%}
     data_template:
       entity_id: >
-        {%- if OnOff == "on" and LightEntity == 'group.light_livingroom' -%}
-          scene.livingroom_normal
+        {%- if OnOff == "on" and LightEntity == 'group.light_living_room' -%}
+          scene.living_room_normal
         {%- else -%}
           {{ LightEntity }}
         {%- endif -%}

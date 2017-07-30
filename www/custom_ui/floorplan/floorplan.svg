@@ -534,10 +534,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.028284273"
-     inkscape:cx="43981.25"
-     inkscape:cy="29699.07"
+     inkscape:cx="22580.87"
+     inkscape:cy="28732.286"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer7"
+     inkscape:current-layer="lighting"
      showgrid="true"
      units="cm"
      inkscape:window-width="1920"
@@ -1336,8 +1336,8 @@
          id="input_boolean.shelf_light-1" />
     </g>
     <g
-       id="group.light_livingroom"
-       inkscape:label="group.light_livingroom"
+       id="group.light_living_room"
+       inkscape:label="group.light_living_room"
        transform="rotate(90,6804.9996,-8257.9997)">
       <path
          inkscape:label="12333"
@@ -1438,8 +1438,8 @@
        ry="49.99963"
        inkscape:label="#rect4628" />
     <g
-       id="light_livingroom"
-       inkscape:label="light_livingroom">
+       id="light_living_room"
+       inkscape:label="light_living_room">
       <rect
          inkscape:label="asddd"
          ry="164.7756"
@@ -1548,8 +1548,8 @@
          ry="164.7756"
          inkscape:label="light_livingroom" />
       <g
-         id="scene.livingroom_normal"
-         inkscape:label="scene.livingroom_normal">
+         id="scene.living_room_normal"
+         inkscape:label="scene.living_room_normal">
         <rect
            inkscape:label="scene.livingroom_normal"
            ry="164.7756"
@@ -1567,8 +1567,8 @@
            id="sasd-6" />
       </g>
       <g
-         id="scene.livingroom_dim"
-         inkscape:label="scene.livingroom_dim">
+         id="scene.living_room_dim"
+         inkscape:label="scene.living_room_dim">
         <g
            inkscape:label="scene.livingroom_dim"
            id="scene.livingroom_dim1"
@@ -1590,8 +1590,8 @@
            id="path4673" />
       </g>
       <g
-         id="scene.livingroom_off"
-         inkscape:label="scene.livingroom_off">
+         id="scene.living_room_off"
+         inkscape:label="scene.living_room_off">
         <g
            inkscape:label="scene.livingroom_off"
            id="scene.livingroom_off1"

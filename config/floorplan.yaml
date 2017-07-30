@@ -16,7 +16,7 @@
             - input_boolean.blue_light
             - input_boolean.led_strip
             # INFO PANEL SWITCH #
-            - input_boolean.floorplan_light_livingroom
+            - input_boolean.floorplan_light_livin_groom
           states:
             - state: 'on'
               class: 'light-on'
@@ -28,7 +28,7 @@
 
         - name: Lights #Lights that are full light components
           entities:
-            - group.light_livingroom
+            - group.light_living_room
             - light.gateway_light_286c07889d7e
           states:
             - state: 'on'
@@ -187,9 +187,9 @@
               class: 'alarm-pending'
 
         # LAYER TOGGLES #
-        - name: Light Livingroom
+        - name: Light living room
           elements:
-            - light_livingroom
+            - light_living_room
           action:
             domain: class
             service: toggle
@@ -204,9 +204,9 @@
         # SCENES #
         - name: Ceiling light scenes
           entities:
-            - scene.livingroom_normal
-            - scene.livingroom_dim
-            - scene.livingroom_off
+            - scene.living_room_normal
+            - scene.living_room_dim
+            - scene.living_room_off
           action:
             service: turn_on
 

@@ -1,20 +1,20 @@
 view: yes
-name: Livingroom
+name: Living room
 control: hidden
 entities:
   - input_boolean.party_mode
   - input_boolean.dinner_mode
   - automation.motion_light
-  - group.light_livingroom
+  - group.light_living_room
   - light.gateway_light_286c07889d7e
   - input_boolean.media_devices
   - input_boolean.led_strip
   - input_boolean.blue_light
   - input_boolean.shelf_light
-  - scene.livingroom_media
-  - scene.livingroom_dim
-  - scene.livingroom_normal
-  - scene.livingroom_off
+  - scene.living_room_media
+  - scene.living_room_dim
+  - scene.living_room_normal
+  - scene.living_room_off
   - scene.bedtime
   - media_player.kodi_on_firetv
   - media_player.txnr414

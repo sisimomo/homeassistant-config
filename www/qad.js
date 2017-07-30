@@ -2,7 +2,7 @@
 	var mounted = false;
 	var timeOnce = true;
 	var watched_entities = [
-		"group.light_livingroom",
+		"group.light_living_room",
 		"device_tracker.janis_handy",
 		"device_tracker.lena_handy",
 		"proximity.home_janis",
@@ -54,7 +54,7 @@
 			var alarm = false;
 
 			switch(ent.entity_id) {
-				case 'group.light_livingroom':
+				case 'group.light_living_room':
 					icon = 'fa fa-lightbulb-o';
 					text = 'Ceiling';
 					break;
