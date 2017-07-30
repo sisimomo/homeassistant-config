@@ -1,4 +1,4 @@
-speech: !include ../templates/alexa_confirm.yaml
+speech: !include ../../../templates/alexa_confirm.yaml
 action:
   - service_template: >
       {%- if AlertTarget == "all" -%}
