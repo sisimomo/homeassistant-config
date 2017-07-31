@@ -147,7 +147,7 @@
                 break;
             }
 
-            return "/local/custom_ui/floorplan/images/weather/rainy-1.svg";
+            return "/local/custom_ui/floorplan/images/weather/" + imageName + ".svg";
             '
 
         - name: Weather
