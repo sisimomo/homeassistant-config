@@ -534,7 +534,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.040000002"
-     inkscape:cx="14971.507"
+     inkscape:cx="10584.007"
      inkscape:cy="33581.644"
      inkscape:document-units="mm"
      inkscape:current-layer="svg8"
@@ -1520,13 +1520,13 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:317.5px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332">20°C</tspan></text>
   </g>
   <rect
-     style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:0.53884226;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:0.25642452;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
      id="sensor.weather_icon"
-     width="1822.076"
-     height="1520.0002"
-     x="3090.3125"
-     y="53.164162"
-     ry="0.00033694023"
+     width="1120"
+     height="560.00006"
+     x="3170.3125"
+     y="213.16417"
+     ry="0.00012413587"
      inkscape:label="sensor.weather_icon" />
   <g
      inkscape:groupmode="layer"
