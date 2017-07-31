@@ -1,6 +1,24 @@
 - platform: template
   sensors:
     weather_icon:
-      entity_id: sensor.weather_icon
-      value_template: >-
-        {{ states.sensor.news.attributes.entry1 }}
+      entity_id: sensor.dark_sky_temperature
+      value_template: >
+        {% if states.sensor.dark_sky_precip_probability.state |int > 80 %}
+          {% if states.sensor.dark_sky_precip.state == 'rain' %}
+            rain
+          {% elif states.sensor.dark_sky_precip.state == 'snow' %}
+            snow
+          {% endif %}
+        {% elif states.sensor.dark_sky_cloud_coverage.state |int > 40 %}
+          {% if states.sensor.dark_sky_cloud_coverage.state |int > 80 %}
+            cloudy
+          {% elif is_state('sun.sun', 'above_horizon') %}
+            partly-cloudy-day
+          {% else %}
+            partly-cloudy-night
+          {% endif %}
+        {% elif is_state('sun.sun', 'above_horizon') %}
+          clear-day
+        {% else %}
+          clear-night
+        {% endif %}
