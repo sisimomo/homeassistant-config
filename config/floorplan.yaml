@@ -16,7 +16,7 @@
             - input_boolean.blue_light
             - input_boolean.led_strip
             # INFO PANEL SWITCH #
-            - input_boolean.floorplan_light_living_room
+            - group.light_living_room
           states:
             - state: 'on'
               class: 'light-on'
@@ -28,7 +28,7 @@
 
         - name: Lights #Lights that are full light components
           entities:
-            - group.light_living_room
+            - sensor.floorplan_living_room_light
             - light.gateway_light_286c07889d7e
           states:
             - state: 'on'

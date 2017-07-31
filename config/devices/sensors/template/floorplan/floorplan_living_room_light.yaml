@@ -1,0 +1,5 @@
+- platform: template
+  sensors:
+    floorplan_living_room_light:
+      entity_id: group.light_living_room
+      value_template: "{{ states.group.light_living_room.state }}"
