@@ -191,9 +191,108 @@
             - numpad_button_1
           action:
             domain: python_script
-            service: add_news
+            service: floorplan_alarm
             data:
-              info: 'THIS IS A TEST'
+              number: 1
+
+        - name: Numpad2
+          elements:
+            - numpad_button_2
+          action:
+            domain: python_script
+            service: floorplan_alarm
+            data:
+              number: 2
+
+        - name: Numpad1
+          elements:
+            - numpad_button_3
+          action:
+            domain: python_script
+            service: floorplan_alarm
+            data:
+              number: 3
+
+        - name: Numpad4
+          elements:
+            - numpad_button_4
+          action:
+            domain: python_script
+            service: floorplan_alarm
+            data:
+              number: 4
+
+        - name: Numpad5
+          elements:
+            - numpad_button_5
+          action:
+            domain: python_script
+            service: floorplan_alarm
+            data:
+              number: 5
+
+        - name: Numpad6
+          elements:
+            - numpad_button_6
+          action:
+            domain: python_script
+            service: floorplan_alarm
+            data:
+              number: 6
+
+        - name: Numpad7
+          elements:
+            - numpad_button_7
+          action:
+            domain: python_script
+            service: floorplan_alarm
+            data:
+              number: 7
+
+        - name: Numpad8
+          elements:
+            - numpad_button_8
+          action:
+            domain: python_script
+            service: floorplan_alarm
+            data:
+              number: 8
+
+        - name: Numpad9
+          elements:
+            - numpad_button_9
+          action:
+            domain: python_script
+            service: floorplan_alarm
+            data:
+              number: 9
+
+        - name: Numpad0
+          elements:
+            - numpad_button_0
+          action:
+            domain: python_script
+            service: floorplan_alarm
+            data:
+              number: 0
+
+        - name: Alarm_arm
+          elements:
+            - numpad_button_arm
+          action:
+            domain: python_script
+            service: floorplan_alarm
+            data:
+              action: 'arm'
+
+        - name: Alarm_disarm
+          elements:
+            - numpad_button_disarm
+          action:
+            domain: python_script
+            service: floorplan_alarm
+            data:
+              action: 'disarm'
 
         # LAYER TOGGLES #
         - name: Light living room
