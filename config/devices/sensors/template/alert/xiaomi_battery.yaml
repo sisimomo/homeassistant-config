@@ -14,3 +14,9 @@
 
     entrance_door_battery:
       value_template: "{{ states.binary_sensor.door_window_sensor_158d00011c8066.attributes.battery_level | int < 5 }}"
+
+    living_room_temperature_battery:
+      value_template: "{{ states.sensor.temperature_158d0001a35e24.attributes.battery_level | int < 5 }}"
+
+    bedroom_temperature_battery:
+      value_template: "{{ states.sensor.temperature_158d0001a4a582.attributes.battery_level | int < 5 }}"

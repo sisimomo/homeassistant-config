@@ -1,0 +1,6 @@
+name: '`[ALERT]` Battery in temperature sensor in the bedroom is low'
+entity_id: sensor.bedroom_temperature_battery
+state: True
+repeat: 120
+notifiers:
+ - janis_handy_telegram
