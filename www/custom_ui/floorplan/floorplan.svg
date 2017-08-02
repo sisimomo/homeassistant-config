@@ -534,7 +534,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.040000001"
-     inkscape:cx="26110.945"
+     inkscape:cx="27058.626"
      inkscape:cy="30924.086"
      inkscape:document-units="mm"
      inkscape:current-layer="numpad"
@@ -2062,16 +2062,16 @@
          transform="scale(1,-1)" />
       <text
          xml:space="preserve"
-         x="6809.6768"
-         y="2413.5693"
+         x="7299.1558"
+         y="1943.934"
          id="sensor.floorplan_alarm_pin"
          style="font-size:6.6100955px;line-height:0%;text-align:start;text-anchor:start;display:inline;stroke-width:0.14574341"
          inkscape:label="sensor.floorplan_alarm_pin"><tspan
            sodipodi:role="line"
            id="tspan4629-7-7-3"
-           x="6809.6768"
-           y="2413.5693"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1360.27197266px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffa6;fill-opacity:1;stroke-width:0.14574341">******</tspan></text>
+           x="7299.1558"
+           y="1943.934"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:705.55554199px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffa6;fill-opacity:1;stroke-width:0.14574341">*2*****</tspan></text>
     </g>
   </g>
 </svg>

@@ -189,7 +189,7 @@
         - name: Alarm pin
           entities:
             - sensor.floorplan_alarm_pin
-          text_template: '${entity.state ? entity.state : "******"}'
+          text_template: '${entity.state ? entity.state : ""}'
           class_template: 'return "static-text";'
 
         - name: Numpad1
