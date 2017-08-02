@@ -3,7 +3,10 @@ number = data.get('number')
 action = data.get('action')
 if action is None:
     pin = hass.states.get("sensor.floorplan_alarm_pin")
-    new_pin = pin.state + "" + number
+    if pin.state == 'unknown':
+        new_pin = number
+    else:
+        new_pin = pin.state + number
     hass.states.set("sensor.floorplan_alarm_pin", new_pin)
 else:
     pin = hass.states.get("sensor.floorplan_alarm_pin")
