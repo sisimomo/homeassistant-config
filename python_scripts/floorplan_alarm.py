@@ -12,4 +12,5 @@ elif action == 'clear':
     hass.states.set("sensor.floorplan_alarm_pin", '')
 else:
     pin = hass.states.get('sensor.floorplan_alarm_pin')
-    hass.services.call(alarm_control_panel, action, service_data={ 'entity_id': 'alarm_control_panel.alarm', 'code': pin.state })
+    hass.services.call('alarm_control_panel', action, service_data={ 'entity_id': 'alarm_control_panel.alarm', 'code': pin.state })
+    hass.states.set("sensor.floorplan_alarm_pin", '')
