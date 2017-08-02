@@ -1,5 +1,5 @@
 host: 192.168.137.49
-username: home-assistant
+username: homeassistant
 password: !secret influx_pwd
 include:
   entities:
