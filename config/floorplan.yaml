@@ -209,7 +209,7 @@
             service: toggle
             data:
               elements:
-                - lighting
+                - numpad
               classes:
                 - layer-visible
                 - layer-hidden
