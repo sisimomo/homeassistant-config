@@ -193,7 +193,7 @@
             domain: python_script
             service: floorplan_alarm
             data:
-              number: 1
+              number: '1'
 
         - name: Numpad2
           elements:
@@ -202,7 +202,7 @@
             domain: python_script
             service: floorplan_alarm
             data:
-              number: 2
+              number: '2'
 
         - name: Numpad1
           elements:
@@ -211,7 +211,7 @@
             domain: python_script
             service: floorplan_alarm
             data:
-              number: 3
+              number: '3'
 
         - name: Numpad4
           elements:
@@ -220,7 +220,7 @@
             domain: python_script
             service: floorplan_alarm
             data:
-              number: 4
+              number: '4'
 
         - name: Numpad5
           elements:
@@ -229,7 +229,7 @@
             domain: python_script
             service: floorplan_alarm
             data:
-              number: 5
+              number: '5'
 
         - name: Numpad6
           elements:
@@ -238,7 +238,7 @@
             domain: python_script
             service: floorplan_alarm
             data:
-              number: 6
+              number: '6'
 
         - name: Numpad7
           elements:
@@ -247,7 +247,7 @@
             domain: python_script
             service: floorplan_alarm
             data:
-              number: 7
+              number: '7'
 
         - name: Numpad8
           elements:
@@ -256,7 +256,7 @@
             domain: python_script
             service: floorplan_alarm
             data:
-              number: 8
+              number: '8'
 
         - name: Numpad9
           elements:
@@ -265,7 +265,7 @@
             domain: python_script
             service: floorplan_alarm
             data:
-              number: 9
+              number: '9'
 
         - name: Numpad0
           elements:
@@ -274,7 +274,7 @@
             domain: python_script
             service: floorplan_alarm
             data:
-              number: 0
+              number: '0'
 
         - name: Alarm_arm
           elements:
