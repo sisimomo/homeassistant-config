@@ -1,0 +1,6 @@
+- platform: template
+  sensors:
+    floorplan_alarm_pin:
+      entity_id: alarm_control_panel.alarm
+      value_template: >-
+        {{ states.sensor.floorplan_alarm_pin.state }}

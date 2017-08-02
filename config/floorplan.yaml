@@ -283,7 +283,7 @@
             domain: python_script
             service: floorplan_alarm
             data:
-              action: 'arm'
+              action: 'arm_home'
 
         - name: Alarm_disarm
           elements:
