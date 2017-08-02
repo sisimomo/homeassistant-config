@@ -201,6 +201,20 @@
                 - layer-hidden
               default_class: layer-hidden
 
+        - name: Alarm numpad
+          elements:
+            - numpad_button
+          action:
+            domain: class
+            service: toggle
+            data:
+              elements:
+                - lighting
+              classes:
+                - layer-visible
+                - layer-hidden
+              default_class: layer-hidden
+
         # SCENES #
         - name: Ceiling light scenes
           entities:
