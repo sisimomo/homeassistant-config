@@ -187,7 +187,7 @@
               class: 'alarm-pending'
 
         - name: Numpad1
-          elements:
+          entities:
             - numpad_button_1
           action:
             domain: python_script
