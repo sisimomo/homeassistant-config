@@ -160,13 +160,13 @@
         - name: Location Janis
           entities:
             - device_tracker.janis_handy
-          text_template: '${entity.state ? entity.state.replace("not_home", "away (" + entities["proximity.home_janis"].state +"m)") : "undefined"}'
+          text_template: '${entity.state ? entity.state.replace("not_home", entities["proximity.home_janis"].state +"m") : "undefined"}'
           class_template: 'return "static-text";'
 
         - name: Location Lena
           entities:
             - device_tracker.lena_handy
-          text_template: '${entity.state ? entity.state.replace("not_home", "away (" + entities["proximity.home_lena"].state +"m)") : "undefined"}'
+          text_template: '${entity.state ? entity.state.replace("not_home", entities["proximity.home_lena"].state +"m") : "undefined"}'
           class_template: 'return "static-text";'
 
         # ALARM PANEL #
