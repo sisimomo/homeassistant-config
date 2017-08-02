@@ -533,9 +533,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.014142136"
-     inkscape:cx="13745.153"
-     inkscape:cy="24728.799"
+     inkscape:zoom="0.040000001"
+     inkscape:cx="26110.945"
+     inkscape:cy="30924.086"
      inkscape:document-units="mm"
      inkscape:current-layer="numpad"
      showgrid="true"
@@ -1755,7 +1755,8 @@
            id="flowPara4597"
            style="font-size:40px;line-height:1.25"> </flowPara></flowRoot>      <g
          id="numpad_button_1"
-         inkscape:label="numpad_button_1">
+         inkscape:label="numpad_button_1"
+         transform="matrix(0.55084132,0,0,0.55084132,2367.0201,3408.9847)">
         <rect
            style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#3d3b3f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.71685094;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
            ry="185.29463"
@@ -1778,7 +1779,8 @@
       </g>
       <g
          id="numpad_button_2"
-         inkscape:label="numpad_button_2">
+         inkscape:label="numpad_button_2"
+         transform="matrix(0.5539313,0,0,0.5539313,3541.1885,3689.6214)">
         <rect
            style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#3d3b3f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.71685094;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
            ry="185.29463"
@@ -1801,7 +1803,8 @@
       </g>
       <g
          id="numpad_button_3"
-         inkscape:label="numpad_button_3">
+         inkscape:label="numpad_button_3"
+         transform="matrix(0.37223855,0,0,0.37223855,6773.8021,4069.9954)">
         <rect
            style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#3d3b3f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.71685094;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
            ry="185.29463"
@@ -1824,7 +1827,8 @@
       </g>
       <g
          id="numpad_button_5"
-         inkscape:label="numpad_button_5">
+         inkscape:label="numpad_button_5"
+         transform="matrix(0.56232463,0,0,0.56232463,3509.5657,3792.6647)">
         <rect
            style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#3d3b3f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.71685094;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
            ry="185.29463"
@@ -1847,7 +1851,8 @@
       </g>
       <g
          id="numpad_button_6"
-         inkscape:label="numpad_button_6">
+         inkscape:label="numpad_button_6"
+         transform="matrix(0.38063184,0,0,0.38063184,6843.6031,4380.4007)">
         <rect
            style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#3d3b3f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.71685094;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
            ry="185.29463"
@@ -1870,7 +1875,8 @@
       </g>
       <g
          id="numpad_button_8"
-         inkscape:label="numpad_button_8">
+         inkscape:label="numpad_button_8"
+         transform="matrix(0.58583543,0,0,0.58583543,3218.6943,3635.4662)">
         <rect
            style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#3d3b3f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.71685094;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
            ry="185.29463"
@@ -1893,7 +1899,8 @@
       </g>
       <g
          id="numpad_button_9"
-         inkscape:label="numpad_button_9">
+         inkscape:label="numpad_button_9"
+         transform="matrix(0.63185334,0,0,0.63185334,3945.7064,3230.261)">
         <rect
            style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#3d3b3f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.71685094;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
            ry="185.29463"
@@ -1916,7 +1923,8 @@
       </g>
       <g
          id="numpad_button_4"
-         inkscape:label="numpad_button_4">
+         inkscape:label="numpad_button_4"
+         transform="matrix(0.62066228,0,0,0.62066228,1820.3917,3506.8058)">
         <rect
            style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#3d3b3f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.71685094;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
            ry="185.29463"
@@ -1939,7 +1947,8 @@
       </g>
       <g
          id="numpad_button_7"
-         inkscape:label="numpad_button_7">
+         inkscape:label="numpad_button_7"
+         transform="matrix(0.50749562,0,0,0.50749562,2354.1608,4319.0705)">
         <rect
            style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#3d3b3f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.71685094;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
            ry="185.29463"
@@ -2034,6 +2043,35 @@
              id="tspan4629-7-7-4-5-9-0"
              sodipodi:role="line">DISARM</tspan></text>
       </g>
+      <rect
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#3d3b3f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.71092659;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+         ry="89.138283"
+         y="1173.1643"
+         x="5890.3125"
+         height="1040"
+         width="5440"
+         id="rect3659-2-1" />
+      <rect
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#141414;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.5171923;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+         ry="48.605339"
+         y="-2053.1643"
+         x="5970.3125"
+         height="697.95868"
+         width="5280.0005"
+         id="rect3659-2-1-3"
+         transform="scale(1,-1)" />
+      <text
+         xml:space="preserve"
+         x="6809.6768"
+         y="2413.5693"
+         id="sensor.floorplan_alarm_pin"
+         style="font-size:6.6100955px;line-height:0%;text-align:start;text-anchor:start;display:inline;stroke-width:0.14574341"
+         inkscape:label="sensor.floorplan_alarm_pin"><tspan
+           sodipodi:role="line"
+           id="tspan4629-7-7-3"
+           x="6809.6768"
+           y="2413.5693"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1360.27197266px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffa6;fill-opacity:1;stroke-width:0.14574341">******</tspan></text>
     </g>
   </g>
 </svg>
