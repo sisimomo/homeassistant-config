@@ -300,6 +300,15 @@
             data:
               action: 'alarm_disarm'
 
+        - name: Alarm_clear
+          elements:
+            - numpad_button_clear
+          action:
+            domain: python_script
+            service: floorplan_alarm
+            data:
+              action: 'clear'
+
         # LAYER TOGGLES #
         - name: Light living room
           elements:
