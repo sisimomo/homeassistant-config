@@ -1,0 +1,5 @@
+- platform: template
+  sensors:
+    floorplan_blue_light:
+      entity_id: input_boolean.blue_light
+      value_template: "{{ states.input_boolean.blue_light.state }}"

@@ -1,0 +1,5 @@
+- platform: template
+  sensors:
+    floorplan_led_strip:
+      entity_id: input_boolean.led_strip
+      value_template: "{{ states.input_boolean.led_strip.state }}"
