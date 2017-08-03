@@ -534,7 +534,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.020000001"
-     inkscape:cx="29587.966"
+     inkscape:cx="20187.966"
      inkscape:cy="19270.969"
      inkscape:document-units="mm"
      inkscape:current-layer="layer8"
@@ -654,7 +654,7 @@
      inkscape:groupmode="layer"
      id="layer7"
      inkscape:label="news_boundry"
-     style="display:none">
+     style="display:inline">
     <text
        xml:space="preserve"
        x="65.516525"
@@ -2002,9 +2002,9 @@
              style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:529.16662598px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332"
              y="10115.371"
              x="4852.998"
-             sodipodi:role="line">  <tspan
-   style="font-size:812.30480957px"
-   id="tspan4856">ARM</tspan></tspan><tspan
+             sodipodi:role="line"><tspan
+               style="font-size:812.30480957px"
+               id="tspan4856">ARM</tspan></tspan><tspan
              style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:812.30480957px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332"
              y="11027.34"
              x="4852.998"
