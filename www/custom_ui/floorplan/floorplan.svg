@@ -533,11 +533,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.020000001"
-     inkscape:cx="20187.966"
-     inkscape:cy="19270.969"
+     inkscape:zoom="0.014142136"
+     inkscape:cx="31511.723"
+     inkscape:cy="21537.119"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer8"
+     inkscape:current-layer="layer1"
      showgrid="true"
      units="cm"
      inkscape:window-width="1920"
@@ -1186,6 +1186,35 @@
            x="9394.0068"
            y="9747.1367"
            style="font-size:317.50003052px;line-height:1.25;vector-effect:none;fill:#9b9b9b;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">BATHROOM</tspan></text>
+      <g
+         id="g5730"
+         transform="translate(-1561.8357,4684.5818)"
+         style="display:inline;opacity:1;vector-effect:none;fill:#00adee;fill-opacity:1;stroke-width:0.25707749;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+        <path
+           style="vector-effect:none;fill:#00adee;fill-opacity:1;stroke-width:0.25707749;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           d="m 13547.165,3125.6477 c 0,-36.3754 -30.79,-67.166 -67.165,-67.166 -36.387,0 -67.167,30.7906 -67.167,67.166 0,36.3861 30.78,67.1661 67.167,67.1661 39.178,2.75 67.165,-27.9876 67.165,-67.1661 0,0 0,0 0,0 z"
+           class="st9"
+           id="path226"
+           inkscape:connector-curvature="0" />
+        <path
+           style="vector-effect:none;fill:#00adee;fill-opacity:1;stroke-width:0.25707749;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           d="m 13687.093,3125.6477 c 0,36.3861 30.78,67.1661 67.166,67.1661 36.386,0 67.166,-30.78 67.166,-67.1661 0,-36.3754 -30.78,-67.166 -67.166,-67.166 v 0 c -36.386,0 -64.374,30.7906 -67.166,67.166 z"
+           class="st9"
+           id="path228"
+           inkscape:connector-curvature="0" />
+        <path
+           style="vector-effect:none;fill:#00adee;fill-opacity:1;stroke-width:0.25707749;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           d="m 13628.325,3517.4532 v 0 c 22.382,13.9938 47.577,25.1846 72.762,30.78 l 13.994,100.7491 c 0,13.9937 13.993,25.1846 27.987,25.1846 h 19.589 c 13.994,0 27.988,-11.1909 27.988,-25.1846 l 11.191,-100.7491 c 25.184,-5.606 53.172,-16.7862 75.564,-33.583 11.191,-8.3561 16.786,-22.3817 13.994,-33.583 l -67.166,-207.0936 c -8.356,-27.9876 -33.583,-47.5768 -61.571,-47.5768 h -11.201 c -30.78,0 -55.965,19.5892 -67.166,47.5768 l -67.166,207.0936 c -5.606,13.9938 0,30.7905 11.201,36.386 z"
+           class="st9"
+           id="path230"
+           inkscape:connector-curvature="0" />
+        <path
+           style="vector-effect:none;fill:#00adee;fill-opacity:1;stroke-width:0.25707749;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           d="m 13370.852,3318.7475 2.856,100.749 c 0,11.2014 5.606,25.1952 16.786,30.7906 l 19.589,11.1909 25.185,195.9027 c 2.75,13.9937 13.994,22.3922 25.195,22.3922 h 36.376 c 13.993,0 25.195,-11.2014 25.195,-22.3922 l 25.184,-195.9027 19.59,-11.1909 c 11.19,-5.6059 16.786,-16.7968 16.786,-30.7906 l 2.856,-100.749 c 0,-47.5769 -39.179,-86.7553 -86.755,-89.5477 h -44.775 c -44.784,0 -83.962,39.1785 -83.962,89.5477 v 0 c 0,-2.7502 0,-2.7502 0,0 z"
+           class="st9"
+           id="path232"
+           inkscape:connector-curvature="0" />
+      </g>
     </g>
   </g>
   <g
@@ -1195,19 +1224,19 @@
      transform="translate(6420.3126,12986.163)"
      style="display:inline">
     <path
-       id="switch.janis_pc_wol"
+       id="sensor.floorplan_janis_pc"
        d="M 8836.8425,-7413.2162 H 8331.957 v -336.626 h 504.8855 m 0,-56.087 H 8331.957 c -31.171,0 -56.0866,25.021 -56.0866,56.087 v 336.626 a 56.104281,56.104281 0 0 0 56.0866,56.192 h 196.3561 v 56.0869 h -56.0866 v 56.0866 h 224.3464 v -56.0866 h -56.0866 v -56.0869 h 196.3562 a 56.104281,56.104281 0 0 0 56.1926,-56.192 v -336.626 c 0,-31.066 -25.3398,-56.087 -56.1926,-56.087 z"
        inkscape:connector-curvature="0"
        style="stroke-width:28.05213737"
-       inkscape:label="switch.janis_pc_wol" />
+       inkscape:label="sensor.floorplan_janis_pc" />
     <path
-       id="input_boolean.blue_light"
+       id="sensor.floorplan_blue_light"
        d="m 9820.1295,-9050.5697 a 124.29071,124.29071 0 0 0 -124.2918,124.286 c 0,42.277 21.1258,79.389 53.2642,101.938 v 40.13 a 17.755816,17.755816 0 0 0 17.7569,17.784 h 106.5348 a 17.755816,17.755816 0 0 0 17.757,-17.784 v -40.13 c 32.1383,-22.549 53.2708,-59.661 53.2708,-101.938 a 124.29071,124.29071 0 0 0 -124.2919,-124.286 m -53.2707,337.355 a 17.755816,17.755816 0 0 0 17.7569,17.784 h 71.021 a 17.755816,17.755816 0 0 0 17.7569,-17.784 v -17.717 h -106.5348 z"
        inkscape:connector-curvature="0"
        style="stroke-width:17.7558136"
-       inkscape:label="input_boolean.blue_light" />
+       inkscape:label="sensor.floorplan_blue_light" />
     <path
-       id="light.gateway_light_286c07889d7e"
+       id="sensor.floorplan_gateway_light"
        d="m 8230.692,-8489.5071 a 118.50837,118.50837 0 0 0 -118.5094,118.5027 c 0,40.3114 20.1429,75.696 50.7862,97.1956 v 38.2638 a 16.929768,16.929768 0 0 0 16.9308,16.9564 h 101.5786 a 16.929768,16.929768 0 0 0 16.9308,-16.9564 v -38.2638 c 30.6431,-21.4996 50.7925,-56.8842 50.7925,-97.1956 a 118.50837,118.50837 0 0 0 -118.5095,-118.5027 m -50.7924,321.66 a 16.929768,16.929768 0 0 0 16.9308,16.9563 h 67.7169 a 16.929768,16.929768 0 0 0 16.9309,-16.9563 v -16.8926 h -101.5786 z"
        inkscape:connector-curvature="0"
        style="stroke-width:16.92976952"
@@ -1236,33 +1265,33 @@
          y="-10623.065"
          style="font-size:705.55554199px;line-height:1.25;text-align:center;text-anchor:middle;stroke-width:0.26458332">---</tspan></text>
     <path
-       id="media_player.guest_room"
+       id="sensor.floorplan_mpd_guest_room"
        d="m 969.99984,-7986.6717 a 129.85228,129.85228 0 0 0 -129.8441,129.8932 129.85228,129.85228 0 0 0 129.8441,129.8932 129.85228,129.85228 0 0 0 129.86036,-129.8932 129.85228,129.85228 0 0 0 -129.86036,-129.8932 m 0,346.3273 a 216.42047,216.42047 0 0 1 -216.4178,-216.4341 216.42047,216.42047 0 0 1 216.4178,-216.4341 216.42047,216.42047 0 0 1 216.41766,216.4341 216.42047,216.42047 0 0 1 -216.41766,216.4341 m 0,-692.6546 a 86.568187,86.568187 0 0 1 86.57356,86.5409 86.568187,86.568187 0 0 1 -86.57356,86.7046 c -48.0474,0 -86.5737,-38.9353 -86.5737,-86.7046 0,-47.9328 38.5263,-86.5409 86.5737,-86.5409 m 216.41766,-86.5409 H 753.58204 c -48.0473,0 -86.5736,38.608 -86.5736,86.5409 v 692.6546 a 86.568187,86.568187 0 0 0 86.5736,86.5409 h 432.83546 a 86.568187,86.568187 0 0 0 86.5737,-86.5409 v -692.6546 c 0,-47.9329 -38.9516,-86.5409 -86.5737,-86.5409 z"
        inkscape:connector-curvature="0"
        style="stroke-width:43.28409195"
-       inkscape:label="media_player.guest_room" />
+       inkscape:label="sensor.floorplan_mpd_guest_room" />
     <path
-       id="media_player.bedroom"
+       id="sensor.floorplan_mpd_bedroom"
        d="m 1049.9998,-3146.6715 a 129.85228,129.85228 0 0 0 -129.84393,129.893 129.85228,129.85228 0 0 0 129.84393,129.894 129.85228,129.85228 0 0 0 129.8601,-129.894 129.85228,129.85228 0 0 0 -129.8601,-129.893 m 0,346.328 a 216.42047,216.42047 0 0 1 -216.41793,-216.435 216.42047,216.42047 0 0 1 216.41793,-216.434 216.42047,216.42047 0 0 1 216.4181,216.434 216.42047,216.42047 0 0 1 -216.4181,216.435 m 0,-692.655 a 86.568187,86.568187 0 0 1 86.5741,86.541 86.568187,86.568187 0 0 1 -86.5741,86.704 c -48.0469,0 -86.57393,-38.935 -86.57393,-86.704 0,-47.933 38.52703,-86.541 86.57393,-86.541 m 216.4181,-86.541 H 833.58187 c -48.047,0 -86.573,38.608 -86.573,86.541 v 692.655 a 86.568187,86.568187 0 0 0 86.573,86.54 h 432.83603 a 86.568187,86.568187 0 0 0 86.573,-86.54 v -692.655 c 0,-47.933 -38.951,-86.541 -86.573,-86.541 z"
        inkscape:connector-curvature="0"
        style="display:inline;stroke-width:43.28409195"
-       inkscape:label="media_player.bedroom" />
+       inkscape:label="sensor.floorplan_mpd_bedroom" />
     <path
-       id="media_player.kitchen"
+       id="sensor.floorplan_mpd_kitchen"
        d="m 10730,-3172.9985 a 129.85228,129.85228 0 0 0 -129.844,129.893 129.85228,129.85228 0 0 0 129.844,129.894 129.85228,129.85228 0 0 0 129.86,-129.894 129.85228,129.85228 0 0 0 -129.86,-129.893 m 0,346.328 a 216.42047,216.42047 0 0 1 -216.418,-216.435 216.42047,216.42047 0 0 1 216.418,-216.434 216.42047,216.42047 0 0 1 216.418,216.434 216.42047,216.42047 0 0 1 -216.418,216.435 m 0,-692.655 a 86.568187,86.568187 0 0 1 86.574,86.541 86.568187,86.568187 0 0 1 -86.574,86.704 c -48.047,0 -86.574,-38.935 -86.574,-86.704 0,-47.933 38.527,-86.541 86.574,-86.541 m 216.418,-86.541 h -432.836 c -48.047,0 -86.573,38.608 -86.573,86.541 v 692.655 a 86.568187,86.568187 0 0 0 86.573,86.54 h 432.836 a 86.568187,86.568187 0 0 0 86.573,-86.54 v -692.655 c 0,-47.933 -38.951,-86.541 -86.573,-86.541 z"
        inkscape:connector-curvature="0"
        style="display:inline;stroke-width:43.28409195"
-       inkscape:label="media_player.kitchen" />
+       inkscape:label="sensor.floorplan_mpd_kitchen" />
     <rect
        style="opacity:1;fill:#00adee;fill-opacity:1;stroke:none;stroke-width:0.25707749;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="media_player.txnr414"
+       id="sensor.floorplan_onkyo"
        width="452.17365"
        height="799.99951"
        x="-12381.618"
        y="-10280"
        ry="119.99975"
        rx="119.99975"
-       inkscape:label="media_player.txnr414"
+       inkscape:label="sensor.floorplan_onkyo"
        transform="rotate(90)" />
     <rect
        style="opacity:1;fill:#00adee;fill-opacity:1;stroke:none;stroke-width:0.27597028;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -1277,18 +1306,18 @@
        transform="rotate(90)" />
     <rect
        style="opacity:1;fill:#00adee;fill-opacity:1;stroke:none;stroke-width:0.25707749;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="media_player.kodi_on_firetv"
+       id="sensor.floorplan_kodi"
        width="319.99994"
        height="239.99982"
        x="-12363.8"
        y="-9440"
        rx="40.000057"
        ry="79.999802"
-       inkscape:label="media_player.kodi_on_firetv"
+       inkscape:label="sensor.floorplan_kodi"
        transform="rotate(90)" />
     <g
-       id="input_boolean.led_strip"
-       inkscape:label="input_boolean.led_strip"
+       id="sensor.floorplan_led_strip"
+       inkscape:label="sensor.floorplan_led_strip"
        transform="rotate(90,6719.1015,-8172.1016)">
       <path
          inkscape:label="23"
@@ -1316,8 +1345,8 @@
          id="input_boolean.led_strip-06" />
     </g>
     <g
-       id="input_boolean.shelf_light"
-       inkscape:label="input_boolean.shelf_light"
+       id="sensor.floorplan_shelf_light"
+       inkscape:label="sensor.floorplan_shelf_light"
        transform="rotate(90,6769.1962,-8237.0634)">
       <path
          inkscape:label="23"
@@ -1334,7 +1363,7 @@
     </g>
     <g
        id="sensor.floorplan_living_room_light"
-       inkscape:label="group.light_living_room"
+       inkscape:label="sensor.floorplan_living_room_light"
        transform="rotate(90,6804.9996,-8257.9997)">
       <path
          inkscape:label="12333"
@@ -1475,35 +1504,6 @@
        inkscape:connector-curvature="0"
        d="m -4410,-10239.627 a 355.928,355.928 0 0 0 -355.933,355.9199 c 0,121.0725 60.4993,227.3461 152.5325,291.917 v 114.9218 a 50.846857,50.846857 0 0 0 50.8501,50.9261 h 305.0803 a 50.846857,50.846857 0 0 0 50.8502,-50.9261 v -114.9218 c 92.033,-64.5709 152.5502,-170.8445 152.5502,-291.917 A 355.928,355.928 0 0 0 -4410,-10239.627 m -152.5504,966.0805 a 50.846857,50.846857 0 0 0 50.8501,50.9287 h 203.3801 a 50.846857,50.846857 0 0 0 50.8501,-50.9287 v -50.7334 h -305.0803 z"
        id="group.light_living_room" />
-    <g
-       id="g5730"
-       transform="translate(-5211.836,-8521.2312)"
-       style="display:inline;opacity:1;vector-effect:none;fill:#00adee;fill-opacity:1;stroke-width:0.25707749;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
-      <path
-         style="vector-effect:none;fill:#00adee;fill-opacity:1;stroke-width:0.25707749;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         d="m 13547.165,3125.6477 c 0,-36.3754 -30.79,-67.166 -67.165,-67.166 -36.387,0 -67.167,30.7906 -67.167,67.166 0,36.3861 30.78,67.1661 67.167,67.1661 39.178,2.75 67.165,-27.9876 67.165,-67.1661 0,0 0,0 0,0 z"
-         class="st9"
-         id="path226"
-         inkscape:connector-curvature="0" />
-      <path
-         style="vector-effect:none;fill:#00adee;fill-opacity:1;stroke-width:0.25707749;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         d="m 13687.093,3125.6477 c 0,36.3861 30.78,67.1661 67.166,67.1661 36.386,0 67.166,-30.78 67.166,-67.1661 0,-36.3754 -30.78,-67.166 -67.166,-67.166 v 0 c -36.386,0 -64.374,30.7906 -67.166,67.166 z"
-         class="st9"
-         id="path228"
-         inkscape:connector-curvature="0" />
-      <path
-         style="vector-effect:none;fill:#00adee;fill-opacity:1;stroke-width:0.25707749;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         d="m 13628.325,3517.4532 v 0 c 22.382,13.9938 47.577,25.1846 72.762,30.78 l 13.994,100.7491 c 0,13.9937 13.993,25.1846 27.987,25.1846 h 19.589 c 13.994,0 27.988,-11.1909 27.988,-25.1846 l 11.191,-100.7491 c 25.184,-5.606 53.172,-16.7862 75.564,-33.583 11.191,-8.3561 16.786,-22.3817 13.994,-33.583 l -67.166,-207.0936 c -8.356,-27.9876 -33.583,-47.5768 -61.571,-47.5768 h -11.201 c -30.78,0 -55.965,19.5892 -67.166,47.5768 l -67.166,207.0936 c -5.606,13.9938 0,30.7905 11.201,36.386 z"
-         class="st9"
-         id="path230"
-         inkscape:connector-curvature="0" />
-      <path
-         style="vector-effect:none;fill:#00adee;fill-opacity:1;stroke-width:0.25707749;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         d="m 13370.852,3318.7475 2.856,100.749 c 0,11.2014 5.606,25.1952 16.786,30.7906 l 19.589,11.1909 25.185,195.9027 c 2.75,13.9937 13.994,22.3922 25.195,22.3922 h 36.376 c 13.993,0 25.195,-11.2014 25.195,-22.3922 l 25.184,-195.9027 19.59,-11.1909 c 11.19,-5.6059 16.786,-16.7968 16.786,-30.7906 l 2.856,-100.749 c 0,-47.5769 -39.179,-86.7553 -86.755,-89.5477 h -44.775 c -44.784,0 -83.962,39.1785 -83.962,89.5477 v 0 c 0,-2.7502 0,-2.7502 0,0 z"
-         class="st9"
-         id="path232"
-         inkscape:connector-curvature="0" />
-    </g>
     <text
        xml:space="preserve"
        x="6581.439"
@@ -1567,7 +1567,7 @@
      inkscape:groupmode="layer"
      id="layer9"
      inkscape:label="hidden_layers"
-     style="display:inline">
+     style="display:none">
     <g
        inkscape:groupmode="layer"
        id="lighting"
@@ -2006,7 +2006,7 @@
                style="font-size:812.30480957px"
                id="tspan4856">ARM</tspan></tspan><tspan
              style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:812.30480957px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffa6;fill-opacity:1;stroke-width:0.26458332"
-             y="11027.34"
+             y="10953.791"
              x="4852.998"
              sodipodi:role="line"
              id="tspan4854">HOME</tspan></text>
