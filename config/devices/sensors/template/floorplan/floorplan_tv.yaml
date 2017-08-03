@@ -1,0 +1,5 @@
+- platform: template
+  sensors:
+    floorplan_tv:
+      entity_id: input_boolean.tv
+      value_template: "{{ states.input_boolean.tv.state }}"

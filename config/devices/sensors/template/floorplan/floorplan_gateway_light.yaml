@@ -1,0 +1,5 @@
+- platform: template
+  sensors:
+    floorplan_gateway_light:
+      entity_id: light.gateway_light_286c07889d7e
+      value_template: "{{ states.light.gateway_light_286c07889d7e.state }}"

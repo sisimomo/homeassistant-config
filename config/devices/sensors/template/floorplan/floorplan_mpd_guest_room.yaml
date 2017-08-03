@@ -1,0 +1,5 @@
+- platform: template
+  sensors:
+    floorplan_mpd_guest_room:
+      entity_id: media_player.guest_room
+      value_template: "{{ states.media_player.guest_room.state }}"

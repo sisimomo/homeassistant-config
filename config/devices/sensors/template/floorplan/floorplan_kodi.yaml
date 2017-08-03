@@ -1,0 +1,5 @@
+- platform: template
+  sensors:
+    floorplan_kodi:
+      entity_id: media_player.kodi_on_firetv
+      value_template: "{{ states.media_player.kodi_on_firetv.state }}"

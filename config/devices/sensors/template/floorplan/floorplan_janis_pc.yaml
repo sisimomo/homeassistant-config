@@ -1,0 +1,5 @@
+- platform: template
+  sensors:
+    floorplan_janis_pc:
+      entity_id: switch.janis_pc_wol
+      value_template: "{{ states.switch.janis_pc_wol.state }}"
