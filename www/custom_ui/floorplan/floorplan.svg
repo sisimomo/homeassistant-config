@@ -534,10 +534,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.020000001"
-     inkscape:cx="50447.561"
-     inkscape:cy="19312.428"
+     inkscape:cx="40699.18"
+     inkscape:cy="35172.088"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer8"
+     inkscape:current-layer="layer1"
      showgrid="true"
      units="cm"
      inkscape:window-width="1920"
@@ -1433,14 +1433,14 @@
        transform="rotate(90)" />
     <rect
        style="opacity:1;fill:#00adee;fill-opacity:1;stroke:none;stroke-width:0.30486149;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="input_boolean.tv"
+       id="sensor.floorplan_tv"
        width="60.000225"
        height="1440"
        x="-12592.999"
        y="-9830"
        rx="30.000113"
        ry="18.305084"
-       inkscape:label="input_boolean.tv"
+       inkscape:label="sensor.floorplan_tv"
        transform="rotate(90)" />
     <rect
        style="opacity:1;fill:#00adee;fill-opacity:1;stroke:none;stroke-width:0.25707749;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -1653,7 +1653,7 @@
     <rect
        transform="translate(-3650.0002,-13205.813)"
        style="display:inline;opacity:1;vector-effect:none;fill:#9a9900;fill-opacity:1;stroke:none;stroke-width:20;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect4775"
+       id="sensor.floorplan_led_strip"
        width="49.999699"
        height="1260.0002"
        x="14730"

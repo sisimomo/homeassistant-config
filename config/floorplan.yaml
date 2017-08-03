@@ -10,26 +10,13 @@
         ################
 
         # LIGHTS #
-        - name: ToggleLights #Lights that can only be on/off
-          entities:
-            - input_boolean.shelf_light
-            - input_boolean.blue_light
-            - input_boolean.led_strip
-            # INFO PANEL SWITCH #
-            - group.light_living_room
-          states:
-            - state: 'on'
-              class: 'light-on'
-            - state: 'off'
-              class: 'light-off'
-          action:
-            service: toggle
-
-
         - name: Lights #Lights that are full light components
           entities:
             - sensor.floorplan_living_room_light
-            - light.gateway_light_286c07889d7e
+            - sensor.floorplan_shelf_light
+            - sensor.floorplan_led_strip
+            - sensor.floorplan_blue_light
+            - sensor.floorplan_gateway_light
           states:
             - state: 'on'
               class: 'light-on'
@@ -39,8 +26,8 @@
         # SWITCHES #
         - name: Switches
           entities:
-             - switch.janis_pc_wol
-             - input_boolean.tv
+             - sensor.floorplan_tv
+             - sensor.floorplan_janis_pc
           states:
             - state: 'on'
               class: 'doorbell-on'
@@ -71,11 +58,11 @@
         #  MEDIA PLAYERS  #
         - name: Media Players
           entities:
-            - media_player.kodi_on_firetv
-            - media_player.bedroom
-            - media_player.guest_room
-            - media_player.kitchen
-            - media_player.txnr414
+            - sensor.floorplan_kodi
+            - sensor.floorplan_mpd_bedroom
+            - sensor.floorplan_mpd_guest_room
+            - sensor.floorplan_mpd_kitchen
+            - sensor.floorplan_onkyo
           states:
             - state: 'off'
               class: 'squeezebox-off'
