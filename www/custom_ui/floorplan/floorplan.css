@@ -78,12 +78,12 @@ svg, svg * {
 
 /* Media player */
 
-.squeezebox-off {
-  fill: #8AA8A7 !important;
+.mediaplayer-off {
+  fill: #3d3b3f !important;
 }
 
-.squeezebox-on {
-  fill: #2baaa6 !important;
+.mediaplayer-on {
+  fill: #1db2ad !important;
 }
 
 /* Doors */

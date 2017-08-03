@@ -534,8 +534,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.020000001"
-     inkscape:cx="40699.18"
-     inkscape:cy="35172.088"
+     inkscape:cx="51490.586"
+     inkscape:cy="20790.42"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -755,20 +755,6 @@
          y="4473.1646"
          ry="0"
          inkscape:label="binary_sensor.motion_sensor_158d0001307b02" />
-      <circle
-         style="opacity:1;vector-effect:none;fill:#9a9900;fill-opacity:1;stroke:none;stroke-width:16.10906982;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         id="sensor.floorplan_blue_light"
-         cx="11942.628"
-         cy="4199.3887"
-         r="136.92709"
-         inkscape:label="sensor.floorplan_blue_light" />
-      <path
-         style="display:inline;opacity:1;vector-effect:none;fill:#9a9900;fill-opacity:1;stroke:none;stroke-width:16.10906982;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         id="sensor.floorplan_gateway_light"
-         inkscape:label="sensor.floorplan_gateway_light"
-         cy="4644.2583"
-         cx="10476.573"
-         r="136.92709" />
     </g>
     <g
        inkscape:groupmode="layer"
@@ -1147,15 +1133,20 @@
            style="font-size:317.50003052px;line-height:1.25;vector-effect:none;fill:#9b9b9b;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">BEDROOM</tspan></text>
       <text
          xml:space="preserve"
-         x="5630.6763"
-         y="6079.6211"
+         x="6973.437"
+         y="5755.5063"
          id="text4631-0-8"
          style="line-height:0%;display:inline;opacity:1;vector-effect:none;fill:#9b9b9b;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
            sodipodi:role="line"
-           x="5630.6763"
-           y="6079.6211"
+           x="6973.437"
+           y="5755.5063"
            style="font-size:317.50003052px;line-height:1.25;vector-effect:none;fill:#9b9b9b;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-           id="tspan5614">GUESTROOM</tspan></text>
+           id="tspan5614">GUEST</tspan><tspan
+           sodipodi:role="line"
+           x="6973.437"
+           y="6152.3813"
+           style="font-size:317.50003052px;line-height:1.25;vector-effect:none;fill:#9b9b9b;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="tspan4777">ROOM</tspan></text>
       <text
          xml:space="preserve"
          x="6439.9585"
@@ -1191,14 +1182,14 @@
            style="font-size:317.50003052px;line-height:1.25;vector-effect:none;fill:#9b9b9b;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">KITCHEN</tspan></text>
       <text
          xml:space="preserve"
-         x="9394.0068"
-         y="9747.1367"
+         x="9304.043"
+         y="9826.5166"
          id="text4631-0-0"
          style="line-height:0%;display:inline;opacity:1;vector-effect:none;fill:#9b9b9b;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
            sodipodi:role="line"
            id="tspan4629-8-58"
-           x="9394.0068"
-           y="9747.1367"
+           x="9304.043"
+           y="9826.5166"
            style="font-size:317.50003052px;line-height:1.25;vector-effect:none;fill:#9b9b9b;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">BATHROOM</tspan></text>
       <g
          id="g5730"
@@ -1335,7 +1326,7 @@
            stroke-miterlimit="10"
            height="57.711002"
            width="26.128"
-           style="fill:none;stroke:#000000;stroke-width:0.53987384;stroke-miterlimit:10"
+           style="fill:none;stroke:#000000;stroke-width:0.53996869;stroke-miterlimit:10;stroke-dasharray:none"
            y="27.862"
            x="10.828" />
         <rect
@@ -1371,6 +1362,59 @@
          x="-932.81415"
          y="11860"
          transform="rotate(-90)" />
+      <g
+         style="display:inline"
+         id="g4873-4"
+         transform="matrix(0,-28.115612,28.115612,0,4076.9724,7511.726)">
+        <rect
+           id="rect4847-0"
+           stroke-miterlimit="10"
+           height="84.625"
+           width="62.354"
+           style="fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10"
+           y="10.36"
+           x="16.913" />
+        <rect
+           id="rect4849-2"
+           stroke-miterlimit="10"
+           height="4.329"
+           width="62.354"
+           style="fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10"
+           y="5.0149999"
+           x="16.913" />
+        <rect
+           id="rect4851-7"
+           stroke-miterlimit="10"
+           height="17.816"
+           width="27.152"
+           style="fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10"
+           y="12.587"
+           x="18.913" />
+        <rect
+           id="rect4853-0"
+           stroke-miterlimit="10"
+           height="17.816"
+           width="27.152"
+           style="fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10"
+           y="12.587"
+           x="49.710999" />
+        <line
+           id="line4855-6"
+           stroke-miterlimit="10"
+           y2="33.778"
+           x2="79.266998"
+           y1="33.778"
+           x1="16.913"
+           style="fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10" />
+        <line
+           id="line4857-8"
+           stroke-miterlimit="10"
+           y2="33.778"
+           x2="79.266998"
+           y1="46.473999"
+           x1="17.079"
+           style="fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10" />
+      </g>
     </g>
   </g>
   <g
@@ -1404,21 +1448,21 @@
          style="font-size:705.55554199px;line-height:1.25;text-align:center;text-anchor:middle;stroke-width:0.26458332">---</tspan></text>
     <path
        id="sensor.floorplan_mpd_guest_room"
-       d="m 969.99984,-7986.6717 a 129.85228,129.85228 0 0 0 -129.8441,129.8932 129.85228,129.85228 0 0 0 129.8441,129.8932 129.85228,129.85228 0 0 0 129.86036,-129.8932 129.85228,129.85228 0 0 0 -129.86036,-129.8932 m 0,346.3273 a 216.42047,216.42047 0 0 1 -216.4178,-216.4341 216.42047,216.42047 0 0 1 216.4178,-216.4341 216.42047,216.42047 0 0 1 216.41766,216.4341 216.42047,216.42047 0 0 1 -216.41766,216.4341 m 0,-692.6546 a 86.568187,86.568187 0 0 1 86.57356,86.5409 86.568187,86.568187 0 0 1 -86.57356,86.7046 c -48.0474,0 -86.5737,-38.9353 -86.5737,-86.7046 0,-47.9328 38.5263,-86.5409 86.5737,-86.5409 m 216.41766,-86.5409 H 753.58204 c -48.0473,0 -86.5736,38.608 -86.5736,86.5409 v 692.6546 a 86.568187,86.568187 0 0 0 86.5736,86.5409 h 432.83546 a 86.568187,86.568187 0 0 0 86.5737,-86.5409 v -692.6546 c 0,-47.9329 -38.9516,-86.5409 -86.5737,-86.5409 z"
+       d="m 5030.2677,-6453.5154 a 71.840332,71.840332 0 0 0 -71.8358,71.863 71.840332,71.840332 0 0 0 71.8358,71.863 71.840332,71.840332 0 0 0 71.8448,-71.863 71.840332,71.840332 0 0 0 -71.8448,-71.863 m 0,191.6044 a 119.73389,119.73389 0 0 1 -119.7325,-119.7414 119.73389,119.73389 0 0 1 119.7325,-119.7414 119.73389,119.73389 0 0 1 119.7323,119.7414 119.73389,119.73389 0 0 1 -119.7323,119.7414 m 0,-383.2088 a 47.893555,47.893555 0 0 1 47.8965,47.8785 47.893555,47.893555 0 0 1 -47.8965,47.969 c -26.5821,0 -47.8966,-21.5408 -47.8966,-47.969 0,-26.5187 21.3145,-47.8785 47.8966,-47.8785 M 5150,-6692.9982 h -239.4648 c -26.582,0 -47.8965,21.3597 -47.8965,47.8784 v 383.2088 a 47.893555,47.893555 0 0 0 47.8965,47.8785 H 5150 a 47.893555,47.893555 0 0 0 47.8966,-47.8785 v -383.2088 c 0,-26.5187 -21.5498,-47.8784 -47.8966,-47.8784 z"
        inkscape:connector-curvature="0"
-       style="stroke-width:43.28409195"
+       style="stroke-width:23.94677734"
        inkscape:label="sensor.floorplan_mpd_guest_room" />
     <path
        id="sensor.floorplan_mpd_bedroom"
-       d="m 1049.9998,-3146.6715 a 129.85228,129.85228 0 0 0 -129.84393,129.893 129.85228,129.85228 0 0 0 129.84393,129.894 129.85228,129.85228 0 0 0 129.8601,-129.894 129.85228,129.85228 0 0 0 -129.8601,-129.893 m 0,346.328 a 216.42047,216.42047 0 0 1 -216.41793,-216.435 216.42047,216.42047 0 0 1 216.41793,-216.434 216.42047,216.42047 0 0 1 216.4181,216.434 216.42047,216.42047 0 0 1 -216.4181,216.435 m 0,-692.655 a 86.568187,86.568187 0 0 1 86.5741,86.541 86.568187,86.568187 0 0 1 -86.5741,86.704 c -48.0469,0 -86.57393,-38.935 -86.57393,-86.704 0,-47.933 38.52703,-86.541 86.57393,-86.541 m 216.4181,-86.541 H 833.58187 c -48.047,0 -86.573,38.608 -86.573,86.541 v 692.655 a 86.568187,86.568187 0 0 0 86.573,86.54 h 432.83603 a 86.568187,86.568187 0 0 0 86.573,-86.54 v -692.655 c 0,-47.933 -38.951,-86.541 -86.573,-86.541 z"
+       d="m 963.71498,-3023.4007 a 92.873349,92.873349 0 0 0 -92.86738,92.9025 92.873349,92.873349 0 0 0 92.86738,92.9032 92.873349,92.873349 0 0 0 92.87892,-92.9032 92.873349,92.873349 0 0 0 -92.87892,-92.9025 m 0,247.7018 a 154.78892,154.78892 0 0 1 -154.7871,-154.7993 154.78892,154.78892 0 0 1 154.7871,-154.7986 154.78892,154.78892 0 0 1 154.78722,154.7986 154.78892,154.78892 0 0 1 -154.78722,154.7993 m 0,-495.4029 a 61.915566,61.915566 0 0 1 61.91982,61.8962 61.915566,61.915566 0 0 1 -61.91982,62.0127 c -34.36425,0 -61.91967,-27.8472 -61.91967,-62.0127 0,-34.2828 27.55542,-61.8962 61.91967,-61.8962 m 154.78722,-61.8961 H 808.92788 c -34.36433,0 -61.91901,27.6134 -61.91901,61.8961 v 495.4029 a 61.915566,61.915566 0 0 0 61.91901,61.8954 h 309.57432 a 61.915566,61.915566 0 0 0 61.919,-61.8954 v -495.4029 c 0,-34.2827 -27.8586,-61.8961 -61.919,-61.8961 z"
        inkscape:connector-curvature="0"
-       style="display:inline;stroke-width:43.28409195"
+       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:17.12728882;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        inkscape:label="sensor.floorplan_mpd_bedroom" />
     <path
        id="sensor.floorplan_mpd_kitchen"
-       d="m 10730,-3172.9985 a 129.85228,129.85228 0 0 0 -129.844,129.893 129.85228,129.85228 0 0 0 129.844,129.894 129.85228,129.85228 0 0 0 129.86,-129.894 129.85228,129.85228 0 0 0 -129.86,-129.893 m 0,346.328 a 216.42047,216.42047 0 0 1 -216.418,-216.435 216.42047,216.42047 0 0 1 216.418,-216.434 216.42047,216.42047 0 0 1 216.418,216.434 216.42047,216.42047 0 0 1 -216.418,216.435 m 0,-692.655 a 86.568187,86.568187 0 0 1 86.574,86.541 86.568187,86.568187 0 0 1 -86.574,86.704 c -48.047,0 -86.574,-38.935 -86.574,-86.704 0,-47.933 38.527,-86.541 86.574,-86.541 m 216.418,-86.541 h -432.836 c -48.047,0 -86.573,38.608 -86.573,86.541 v 692.655 a 86.568187,86.568187 0 0 0 86.573,86.54 h 432.836 a 86.568187,86.568187 0 0 0 86.573,-86.54 v -692.655 c 0,-47.933 -38.951,-86.541 -86.573,-86.541 z"
+       d="m 10825.499,-3036.5642 a 88.924546,88.924546 0 0 0 -88.919,88.9524 88.924546,88.924546 0 0 0 88.919,88.9532 88.924546,88.924546 0 0 0 88.93,-88.9532 88.924546,88.924546 0 0 0 -88.93,-88.9524 m 0,237.17 a 148.20758,148.20758 0 0 1 -148.206,-148.2176 148.20758,148.20758 0 0 1 148.206,-148.2168 148.20758,148.20758 0 0 1 148.206,148.2168 148.20758,148.20758 0 0 1 -148.206,148.2176 m 0,-474.3393 a 59.283031,59.283031 0 0 1 59.287,59.2644 59.283031,59.283031 0 0 1 -59.287,59.3761 c -32.903,0 -59.287,-26.6632 -59.287,-59.3761 0,-32.8251 26.384,-59.2644 59.287,-59.2644 m 148.206,-59.2644 h -296.412 c -32.903,0 -59.286,26.4393 -59.286,59.2644 v 474.3393 a 59.283031,59.283031 0 0 0 59.286,59.2637 h 296.412 a 59.283031,59.283031 0 0 0 59.286,-59.2637 v -474.3393 c 0,-32.8251 -26.674,-59.2644 -59.286,-59.2644 z"
        inkscape:connector-curvature="0"
-       style="display:inline;stroke-width:43.28409195"
+       style="display:inline;stroke-width:23.94677734;font-variant-east_asian:normal;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        inkscape:label="sensor.floorplan_mpd_kitchen" />
     <rect
        style="opacity:1;fill:#00adee;fill-opacity:1;stroke:none;stroke-width:0.25707749;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -1683,6 +1727,21 @@
          id="rect4775-4-1"
          style="display:inline;opacity:1;vector-effect:none;fill:#9a9900;fill-opacity:1;stroke:none;stroke-width:20;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     </g>
+    <circle
+       transform="translate(-2209.9999,-12986.163)"
+       style="display:inline;opacity:1;vector-effect:none;fill:#9a9900;fill-opacity:1;stroke:none;stroke-width:16.10906982;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="sensor.floorplan_blue_light"
+       cx="11942.628"
+       cy="4199.3887"
+       r="136.92709"
+       inkscape:label="sensor.floorplan_blue_light" />
+    <circle
+       style="display:inline;opacity:1;vector-effect:none;fill:#9a9900;fill-opacity:1;stroke:none;stroke-width:16.10906982;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="sensor.floorplan_gateway_light"
+       cx="8334.1406"
+       cy="-8333.084"
+       r="136.92709"
+       inkscape:label="sensor.floorplan_gateway_light" />
   </g>
   <rect
      style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:0.43958494;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"

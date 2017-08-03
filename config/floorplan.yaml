@@ -65,13 +65,13 @@
             - sensor.floorplan_onkyo
           states:
             - state: 'off'
-              class: 'squeezebox-off'
+              class: 'mediaplayer-off'
             - state: 'idle'
-              class: 'squeezebox-off'
+              class: 'mediaplayer-off'
             - state: 'paused'
-              class: 'squeezebox-off'
+              class: 'mediaplayer-off'
             - state: 'playing'
-              class: 'squeezebox-on'
+              class: 'mediaplayer-on'
 
         #  TEMPERATURE SENSORS  #
         - name: Temperature
