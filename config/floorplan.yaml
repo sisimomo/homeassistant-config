@@ -23,17 +23,6 @@
             - state: 'off'
               class: 'light-off'
 
-        # SWITCHES #
-        - name: Switches
-          entities:
-             - sensor.floorplan_tv
-             - sensor.floorplan_janis_pc
-          states:
-            - state: 'on'
-              class: 'doorbell-on'
-            - state: 'off'
-              class: 'doorbell-off'
-
         #  DOORS  #
         - name: Doors
           entities:
@@ -45,6 +34,7 @@
             - state: 'on'
               class: 'door_open'
 
+        #  ROOMS  #
         - name: Rooms
           entities:
             - binary_sensor.motion_sensor_158d00010f8100
@@ -58,6 +48,8 @@
         #  MEDIA PLAYERS  #
         - name: Media Players
           entities:
+            - sensor.floorplan_tv
+            - sensor.floorplan_janis_pc
             - sensor.floorplan_kodi
             - sensor.floorplan_mpd_bedroom
             - sensor.floorplan_mpd_guest_room
