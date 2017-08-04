@@ -64,6 +64,8 @@
               class: 'mediaplayer-off'
             - state: 'playing'
               class: 'mediaplayer-on'
+            - state: 'on'
+              class: 'mediaplayer-on'
 
         #  TEMPERATURE SENSORS  #
         - name: Temperature
