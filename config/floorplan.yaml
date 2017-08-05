@@ -315,7 +315,7 @@
             data:
               entity_id: 'group.light_living_room'
 
-        - name: light_living_room
+        - name: shelf_light
           elements:
             - shelf_light
           action:
@@ -324,10 +324,37 @@
             data:
               entity_id: 'input_boolean.shelf_light'
 
+        - name: led_strip
+          elements:
+            - led_strip
+          action:
+            domain: input_boolean
+            service: toggle
+            data:
+              entity_id: 'input_boolean.led_strip'
+
+        - name: blue_light
+          elements:
+            - blue_light
+          action:
+            domain: input_boolean
+            service: toggle
+            data:
+              entity_id: 'input_boolean.blue_light'
+
+        - name: living_room_tv_av
+          elements:
+            - living_room_tv_av
+          action:
+            domain: homeassistant
+            service: toggle
+            data:
+              entity_id: 'group.living_room_tv_av'
+
         # LAYER TOGGLES #
         - name: Light living room
           elements:
-            - light_living_room
+            - light_living_room_menu
           action:
             domain: class
             service: toggle

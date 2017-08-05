@@ -1600,8 +1600,8 @@
        ry="49.99963"
        inkscape:label="#rect4628" />
     <g
-       id="light_living_room"
-       inkscape:label="light_living_room"
+       id="light_living_room_menu"
+       inkscape:label="light_living_room_menu"
        transform="translate(0,73.377773)">
       <rect
          inkscape:label="asddd"
@@ -1622,7 +1622,7 @@
     <g
        transform="translate(1219.7446,72.106845)"
        style="display:inline;opacity:1;fill:#3d3b3f;fill-opacity:1;stroke:none;stroke-width:0.42053628;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="group.light_living_room.background"
+       id="light_living_room"
        inkscape:label="light_living_room">
       <rect
          inkscape:label="asddd"
@@ -1936,7 +1936,7 @@
      inkscape:groupmode="layer"
      id="layer9"
      inkscape:label="hidden_layers"
-     style="display:inline">
+     style="display:none">
     <g
        inkscape:groupmode="layer"
        id="lighting"
