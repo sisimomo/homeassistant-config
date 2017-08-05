@@ -303,6 +303,8 @@
               class: 'light-on'
             - state: 'off'
               class: 'light-off'
+          action:
+            service: toggle
 
         # LAYER TOGGLES #
         - name: Light living room
