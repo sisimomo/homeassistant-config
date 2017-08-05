@@ -165,10 +165,10 @@ svg, svg * {
   transform-origin: left
 }
 
-.hidden_boolean_on {
+.hidden_boolean_on-background {
   fill: #69946f !important;
 }
 
-.hidden_boolean_off {
+.hidden_boolean_off-background {
   fill: #d5643f !important;
 }

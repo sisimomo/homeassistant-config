@@ -290,10 +290,14 @@
             data:
               action: 'clear'
 
-        # LIGHTS #
-        - name: ToggleLights #Lights that can only be on/off
+        # ToggleButtons #
+        - name: ToggleLights
           entities:
             - group.light_living_room
+            - input_boolean.shelf_light
+            - input_boolean.led_strip
+            - input_boolean.blue_light
+            -
           states:
             - state: 'on'
               class: 'light-on'
