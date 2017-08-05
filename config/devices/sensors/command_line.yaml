@@ -9,13 +9,6 @@
   scan_interval: 7200
 
 - platform: command_line
-  command: cat /sys/class/thermal/thermal_zone0/temp
-  value_template: '{{ value | multiply(0.001) }}'
-  unit_of_measurement: °C
-  name: CPU Temperature
-  scan_interval: 60
-
-- platform: command_line
   command: sudo hddtemp /dev/disk/by-uuid/b4761068-c830-411b-b2cb-6c476c562f4b
   value_template: '{{ value [-4:-2] | int }}'
   name: disk1 temperature

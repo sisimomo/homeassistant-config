@@ -25,7 +25,6 @@ include:
     - sensor.swap_use
     - sensor.cpu_use
     - sensor.cpu_speed
-    - sensor.cpu_temperature
     - sensor.disk1_temperature
     - sensor.disk2_temperature
     - sensor.disk3_temperature
