@@ -306,6 +306,24 @@
           action:
             service: toggle
 
+        - name: light_living_room
+          elements:
+            - light_living_room
+          action:
+            domain: light
+            service: toggle
+            data:
+              entity_id: 'group.light_living_room'
+
+        - name: light_living_room
+          elements:
+            - shelf_light
+          action:
+            domain: input_boolean
+            service: toggle
+            data:
+              entity_id: 'input_boolean.shelf_light'
+
         # LAYER TOGGLES #
         - name: Light living room
           elements:
@@ -356,6 +374,24 @@
               class: 'hidden_boolean_off'
           action:
             service: toggle
+
+        - name: party_mode
+          elements:
+            - party_mode
+          action:
+            domain: input_boolean
+            service: toggle
+            data:
+              entity_id: 'input_boolean.party_mode'
+
+        - name: dinner_mode
+          elements:
+            - dinner_mode
+          action:
+            domain: input_boolean
+            service: toggle
+            data:
+              entity_id: 'input_boolean.dinner_mode'
 
         # NEWS #
         - name: text_font_news
