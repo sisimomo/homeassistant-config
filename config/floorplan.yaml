@@ -297,7 +297,7 @@
             - input_boolean.shelf_light
             - input_boolean.led_strip
             - input_boolean.blue_light
-            -
+            - group.living_room_tv_av
           states:
             - state: 'on'
               class: 'light-on'
