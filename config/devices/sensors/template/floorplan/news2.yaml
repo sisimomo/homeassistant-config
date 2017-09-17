@@ -1,6 +1,0 @@
-- platform: template
-  sensors:
-    news2:
-      entity_id: sensor.news
-      value_template: >-
-        {{ states.sensor.news.attributes.entry2 }}
