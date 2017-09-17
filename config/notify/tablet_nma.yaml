@@ -1,3 +1,0 @@
-- name: tablet_nma
-  platform: nma
-  api_key: !secret nma_api
