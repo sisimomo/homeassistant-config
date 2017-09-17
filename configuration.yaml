@@ -12,7 +12,7 @@ http: !include config/core/http.yaml
 influxdb: !include config/core/influxdb.yaml
 input_boolean: !include_dir_named config/inputs/input_boolean
 input_select: !include_dir_named config/inputs/input_select
-input_text: !!include_dir_named config/voice/input_text
+input_text: !include_dir_named config/voice/input_text
 intent_script: !include_dir_named config/voice/intent_scripts
 light: !include config/devices/light.yaml
 logger: !include config/core/logger.yaml
