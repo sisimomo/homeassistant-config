@@ -9,6 +9,6 @@
   limit_refetch_to_url_change: true
 
 - name: fire_living_room
-  platform: mjpg
+  platform: mjpeg
   still_image_url: http://192.168.137.55:8080/video
   limit_refetch_to_url_change: true
