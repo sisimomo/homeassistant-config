@@ -20,66 +20,66 @@ lena_handy:
 firetv:
   name: FireTV
   mac: 74:75:48:D3:DC:0E
-  picture: 
+  picture:
   track: yes
   hide_if_away: no
 
 lena_laptop:
   name: Laptop Lena
   mac: 14:2D:27:D4:38:79
-  picture: 
+  picture:
   track: yes
   hide_if_away: no
 
 janis_pc:
   name: Burrito-Ninja (Janis-PC)
   mac: 40:8D:5C:F8:3F:A6
-  picture: 
+  picture:
   track: yes
   hide_if_away: no
 
 taconinja:
   name: Taco-Ninja (Janis Laptop)
   mac: 08:11:96:26:60:3C
-  picture: 
+  picture:
   track: yes
   hide_if_away: no
 
 emulationstation:
   name: Emulation Station
   mac: B8:27:EB:8D:98:40
-  picture: 
+  picture:
   track: yes
   hide_if_away: no
 
 milightbridge:
   name: MiLight-Bridge
   mac: AC:CF:23:A6:C5:00
-  picture: 
+  picture:
   track: yes
   hide_if_away: no
 
 nintendo3ds:
   name: Nintendo-3DS
   mac: 9C:E6:35:F2:4C:A9
-  picture: 
+  picture:
   track: no
   hide_if_away: no
 
 enchiladaninja:
   name: enchilada-ninja
   mac: FC:AA:14:FF:AE:13
-  picture: 
+  picture:
   track: yes
   hide_if_away: no
 
-nexus7living_room:
+fire_living_room:
   hide_if_away: false
-  mac: 30:85:A9:DB:E0:0F
-  name: Nexus 7 living room
+  mac: 78:F8:82:9E:C5:EA
+  name: Fire 7 living room
   picture:
-  track: true
-  vendor: ASUSTek COMPUTER INC.
+  track: false
+  vendor: Amazon Technologies Inc.
 
 janis_fire7:
   hide_if_away: false
@@ -137,33 +137,9 @@ bedroom:
 fritzbox:
   name: fritz.box
   mac: 34:31:C4:1C:81:10
-  picture: 
+  picture:
   track: no
   hide_if_away: no
-
-androiddfd4c217f4ffe132:
-  hide_if_away: false
-  mac: B4:52:7E:40:F1:96
-  name: android-dfd4c217f4ffe132
-  picture:
-  track: no
-  vendor: Sony Mobile Communications AB
-
-android7b9dfc5250c7b42e:
-  hide_if_away: false
-  mac: CC:3A:61:90:4B:DD
-  name: android-7b9dfc5250c7b42e
-  picture:
-  track: no
-  vendor: SAMSUNG ELECTRO MECHANICS CO., LTD.
-
-androidfc7b18a1cdd2f2e2:
-  hide_if_away: false
-  mac: E8:50:8B:9B:A7:BF
-  name: android-fc7b18a1cdd2f2e2
-  picture:
-  track: no
-  vendor: SAMSUNG ELECTRO-MECHANICS(THAILAND)
 
 multiroom:
   hide_if_away: false
