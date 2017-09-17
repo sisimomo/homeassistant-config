@@ -5,7 +5,8 @@ entities:
   - sun.sun
   - sensor.dark_sky_temperature
   - alarm_control_panel.alarm
-  - camera.janis_and_lena
+  - camera.janis
+  - camera.lena
   - group.weblinks
   - group.transmission
   - script.kill_alarm_lights
