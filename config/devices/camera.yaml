@@ -10,5 +10,4 @@
 
 - name: fire_living_room
   platform: mjpeg
-  still_image_url: http://192.168.137.55:8080/video
-  limit_refetch_to_url_change: true
+  mjpeg_url: http://192.168.137.55:8080/video
