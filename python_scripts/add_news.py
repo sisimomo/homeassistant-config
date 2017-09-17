@@ -5,7 +5,7 @@ if news is None:
 else:
     # Switch states around
     for x in range(1, 5):
-        state = hass.states.get('input_text.news'+x).state
-        hass.states.set('input_text.news'+(x+1), old_state)
+        switchState = hass.states.get("input_text.news"+str(x)).state
+        hass.states.set('input_text.news'+str((x+1)), switchState)
     # Set new state
     hass.states.set('input_text.news1', news)
