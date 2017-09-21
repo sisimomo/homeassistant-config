@@ -1,24 +1,3 @@
-/* Disable animations for tablet */
-@media (max-width:1025px){
-  .layer-visible {
-    animation-name: none;
-    visibility: visible;
-  }
-
-  .layer-hidden {
-    animation-name: none;
-    visibility: collapse;
-  }
-
-  .door_closed {
-    animation-name: none;
-  }
-
-  .door_open {
-    animation-name: none;
-  }
-}
-
 /* Animation */
 @keyframes rotate90 {
 	100% {
@@ -192,4 +171,25 @@ svg, svg * {
 
 .hidden_boolean_off {
   fill: #d5643f !important;
+}
+
+/* Disable animations for tablet */
+@media (max-width:1025px){
+  .layer-visible {
+    animation-name: none;
+    visibility: visible;
+  }
+
+  .layer-hidden {
+    animation-name: none;
+    visibility: collapse;
+  }
+
+  .door_closed {
+    animation-name: none;
+  }
+
+  .door_open {
+    animation-name: none;
+  }
 }
