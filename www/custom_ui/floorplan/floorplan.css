@@ -177,12 +177,11 @@ svg, svg * {
 @media (max-width:1025px){
   .layer-visible {
     animation-name: none;
-    visibility: visible;
   }
 
   .layer-hidden {
     animation-name: none;
-    visibility: collapse;
+    display: none !important;
   }
 
   .door_closed {
