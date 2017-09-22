@@ -1,0 +1,21 @@
+# Switch to dark theme after sunset / to light theme after sunrise
+- alias: frontend_dark
+  trigger:
+    - platform: state
+      entity_id: sun.sun
+      to: below_horizon
+  action:
+    - service: frontend.set_theme
+      data:
+        name: darkorange
+
+# Switch to light theme after sunrise
+- alias: frontend_light
+  trigger:
+    - platform: state
+      entity_id: sun.sun
+      to: above_horizon
+  action:
+    - service: frontend.set_theme
+      data:
+        name: default
