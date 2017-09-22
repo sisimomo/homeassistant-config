@@ -1,5 +1,0 @@
-name: Backups
-control: hidden
-entities:
-  - script.backup_server
-  - script.backup_documents
