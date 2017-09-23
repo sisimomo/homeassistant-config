@@ -30,7 +30,7 @@ shell_command: !include config/shell_command.yaml
 switch: !include_dir_merge_list config/devices/switches
 telegram_bot: !include config/telegram_bot.yaml
 weblink: !include config/weblink.yaml
-xiaomi: !include config/devices/xiaomi.yaml
+xiaomi_aqara: !include config/devices/xiaomi.yaml
 zone: !include_dir_merge_list config/zones
 
 #################
