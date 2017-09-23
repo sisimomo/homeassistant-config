@@ -1,4 +1,0 @@
-sequence:
-  - service: shell_command.do_backup
-    data:
-      target: server
