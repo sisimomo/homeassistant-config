@@ -1,0 +1,81 @@
+- alias: xiaomi living room brighten on
+  initial_state: 'on'
+  trigger:
+    - platform: event
+      event_type: click
+      event_data:
+        entity_id: binary_sensor.switch_158d00016c0ab5
+        click_type: long_click_press
+  condition:
+    condition: and
+    conditions:
+    - condition: state
+      entity_id: input_boolean.hidden_liv_dim
+      state: 'off'
+    - condition: state
+      entity_id: light.living_left
+      state: 'on'
+  action:
+    - service: script.turn_on
+      entity_id: script.brighten_light_liv
+
+- alias: xiaomi landing brighten off
+  initial_state: 'on'
+  trigger:
+    - platform: state
+      entity_id: binary_sensor.switch_158d00016c0ab5
+      from: 'on'
+      to: 'off'
+  condition:
+    condition: and
+    conditions:
+    - condition: state
+      entity_id: input_boolean.hidden_liv_dim
+      state: 'off'
+    - condition: state
+      entity_id: light.living_left
+      state: 'on'
+  action:
+    - service: input_boolean.turn_on
+      entity_id: input_boolean.hidden_liv_dim
+
+- alias: xiaomi landing dim on
+  initial_state: 'on'
+  trigger:
+    - platform: event
+      event_type: click
+      event_data:
+        entity_id: binary_sensor.switch_158d00016c0ab5
+        click_type: long_click_press
+  condition:
+    condition: and
+    conditions:
+    - condition: state
+      entity_id: input_boolean.hidden_liv_dim
+      state: 'on'
+    - condition: state
+      entity_id: light.living_left
+      state: 'on'
+  action:
+    - service: script.turn_on
+      entity_id: script.dim_light_liv
+
+- alias: xiaomi landing brighten off
+  initial_state: 'on'
+  trigger:
+    - platform: state
+      entity_id: binary_sensor.switch_158d00016c0ab5
+      from: 'on'
+      to: 'off'
+  condition:
+    condition: and
+    conditions:
+    - condition: state
+      entity_id: input_boolean.hidden_liv_dim
+      state: 'on'
+    - condition: state
+      entity_id: light.living_left
+      state: 'on'
+  action:
+    - service: input_boolean.turn_off
+      entity_id: input_boolean.hidden_liv_dim

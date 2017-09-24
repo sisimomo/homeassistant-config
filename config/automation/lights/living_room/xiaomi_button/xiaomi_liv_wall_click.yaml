@@ -1,4 +1,4 @@
-# Toggle dinner mode if xiaomi button is clicked once
+# Toggle light if xiaomi button is clicked once
 - alias: xiaomi_liv_click
   trigger:
     platform: event
