@@ -1,0 +1,12 @@
+# Toggle dinner mode if xiaomi button is clicked once
+- alias: xiaomi_liv_click
+  trigger:
+    platform: event
+    event_type: click
+    event_data:
+      entity_id: binary_sensor.switch_158d00016c0ab5
+      click_type: single
+  action:
+    - service: light.toggle
+      data:
+        entity_id: group.light_living_room
