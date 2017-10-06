@@ -1,3 +1,3 @@
 - platform: mpd
-  host: guest-room-mpd
+  host: 192.168.137.85
   name: 'Guest room'
