@@ -6,6 +6,7 @@ automation: !include_dir_merge_list config/automation
 binary_sensor: !include config/devices/binary_sensor.yaml
 camera: !include config/devices/camera.yaml
 device_tracker: !include config/devices/device_tracker.yaml
+emulated_hue: !include config/core/emulated_hue.yaml
 frontend: !include config/frontend/frontend.yaml
 group: !include_dir_named config/groups
 homeassistant: !include config/core/homeassistant.yaml
