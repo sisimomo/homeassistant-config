@@ -8,9 +8,7 @@ notifications:
 
 before_install:
   - mv secrets_redacted.yaml secrets.yaml
-  - git clone https://github.com/lazcad/homeassistant.git
 install:
-  - pip3 install homeassistant
-  - cp -r homeassistant/components/* /home/travis/virtualenv/python3.6/lib/python3.6/site-packages/homeassistant/components/
+  - pip3 install homeassistant==0.54
 script:
   - hass -c . --script check_config
