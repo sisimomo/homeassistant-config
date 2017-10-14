@@ -1,0 +1,4 @@
+name: Hallway
+control: hidden
+entities:
+  - group.hallway

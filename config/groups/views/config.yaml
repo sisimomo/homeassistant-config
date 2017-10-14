@@ -2,5 +2,6 @@ view: yes
 entities:
   - group.audio_nodes
   - group.light_living_room
+  - group.light_hallway
   - group.buffer
   - group.hidden_elements
