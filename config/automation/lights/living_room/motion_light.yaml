@@ -13,6 +13,3 @@
     - service: scene.turn_on
       data:
         entity_id: scene.living_room_normal
-    - service: input_boolean.turn_on
-      data:
-        entity_id: input_boolean.living_room_motion_timer
