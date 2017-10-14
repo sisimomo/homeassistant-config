@@ -1,0 +1,11 @@
+# Turn light off if no motion for 30 seconds
+- alias: no_motion_hallway
+  trigger:
+    - platform: numeric_state
+      entity_id: binary_sensor.motion_sensor_158d0001307b02
+      value_template: '{{ state.attributes["No motion since"]|int }}'
+      above: 30
+  action:
+    - service: light.turn_off
+      data:
+        entity_id: group.light_hallway

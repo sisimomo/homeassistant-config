@@ -1,0 +1,5 @@
+name: Light hallway
+entities:
+  - light.tradfri_bulb_gu10_w_400lm
+  - light.tradfri_bulb_gu10_w_400lm_2
+  - light.tradfri_bulb_gu10_w_400lm_3
