@@ -5,4 +5,4 @@ entities:
   - group.kitchen
   - group.guestroom
   - group.bedroom
-  - group.hallway
+  - group.light_hallway
