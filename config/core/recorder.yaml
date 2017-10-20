@@ -1,5 +1,4 @@
 db_url: !secret mysql_db_url
-purge_interval: 5
 include:
   domains:
     - binary_sensor
