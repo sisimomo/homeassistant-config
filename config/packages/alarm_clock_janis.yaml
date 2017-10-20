@@ -4,16 +4,16 @@ sensor:
       alarmtime_janis:
         friendly_name: Wakeup Time
         entity_id:
-         - input_slider.alarm_hour_janis
-         - input_slider.alarm_minutes_janis
-        value_template: '{{ "%0.02d:%0.02d" | format(states("input_slider.alarm_hour_janis") | int, states("input_slider.alarm_minutes_janis") | int) }}'
+         - input_number.alarm_hour_janis
+         - input_number.alarm_minutes_janis
+        value_template: '{{ "%0.02d:%0.02d" | format(states("input_number.alarm_hour_janis") | int, states("input_number.alarm_minutes_janis") | int) }}'
       nextalarm_janis:
         friendly_name: Seconds until next alarm
         entity_id:
-         - input_slider.alarm_hour_janis
-         - input_slider.alarm_minutes_janis
+         - input_number.alarm_hour_janis
+         - input_number.alarm_minutes_janis
         value_template: >
-          {% set relative_time =  (states.input_slider.alarm_hour_janis.state|float|multiply(60) + states.input_slider.alarm_minutes_janis.state|float) - (now().hour|float|multiply(60) + now().minute) %}
+          {% set relative_time =  (states.input_number.alarm_hour_janis.state|float|multiply(60) + states.input_number.alarm_minutes_janis.state|float) - (now().hour|float|multiply(60) + now().minute) %}
           {%- if relative_time < 0 -%}
                    {{23*60+relative_time}}
           {%- else -%}
@@ -31,9 +31,9 @@ automation:
       platform: mqtt
       topic: "setHourJanis"
     action:
-      - service: input_slider.select_value
+      - service: input_number.select_value
         data_template:
-          entity_id: input_slider.alarm_hour_janis
+          entity_id: input_number.alarm_hour_janis
           value: '{{ trigger.payload}}'
       - service: input_boolean.turn_on
         data:
@@ -44,9 +44,9 @@ automation:
       platform: mqtt
       topic: "setMinutesJanis"
     action:
-      - service: input_slider.select_value
+      - service: input_number.select_value
         data_template:
-          entity_id: input_slider.alarm_minutes_janis
+          entity_id: input_number.alarm_minutes_janis
           value: '{{ trigger.payload}}'
       - service: input_boolean.turn_on
         data:
@@ -262,7 +262,7 @@ input_boolean:
     name: Lullaby On/Off
     initial: On
     icon: mdi:sleep
-input_slider:
+input_number:
   alarm_hour_janis:
     name: Hour
     icon: mdi:timer
@@ -311,8 +311,8 @@ group:
   - input_boolean.alarm_clock_janis
   - sensor.alarmtime_janis
   - sensor.time_until_alarm_janis
-  - input_slider.alarm_hour_janis
-  - input_slider.alarm_minutes_janis
+  - input_number.alarm_hour_janis
+  - input_number.alarm_minutes_janis
   - input_boolean.lullaby_janis
   - input_select.lullaby_janis
   - input_select.radio_wakeup_janis
