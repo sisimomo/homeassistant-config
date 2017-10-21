@@ -9,6 +9,6 @@ notifications:
 before_install:
   - mv secrets_redacted.yaml secrets.yaml
 install:
-  - pip3 install homeassistant==0.54
+  - pip3 install homeassistant==0.55
 script:
   - hass -c . --script check_config

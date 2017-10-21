@@ -4,16 +4,16 @@ sensor:
       alarmtime_janis:
         friendly_name: Wakeup Time
         entity_id:
-         - input_slider.alarm_hour_janis
-         - input_slider.alarm_minutes_janis
-        value_template: '{{ "%0.02d:%0.02d" | format(states("input_slider.alarm_hour_janis") | int, states("input_slider.alarm_minutes_janis") | int) }}'
+         - input_number.alarm_hour_janis
+         - input_number.alarm_minutes_janis
+        value_template: '{{ "%0.02d:%0.02d" | format(states("input_number.alarm_hour_janis") | int, states("input_number.alarm_minutes_janis") | int) }}'
       nextalarm_janis:
         friendly_name: Seconds until next alarm
         entity_id:
-         - input_slider.alarm_hour_janis
-         - input_slider.alarm_minutes_janis
+         - input_number.alarm_hour_janis
+         - input_number.alarm_minutes_janis
         value_template: >
-          {% set relative_time =  (states.input_slider.alarm_hour_janis.state|float|multiply(60) + states.input_slider.alarm_minutes_janis.state|float) - (now().hour|float|multiply(60) + now().minute) %}
+          {% set relative_time =  (states.input_number.alarm_hour_janis.state|float|multiply(60) + states.input_number.alarm_minutes_janis.state|float) - (now().hour|float|multiply(60) + now().minute) %}
           {%- if relative_time < 0 -%}
                    {{23*60+relative_time}}
           {%- else -%}
@@ -31,9 +31,9 @@ automation:
       platform: mqtt
       topic: "setHourJanis"
     action:
-      - service: input_slider.select_value
+      - service: input_number.select_value
         data_template:
-          entity_id: input_slider.alarm_hour_janis
+          entity_id: input_number.alarm_hour_janis
           value: '{{ trigger.payload}}'
       - service: input_boolean.turn_on
         data:
@@ -44,9 +44,9 @@ automation:
       platform: mqtt
       topic: "setMinutesJanis"
     action:
-      - service: input_slider.select_value
+      - service: input_number.select_value
         data_template:
-          entity_id: input_slider.alarm_minutes_janis
+          entity_id: input_number.alarm_minutes_janis
           value: '{{ trigger.payload}}'
       - service: input_boolean.turn_on
         data:
@@ -55,7 +55,7 @@ automation:
   - alias: alarmClockJanis
     trigger:
       platform: time
-      minutes: '/5'
+      minutes: '/1'
       seconds: '0'
     condition:
       condition: and
@@ -76,15 +76,8 @@ automation:
         data_template:
           entity_id: media_player.kodi_on_firetv
           media_content_id: >
-              {% if is_state("input_select.radio_wakeup_janis", "Radio 538") %} http://vip-icecast.538.lw.triple-it.nl:80/RADIO538_MP3
-              {% elif is_state("input_select.radio_wakeup_janis", "Q-Music") %} http://icecast-qmusic.cdp.triple-it.nl/Qmusic_nl_live_96.mp3
-              {% elif is_state("input_select.radio_wakeup_janis", "3FM") %} http://icecast.omroep.nl/3fm-bb-mp3
-              {% elif is_state("input_select.radio_wakeup_janis", "100% NL") %} http://stream.100p.nl/100pctnl.mp3
-              {% elif is_state("input_select.radio_wakeup_janis", "Veronica") %} http://8543.live.streamtheworld.com/VERONICACMP3
-              {% elif is_state("input_select.radio_wakeup_janis", "Sky Radio") %} http://8623.live.streamtheworld.com:80/SKYRADIOAAC_SC
-              {% elif is_state("input_select.radio_wakeup_janis", "Arrow Classic Rock") %} http://91.221.151.155/listen.mp3
+              {% if is_state("input_select.radio_wakeup_janis", "Sky Radio") %} http://8623.live.streamtheworld.com:80/SKYRADIOAAC_SC
               {% elif is_state("input_select.radio_wakeup_janis", "Classic FM") %} http://19143.live.streamtheworld.com/CLASSICFM_SC
-              {% elif is_state("input_select.radio_wakeup_janis", "BNR Nieuwsradio") %} http://icecast-bnr.cdp.triple-it.nl/bnr_mp3_96_03
               {% endif %}
           media_content_type: 'audio/mp4'
       - service: media_player.volume_set
@@ -187,82 +180,13 @@ script:
         data:
           entity_id: media_player.bedroom
           volume_level: '0.75'
-      - condition: state
-        entity_id: input_boolean.lullaby_janis
-        state: 'on'
-      - service: media_player.play_media
-        entity_id: media_player.bedroom
-        data_template:
-          entity_id: media_player.bedroom
-          media_content_id: >
-           {% if is_state("input_select.lullaby_janis", "Sleep Radio") %} http://37.59.28.208:8722/stream
-           {% elif is_state("input_select.lullaby_janis", "Ambient Sleeping Pill") %} http://perseus.shoutca.st:8447/h
-           {% elif is_state("input_select.lullaby_janis", "Radio Art - Sleep") %} http://live.radioart.com/fSleep.mp3
-           {% elif is_state("input_select.lullaby_janis", "Ambi Nature Radio") %} http://94.23.252.14:8067/stream
-           {% elif is_state("input_select.lullaby_janis", "Calm Radio - Sleep") %} http://streams.calmradio.com/api/39/128/stream
-           {% endif %}
-          media_content_type: 'audio/mp4'
-      - delay: '00:05:00'
-      - service: media_player.volume_set
-        data:
-          entity_id: media_player.bedroom
-          volume_level: '0.70'
-      - delay: '00:02:30'
-      - service: media_player.volume_set
-        data:
-          entity_id: media_player.bedroom
-          volume_level: '0.65'
-      - delay: '00:02:30'
-      - service: media_player.volume_set
-        data:
-          entity_id: media_player.bedroom
-          volume_level: '0.60'
-      - delay: '00:05:00'
-      - service: media_player.volume_set
-        data:
-          entity_id: media_player.bedroom
-          volume_level: '0.55'
-      - delay: '00:02:30'
-      - service: media_player.volume_set
-        data:
-          entity_id: media_player.bedroom
-          volume_level: '0.50'
-      - delay: '00:02:30'
-      - service: media_player.volume_set
-        data:
-          entity_id: media_player.bedroom
-          volume_level: '0.45'
-      - delay: '00:05:00'
-      - service: media_player.volume_set
-        data:
-          entity_id: media_player.bedroom
-          volume_level: '0.40'
-      - delay: '00:02:30'
-      - service: media_player.volume_set
-        data:
-          entity_id: media_player.bedroom
-          volume_level: '0.35'
-      - delay: '00:02:30'
-      - service: media_player.volume_set
-        data:
-          entity_id: media_player.bedroom
-          volume_level: '0.30'
-      - delay: '00:05:00'
-      - service: media_player.volume_set
-        data:
-          entity_id: media_player.bedroom
-          volume_level: '0.25'
 
 input_boolean:
   alarm_clock_janis:
     name: On/Off
     initial: off
     icon: mdi:alarm
-  lullaby_janis:
-    name: Lullaby On/Off
-    initial: On
-    icon: mdi:sleep
-input_slider:
+input_number:
   alarm_hour_janis:
     name: Hour
     icon: mdi:timer
@@ -270,38 +194,23 @@ input_slider:
     min: 0
     max: 23
     step: 1
+    mode: box
   alarm_minutes_janis:
     name: Minutes
     icon: mdi:timer
-    initial: 35
+    initial: 30
     min: 0
-    max: 55
-    step: 5
+    max: 59
+    step: 1
+    mode: box
 input_select:
   radio_wakeup_janis:
     name: Wakeup Radio Station
     options:
-      - Radio 538
-      - Q-Music
-      - 3FM
-      - 100% NL
-      - Veronica
       - Sky Radio
-      - Arrow Classic Rock
       - Classic FM
-      - BNR Nieuwsradio
-    initial: Radio 538
+    initial: Classic FM
     icon: mdi:radio
-  lullaby_janis:
-    name: Lullaby Radio Station
-    options:
-      - Sleep Radio
-      - Ambient Sleeping Pill
-      - Radio Art - Sleep
-      - Ambi Nature Radio
-      - Calm Radio - Sleep
-    initial: Ambient Sleeping Pill
-    icon: mdi:music-circle
 
 group:
  alarm_clock_janis:
@@ -311,8 +220,6 @@ group:
   - input_boolean.alarm_clock_janis
   - sensor.alarmtime_janis
   - sensor.time_until_alarm_janis
-  - input_slider.alarm_hour_janis
-  - input_slider.alarm_minutes_janis
-  - input_boolean.lullaby_janis
-  - input_select.lullaby_janis
+  - input_number.alarm_hour_janis
+  - input_number.alarm_minutes_janis
   - input_select.radio_wakeup_janis
