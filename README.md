@@ -23,6 +23,8 @@ This is my current Home Automation setup.  Starting small and gradually growing 
    - 2x Xiaomi window door sensor
  - Limitless LED Bridge
    - 5 Limitless LED bulbs all in one ceiling lamp in the living room
+ - IKEA TRÅDFRI Gateway
+   - 3 GU10 TRÅDFRI Bulbs in the entry hallway
  - 1x Broadlink RM pro (for IR and RF)
  - 3x RF power sockets
  - Amazon Fire 7 5th gen tablet mounted on the wall
@@ -58,6 +60,9 @@ This button is used to control the MPD in the kitchen.
 | Single | Pause / Play current item in playlist                       |
 | Double | Next track in playlist if nothing is playing do nothing     |
 | Long   | Previous track in playlist if nothing is playing do nothing |
+
+## Light control in entry hallway
+The lights turn on automatically using one of the Xiaomi human body sensors and turns off if there has not been any movement detected by it for 30 seconds.
 
 ## Light control in living room
 The lights are turned off / on manually. Dimming is done automatically. To prevent dimming of the lights I have a input_boolean called 'dinner mode' which prevents the dimming if turned on. If 'dinner mode' is not enabled the lights dim automatically after kodi / emby starts playing something in the living room.
