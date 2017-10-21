@@ -31,7 +31,7 @@ automation:
       platform: mqtt
       topic: "setHourJanis"
     action:
-      - service: input_number.select_value
+      - service: input_number.set_value
         data_template:
           entity_id: input_number.alarm_hour_janis
           value: '{{ trigger.payload}}'
@@ -44,7 +44,7 @@ automation:
       platform: mqtt
       topic: "setMinutesJanis"
     action:
-      - service: input_number.select_value
+      - service: input_number.set_value
         data_template:
           entity_id: input_number.alarm_minutes_janis
           value: '{{ trigger.payload}}'
