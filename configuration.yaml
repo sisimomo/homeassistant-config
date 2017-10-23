@@ -7,6 +7,7 @@ binary_sensor: !include config/devices/binary_sensor.yaml
 camera: !include config/devices/camera.yaml
 device_tracker: !include config/devices/device_tracker.yaml
 frontend: !include config/frontend/frontend.yaml
+google_assistant: !include config/core/google_assistant.yaml
 group: !include_dir_named config/groups
 homeassistant: !include config/core/homeassistant.yaml
 http: !include config/core/http.yaml
