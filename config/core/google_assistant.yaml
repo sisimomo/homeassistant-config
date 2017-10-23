@@ -3,3 +3,4 @@ client_id: !secret ga_client_id
 access_token: !secret ga_access_token
 exposed_domains:
   - light
+  - switch
